@@ -186,6 +186,11 @@ onMounted(() => {
   transition: all 0.3s ease;
   font-size: 0.95rem;
   text-align: left;
+  width: 100%; /* 确保按钮宽度为100% */
+  box-sizing: border-box; /* 包含padding和border在宽度内 */
+  word-break: break-word; /* 防止文本溢出 */
+  white-space: normal; /* 允许文本换行 */
+  min-height: 48px; /* 设置最小高度 */
 }
 
 .filter-btn:hover {
@@ -203,6 +208,7 @@ onMounted(() => {
 .filter-icon {
   font-size: 1.1rem;
   min-width: 1.5rem;
+  flex-shrink: 0; /* 图标不压缩 */
 }
 
 .layout-main {
@@ -234,6 +240,38 @@ onMounted(() => {
 
   .layout-main {
     padding: 1.5rem;
+  }
+
+  .filter-btn {
+    padding: 0.7rem 1rem; /* 减少内边距 */
+    font-size: 0.9rem; /* 减小字体 */
+    min-height: 44px; /* 调整最小高度 */
+  }
+
+  .filter-icon {
+    min-width: 1.3rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-btn {
+    padding: 0.6rem 0.8rem; /* 进一步减少内边距 */
+    font-size: 0.85rem; /* 进一步减小字体 */
+    min-height: 40px; /* 进一步调整最小高度 */
+  }
+
+  .filter-icon {
+    min-width: 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .sidebar {
+    padding: 1rem;
+  }
+
+  .layout-main {
+    padding: 1rem;
   }
 }
 </style>

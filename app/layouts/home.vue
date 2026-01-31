@@ -9,9 +9,6 @@
         </NuxtLink>
         <ul class="nav-links">
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <!-- <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/traditions">Traditions</NuxtLink></li>
-          <li><NuxtLink to="/art">Art</NuxtLink></li> -->
           <li><NuxtLink to="/articles">Articles</NuxtLink></li>
         </ul>
       </nav>

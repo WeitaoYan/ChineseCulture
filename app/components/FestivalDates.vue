@@ -37,7 +37,7 @@
 </template>
 
 <script setup lang="ts">
-import { Lunar, LunarDay } from "tyme4ts";
+import { LunarDay } from "tyme4ts";
 
 // 定义节日名称和农历月份日期
 const props = defineProps({
@@ -68,18 +68,16 @@ const festivalDates = computed(() => {
     );
     const isCurrent = i === currentYear;
     const now = new Date();
-    const daysUntil = Math.ceil((date - now) / (1000 * 60 * 60 * 24));
+    const daysUntil = Math.ceil(
+      (date.getMilliseconds() - now.getMilliseconds()) / (1000 * 60 * 60 * 24),
+    );
 
     // 生成模拟的农历日期字符串
     const lunarDate = `Lunar ${props.lunarMonth}/${props.lunarDay}`;
 
     years.push({
       year: i,
-      date: date.toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      }),
+      date: formatGregorianDate(date),
       lunarDate,
       isCurrent,
       daysUntil: i >= currentYear ? daysUntil : null,
@@ -90,15 +88,15 @@ const festivalDates = computed(() => {
 });
 
 // 格式化公历日期
-// const formatGregorianDate = (date) => {
-//   return date.toLocaleDateString("en-US", {
-//     year: "numeric",
-//     month: "long",
-//     day: "numeric",
-//   });
-// };
+const formatGregorianDate = (date: Date) => {
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
 
-// 计算公历日期（模拟实现，实际应用中应使用准确的农历转公历算法或API）
+// 计算公历日期
 const calculateGregorianDate = (year: number) => {
   const lunarDay: LunarDay = LunarDay.fromYmd(
     year,
