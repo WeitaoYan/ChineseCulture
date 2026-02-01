@@ -97,6 +97,16 @@ const articles = [
     excerpt:
       "Counting the Nines is an ancient Chinese tradition of tracking winter's progress by counting 81 days in nine sets of nine, beginning from the Winter Solstice.",
   },
+  {
+    id: 4,
+    title: "Spring Festival",
+    slug: "spring-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 9,
+    image: "/assets/images/spring-festival-reunion-dinner.png",
+    excerpt:
+      "Discover the Spring Festival, China's most important celebration of family, tradition, and renewal.",
+  },
 ];
 
 // 过滤文章

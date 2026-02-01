@@ -29,8 +29,8 @@
 
     <div class="explanation">
       <p>
-        Laba Festival is celebrated on the 8th day of the 12th lunar month each
-        year.
+        {{ festivalName }} is celebrated on the {{ lunarDay }}th day of the
+        {{ lunarMonth }}th lunar month each year.
       </p>
     </div>
   </div>
@@ -62,17 +62,31 @@ const festivalDates = computed(() => {
   for (let i = currentYear - 1; i <= currentYear + 3; i++) {
     const gregorianDate = calculateGregorianDate(i);
     const date = new Date(
-      gregorianDate.getYear(),
+      gregorianDate.getYear(), // getYear() 返回的是相对于1900年的年份
       gregorianDate.getMonth() - 1,
       gregorianDate.getDay(),
     );
     const isCurrent = i === currentYear;
+
+    // 正确计算日期差
     const now = new Date();
-    const daysUntil = Math.ceil(
-      (date.getMilliseconds() - now.getMilliseconds()) / (1000 * 60 * 60 * 24),
+    // 设置时间为0时0分0秒，以便准确比较日期
+    const currentDate = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate(),
+    );
+    const festivalDate = new Date(
+      date.getFullYear(),
+      date.getMonth(),
+      date.getDate(),
     );
 
-    // 生成模拟的农历日期字符串
+    // 计算天数差异
+    const diffTime = festivalDate - currentDate;
+    const daysUntil = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    // 生成农历日期字符串
     const lunarDate = `Lunar ${props.lunarMonth}/${props.lunarDay}`;
 
     years.push({
@@ -86,7 +100,6 @@ const festivalDates = computed(() => {
 
   return years;
 });
-
 // 格式化公历日期
 const formatGregorianDate = (date: Date) => {
   return date.toLocaleDateString("en-US", {

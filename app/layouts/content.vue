@@ -1,18 +1,7 @@
 <template>
   <div class="content-layout">
     <!-- 导航栏 -->
-    <header class="layout-header">
-      <nav class="main-nav">
-        <div class="nav-brand">
-          <NuxtLink to="/" class="brand-link">Chinese Culture</NuxtLink>
-        </div>
-        <div class="nav-menu">
-          <NuxtLink to="/" class="nav-link">Home</NuxtLink>
-          <NuxtLink to="/articles" class="nav-link">Articles</NuxtLink>
-          <NuxtLink to="/about" class="nav-link">About</NuxtLink>
-        </div>
-      </nav>
-    </header>
+    <TheNavbar />
 
     <div class="layout-container">
       <!-- 左侧边栏 - 文章过滤器 -->
@@ -38,9 +27,7 @@
     </div>
 
     <!-- 页脚 -->
-    <footer class="layout-footer">
-      <p>&copy; 2023 Chinese Culture Explorer. All rights reserved.</p>
-    </footer>
+    <TheFooter />
   </div>
 </template>
 
@@ -98,45 +85,6 @@ onMounted(() => {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.layout-header {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
-}
-
-.main-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2rem;
-}
-
-.nav-brand .brand-link {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #a62c21;
-  text-decoration: none;
-}
-
-.nav-menu {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover,
-.nav-link.nuxt-link-active {
-  color: #a62c21;
 }
 
 .layout-container {
@@ -216,14 +164,6 @@ onMounted(() => {
   padding: 2rem;
 }
 
-.layout-footer {
-  background-color: #f8f8f8;
-  padding: 2rem;
-  text-align: center;
-  color: #666;
-  border-top: 1px solid #eee;
-}
-
 /* 响应式设计 */
 @media (max-width: 768px) {
   .layout-container {
@@ -236,6 +176,7 @@ onMounted(() => {
     position: static;
     border-right: none;
     border-bottom: 1px solid #eee;
+    box-sizing: border-box; /* 包含padding和border在宽度内 */
   }
 
   .layout-main {
