@@ -42,6 +42,8 @@ const tags = [
   { label: "History", value: "history", icon: "📜" },
   { label: "Cuisine", value: "cuisine", icon: "🍜" },
   { label: "Philosophy", value: "philosophy", icon: "🧘" },
+  { label: "Festival", value: "festival", icon: "🎆" },
+  { label: "Family", value: "family", icon: "👪" },
 ];
 
 // 选中的标签

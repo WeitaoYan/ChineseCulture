@@ -14,28 +14,44 @@
         v-for="article in filteredArticles"
         :key="article.id"
         class="article-card"
+        itemscope
+        itemtype="https://schema.org/Article"
       >
-        <div class="article-image">
-          <NuxtLink :to="`/articles/${article.slug}`">
-            <img :src="article.image" :alt="article.title" />
+        <div class="article-image" itemprop="image">
+          <NuxtLink :to="`/articles/${article.slug}`" itemprop="url">
+            <img
+              :src="article.image"
+              :alt="article.title"
+              itemprop="name"
+              loading="lazy"
+            />
           </NuxtLink>
-          <div class="article-tags">
-            <span v-for="tag in article.tags" :key="tag" class="tag-badge">
-              {{ tag }}
-            </span>
+          <div class="article-tags" role="navigation" aria-label="Article tags">
+            <NuxtLink
+              v-for="tag in article.tags"
+              :key="tag"
+              :to="`/articles?tag=${tag}`"
+              class="tag-link"
+            >
+              <span class="tag-badge">
+                {{ tag }}
+              </span>
+            </NuxtLink>
           </div>
         </div>
         <div class="article-content">
-          <h3 class="article-title">
+          <h3 class="article-title" itemprop="headline">
             <NuxtLink :to="`/articles/${article.slug}`">
               {{ article.title }}
             </NuxtLink>
           </h3>
-          <p class="article-excerpt">{{ article.excerpt }}</p>
+          <p class="article-excerpt" itemprop="description">
+            {{ article.excerpt }}
+          </p>
           <div class="article-meta">
-            <span class="article-readtime"
-              >{{ article.readtime }} min read</span
-            >
+            <span class="article-readtime" itemprop="timeRequired">
+              {{ article.readtime }} min read
+            </span>
           </div>
         </div>
       </article>
@@ -51,14 +67,41 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from "vue";
-
-// 定义页面元信息
 definePageMeta({
   layout: "content",
-  title: "Cultural Articles - Chinese Culture Explorer",
+  title: "Chinese Cultural Articles | Explore Traditions & History",
   description:
-    "Browse our collection of articles about Chinese traditions, history, and cultural heritage.",
+    "Discover authentic Chinese cultural articles covering traditions, festivals, history, and heritage. Learn about Forbidden City, Spring Festival, dumplings, and more.",
+  ogTitle: "Chinese Cultural Articles",
+  ogDescription:
+    "Explore authentic Chinese cultural articles covering traditions, festivals, history, and heritage",
+  ogType: "website",
+  ogImage: "/assets/images/building.png", // 添加OG图片
+  twitterCard: "summary_large_image",
+  twitterTitle: "Chinese Cultural Articles",
+  twitterDescription:
+    "Explore authentic Chinese cultural articles covering traditions, festivals, history, and heritage",
+  robots: "index,follow",
+});
+
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+  link: [{ rel: "preload", as: "image", href: "/assets/images/building.png" }],
+  title: "Chinese Cultural Articles",
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "Chinese Cultural Articles",
+        description:
+          "Collection of articles about Chinese traditions, history, and cultural heritage",
+      }),
+    },
+  ],
 });
 
 // 从路由参数获取当前选中的标签
@@ -106,6 +149,16 @@ const articles = [
     image: "/assets/images/spring-festival-reunion-dinner.png",
     excerpt:
       "Discover the Spring Festival, China's most important celebration of family, tradition, and renewal.",
+  },
+  {
+    id: 5,
+    title: "Dumplings",
+    slug: "dumplings",
+    tags: ["traditions", "cuisine", "family"],
+    readtime: 8,
+    image: "/assets/images/jiaozi.png",
+    excerpt:
+      "Discover the cultural significance and tradition of Chinese dumplings, a symbol of warmth, reunion, and heritage.",
   },
 ];
 
@@ -292,6 +345,14 @@ const filteredArticles = computed(() => {
   font-weight: 500;
 }
 
+.tag-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tag-link:hover {
+  transform: translateY(-1px);
+}
 /* 响应式设计 */
 @media (max-width: 768px) {
   .page-title {
