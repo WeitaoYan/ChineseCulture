@@ -63,25 +63,37 @@
       <h2 class="section-title">World Heritage Sites</h2>
       <div class="heritage-grid">
         <div class="heritage-item">
-          <div class="heritage-image">
-            <img src="/assets/images/greatwall.png" alt="Great Wall of China" />
-          </div>
-          <h3>Great Wall of China</h3>
+          <NuxtLink to="/articles/great-wall">
+            <div class="heritage-image">
+              <img
+                src="/assets/images/greatwall.png"
+                alt="Great Wall of China"
+              />
+            </div>
+            <h3>Great Wall of China</h3>
+          </NuxtLink>
         </div>
         <div class="heritage-item">
-          <div class="heritage-image">
-            <img src="/assets/images/forbidden-city.png" alt="Forbidden City" />
-          </div>
-          <h3>Forbidden City</h3>
+          <NuxtLink to="/articles/forbidden-city">
+            <div class="heritage-image">
+              <img
+                src="/assets/images/forbidden-city.png"
+                alt="Forbidden City"
+              />
+            </div>
+            <h3>Forbidden City</h3>
+          </NuxtLink>
         </div>
         <div class="heritage-item">
-          <div class="heritage-image">
-            <img
-              src="/assets/images/terracotta-army.png"
-              alt="Terracotta Army"
-            />
-          </div>
-          <h3>Terracotta Army</h3>
+          <NuxtLink to="/articles/terracotta-army">
+            <div class="heritage-image">
+              <img
+                src="/assets/images/terracotta-army.png"
+                alt="Terracotta Army"
+              />
+            </div>
+            <h3>Terracotta Army</h3>
+          </NuxtLink>
         </div>
       </div>
     </section>

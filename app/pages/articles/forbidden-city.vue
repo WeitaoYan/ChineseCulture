@@ -19,9 +19,6 @@
         src="/assets/images/forbidden-city.png"
         alt="Forbidden City Main Gate"
       />
-      <!-- <div class="image-caption">
-        The Meridian Gate (Wu Men) - Main entrance to the Forbidden City
-      </div> -->
     </div>
 
     <!-- 内容主体 -->

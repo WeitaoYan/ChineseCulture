@@ -170,6 +170,26 @@ const articles = [
     excerpt:
       "Complete guide to making traditional Laba Congee, a nutritious and symbolic Chinese porridge eaten during the Laba Festival.",
   },
+  {
+    id: 7,
+    title: "The Terracotta Army",
+    slug: "terracotta-army",
+    tags: ["history", "archaeology", "culture"],
+    readtime: 8,
+    image: "/assets/images/terracotta-army.png",
+    excerpt:
+      "Discover the Terracotta Army, an awe-inspiring collection of thousands of life-sized sculptures built to protect China's First Emperor in the afterlife.",
+  },
+  {
+    id: 8,
+    title: "The Great Wall",
+    slug: "great-wall",
+    tags: ["history", "architecture", "culture"],
+    readtime: 7,
+    image: "/assets/images/greatwall.png",
+    excerpt:
+      "Explore the Great Wall of China, the world's most iconic symbol of defense and perseverance spanning over 2,000 years of history.",
+  },
 ];
 
 // 过滤文章
