@@ -160,6 +160,16 @@ const articles = [
     excerpt:
       "Discover the cultural significance and tradition of Chinese dumplings, a symbol of warmth, reunion, and heritage.",
   },
+  {
+    id: 6,
+    title: "How to Make Laba Congee",
+    slug: "laba-congee",
+    tags: ["cuisine", "recipe", "traditions"],
+    readtime: 6,
+    image: "/assets/images/congee.png",
+    excerpt:
+      "Complete guide to making traditional Laba Congee, a nutritious and symbolic Chinese porridge eaten during the Laba Festival.",
+  },
 ];
 
 // 过滤文章

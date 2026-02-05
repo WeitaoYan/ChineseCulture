@@ -6,17 +6,31 @@
     <div class="layout-container">
       <!-- 左侧边栏 - 文章过滤器 -->
       <aside class="sidebar" v-if="$route.path.startsWith('/articles')">
-        <div class="article-filters">
-          <h3 class="filters-title">Article Categories</h3>
-          <button
-            v-for="tag in tags"
-            :key="tag.value"
-            :class="['filter-btn', { active: selectedTag === tag.value }]"
-            @click="handleTagClick(tag.value)"
-          >
-            <span class="filter-icon">{{ tag.icon }}</span>
-            {{ tag.label }}
-          </button>
+        <div
+          class="mobile-filter-toggle"
+          @click="toggleMobileFilter"
+          v-if="isMobile"
+        >
+          <span>{{ showMobileFilter ? "Hide Filters" : "Show Filters" }}</span>
+          <span class="toggle-icon">{{ showMobileFilter ? "▲" : "▼" }}</span>
+        </div>
+
+        <div
+          class="filter-content"
+          :class="{ 'mobile-hidden': isMobile && !showMobileFilter }"
+        >
+          <div class="article-filters">
+            <h3 class="filters-title">Article Categories</h3>
+            <button
+              v-for="tag in tags"
+              :key="tag.value"
+              :class="['filter-btn', { active: selectedTag === tag.value }]"
+              @click="handleTagClick(tag.value)"
+            >
+              <span class="filter-icon">{{ tag.icon }}</span>
+              {{ tag.label }}
+            </button>
+          </div>
         </div>
       </aside>
 
@@ -38,7 +52,7 @@ import { ref, watch } from "vue";
 const tags = [
   { label: "All", value: "all", icon: "📚" },
   { label: "Traditions", value: "traditions", icon: "🎎" },
-  { label: "Art", value: "art", icon: "🎨" },
+  // { label: "Art", value: "art", icon: "🎨" },
   { label: "History", value: "history", icon: "📜" },
   { label: "Cuisine", value: "cuisine", icon: "🍜" },
   { label: "Philosophy", value: "philosophy", icon: "🧘" },
@@ -48,6 +62,18 @@ const tags = [
 
 // 选中的标签
 const selectedTag = ref("all");
+const showMobileFilter = ref(false);
+const isMobile = ref(false);
+
+// 检测屏幕尺寸
+const checkScreenSize = () => {
+  isMobile.value = window.innerWidth <= 768;
+};
+
+// 切换移动端过滤器显示状态
+const toggleMobileFilter = () => {
+  showMobileFilter.value = !showMobileFilter.value;
+};
 
 // 处理标签点击事件
 const handleTagClick = (tagValue) => {
@@ -64,6 +90,11 @@ const handleTagClick = (tagValue) => {
       query: { ...route.query, tag: tagValue !== "all" ? tagValue : undefined },
     });
   }
+
+  // 在移动端点击后自动隐藏过滤器
+  if (isMobile.value) {
+    showMobileFilter.value = false;
+  }
 };
 
 // 监听路由变化，同步标签状态
@@ -79,6 +110,14 @@ watch(
 onMounted(() => {
   const route = useRoute();
   selectedTag.value = route.query.tag || "all";
+
+  // 检查屏幕尺寸并设置监听器
+  checkScreenSize();
+  window.addEventListener("resize", checkScreenSize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", checkScreenSize);
 });
 </script>
 
@@ -105,6 +144,34 @@ onMounted(() => {
   height: fit-content;
   position: sticky;
   top: 0;
+}
+
+.mobile-filter-toggle {
+  display: none; /* 默认不显示 */
+  padding: 0.8rem;
+  background-color: #a62c21;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-icon {
+  font-size: 0.8rem;
+}
+
+.filter-content {
+  width: 100%;
+}
+
+.filter-content.mobile-hidden {
+  display: none;
 }
 
 .filters-title {
@@ -174,11 +241,23 @@ onMounted(() => {
 
   .sidebar {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     position: static;
     border-right: none;
     border-bottom: 1px solid #eee;
-    box-sizing: border-box; /* 包含padding和border在宽度内 */
+    box-sizing: border-box;
+  }
+
+  .mobile-filter-toggle {
+    display: flex; /* 在移动端显示切换按钮 */
+  }
+
+  .filter-content {
+    width: 100%;
+  }
+
+  .filter-content.mobile-hidden {
+    display: none;
   }
 
   .layout-main {
@@ -207,10 +286,6 @@ onMounted(() => {
   .filter-icon {
     min-width: 1.2rem;
     font-size: 0.9rem;
-  }
-
-  .sidebar {
-    padding: 1rem;
   }
 
   .layout-main {

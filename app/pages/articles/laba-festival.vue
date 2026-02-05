@@ -14,7 +14,7 @@
     <!-- 主图 -->
     <div class="featured-image">
       <img
-        src="/assets/images/laba-congee.png"
+        src="/assets/images/congee.png"
         alt="Traditional Laba Congee with various grains and nuts"
       />
     </div>
