@@ -190,6 +190,16 @@ const articles = [
     excerpt:
       "Explore the Great Wall of China, the world's most iconic symbol of defense and perseverance spanning over 2,000 years of history.",
   },
+  {
+    id: 9,
+    title: "Xiaonian Festival",
+    slug: "xiaonian-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 7,
+    image: "/assets/images/xiaonian.png",
+    excerpt:
+      "Discover the Xiaonian Festival, the 'Little New Year' that marks the beginning of Spring Festival preparations in China.",
+  },
 ];
 
 // 过滤文章
