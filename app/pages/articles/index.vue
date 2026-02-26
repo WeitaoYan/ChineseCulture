@@ -200,6 +200,26 @@ const articles = [
     excerpt:
       "Discover the Xiaonian Festival, the 'Little New Year' that marks the beginning of Spring Festival preparations in China.",
   },
+  {
+    id: 10,
+    title: "Po Wu: Breaking the Fifth",
+    slug: "po-wu",
+    tags: ["traditions", "festival", "wealth"],
+    readtime: 7,
+    image: "/assets/images/po-wu.png",
+    excerpt:
+      "Discover Po Wu, the fifth day of Chinese New Year that marks the transition from celebration to prosperity through symbolic cleansing and welcoming wealth.",
+  },
+  {
+    id: 11,
+    title: "Yuanxiao Festival: Sweet Lantern Celebration",
+    slug: "yuanxiao-festival",
+    tags: ["traditions", "festival", "food"],
+    readtime: 7,
+    image: "/assets/images/yuanxiao.png",
+    excerpt:
+      "Discover the Yuanxiao Festival, China's sweet lantern celebration marking the end of Chinese New Year with glowing lanterns, sweet treats, and romantic traditions.",
+  },
 ];
 
 // 过滤文章
