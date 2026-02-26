@@ -49,37 +49,32 @@
           To understand the Terracotta Army, you must know the man who commanded
           its creation: Qin Shi Huang (259-210 BCE).
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">The First Emperor</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="The First Emperor" theme="red">
+            <p>
               He conquered and unified six warring states, creating the first
               centralized Chinese empire, from which the name "China" is
               derived.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">
-              A Man Obsessed with Legacy and Immortality
-            </h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="A Man Obsessed with Legacy and Immortality" theme="red">
+            <p>
               Driven by a fear of death and a desire for eternal rule, he
               devoted immense resources to preparing for the afterlife. The
               Terracotta Army was his eternal imperial guard, meant to protect
               him and allow him to reign in the next world just as he did in
               this one.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">A Sealed Underground Kingdom</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="A Sealed Underground Kingdom" theme="red">
+            <p>
               The army is just one part of his massive, city-sized mausoleum
               complex, which remains largely unexcavated beneath a tomb mound.
               Ancient texts describe rivers of mercury and untold treasures
               within, guarded by traps.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 兵马俑细节 -->
@@ -89,47 +84,43 @@
           The sheer scale is breathtaking, but the true wonder lies in the
           details.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Massive Scale</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Massive Scale" theme="red">
+            <p>
               Three main pits house an estimated 8,000 soldiers, along with 130
               chariots, 670 horses, and non-military figures like acrobats and
               officials. Pit 1, the largest, is the size of an airplane hangar
               and holds over 6,000 infantry and chariots in precise battle
               formation.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">No Two Are Alike</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="No Two Are Alike" theme="red">
+            <p>
               This is the most miraculous fact. Every single soldier has unique
               facial features, expressions, hairstyles, and armor. Some are
               young and eager, others old and wise; some stand tall, others
               kneel as archers. This suggests they were modeled after real
               soldiers in the Emperor's army.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Advanced Ancient Craftsmanship</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Advanced Ancient Craftsmanship" theme="red">
+            <p>
               The figures were created using an assembly-line process. Heads,
               torsos, arms, and legs were molded separately, then assembled and
               customized with individual details. They were originally painted
               in vibrant, lifelike colors (traces of which can still be seen on
               some newly unearthed figures).
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Real Weapons</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Real Weapons" theme="red">
+            <p>
               The army was equipped with fully functional weapons—bronze swords,
               spears, and crossbows—many of which were found still sharp and
               remarkably well-preserved thanks to advanced chrome-plating
               techniques.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 文化价值 -->
@@ -251,14 +242,12 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "The Terracotta Army is a testament to the ingenuity and organizational
-        skills of ancient China, and a window into the beliefs and power of its
-        first emperor."
-      </blockquote>
-      <p class="quote-author">— UNESCO World Heritage</p>
-    </div>
+    <QuoteBox>
+      "The Terracotta Army is a testament to the ingenuity and organizational
+      skills of ancient China, and a window into the beliefs and power of its
+      first emperor."
+      <template #author>— UNESCO World Heritage</template>
+    </QuoteBox>
   </div>
 </template>
 
@@ -380,41 +369,6 @@ definePageMeta({
   margin-bottom: 0.5rem;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
 
 /* 信息框 */
 .info-box {
@@ -449,33 +403,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

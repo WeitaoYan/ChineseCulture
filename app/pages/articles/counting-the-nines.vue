@@ -48,10 +48,9 @@
         <h2 class="section-title">
           The Heart of the Tradition: The "Nine Nine Rhyme"
         </h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Jiǔ Jiǔ Gē (九九歌)</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Jiǔ Jiǔ Gē (九九歌)" theme="red">
+            <p>
               The most charming aspect is the "Jiǔ Jiǔ Gē" (九九歌), or "Nine
               Nine Song." Passed down through generations, this folk rhyme
               describes the changing natural phenomena during each nine-day
@@ -64,16 +63,15 @@
               Seventh nine, river thaw; eighth nine, wild geese arrive.<br />
               Nine times nine done, the plowing oxen step outside."
             </blockquote>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Practical Guide</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Practical Guide" theme="red">
+            <p>
               This rhyme served as an oral weather forecast and agricultural
               guide, painting a vivid picture of winter's gradual retreat. It
               helped farmers plan their activities based on seasonal changes.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 文化内涵 -->
@@ -81,22 +79,21 @@
         <h2 class="section-title">
           The Cultural Tapestry: From Observation to Art
         </h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">
-              The "Nine Nine Elimination of Cold" Chart
-            </h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem
+            title="The 'Nine Nine Elimination of Cold' Chart"
+            theme="red"
+          >
+            <p>
               This is a beautiful folk art. People would draw a branch with 81
               plum blossoms (each with five petals, totaling 405 strokes!). Each
               day, they would fill in one petal with red ink. By the time all
               petals were colored, spring had arrived. It was a meditative daily
               ritual of patience and hope.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Regional Variations</h3>
-            <p class="feature-text">Different regions adapted the tradition:</p>
+          </FeatureItem>
+          <FeatureItem title="Regional Variations" theme="red">
+            <p>Different regions adapted the tradition:</p>
             <ul class="regional-list">
               <li>
                 <strong>Northern China:</strong> Focused on ice, rivers, and the
@@ -107,8 +104,8 @@
                 blooming of specific flowers in each period.
               </li>
             </ul>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 意义价值 -->
@@ -120,135 +117,47 @@
           signs—the texture of frost, the direction of wind, the behavior of
           animals—to navigate life.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Resilience</h3>
-            <p class="feature-text">
-              Finding structure and beauty in the harshest season.
-            </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Hope</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Resilience" theme="red">
+            <p>Finding structure and beauty in the harshest season.</p>
+          </FeatureItem>
+          <FeatureItem title="Hope" theme="red">
+            <p>
               Each colored petal or recited verse was a step toward warmth and
               renewal.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Community</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Community" theme="red">
+            <p>
               Shared rhymes and charts created a collective experience of
               winter.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- 九九时间表 -->
-      <section class="section">
-        <h2 class="section-title">The "Nine Nines" at a Glance</h2>
-        <table class="period-table">
-          <thead>
-            <tr>
-              <th>Period</th>
-              <th>Approximate Dates</th>
-              <th>Traditional Description (North China)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>First Nine</strong></td>
-              <td>Dec 22-30</td>
-              <td>"Winter arrives; hands hidden."</td>
-            </tr>
-            <tr>
-              <td><strong>Second Nine</strong></td>
-              <td>Dec 31-Jan 8</td>
-              <td>"The coldest days begin."</td>
-            </tr>
-            <tr>
-              <td><strong>Third & Fourth Nine</strong></td>
-              <td>Jan 9-26</td>
-              <td>"The peak of cold; ice is solid enough to walk on."</td>
-            </tr>
-            <tr>
-              <td><strong>Fifth & Sixth Nine</strong></td>
-              <td>Jan 27-Feb 13</td>
-              <td>"A hint of change; distant willows seem greener."</td>
-            </tr>
-            <tr>
-              <td><strong>Seventh Nine</strong></td>
-              <td>Feb 14-22</td>
-              <td>"Thaw sets in; river ice cracks."</td>
-            </tr>
-            <tr>
-              <td><strong>Eighth Nine</strong></td>
-              <td>Feb 23-Mar 3</td>
-              <td>"Spring's messengers return; wild geese fly north."</td>
-            </tr>
-            <tr>
-              <td><strong>Ninth Nine</strong></td>
-              <td>Mar 4-12</td>
-              <td>"Winter's end; farmers and oxen head to the fields."</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <!-- 现代传承 -->
-      <section class="section">
-        <h2 class="section-title">A Living Tradition in Modern China</h2>
-        <div class="info-box">
-          <div class="info-row">
-            <span class="info-label">Elderly generations:</span>
-            <span class="info-value">Still recite the rhymes</span>
-          </div>
-          <div class="info-row">
-            <span class="info-label">Schools:</span>
-            <span class="info-value"
-              >Teach it as part of cultural heritage</span
-            >
-          </div>
-          <div class="info-row">
-            <span class="info-label">Social media:</span>
-            <span class="info-value"
-              >Seasonal posts marking the start of each "nine"</span
-            >
-          </div>
-          <div class="info-row">
-            <span class="info-label">Artists & designers:</span>
-            <span class="info-value"
-              >Revive the "消寒图" as a mindful New Year activity</span
-            >
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 体验建议 -->
       <section class="section">
         <h2 class="section-title">Experience the Tradition</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Observe Nature</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Observe Nature" theme="red">
+            <p>
               Mark your calendar on the Winter Solstice and observe nature's
               subtle changes throughout the 81 days.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Create Your Chart</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Create Your Chart" theme="red">
+            <p>
               Create your own "Elimination of Cold" chart—color a segment each
               day.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Learn the Rhyme</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Learn the Rhyme" theme="red">
+            <p>
               Learn a simple "Nine Nine Song" and share it as a cultural story.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
         <p class="section-text">
           Unlike the festive Laba, "Counting the Nines" is a serene,
           observational tradition. It reflects a fundamental Chinese
@@ -260,15 +169,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "So this winter, as the days slowly lengthen, remember this ancient
-        rhythm. It is a testament to human patience, a poetic measure of time,
-        and a gentle reminder that winter, however long, always gives way to
-        spring."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "So this winter, as the days slowly lengthen, remember this ancient
+      rhythm. It is a testament to human patience, a poetic measure of time, and
+      a gentle reminder that winter, however long, always gives way to spring."
+    </QuoteBox>
   </div>
 </template>
 
@@ -368,12 +273,7 @@ definePageMeta({
 }
 
 .rhyme-quote {
-  background-color: rgba(212, 175, 55, 0.1);
-  border-left: 4px solid #d4af37;
-  padding: 1rem;
-  font-style: italic;
-  color: #555;
-  margin: 1rem 0;
+  border-left: 4px solid #a62c2193;
 }
 
 .regional-list {
@@ -413,40 +313,7 @@ definePageMeta({
 }
 
 /* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
+/* 已移至 FeatureGrid 和 FeatureItem 组件 */
 
 /* 信息框 */
 .info-box {
@@ -484,33 +351,6 @@ definePageMeta({
   flex: 1;
 }
 
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
-}
-
 /* 响应式设计 */
 @media (max-width: 768px) {
   .page-title {
@@ -536,10 +376,6 @@ definePageMeta({
 
   .section-text {
     font-size: 1rem;
-  }
-
-  .quote {
-    font-size: 1.2rem;
   }
 
   .info-row {

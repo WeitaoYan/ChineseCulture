@@ -58,20 +58,18 @@
           You might hear this celebration called by two different names, and
           both tell you something important about the day:
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Yuanxiao Festival (元宵节)</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Yuanxiao Festival (元宵节)" theme="gold">
+            <p>
               Named after the sweet dumplings people eat—more on those soon!
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Lantern Festival (灯笼节)</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Lantern Festival (灯笼节)" theme="gold">
+            <p>
               Named after the central activity when darkness falls.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 元宵与汤圆 -->
@@ -152,29 +150,26 @@
           When the sun sets, the real magic begins. Everywhere you look,
           lanterns appear:
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Traditional Paper Lanterns</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Traditional Paper Lanterns" theme="gold">
+            <p>
               Beautiful red and gold paper lanterns in various shapes and sizes,
               illuminating streets and buildings.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Elaborate Sculptures</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Elaborate Sculptures" theme="gold">
+            <p>
               Large lantern sculptures shaped like dragons, zodiac animals,
               flowers, and mythical creatures.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Floating & Sky Lanterns</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Floating & Sky Lanterns" theme="gold">
+            <p>
               Lanterns set adrift on rivers and released into the sky, carrying
               wishes upward.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
         <p class="section-text">
           In major cities and ancient towns,
           <strong>lantern fairs</strong> transform parks into glowing
@@ -196,29 +191,26 @@
           Visitors stop, read, and try to guess the answer. If you solve one,
           you might win a small prize!
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Wordplay Puzzles</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Wordplay Puzzles" theme="gold">
+            <p>
               Clever riddles based on the structure and meaning of Chinese
               characters.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Object Riddles</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Object Riddles" theme="gold">
+            <p>
               Descriptive riddles about common objects, animals, or natural
               phenomena.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Character Twists</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Character Twists" theme="gold">
+            <p>
               Creative interpretations of Chinese characters with hidden
               meanings.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
         <p class="section-text">
           It's a social game that turns a walk through the lanterns into an
           interactive experience. Friends and families gather around, pointing
@@ -232,29 +224,26 @@
         <p class="section-text">
           Depending on where you are in China, you might also see:
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Lion & Dragon Dances</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Lion & Dragon Dances" theme="gold">
+            <p>
               Colorful performances in the streets adding to the festive
               atmosphere.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Stilt Walkers</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Stilt Walkers" theme="gold">
+            <p>
               Performers in colorful costumes walking on stilts for acrobatic
               fun.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Fireworks</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Fireworks" theme="gold">
+            <p>
               Spectacular displays lighting up the night sky with brilliant
               colors.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
         <p class="section-text">
           In some regions, there are even
           <strong>traditional folk performances</strong> that have been passed
@@ -386,14 +375,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "In the glow of lanterns and the sweetness of yuanxiao, we find the
-        perfect conclusion to the New Year celebration—where romance, reunion,
-        and hope merge under the first full moon of spring."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "In the glow of lanterns and the sweetness of yuanxiao, we find the
+      perfect conclusion to the New Year celebration—where romance, reunion, and
+      hope merge under the first full moon of spring."
+    </QuoteBox>
   </div>
 </template>
 
@@ -540,41 +526,6 @@ definePageMeta({
   border-bottom: none;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(212, 175, 55, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
 
 /* 信息框 */
 .info-box {
@@ -610,33 +561,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(212, 175, 55, 0.1),
-    rgba(166, 44, 33, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

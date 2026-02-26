@@ -47,10 +47,9 @@
       <!-- 腊八粥介绍 -->
       <section class="section">
         <h2 class="section-title">The Heart of the Festival: Laba Congee</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Ingredients</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Ingredients" theme="red">
+            <p>
               Families simmer a mixture of eight or more symbolic ingredients,
               which may include:
             </p>
@@ -62,17 +61,16 @@
                 goji berries
               </li>
             </ul>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Symbolism</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Symbolism" theme="red">
+            <p>
               Each ingredient carries meaning—longevity, prosperity, health, and
               good fortune. The slow-cooking process fills homes with a sweet,
               nutty aroma, while the sharing of congee strengthens community
               bonds.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 历史起源 -->
@@ -85,57 +83,49 @@
           commemorates a harvest celebration from ancient times. Historically,
           it was also a day to honor ancestors and household deities.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Buddhist Legend</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Buddhist Legend" theme="red">
+            <p>
               The story of Buddha's enlightenment after receiving a bowl of
               porridge from a village girl.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Ancient Harvest</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Ancient Harvest" theme="red">
+            <p>
               A celebration of the year's harvest and preparation for the coming
               winter months.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Ancestor Honor</h3>
-            <p class="feature-text">
-              A time to pay respects to ancestors and household deities.
-            </p>
-          </div>
-        </div>
+          </FeatureItem>
+          <FeatureItem title="Ancestor Honor" theme="red">
+            <p>A time to pay respects to ancestors and household deities.</p>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 庆祝方式 -->
       <section class="section">
         <h2 class="section-title">How Laba is Celebrated</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Temple Porridge</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Temple Porridge" theme="red">
+            <p>
               Temples distribute free porridge to the public, continuing the
               Buddhist tradition of compassion.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Laba Garlic</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Laba Garlic" theme="red">
+            <p>
               Families pickle garlic in vinegar to make "Laba garlic," which
               turns jade green and is enjoyed with dumplings during Chinese New
               Year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Preparations</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Preparations" theme="red">
+            <p>
               An auspicious day to begin Spring Festival preparations, like
               cleaning homes and making New Year goods.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 现代意义 -->
@@ -191,14 +181,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "In a single bowl of Laba porridge, one tastes thousands of years of
-        history and the simple, universal human desires for health, happiness,
-        and community."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "In a single bowl of Laba porridge, one tastes thousands of years of
+      history and the simple, universal human desires for health, happiness, and
+      community."
+    </QuoteBox>
   </div>
 </template>
 
@@ -317,42 +304,6 @@ definePageMeta({
   margin-bottom: 0.5rem;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* 信息框 */
 .info-box {
   background-color: rgba(212, 175, 55, 0.1);
@@ -387,33 +338,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

@@ -264,14 +264,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "In the patient simmering of Laba Congee, we connect with generations
-        past, present, and future—a bowl full of tradition, nutrition, and
-        love."
-      </blockquote>
-      <p class="quote-author">— Chinese Culinary Wisdom</p>
-    </div>
+    <QuoteBox>
+      "In the patient simmering of Laba Congee, we connect with generations
+      past, present, and future—a bowl full of tradition, nutrition, and love."
+      <template #author>— Chinese Culinary Wisdom</template>
+    </QuoteBox>
   </div>
 </template>
 
@@ -486,7 +483,7 @@ definePageMeta({
 /* 提示框 */
 .tip-box {
   background-color: rgba(212, 175, 55, 0.15);
-  border-left: 4px solid #d4af37;
+  border-left: 4px solid #a62c21;
   padding: 1.2rem;
   border-radius: 0 8px 8px 0;
   margin: 1.5rem 0;
@@ -496,33 +493,6 @@ definePageMeta({
   font-style: italic;
   color: #555;
   margin: 0;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

@@ -60,35 +60,34 @@
           <strong>sending out poverty and bad luck</strong>, and
           <strong>welcoming back wealth and normal life</strong>.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Mission 1: Sweeping Out the "Poor"</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Mission 1: Sweeping Out the 'Poor'" theme="gold">
+            <p>
               For the first four days of the New Year, there's a strict rule:
               <strong>no sweeping</strong>. Why? Because you don't want to
               accidentally sweep away the good luck that just arrived with the
               New Year. Dust and trash are allowed to pile up, preserving the
               household's fresh fortune.
             </p>
-            <p class="feature-text">
+            <p>
               But by the fifth day, all that accumulated trash has taken on a
               new meaning. It now represents <strong>"poor energy"</strong> —
               the lingering shadow of last year's hardships. So on Po Wu,
               families finally grab their brooms and
               <strong>clean house with purpose</strong>.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">
-              Mission 2: Welcoming the God of Wealth
-            </h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem
+            title="Mission 2: Welcoming the God of Wealth"
+            theme="gold"
+          >
+            <p>
               Once the "poor" is out, there's space to welcome something better.
               Po Wu is the day to
               <strong>greet Cai Shen, the God of Wealth</strong>, with open
               arms.
             </p>
-            <p class="feature-text">
+            <p>
               Many families perform small ceremonies to invite prosperity into
               their freshly cleaned homes. Offerings of fruit, sweets, and
               incense are placed facing the direction believed to be the god's
@@ -96,8 +95,8 @@
               the air—not just for celebration, but to get the god's attention
               and announce, "We're ready for you here!"
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 清扫仪式 -->
@@ -111,33 +110,30 @@
           from the home. In some traditions, people even write the character for
           "poor" (穷) on paper and tear it up or burn it during the cleaning.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Cleansing Ritual</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Cleansing Ritual" theme="gold">
+            <p>
               The cleaning on Po Wu is more than just housekeeping—it's a
               spiritual act of purification. Every corner is swept with
               intention, symbolically removing negative energy from the past
               year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Regional Variations</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Regional Variations" theme="gold">
+            <p>
               Different regions may have specific techniques or prayers
               associated with the cleaning process, reflecting local beliefs
               about expelling negative influences.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Symbolic Disposal</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Symbolic Disposal" theme="gold">
+            <p>
               The collected waste is disposed of carefully, often in a way that
               ensures it doesn't return to the home—such as throwing it in a
               public place rather than the household bin.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 饺子文化 -->
@@ -148,33 +144,30 @@
           <strong>dumplings (饺子)</strong>. But these aren't just any
           dumplings.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Shape Significance</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Shape Significance" theme="gold">
+            <p>
               The shape of dumplings resembles ancient Chinese money—silver
               ingots. Eating them on Po Wu is like
               <strong>eating wealth</strong>.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Sealing Protection</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Sealing Protection" theme="gold">
+            <p>
               When you make dumplings, you pinch the edges shut. This action is
               said to represent "<strong
                 >sealing up the mouths of gossip and bad talk</strong
               >" that might bring misfortune in the new year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Fortune Finding</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Fortune Finding" theme="gold">
+            <p>
               Some families hide a coin in one dumpling. Whoever finds it is
               said to have extraordinary luck in the coming year—a small, joyful
               game that adds excitement to the meal.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 鞭炮意义 -->
@@ -186,23 +179,21 @@
           day, especially in business districts and residential courtyards.
           There are two reasons for this:
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Scaring Evil Spirits</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Scaring Evil Spirits" theme="gold">
+            <p>
               The legend says a mythical creature called the "Poor God" (穷神)
               tries to enter homes on this day. Loud noises keep it away.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Creating Festivity</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Creating Festivity" theme="gold">
+            <p>
               After days of quiet family time, the crackle of firecrackers
               signals that the community is waking up, businesses are reopening,
               and normal, prosperous life is resuming.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 地域差异 -->
@@ -214,26 +205,24 @@
           Just like with other festivals, there's a regional difference in how
           Po Wu is celebrated.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Northern China</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Northern China" theme="gold">
+            <p>
               In <strong>Northern China</strong>, Po Wu is a big deal. The
               sweeping ritual, the dumpling feast, and the firecrackers are all
               observed with enthusiasm.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Southern Regions</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Southern Regions" theme="gold">
+            <p>
               In some <strong>Southern regions</strong>, the fifth day is less
               emphasized. Instead, some communities celebrate "Welcoming the God
               of Wealth" on the fourth day. But everywhere, the idea is the
               same: by the fifth day, the New Year's "rules" begin to loosen,
               and daily life starts its return.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 深层意义 -->
@@ -332,15 +321,12 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "On Po Wu, we witness the beautiful transition from celebration to
-        action—where symbolic cleansing meets practical preparation for
-        prosperity, bridging the sacred and the mundane with purposeful
-        intention."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "On Po Wu, we witness the beautiful transition from celebration to
+      action—where symbolic cleansing meets practical preparation for
+      prosperity, bridging the sacred and the mundane with purposeful
+      intention."
+    </QuoteBox>
   </div>
 </template>
 
@@ -459,42 +445,6 @@ definePageMeta({
   margin-bottom: 0.5rem;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(212, 175, 55, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #d4af37;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* 信息框 */
 .info-box {
   background-color: rgba(212, 175, 55, 0.1);
@@ -529,33 +479,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(212, 175, 55, 0.1),
-    rgba(166, 44, 33, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #d4af37;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

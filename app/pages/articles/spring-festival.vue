@@ -49,12 +49,9 @@
       <!-- 团圆饭介绍 -->
       <section class="section">
         <h2 class="section-title">The Reunion Dinner: Nianye Fan</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Significant Dishes</h3>
-            <p class="feature-text">
-              The New Year's Eve feast features symbolic foods:
-            </p>
+        <FeatureGrid>
+          <FeatureItem title="Significant Dishes" theme="gold">
+            <p>The New Year's Eve feast features symbolic foods:</p>
             <ul class="ingredient-list">
               <li>
                 <strong>Fish (鱼):</strong> Symbolizes surplus and abundance
@@ -73,18 +70,17 @@
                 symbolizing family togetherness
               </li>
             </ul>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Cultural Meaning</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Cultural Meaning" theme="gold">
+            <p>
               The reunion dinner emphasizes unity and hope for prosperity.
               Families gather regardless of distance, making it the most
               important meal of the year. The meal is not just about food but
               about strengthening bonds and expressing gratitude for another
               year together.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 红色元素 -->
@@ -95,61 +91,55 @@
           prosperity, and protection against evil. This vibrant hue permeates
           every aspect of the celebration.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Decorations</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Decorations" theme="gold">
+            <p>
               Families hang red lanterns, paste red couplets (春联) with poetic
               blessings on doorways, and display red paper cuttings with
               auspicious characters.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Hongbao</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Hongbao" theme="gold">
+            <p>
               Red envelopes containing money are given to children and unmarried
               adults as symbols of good luck and wishes for prosperity in the
               new year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Clothing</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Clothing" theme="gold">
+            <p>
               Many wear new red clothes during the festival to ensure good
               fortune and ward off evil spirits.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 烟花爆竹 -->
       <section class="section">
         <h2 class="section-title">Fireworks and Firecrackers</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Tradition</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Tradition" theme="gold">
+            <p>
               At midnight and throughout the festival, fireworks and
               firecrackers light up the sky. The loud noises are believed to
               scare away bad spirits and evil forces.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Modern Celebrations</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Modern Celebrations" theme="gold">
+            <p>
               While traditional firecrackers are still popular, many cities have
               restrictions due to safety concerns, leading to organized
               fireworks displays instead.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Symbolism</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Symbolism" theme="gold">
+            <p>
               The bright lights and loud sounds symbolize the triumph of good
               over evil and welcome prosperity for the coming year.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 打扫与禁忌 -->
@@ -160,30 +150,27 @@
           away bad luck and prepare for good fortune. However, during the
           festival itself, cleaning becomes taboo.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Pre-Festival Cleaning</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Pre-Festival Cleaning" theme="gold">
+            <p>
               Complete house cleaning before New Year's Day to remove any traces
               of bad luck from the previous year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Festival Restrictions</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Festival Restrictions" theme="gold">
+            <p>
               Avoid sweeping or taking out garbage during the festival, as it
               might "sweep away" good fortune. Breaking objects is also
               considered unlucky.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Other Taboos</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Other Taboos" theme="gold">
+            <p>
               Other common taboos include avoiding words with negative meanings,
               lending money, and arguing.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 舞龙舞狮 -->
@@ -194,60 +181,54 @@
           squares during the Spring Festival. These dynamic performances are
           central to the celebration and carry deep cultural significance.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Performance</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Performance" theme="gold">
+            <p>
               Performers manipulate large puppets of lions and dragons in
               coordinated movements, accompanied by drums and cymbals.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Symbolism</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Symbolism" theme="gold">
+            <p>
               The dances are thought to bring prosperity, good luck, and drive
               away negative energy. They also symbolize power, wisdom, and
               dignity.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Community</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Community" theme="gold">
+            <p>
               These performances often involve entire communities and provide
               entertainment while reinforcing cultural identity.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 拜访亲友 -->
       <section class="section">
         <h2 class="section-title">Visiting Family and Friends</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Schedule</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Schedule" theme="gold">
+            <p>
               The first days of the new year are for visiting loved ones. The
               first day is usually reserved for immediate family, while
               subsequent days are for extended family and friends.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Greetings</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Greetings" theme="gold">
+            <p>
               People exchange traditional greetings like "Xinnian Kuai Le"
               (新年快乐 - Happy New Year) and "Gong Xi Fa Cai" (恭喜发财 -
               Wishing you prosperity).
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Hospitality</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Hospitality" theme="gold">
+            <p>
               Hosts prepare special treats and gifts for visitors, emphasizing
               the importance of hospitality and maintaining relationships.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 元宵节 -->
@@ -258,29 +239,26 @@
           marking the official end of the Spring Festival period. This event
           combines beauty, culture, and tradition.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Lantern Displays</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Lantern Displays" theme="gold">
+            <p>
               People light and display colorful lanterns of various shapes and
               sizes in parks and public spaces.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Riddle Solving</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Riddle Solving" theme="gold">
+            <p>
               Traditional riddles are written on lanterns for people to solve,
               combining entertainment with intellectual challenge.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Yuanxiao</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Yuanxiao" theme="gold">
+            <p>
               Sweet glutinous rice balls (元宵) are eaten, symbolizing family
               togetherness and completeness.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 文化意义 -->
@@ -348,14 +326,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "In the Spring Festival, we find the essence of Chinese culture—family
-        unity, ancestral respect, hope for prosperity, and the eternal cycle of
-        renewal that connects past, present, and future."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "In the Spring Festival, we find the essence of Chinese culture—family
+      unity, ancestral respect, hope for prosperity, and the eternal cycle of
+      renewal that connects past, present, and future."
+    </QuoteBox>
   </div>
 </template>
 
@@ -474,42 +449,6 @@ definePageMeta({
   margin-bottom: 0.5rem;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(212, 175, 55, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #d4af37;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* 信息框 */
 .info-box {
   background-color: rgba(212, 175, 55, 0.1);
@@ -544,33 +483,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(212, 175, 55, 0.1),
-    rgba(166, 44, 33, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #d4af37;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

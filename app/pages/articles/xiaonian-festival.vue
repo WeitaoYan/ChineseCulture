@@ -55,22 +55,20 @@
           falls on the
           <strong>23rd or 24th day of the last lunar month</strong>.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Northern China</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Northern China" theme="red">
+            <p>
               Typically celebrates on <strong>Lunar December 23</strong>, which
               in 2025 translates to <strong>January 21, 2025</strong>.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Southern China</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Southern China" theme="red">
+            <p>
               Often observes it on <strong>Lunar December 24</strong>, which in
               2025 translates to <strong>January 22, 2025</strong>.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 灶王爷介绍 -->
@@ -89,9 +87,8 @@
           only good things!
         </p>
 
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">The Send-Off Ceremony</h3>
+        <FeatureGrid>
+          <FeatureItem title="The Send-Off Ceremony" theme="red">
             <ol class="ceremony-steps">
               <li>
                 <strong>The Offering</strong>: Families place sweet foods—like
@@ -112,17 +109,16 @@
                 Year's Eve, welcoming him back.
               </li>
             </ol>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Cultural Significance</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Cultural Significance" theme="red">
+            <p>
               This ritual represents the intimate relationship between the
               divine and daily life in Chinese culture. The Kitchen God is seen
               as a guardian of the home, watching over the family's well-being
               and behavior.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 大扫除 -->
@@ -142,22 +138,20 @@
           from the past year. This creates a clean, fresh, and receptive space
           for the incoming luck and prosperity of the New Year.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Symbolic Meaning</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Symbolic Meaning" theme="red">
+            <p>
               Removing all traces of the old year to make way for new
               opportunities and good fortune.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Family Activity</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Family Activity" theme="red">
+            <p>
               Usually involves the entire family working together to prepare
               their home for the Spring Festival.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 小年美食 -->
@@ -166,29 +160,26 @@
         <p class="section-text">
           Food, as always in Chinese festivals, plays a starring role:
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Mallet Candy / Guandong Candy (糖瓜)</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Mallet Candy / Guandong Candy (糖瓜)" theme="red">
+            <p>
               The most iconic treat. This hard, sticky malt candy is chewy and
               incredibly sweet, directly linked to the Kitchen God ritual.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Rice Cakes (年糕)</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Rice Cakes (年糕)" theme="red">
+            <p>
               Eaten for good luck, as their name sounds like "year high,"
               symbolizing rising prosperity and growth in the coming year.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Dumplings (饺子)</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Dumplings (饺子)" theme="red">
+            <p>
               In the north, families often make dumplings on Xiaonian, a preview
               of the grand feast to come.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 精神内涵 -->
@@ -254,14 +245,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "In Xiaonian, we find the bridge between the ordinary and the
-        extraordinary—a moment when daily routines become sacred preparations
-        for renewal, family, and hope."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "In Xiaonian, we find the bridge between the ordinary and the
+      extraordinary—a moment when daily routines become sacred preparations
+      for renewal, family, and hope."
+    </QuoteBox>
   </div>
 </template>
 
@@ -371,41 +359,6 @@ definePageMeta({
   line-height: 1.6;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
 
 /* 信息框 */
 .info-box {
@@ -443,32 +396,6 @@ definePageMeta({
   flex: 1;
 }
 
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
-}
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -497,9 +424,7 @@ definePageMeta({
     font-size: 1rem;
   }
 
-  .quote {
-    font-size: 1.2rem;
-  }
+  /* 响应式设计保持不变 */
 
   .info-row {
     flex-direction: column;

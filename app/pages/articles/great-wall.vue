@@ -178,44 +178,40 @@
       <!-- 游览规划 -->
       <section class="section">
         <h2 class="section-title">🗺️ Planning Your Visit: Simple Tips</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">When to Go</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="When to Go" theme="red">
+            <p>
               <strong>Spring (April-May)</strong> and
               <strong>Autumn (September-October)</strong> offer the most
               comfortable weather and beautiful skies. Summer can be hot and
               crowded; winter is cold but offers a magical, snowy landscape with
               few tourists.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">What to Wear</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="What to Wear" theme="red">
+            <p>
               This is a mountain hike! Wear
               <strong>sturdy, comfortable shoes with good grip</strong>. Dress
               in layers, bring a hat, sunscreen, and
               <strong>plenty of water</strong>.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">The "Less is More" Rule</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="The 'Less is More' Rule" theme="red">
+            <p>
               Don't try to conquer the Wall. Pick one section and explore it
               well. A rewarding 2-3 hour walk is better than a rushed,
               exhausting marathon.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Beyond the Bricks</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Beyond the Bricks" theme="red">
+            <p>
               Remember, the Great Wall is more than a wall. It's a symbol of
               connection. It linked armies, transmitted messages, and witnessed
               the silent exchange of goods and ideas across its formidable
               stones.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 结论 -->
@@ -232,13 +228,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "The Great Wall is not just a wall—it's a symbol of China's strength,
-        endurance, and the collective effort of countless generations."
-      </blockquote>
-      <p class="quote-author">— Chinese Historical Society</p>
-    </div>
+    <QuoteBox>
+      "The Great Wall is not just a wall—it's a symbol of China's strength,
+      endurance, and the collective effort of countless generations."
+      <template #author>— Chinese Historical Society</template>
+    </QuoteBox>
   </div>
 </template>
 
@@ -369,68 +363,7 @@ definePageMeta({
   background-color: rgba(166, 44, 33, 0.03);
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
 
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
-}
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -463,52 +396,13 @@ definePageMeta({
     font-size: 1.2rem;
   }
 
-  .wall-sections-table {
-    font-size: 0.9rem;
+  .info-row {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
-  .wall-sections-table th,
-  .wall-sections-table td {
-    padding: 0.8rem 0.5rem;
-  }
-
-  .wall-sections-table,
-  .wall-sections-table thead,
-  .wall-sections-table tbody,
-  .wall-sections-table th,
-  .wall-sections-table td,
-  .wall-sections-table tr {
-    display: block;
-  }
-
-  .wall-sections-table thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  .wall-sections-table tr {
-    border: 1px solid #ccc;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 8px;
-  }
-
-  .wall-sections-table td {
-    border: none;
-    position: relative;
-    padding-left: 50% !important;
+  .info-value {
     text-align: left;
-  }
-
-  .wall-sections-table td:before {
-    content: attr(data-label) ": ";
-    position: absolute;
-    left: 1rem;
-    width: 45%;
-    padding-right: 1rem;
-    white-space: nowrap;
-    font-weight: 600;
   }
 }
 </style>

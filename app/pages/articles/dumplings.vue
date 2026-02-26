@@ -53,26 +53,24 @@
       <!-- 文化意义 -->
       <section class="section">
         <h2 class="section-title">Cultural Significance</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Spring Festival Tradition</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Spring Festival Tradition" theme="red">
+            <p>
               In China, dumplings are an essential food during the Spring
               Festival (Chinese Lunar New Year). The shape of dumplings is
               similar to ancient Chinese gold or silver ingots, which symbolizes
               wealth and good luck.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Family Reunion</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Family Reunion" theme="red">
+            <p>
               Families usually gather together on New Year's Eve to make
               dumplings. While wrapping dumplings, they chat, share stories of
               the past year and look forward to the future, which is a precious
               moment of family reunion.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 制作过程 -->
@@ -165,27 +163,22 @@
           of the vinegar can relieve the greasiness of the meat filling, and the
           slight spiciness adds more flavor, making every bite full of layers.
         </p>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Basic Sauce</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Basic Sauce" theme="red">
+            <p>
               A classic combination of vinegar, soy sauce, and minced garlic.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Spicy Version</h3>
-            <p class="feature-text">
-              Add chili oil or crushed red pepper for those who enjoy heat.
-            </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Ginger Variation</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Spicy Version" theme="red">
+            <p>Add chili oil or crushed red pepper for those who enjoy heat.</p>
+          </FeatureItem>
+          <FeatureItem title="Ginger Variation" theme="red">
+            <p>
               Finely chopped ginger adds an aromatic element that complements
               the dumplings.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 现代意义 -->
@@ -244,14 +237,10 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "A single dumpling contains not just ingredients, but the warmth of
-        family, the essence of tradition, and the spirit of Chinese
-        hospitality."
-      </blockquote>
-      <p class="quote-author">— Chinese Cultural Heritage</p>
-    </div>
+    <QuoteBox>
+      "A single dumpling contains not just ingredients, but the warmth of
+      family, the essence of tradition, and the spirit of Chinese hospitality."
+    </QuoteBox>
   </div>
 </template>
 
@@ -360,42 +349,6 @@ definePageMeta({
   margin-bottom: 0.5rem;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* 制作步骤 */
 .process-steps {
   margin-top: 2rem;
@@ -475,33 +428,6 @@ definePageMeta({
   font-size: 1rem;
   text-align: left;
   flex: 1;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */

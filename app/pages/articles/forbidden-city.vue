@@ -43,37 +43,33 @@
       <!-- 建筑特色 -->
       <section class="section">
         <h2 class="section-title">Architectural Features</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h3 class="feature-title">Symmetrical Design</h3>
-            <p class="feature-text">
+        <FeatureGrid>
+          <FeatureItem title="Symmetrical Design" theme="red">
+            <p>
               The entire complex follows strict symmetrical principles, with the
               main buildings aligned along a central north-south axis.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Yellow Roofs</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Yellow Roofs" theme="red">
+            <p>
               Buildings reserved for the emperor feature yellow roof tiles,
               symbolizing imperial power and the highest authority.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Red Walls</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Red Walls" theme="red">
+            <p>
               The iconic red walls represent good fortune, joy, and
               auspiciousness in traditional Chinese culture.
             </p>
-          </div>
-          <div class="feature-item">
-            <h3 class="feature-title">Ceremonial Halls</h3>
-            <p class="feature-text">
+          </FeatureItem>
+          <FeatureItem title="Ceremonial Halls" theme="red">
+            <p>
               The three main halls - Hall of Supreme Harmony, Hall of Central
               Harmony, and Hall of Preserving Harmony - were used for important
               state ceremonies.
             </p>
-          </div>
-        </div>
+          </FeatureItem>
+        </FeatureGrid>
       </section>
 
       <!-- 历史意义 -->
@@ -123,13 +119,11 @@
     </div>
 
     <!-- 引用 -->
-    <div class="quote-box">
-      <blockquote class="quote">
-        "The Forbidden City is a mirror reflecting China's history, culture, and
-        civilization."
-      </blockquote>
-      <p class="quote-author">— UNESCO</p>
-    </div>
+    <QuoteBox>
+      "The Forbidden City is a mirror reflecting China's history, culture, and
+      civilization."
+      <template #author>— UNESCO</template>
+    </QuoteBox>
   </div>
 </template>
 
@@ -237,42 +231,6 @@ definePageMeta({
   text-align: justify;
 }
 
-/* 特色网格 */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.feature-item {
-  background-color: rgba(166, 44, 33, 0.05);
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #a62c21;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item .feature-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.8rem;
-}
-
-.feature-item .feature-text {
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* 信息框 */
 .info-box {
   background-color: rgba(212, 175, 55, 0.1);
@@ -305,33 +263,6 @@ definePageMeta({
   color: #666;
   font-size: 1rem;
   text-align: right;
-}
-
-/* 引用框 */
-.quote-box {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(166, 44, 33, 0.1),
-    rgba(212, 175, 55, 0.1)
-  );
-  border-radius: 12px;
-  text-align: center;
-}
-
-.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.quote-author {
-  font-size: 1rem;
-  color: #a62c21;
-  font-weight: 600;
 }
 
 /* 响应式设计 */
