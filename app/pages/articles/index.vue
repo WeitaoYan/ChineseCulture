@@ -220,6 +220,16 @@ const articles = [
     excerpt:
       "Discover the Yuanxiao Festival, China's sweet lantern celebration marking the end of Chinese New Year with glowing lanterns, sweet treats, and romantic traditions.",
   },
+  {
+    id: 12,
+    title: "Longtaitou Festival",
+    slug: "longtaitou-festival",
+    tags: ["traditions", "festival", "agriculture"],
+    readtime: 8,
+    image: "/assets/images/longtaitou.png",
+    excerpt:
+      "Discover the Longtaitou Festival, when the dragon raises its head to bring spring rains and mark the beginning of the farming year in China.",
+  },
 ];
 
 // 过滤文章
