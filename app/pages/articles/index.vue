@@ -76,7 +76,7 @@ definePageMeta({
   ogDescription:
     "Explore authentic Chinese cultural articles covering traditions, festivals, history, and heritage",
   ogType: "website",
-  ogImage: "/assets/images/building.png", // 添加OG图片
+  ogImage: "/assets/images/building.png",
   twitterCard: "summary_large_image",
   twitterTitle: "Chinese Cultural Articles",
   twitterDescription:
@@ -229,6 +229,16 @@ const articles = [
     image: "/assets/images/longtaitou.png",
     excerpt:
       "Discover the Longtaitou Festival, when the dragon raises its head to bring spring rains and mark the beginning of the farming year in China.",
+  },
+  {
+    id: 13,
+    title: "Qingming Festival",
+    slug: "qingming-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 10,
+    image: "/assets/images/qingming-festival.png",
+    excerpt:
+      "Discover Qingming Festival (Tomb-Sweeping Day), a meaningful Chinese tradition of honoring ancestors while celebrating spring with family outings, kite flying, and traditional foods.",
   },
 ];
 
