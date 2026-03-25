@@ -18,12 +18,6 @@
         alt="Qingming Festival - families visiting ancestors' graves and enjoying spring"
       />
     </div>
-    <FestivalDates
-      festival-name="Qingming Festival"
-      :solar-month="4"
-      :solar-day="4"
-      :solar-day-range="6"
-    />
 
     <!-- 内容主体 -->
     <div class="content-body">
