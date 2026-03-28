@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">The Terracotta Army</h1>
       <p class="page-subtitle">Guarding China's First Emperor for Eternity</p>
-      <div class="page-meta">
-        <span class="meta-item">🗿 Archaeological Wonder</span>
-        <span class="meta-item">📅 Discovered: 1974</span>
-        <span class="meta-item">👑 Emperor Qin Shi Huang's Eternal Guard</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🗿 Archaeological Wonder</MetaItem>
+        <MetaItem>📅 Discovered: 1974</MetaItem>
+        <MetaItem>👑 Emperor Qin Shi Huang's Eternal Guard</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -288,24 +288,6 @@ definePageMeta({
   margin-bottom: 1.5rem;
 }
 
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 /* 主图 */
 .featured-image {
   margin-bottom: 3rem;
@@ -413,15 +395,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

@@ -240,6 +240,16 @@ const articles = [
     excerpt:
       "Discover Qingming Festival (Tomb-Sweeping Day), a meaningful Chinese tradition of honoring ancestors while celebrating spring with family outings, kite flying, and traditional foods.",
   },
+  {
+    id: 14,
+    title: "Five Elements",
+    slug: "five-elements",
+    tags: ["philosophy", "traditions", "culture"],
+    readtime: 8,
+    image: "/assets/images/building.png",
+    excerpt:
+      "Discover the Five Elements (Wuxing), the fundamental principles of Chinese philosophy covering Wood, Fire, Earth, Metal, and Water, and their generating and controlling cycles.",
+  },
 ];
 
 // 过滤文章

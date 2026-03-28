@@ -6,11 +6,11 @@
       <p class="page-subtitle">
         Dragon Raises Head - The Awakening of Spring
       </p>
-      <div class="page-meta">
-        <span class="meta-item">🐉 Dragon's Awakening</span>
-        <span class="meta-item">📅 2nd Day of 2nd Lunar Month</span>
-        <span class="meta-item">✂️ Traditional Haircuts</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🐉 Dragon's Awakening</MetaItem>
+        <MetaItem>📅 2nd Day of 2nd Lunar Month</MetaItem>
+        <MetaItem>✂️ Traditional Haircuts</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -286,24 +286,6 @@ definePageMeta({
   margin-bottom: 1.5rem;
 }
 
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 /* 主图 */
 .featured-image {
   margin-bottom: 3rem;
@@ -465,15 +447,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

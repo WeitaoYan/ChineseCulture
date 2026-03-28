@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">Qingming Festival</h1>
       <p class="page-subtitle">Tomb-Sweeping Day - Honoring Ancestors and Embracing Spring</p>
-      <div class="page-meta">
-        <span class="meta-item">🪦 Ancestor Worship</span>
-        <span class="meta-item">🌸 Spring Outings</span>
-        <span class="meta-item">🪁 Flying Kites</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🪦 Ancestor Worship</MetaItem>
+        <MetaItem>🌸 Spring Outings</MetaItem>
+        <MetaItem>🪁 Flying Kites</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -286,12 +286,12 @@
 </template>
 
 <script setup>
-// 定义页面元信息
+// Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
-  title: "Qingming Festival - Tomb-Sweeping Day | Chinese Culture",
+  title: "Qingming Festival - Chinese Culture Explorer",
   description:
-    "Learn about Qingming Festival (Tomb-Sweeping Day), a traditional Chinese holiday for honoring ancestors and celebrating spring. Discover its history, customs, and cultural significance.",
+    "Discover Qingming Festival, the traditional Tomb-Sweeping Day honoring ancestors and celebrating spring.",
 });
 </script>
 
@@ -305,7 +305,7 @@ definePageMeta({
   text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  position: relative;
+  border-bottom: 3px solid rgba(166, 44, 33, 0.1);
 }
 
 .page-title {
@@ -323,30 +323,12 @@ definePageMeta({
   margin-bottom: 1.5rem;
 }
 
-.page-meta {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.meta-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, rgba(166, 44, 33, 0.08), rgba(212, 175, 55, 0.08));
-  border-radius: 20px;
-  font-size: 0.95rem;
-  color: #555;
-}
-
 /* 主图 */
 .featured-image {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .featured-image img {
@@ -479,20 +461,15 @@ definePageMeta({
   }
 
   .page-subtitle {
-    font-size: 1.1rem;
-  }
-
-  .section {
-    padding: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
-  .page-meta {
-    flex-direction: column;
-    align-items: center;
+  .section-text {
+    font-size: 1rem;
   }
 
   .quote-chinese {

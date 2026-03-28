@@ -4,13 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">The Forbidden City</h1>
       <p class="page-subtitle">Palace Museum - Beijing, China</p>
-      <div class="page-meta">
-        <span class="meta-item">🏛️ UNESCO World Heritage Site</span>
-        <span class="meta-item">📅 Built: 1406-1420</span>
-        <span class="meta-item"
-          >👑 Imperial Palace of Ming and Qing Dynasties</span
-        >
-      </div>
+      <PageMeta>
+        <MetaItem>🏛️ UNESCO World Heritage Site</MetaItem>
+        <MetaItem>📅 Built: 1406-1420</MetaItem>
+        <MetaItem>👑 Imperial Palace of Ming and Qing Dynasties</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -129,10 +127,10 @@
 
 <script setup>
 definePageMeta({
-  layout: "content", // 使用 content 布局
+  layout: "content",
   title: "The Forbidden City - Chinese Culture Explorer",
   description:
-    "Explore the Forbidden City, China's imperial palace and UNESCO World Heritage Site in Beijing.",
+    "Explore the Forbidden City, the imperial palace complex of Ming and Qing dynasties in Beijing.",
 });
 </script>
 
@@ -162,24 +160,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -273,15 +253,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

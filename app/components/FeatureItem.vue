@@ -64,6 +64,15 @@ const itemClass = computed(() => {
   border-left: 4px solid #4caf50;
 }
 
+.feature-item--yellow {
+  background-color: rgba(255, 175, 0, 0.05);
+  border-left: 4px solid #feea0e;
+}
+
+.feature-item--gray {
+  background-color: rgba(33, 33, 22, 0.05);
+  border-left: 4px solid #6d6d6d;
+}
 /* 标题样式 */
 .feature-title {
   font-size: 1.2rem;

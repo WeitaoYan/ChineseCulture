@@ -6,11 +6,11 @@
       <p class="page-subtitle">
         Little New Year - The Warm-Up to Spring Festival
       </p>
-      <div class="page-meta">
-        <span class="meta-item">🔥 Kitchen God's Departure</span>
-        <span class="meta-item">📅 23rd/24th Day of 12th Lunar Month</span>
-        <span class="meta-item">🧹 The Great Annual Cleaning</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🔥 Kitchen God's Departure</MetaItem>
+        <MetaItem>📅 23rd/24th Day of 12th Lunar Month</MetaItem>
+        <MetaItem>🧹 The Great Annual Cleaning</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -255,10 +255,10 @@
 
 <script setup>
 definePageMeta({
-  layout: "content", // 使用 content 布局
+  layout: "content",
   title: "Xiaonian Festival - Chinese Culture Explorer",
   description:
-    "Discover the Xiaonian Festival, the 'Little New Year' that marks the beginning of Spring Festival preparations in China.",
+    "Discover Xiaonian, the Little New Year festival that kicks off Chinese New Year preparations.",
 });
 </script>
 
@@ -288,24 +288,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -405,15 +387,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

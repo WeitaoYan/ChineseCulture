@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">The Great Wall</h1>
       <p class="page-subtitle">The Dragon's Backbone of China</p>
-      <div class="page-meta">
-        <span class="meta-item">🏰 UNESCO World Heritage Site</span>
-        <span class="meta-item">📏 Over 13,000 miles long</span>
-        <span class="meta-item">🏗️ Built across 2,000 years</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🏰 UNESCO World Heritage Site</MetaItem>
+        <MetaItem>📏 Over 13,000 miles long</MetaItem>
+        <MetaItem>🏗️ Built across 2,000 years</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -52,7 +52,7 @@
           unique personality and experience. Here's a quick guide to help you
           choose your adventure:
         </p>
-        <table class="wall-sections-table">
+        <table class="comparison-table">
           <thead>
             <tr>
               <th>Feature</th>
@@ -237,11 +237,12 @@
 </template>
 
 <script setup>
+// Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
-  layout: "content", // 使用 content 布局
-  title: "The Great Wall of China - Chinese Culture Explorer",
+  layout: "content",
+  title: "The Great Wall - Chinese Culture Explorer",
   description:
-    "Explore the Great Wall of China, the world's most iconic symbol of defense and perseverance spanning over 2,000 years of history.",
+    "Discover the Great Wall of China, an iconic symbol of Chinese civilization and history.",
 });
 </script>
 
@@ -271,24 +272,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -332,7 +315,7 @@ definePageMeta({
 }
 
 /* 长城段落表格 */
-.wall-sections-table {
+.comparison-table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
@@ -342,28 +325,26 @@ definePageMeta({
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.wall-sections-table th,
-.wall-sections-table td {
+.comparison-table th,
+.comparison-table td {
   padding: 1rem;
   text-align: left;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.wall-sections-table th {
+.comparison-table th {
   background-color: #a62c21;
   color: white;
   font-weight: 600;
 }
 
-.wall-sections-table tr:last-child td {
+.comparison-table tr:last-child td {
   border-bottom: none;
 }
 
-.wall-sections-table tr:nth-child(even) {
+.comparison-table tr:nth-child(even) {
   background-color: rgba(166, 44, 33, 0.03);
 }
-
-
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -373,15 +354,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {
@@ -396,13 +368,10 @@ definePageMeta({
     font-size: 1.2rem;
   }
 
-  .info-row {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .info-value {
-    text-align: left;
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
   }
 }
 </style>

@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">Laba Festival</h1>
       <p class="page-subtitle">The Porridge Festival - Winter Celebration</p>
-      <div class="page-meta">
-        <span class="meta-item">🍲 Traditional Porridge Celebration</span>
-        <span class="meta-item">📅 8th Day of 12th Lunar Month</span>
-        <span class="meta-item">🌱 Commemorating Buddha's Enlightenment</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🍲 Traditional Porridge Celebration</MetaItem>
+        <MetaItem>📅 8th Day of 12th Lunar Month</MetaItem>
+        <MetaItem>🌱 Commemorating Buddha's Enlightenment</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -189,7 +189,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+// Nuxt 3 会自动导入 components 目录下的组件
+
 definePageMeta({
   layout: "content", // 使用 content 布局
   title: "Laba Festival - Chinese Culture Explorer",
@@ -224,24 +226,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -348,15 +332,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

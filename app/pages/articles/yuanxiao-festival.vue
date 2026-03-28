@@ -6,11 +6,11 @@
       <p class="page-subtitle">
         China's Sweet Lantern Celebration - The Grand Finale
       </p>
-      <div class="page-meta">
-        <span class="meta-item">🏮 Lantern Displays</span>
-        <span class="meta-item">🍡 Sweet Yuanxiao Treats</span>
-        <span class="meta-item">❤️ Romantic Traditions</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🏮 Lantern Displays</MetaItem>
+        <MetaItem>🍡 Sweet Yuanxiao Treats</MetaItem>
+        <MetaItem>❤️ Romantic Traditions</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -402,7 +402,7 @@ definePageMeta({
   text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 3px solid rgba(212, 175, 55, 0.1);
+  border-bottom: 3px solid rgba(166, 44, 33, 0.1);
 }
 
 .page-title {
@@ -418,24 +418,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(212, 175, 55, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -571,15 +553,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

@@ -6,11 +6,11 @@
       <p class="page-subtitle">
         Counting the Nines - Winter's Countdown to Spring
       </p>
-      <div class="page-meta">
-        <span class="meta-item">❄️ Seasonal Calendar Practice</span>
-        <span class="meta-item">📅 81 Days After Winter Solstice</span>
-        <span class="meta-item">🌸 Ancient Farmer's Almanac</span>
-      </div>
+      <PageMeta>
+        <MetaItem>❄️ Seasonal Calendar Practice</MetaItem>
+        <MetaItem>📅 81 Days After Winter Solstice</MetaItem>
+        <MetaItem>🌸 Ancient Farmer's Almanac</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -178,11 +178,12 @@
 </template>
 
 <script setup>
+// Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
-  layout: "content", // 使用 content 布局
-  title: "Shu Jiu - Chinese Culture Explorer",
+  layout: "content",
+  title: "Shu Jiu (Counting the Nines) - Chinese Culture Explorer",
   description:
-    "Discover the ancient Chinese tradition of 'Shu Jiu' (Counting the Nines) - a winter countdown to spring.",
+    "Discover Shu Jiu, the traditional Chinese winter countdown practice with Nine Nine Rhyme.",
 });
 </script>
 
@@ -212,24 +213,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -359,15 +342,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

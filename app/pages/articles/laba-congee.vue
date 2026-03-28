@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">How to Make Laba Congee</h1>
       <p class="page-subtitle">A Flavorful Journey into Chinese Tradition</p>
-      <div class="page-meta">
-        <span class="meta-item">🍲 Traditional Recipe Guide</span>
-        <span class="meta-item">⏰ 1.5-2 Hours Cooking</span>
-        <span class="meta-item">👥 Serves 6-8 People</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🍲 Traditional Recipe Guide</MetaItem>
+        <MetaItem>⏰ 1.5-2 Hours Cooking</MetaItem>
+        <MetaItem>👥 Serves 6-8 People</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -309,24 +309,6 @@ definePageMeta({
   margin-bottom: 1.5rem;
 }
 
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 /* 主图 */
 .featured-image {
   margin-bottom: 3rem;
@@ -503,15 +485,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

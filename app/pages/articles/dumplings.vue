@@ -4,11 +4,11 @@
     <div class="page-header">
       <h1 class="page-title">Dumplings</h1>
       <p class="page-subtitle">The Taste of Chinese Culture and Warmth</p>
-      <div class="page-meta">
-        <span class="meta-item">🥟 Traditional Delicacy</span>
-        <span class="meta-item">🏠 Family Reunion Symbol</span>
-        <span class="meta-item">💰 Wealth and Good Fortune</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🥟 Traditional Delicacy</MetaItem>
+        <MetaItem>🏠 Family Reunion Symbol</MetaItem>
+        <MetaItem>💰 Wealth and Good Fortune</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -245,11 +245,12 @@
 </template>
 
 <script setup>
+// Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
-  layout: "content", // 使用 content 布局
-  title: "Dumplings - Chinese Culture Explorer",
+  layout: "content",
+  title: "Dumplings (Jiaozi) - Chinese Culture Explorer",
   description:
-    "Discover the cultural significance and tradition of Chinese dumplings, a symbol of warmth, reunion, and heritage.",
+    "Discover the cultural significance of Chinese dumplings, a symbol of family reunion and prosperity.",
 });
 </script>
 
@@ -279,24 +280,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(166, 44, 33, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -438,15 +421,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {

@@ -6,11 +6,11 @@
       <p class="page-subtitle">
         Breaking the Fifth - Expelling Poverty, Welcoming Wealth
       </p>
-      <div class="page-meta">
-        <span class="meta-item">🧹 Sweeping Away Bad Luck</span>
-        <span class="meta-item">💰 Welcoming the God of Wealth</span>
-        <span class="meta-item">🥟 Dumplings and Prosperity</span>
-      </div>
+      <PageMeta>
+        <MetaItem>🧹 Sweeping Away Bad Luck</MetaItem>
+        <MetaItem>💰 Welcoming the God of Wealth</MetaItem>
+        <MetaItem>🥟 Dumplings and Prosperity</MetaItem>
+      </PageMeta>
     </div>
 
     <!-- 主图 -->
@@ -332,10 +332,10 @@
 
 <script setup>
 definePageMeta({
-  layout: "content", // 使用 content 布局
-  title: "Po Wu - Chinese Culture Explorer",
+  layout: "content",
+  title: "Po Wu (Breaking Five) - Chinese Culture Explorer",
   description:
-    "Discover Po Wu, the fifth day of Chinese New Year that marks the transition from celebration to prosperity.",
+    "Discover Po Wu, the traditional day of expelling poverty and welcoming wealth in Chinese culture.",
 });
 </script>
 
@@ -349,7 +349,7 @@ definePageMeta({
   text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 3px solid rgba(212, 175, 55, 0.1);
+  border-bottom: 3px solid rgba(166, 44, 33, 0.1);
 }
 
 .page-title {
@@ -365,24 +365,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-.page-meta {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.meta-item {
-  background-color: rgba(212, 175, 55, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /* 主图 */
@@ -489,15 +471,6 @@ definePageMeta({
 
   .page-subtitle {
     font-size: 1.2rem;
-  }
-
-  .page-meta {
-    gap: 0.8rem;
-  }
-
-  .meta-item {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
   }
 
   .section-title {
