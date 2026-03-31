@@ -16,7 +16,7 @@
     <!-- 主图 -->
     <div class="featured-image">
       <img
-        src="/assets/images/five-elements.png"
+        src="/assets/images/five-elements.jpeg"
         alt="Five Elements - Wu Xing"
       />
     </div>
@@ -465,6 +465,11 @@ definePageMeta({
   margin-bottom: 0.8rem;
 }
 
+.featured-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* 响应式设计 */
 @media (max-width: 768px) {
   .page-title {

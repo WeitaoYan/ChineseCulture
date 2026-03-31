@@ -246,7 +246,7 @@ const articles = [
     slug: "five-elements",
     tags: ["philosophy", "traditions", "culture"],
     readtime: 8,
-    image: "/assets/images/building.png",
+    image: "/assets/images/five-elements.jpeg",
     excerpt:
       "Discover the Five Elements (Wuxing), the fundamental principles of Chinese philosophy covering Wood, Fire, Earth, Metal, and Water, and their generating and controlling cycles.",
   },
