@@ -12,12 +12,11 @@
     </div>
 
     <!-- 主图 -->
-    <div class="featured-image">
-      <img
-        src="/assets/images/congee.png"
-        alt="Traditional Laba Congee with various grains and nuts"
-      />
-    </div>
+    <FeaturedImage
+      imageSrc="/assets/images/congee.png"
+      altText="Traditional Laba Congee with various grains and nuts"
+    />
+
     <FestivalDates
       festival-name="Laba Festival"
       :lunar-month="12"
@@ -226,20 +225,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-/* 主图 */
-.featured-image {
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.featured-image img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* 内容主体 */

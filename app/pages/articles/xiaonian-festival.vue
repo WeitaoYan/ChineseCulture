@@ -14,12 +14,11 @@
     </div>
 
     <!-- 主图 -->
-    <div class="featured-image">
-      <img
-        src="/assets/images/xiaonian.png"
-        alt="Traditional Xiaonian decorations and offerings for Kitchen God"
-      />
-    </div>
+    <FeaturedImage
+      imageSrc="/assets/images/xiaonian.png"
+      altText="Traditional Xiaonian decorations and offerings for Kitchen God"
+    />
+
     <FestivalDates
       festival-name="Xiaonian Festival"
       :lunar-month="12"
@@ -288,20 +287,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-/* 主图 */
-.featured-image {
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.featured-image img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* 内容主体 */

@@ -14,12 +14,10 @@
     </div>
 
     <!-- 主图 -->
-    <div class="featured-image">
-      <img
-        src="/assets/images/po-wu.png"
-        alt="Traditional dumplings and firecrackers during Po Wu celebration"
-      />
-    </div>
+    <FeaturedImage
+      imageSrc="/assets/images/po-wu.png"
+      altText="Traditional dumplings and firecrackers during Po Wu celebration"
+    />
 
     <!-- 内容主体 -->
     <div class="content-body">
@@ -365,20 +363,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-/* 主图 */
-.featured-image {
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.featured-image img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* 内容主体 */

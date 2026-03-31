@@ -14,13 +14,10 @@
     </div>
 
     <!-- 主图 -->
-    <div class="featured-image">
-      <img
-        src="/assets/images/longtaitou.png"
-        alt="Traditional Longtaitou Festival dragon decorations and spring celebrations"
-        loading="lazy"
-      />
-    </div>
+    <FeaturedImage
+      imageSrc="/assets/images/longtaitou.png"
+      altText="Traditional Longtaitou Festival dragon decorations and spring celebrations"
+    />
 
     <FestivalDates
       festival-name="Longtaitou Festival"
@@ -284,20 +281,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-/* 主图 */
-.featured-image {
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.featured-image img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* 内容主体 */

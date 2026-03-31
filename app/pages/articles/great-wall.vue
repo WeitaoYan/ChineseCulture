@@ -12,12 +12,10 @@
     </div>
 
     <!-- 主图 -->
-    <div class="featured-image">
-      <img
-        src="/assets/images/greatwall.png"
-        alt="The Great Wall of China winding through mountains"
-      />
-    </div>
+    <FeaturedImage
+      imageSrc="/assets/images/greatwall.png"
+      altText="The Great Wall of China winding through mountains"
+    />
 
     <!-- 内容主体 -->
     <div class="content-body">
@@ -272,20 +270,6 @@ definePageMeta({
   color: #a62c21;
   font-weight: 500;
   margin-bottom: 1.5rem;
-}
-
-/* 主图 */
-.featured-image {
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.featured-image img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* 内容主体 */
