@@ -3,7 +3,9 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">Qingming Festival</h1>
-      <p class="page-subtitle">Tomb-Sweeping Day - Honoring Ancestors and Embracing Spring</p>
+      <p class="page-subtitle">
+        Tomb-Sweeping Day - Honoring Ancestors and Embracing Spring
+      </p>
       <PageMeta>
         <MetaItem>🪦 Ancestor Worship</MetaItem>
         <MetaItem>🌸 Spring Outings</MetaItem>
@@ -23,10 +25,19 @@
       <section class="section">
         <h2 class="section-title">Overview</h2>
         <p class="section-text">
-          Qingming Festival (清明节), also known as Tomb-Sweeping Day, is one of the most important traditional Chinese festivals. Falling on April 4th or 5th each year, it is a time when Chinese families honor their ancestors by visiting their graves, cleaning the tombstones, and making offerings. The festival beautifully balances solemn remembrance with the joyful celebration of spring's arrival.
+          Qingming Festival (清明节), also known as Tomb-Sweeping Day, is one of
+          the most important traditional Chinese festivals. Falling on April 4th
+          or 5th each year, it is a time when Chinese families honor their
+          ancestors by visiting their graves, cleaning the tombstones, and
+          making offerings. The festival beautifully balances solemn remembrance
+          with the joyful celebration of spring's arrival.
         </p>
         <p class="section-text">
-          With a history spanning over 2,500 years, Qingming embodies the Chinese values of filial piety and respect for one's roots. It is also a celebration of life and nature, as families traditionally take spring outings (踏青) to enjoy the warming weather and blossoming flowers.
+          With a history spanning over 2,500 years, Qingming embodies the
+          Chinese values of filial piety and respect for one's roots. It is also
+          a celebration of life and nature, as families traditionally take
+          spring outings (踏青) to enjoy the warming weather and blossoming
+          flowers.
         </p>
       </section>
 
@@ -36,17 +47,24 @@
         <FeatureGrid>
           <FeatureItem title="Date" theme="gold">
             <p>
-              Qingming Festival falls on the 15th day after the Spring Equinox, typically on <strong>April 4th, 5th, or 6th</strong> each year. Unlike most Chinese festivals that follow the lunar calendar, Qingming is based on the solar calendar.
+              Qingming Festival falls on the 15th day after the Spring Equinox,
+              typically on <strong>April 4th, 5th, or 6th</strong> each year.
+              Unlike most Chinese festivals that follow the lunar calendar,
+              Qingming is based on the solar calendar.
             </p>
           </FeatureItem>
           <FeatureItem title="Origin of Name" theme="gold">
             <p>
-              "Qingming" (清明) means "clear and bright" in Chinese, describing the fresh, clean weather of early spring when the sky clears and nature comes alive.
+              "Qingming" (清明) means "clear and bright" in Chinese, describing
+              the fresh, clean weather of early spring when the sky clears and
+              nature comes alive.
             </p>
           </FeatureItem>
           <FeatureItem title="Holiday Duration" theme="gold">
             <p>
-              In modern China, Qingming is a public holiday, typically observed with a one-day break, often combined with a weekend to create a three-day holiday period.
+              In modern China, Qingming is a public holiday, typically observed
+              with a one-day break, often combined with a weekend to create a
+              three-day holiday period.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -56,27 +74,38 @@
       <section class="section">
         <h2 class="section-title">Tomb-Sweeping and Ancestor Worship</h2>
         <p class="section-text">
-          The central tradition of Qingming Festival is visiting ancestral graves to pay respects. This practice reflects the deep-rooted Chinese value of filial piety (孝道) and the belief in maintaining connections with deceased family members.
+          The central tradition of Qingming Festival is visiting ancestral
+          graves to pay respects. This practice reflects the deep-rooted Chinese
+          value of filial piety (孝道) and the belief in maintaining connections
+          with deceased family members.
         </p>
         <FeatureGrid>
           <FeatureItem title="Cleaning the Graves" theme="gold">
             <p>
-              Families clean the tombstones, remove weeds, and tidy up the surrounding area. This act symbolizes care and respect for ancestors, ensuring their resting places are well-maintained.
+              Families clean the tombstones, remove weeds, and tidy up the
+              surrounding area. This act symbolizes care and respect for
+              ancestors, ensuring their resting places are well-maintained.
             </p>
           </FeatureItem>
           <FeatureItem title="Making Offerings" theme="gold">
             <p>
-              Traditional offerings include food, tea, wine, and incense. Families may also burn joss paper (paper money) as symbolic offerings for ancestors to use in the afterlife.
+              Traditional offerings include food, tea, wine, and incense.
+              Families may also burn joss paper (paper money) as symbolic
+              offerings for ancestors to use in the afterlife.
             </p>
           </FeatureItem>
           <FeatureItem title="Bow and Pray" theme="gold">
             <p>
-              Family members bow before the tombstone and offer prayers, expressing gratitude to ancestors and asking for their continued blessings and protection.
+              Family members bow before the tombstone and offer prayers,
+              expressing gratitude to ancestors and asking for their continued
+              blessings and protection.
             </p>
           </FeatureItem>
           <FeatureItem title="Willow Branches" theme="gold">
             <p>
-              Some traditions involve placing willow branches on graves or wearing them, as willow is believed to ward off evil spirits and bring good fortune.
+              Some traditions involve placing willow branches on graves or
+              wearing them, as willow is believed to ward off evil spirits and
+              bring good fortune.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -86,22 +115,30 @@
       <section class="section">
         <h2 class="section-title">Spring Outings (Taqing 踏青)</h2>
         <p class="section-text">
-          While Qingming involves solemn remembrance, it is also a joyful celebration of spring. After paying respects at ancestral graves, families often enjoy spring outings called "taqing" (踏青), meaning "treading on the green."
+          While Qingming involves solemn remembrance, it is also a joyful
+          celebration of spring. After paying respects at ancestral graves,
+          families often enjoy spring outings called "taqing" (踏青), meaning
+          "treading on the green."
         </p>
         <FeatureGrid>
           <FeatureItem title="Enjoying Nature" theme="gold">
             <p>
-              Families take walks in parks, mountains, and countryside areas to appreciate the blossoming flowers, fresh green leaves, and warming weather of early spring.
+              Families take walks in parks, mountains, and countryside areas to
+              appreciate the blossoming flowers, fresh green leaves, and warming
+              weather of early spring.
             </p>
           </FeatureItem>
           <FeatureItem title="Picnics" theme="gold">
             <p>
-              It's common for families to have picnics outdoors, enjoying traditional Qingming foods while surrounded by spring scenery.
+              It's common for families to have picnics outdoors, enjoying
+              traditional Qingming foods while surrounded by spring scenery.
             </p>
           </FeatureItem>
           <FeatureItem title="Photography" theme="gold">
             <p>
-              In modern times, many families combine tomb-sweeping with photography trips, capturing beautiful spring moments and creating lasting memories.
+              In modern times, many families combine tomb-sweeping with
+              photography trips, capturing beautiful spring moments and creating
+              lasting memories.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -111,22 +148,30 @@
       <section class="section">
         <h2 class="section-title">Flying Kites</h2>
         <p class="section-text">
-          Flying kites is a beloved Qingming tradition that dates back centuries. The open spaces and breezy spring weather make it an ideal time for this activity.
+          Flying kites is a beloved Qingming tradition that dates back
+          centuries. The open spaces and breezy spring weather make it an ideal
+          time for this activity.
         </p>
         <FeatureGrid>
           <FeatureItem title="Traditional Belief" theme="gold">
             <p>
-              According to tradition, when a kite is flown high and its string is cut, it carries away bad luck, illness, and misfortune. This act symbolizes letting go of negativity from the past year.
+              According to tradition, when a kite is flown high and its string
+              is cut, it carries away bad luck, illness, and misfortune. This
+              act symbolizes letting go of negativity from the past year.
             </p>
           </FeatureItem>
           <FeatureItem title="Kite Designs" theme="gold">
             <p>
-              Traditional Chinese kites feature intricate designs including dragons, phoenixes, butterflies, and legendary figures. Modern kites come in various creative shapes and sizes.
+              Traditional Chinese kites feature intricate designs including
+              dragons, phoenixes, butterflies, and legendary figures. Modern
+              kites come in various creative shapes and sizes.
             </p>
           </FeatureItem>
           <FeatureItem title="Family Activity" theme="gold">
             <p>
-              Kite flying is a popular family activity during Qingming, bringing generations together to enjoy the outdoors and create joyful spring memories.
+              Kite flying is a popular family activity during Qingming, bringing
+              generations together to enjoy the outdoors and create joyful
+              spring memories.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -136,22 +181,30 @@
       <section class="section">
         <h2 class="section-title">Traditional Foods</h2>
         <p class="section-text">
-          Qingming Festival has its own special traditional foods, varying by region across China.
+          Qingming Festival has its own special traditional foods, varying by
+          region across China.
         </p>
         <FeatureGrid>
           <FeatureItem title="Qingtuan (青团)" theme="gold">
             <p>
-              A glutinous rice dumpling colored green with mugwort or barley grass juice, filled with sweet bean paste. This soft, chewy snack is especially popular in southern China and is considered the signature Qingming food.
+              A glutinous rice dumpling colored green with mugwort or barley
+              grass juice, filled with sweet bean paste. This soft, chewy snack
+              is especially popular in southern China and is considered the
+              signature Qingming food.
             </p>
           </FeatureItem>
           <FeatureItem title="Sanzi (馓子)" theme="gold">
             <p>
-              Crispy fried dough twists made from wheat flour, popular in northern China. These golden, crunchy snacks have a long history dating back to the Cold Food Festival that merged with Qingming.
+              Crispy fried dough twists made from wheat flour, popular in
+              northern China. These golden, crunchy snacks have a long history
+              dating back to the Cold Food Festival that merged with Qingming.
             </p>
           </FeatureItem>
           <FeatureItem title="Snail Dishes" theme="gold">
             <p>
-              In some regions, particularly around Suzhou, eating snails during Qingming is traditional. The snails are believed to be at their most tender and delicious during this season.
+              In some regions, particularly around Suzhou, eating snails during
+              Qingming is traditional. The snails are believed to be at their
+              most tender and delicious during this season.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -161,22 +214,32 @@
       <section class="section">
         <h2 class="section-title">The Legend of Jie Zitui</h2>
         <p class="section-text">
-          Qingming Festival is closely connected to the story of Jie Zitui (介子推), a loyal servant from the Spring and Autumn Period (around 600 BCE).
+          Qingming Festival is closely connected to the story of Jie Zitui
+          (介子推), a loyal servant from the Spring and Autumn Period (around
+          600 BCE).
         </p>
         <FeatureGrid>
           <FeatureItem title="The Story" theme="gold">
             <p>
-              Jie Zitui once saved his master, Prince Chong'er, from starvation by cutting flesh from his own thigh to make soup. Later, when the prince became Duke Wen of Jin, he forgot to reward Jie, who retreated to the mountains with his mother.
+              Jie Zitui once saved his master, Prince Chong'er, from starvation
+              by cutting flesh from his own thigh to make soup. Later, when the
+              prince became Duke Wen of Jin, he forgot to reward Jie, who
+              retreated to the mountains with his mother.
             </p>
           </FeatureItem>
           <FeatureItem title="The Tragedy" theme="gold">
             <p>
-              When the duke tried to find Jie by burning the forest to force him out, Jie and his mother were found burned to death under a willow tree, clinging to an old willow.
+              When the duke tried to find Jie by burning the forest to force him
+              out, Jie and his mother were found burned to death under a willow
+              tree, clinging to an old willow.
             </p>
           </FeatureItem>
           <FeatureItem title="Cold Food Festival" theme="gold">
             <p>
-              In remorse, Duke Wen ordered that no fire be used for three days each year, creating the "Cold Food Festival" (寒食节). This eventually merged with Qingming, contributing traditions like eating cold foods such as sanzi.
+              In remorse, Duke Wen ordered that no fire be used for three days
+              each year, creating the "Cold Food Festival" (寒食节). This
+              eventually merged with Qingming, contributing traditions like
+              eating cold foods such as sanzi.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -188,17 +251,23 @@
         <FeatureGrid>
           <FeatureItem title="Filial Piety" theme="gold">
             <p>
-              Qingming Festival embodies the core Chinese value of filial piety, teaching younger generations to remember and honor their ancestors, fostering a sense of family continuity and gratitude.
+              Qingming Festival embodies the core Chinese value of filial piety,
+              teaching younger generations to remember and honor their
+              ancestors, fostering a sense of family continuity and gratitude.
             </p>
           </FeatureItem>
           <FeatureItem title="Life and Death" theme="gold">
             <p>
-              The festival represents a thoughtful balance between remembering the deceased and celebrating life. It acknowledges death while embracing the renewal of spring.
+              The festival represents a thoughtful balance between remembering
+              the deceased and celebrating life. It acknowledges death while
+              embracing the renewal of spring.
             </p>
           </FeatureItem>
           <FeatureItem title="Family Unity" theme="gold">
             <p>
-              Qingming brings families together, reinforcing bonds across generations as they share in both solemn rituals and joyful spring activities.
+              Qingming brings families together, reinforcing bonds across
+              generations as they share in both solemn rituals and joyful spring
+              activities.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -228,22 +297,30 @@
       <section class="section">
         <h2 class="section-title">Modern Celebrations</h2>
         <p class="section-text">
-          Today, Qingming Festival continues to be widely celebrated across China and among Chinese communities worldwide, with some adaptations to modern life.
+          Today, Qingming Festival continues to be widely celebrated across
+          China and among Chinese communities worldwide, with some adaptations
+          to modern life.
         </p>
         <FeatureGrid>
           <FeatureItem title="Online Tomb-Sweeping" theme="gold">
             <p>
-              For those unable to visit graves in person, online memorial platforms allow people to create virtual tributes and pay respects to ancestors digitally.
+              For those unable to visit graves in person, online memorial
+              platforms allow people to create virtual tributes and pay respects
+              to ancestors digitally.
             </p>
           </FeatureItem>
           <FeatureItem title="Eco-Friendly Practices" theme="gold">
             <p>
-              Many cemeteries now encourage eco-friendly practices such as using flowers instead of burning paper, and biodegradable offerings to reduce fire hazards and environmental impact.
+              Many cemeteries now encourage eco-friendly practices such as using
+              flowers instead of burning paper, and biodegradable offerings to
+              reduce fire hazards and environmental impact.
             </p>
           </FeatureItem>
           <FeatureItem title="Travel Rush" theme="gold">
             <p>
-              Similar to other major Chinese holidays, Qingming sees significant domestic travel as people return to their hometowns to visit ancestral graves.
+              Similar to other major Chinese holidays, Qingming sees significant
+              domestic travel as people return to their hometowns to visit
+              ancestral graves.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -256,25 +333,32 @@
           <div class="tip-item">
             <span class="tip-icon">📌</span>
             <div class="tip-text">
-              <strong>Best Time to Visit:</strong> Qingming (early April) is a beautiful time to visit China, with pleasant spring weather and blooming flowers.
+              <strong>Best Time to Visit:</strong> Qingming (early April) is a
+              beautiful time to visit China, with pleasant spring weather and
+              blooming flowers.
             </div>
           </div>
           <div class="tip-item">
             <span class="tip-icon">⚠️</span>
             <div class="tip-text">
-              <strong>Travel Note:</strong> Expect crowds at popular tourist destinations and transportation hubs during the holiday period.
+              <strong>Travel Note:</strong> Expect crowds at popular tourist
+              destinations and transportation hubs during the holiday period.
             </div>
           </div>
           <div class="tip-item">
             <span class="tip-icon">🌸</span>
             <div class="tip-text">
-              <strong>Try Qingtuan:</strong> The green glutinous rice dumpling is a unique seasonal treat worth trying, especially in southern China.
+              <strong>Try Qingtuan:</strong> The green glutinous rice dumpling
+              is a unique seasonal treat worth trying, especially in southern
+              China.
             </div>
           </div>
           <div class="tip-item">
             <span class="tip-icon">🪁</span>
             <div class="tip-text">
-              <strong>Join the Fun:</strong> Parks and open spaces during Qingming are great places to see kite flying and experience the festive spring atmosphere.
+              <strong>Join the Fun:</strong> Parks and open spaces during
+              Qingming are great places to see kite flying and experience the
+              festive spring atmosphere.
             </div>
           </div>
         </div>
@@ -367,7 +451,11 @@ definePageMeta({
 
 /* 诗句部分 */
 .quote-section {
-  background: linear-gradient(135deg, rgba(166, 44, 33, 0.05), rgba(212, 175, 55, 0.08));
+  background: linear-gradient(
+    135deg,
+    rgba(166, 44, 33, 0.05),
+    rgba(212, 175, 55, 0.08)
+  );
   text-align: center;
 }
 
@@ -400,7 +488,11 @@ definePageMeta({
 
 /* 小贴士部分 */
 .tips-section {
-  background: linear-gradient(135deg, rgba(76, 175, 80, 0.05), rgba(166, 44, 33, 0.05));
+  background: linear-gradient(
+    135deg,
+    rgba(76, 175, 80, 0.05),
+    rgba(166, 44, 33, 0.05)
+  );
 }
 
 .tips-content {

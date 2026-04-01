@@ -18,8 +18,8 @@ const props = defineProps({
   },
   theme: {
     type: String,
-    default: "gold", // 'gold', 'red', 'blue', 'green'
-    validator: (value) => ["gold", "red", "blue", "green"].includes(value),
+    default: "gold", // 'gold', 'red', 'blue', 'green', 'yellow', 'gray'
+    validator: (value) => ["gold", "red", "blue", "green", "yellow", "gray"].includes(value),
   },
 });
 

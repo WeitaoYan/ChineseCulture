@@ -15,7 +15,7 @@
 
     <!-- 主图 -->
     <FeaturedImage
-      imageSrc="/assets/images/five-elements.jpeg"
+      imageSrc="/assets/images/five-elements.png"
       altText="Five Elements - Wu Xing"
     />
 

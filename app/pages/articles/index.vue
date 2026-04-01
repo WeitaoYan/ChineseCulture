@@ -246,9 +246,19 @@ const articles = [
     slug: "five-elements",
     tags: ["philosophy", "traditions", "culture"],
     readtime: 8,
-    image: "/assets/images/five-elements.jpeg",
+    image: "/assets/images/five-elements.png",
     excerpt:
       "Discover the Five Elements (Wuxing), the fundamental principles of Chinese philosophy covering Wood, Fire, Earth, Metal, and Water, and their generating and controlling cycles.",
+  },
+  {
+    id: 15,
+    title: "Chinese Zodiac",
+    slug: "chinese-zodiac",
+    tags: ["traditions", "culture", "philosophy"],
+    readtime: 10,
+    image: "/assets/images/chinese-zodiac.png",
+    excerpt:
+      "Discover the Chinese Zodiac, a 12-year cycle of animal signs that influence personality, relationships, and cultural traditions in Chinese culture.",
   },
 ];
 
