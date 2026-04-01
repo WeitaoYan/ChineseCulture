@@ -256,7 +256,7 @@ const articles = [
     slug: "chinese-zodiac",
     tags: ["traditions", "culture", "philosophy"],
     readtime: 10,
-    image: "/assets/images/chinese-zodiac.png",
+    image: "/assets/images/chinese-zodiac.jpg",
     excerpt:
       "Discover the Chinese Zodiac, a 12-year cycle of animal signs that influence personality, relationships, and cultural traditions in Chinese culture.",
   },

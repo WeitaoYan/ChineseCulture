@@ -22,7 +22,7 @@
 
     <!-- 主图 -->
     <FeaturedImage
-      imageSrc="/assets/images/chinese-zodiac.png"
+      imageSrc="/assets/images/chinese-zodiac.jpg"
       altText="Chinese Zodiac - Sheng Xiao"
     />
 
