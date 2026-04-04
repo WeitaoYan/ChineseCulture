@@ -14,6 +14,12 @@
     </div>
 
     <!-- 主图 -->
+    <FestivalDates
+      festival-name="Dragon Boat Festival"
+      :lunar-month="5"
+      :lunar-day="5"
+    />
+
     <FeaturedImage
       imageSrc="/assets/images/dragon-boat-festival.png"
       altText="Dragon Boat Festival - vibrant dragon boat races on rivers and lakes"
