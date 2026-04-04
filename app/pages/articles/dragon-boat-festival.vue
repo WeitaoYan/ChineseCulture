@@ -51,7 +51,7 @@
       <section class="section">
         <h2 class="section-title">When Is Dragon Boat Festival?</h2>
         <FeatureGrid>
-          <FeatureItem title="Date" theme="gold">
+          <FeatureItem title="Date" theme="red">
             <p>
               Dragon Boat Festival falls on the <strong>5th day of the 5th lunar month</strong>,
               which typically corresponds to <strong>June</strong> in the Gregorian
@@ -59,7 +59,7 @@
               traditional Chinese lunar calendar.
             </p>
           </FeatureItem>
-          <FeatureItem title="Origin of Name" theme="gold">
+          <FeatureItem title="Origin of Name" theme="red">
             <p>
               "Duanwu" (端午) means "beginning of midday" or "end of the fifth",
               referring to the lunar date. The more popular English name
@@ -67,7 +67,7 @@
               long, dragon-prowed boats that are the holiday's centerpiece.
             </p>
           </FeatureItem>
-          <FeatureItem title="Holiday Duration" theme="gold">
+          <FeatureItem title="Holiday Duration" theme="red">
             <p>
               In modern China, Dragon Boat Festival is a public holiday,
               typically observed with a one-day break, often combined with a
@@ -88,7 +88,7 @@
           spectacular events in Chinese culture.
         </p>
         <FeatureGrid>
-          <FeatureItem title="Dragon Boats" theme="gold">
+          <FeatureItem title="Dragon Boats" theme="red">
             <p>
               Traditional dragon boats are long, narrow vessels adorned with a
               carved dragon head at the bow and a dragon tail at the stern. They
@@ -96,7 +96,7 @@
               who steers from the rear.
             </p>
           </FeatureItem>
-          <FeatureItem title="The Drummer" theme="gold">
+          <FeatureItem title="The Drummer" theme="red">
             <p>
               The drummer sits at the front of the boat, beating a large drum to
               set the pace and inspire the team. The rhythm of the drum is
@@ -104,7 +104,7 @@
               a single, powerful force.
             </p>
           </FeatureItem>
-          <FeatureItem title="Race Traditions" theme="gold">
+          <FeatureItem title="Race Traditions" theme="red">
             <p>
               Before races begin, teams perform a ceremonial "Eye-Dotting"
               ritual (点睛) to bring the dragon to life by painting its eyes
@@ -112,7 +112,7 @@
               dragon's spiritual significance.
             </p>
           </FeatureItem>
-          <FeatureItem title="Competitive Spirit" theme="gold">
+          <FeatureItem title="Competitive Spirit" theme="red">
             <p>
               Dragon boat racing is now an internationally recognized sport with
               governing bodies and annual world championships. However, locally
@@ -133,7 +133,7 @@
           savory varieties.
         </p>
         <FeatureGrid>
-          <FeatureItem title="Northern Style" theme="gold">
+          <FeatureItem title="Northern Style" theme="red">
             <p>
               In northern China, zongzi are typically sweetened with red bean
               paste or jujube (Chinese date). They tend to be larger and often
@@ -141,7 +141,7 @@
               rectangular or conical.
             </p>
           </FeatureItem>
-          <FeatureItem title="Southern Style" theme="gold">
+          <FeatureItem title="Southern Style" theme="red">
             <p>
               Southern zongzi are usually savory, filled with marinated pork,
               salted egg yolk, chestnuts, or mushrooms. They are often wrapped
@@ -149,7 +149,7 @@
               and are more compact and triangular in shape.
             </p>
           </FeatureItem>
-          <FeatureItem title="The Wrapping Process" theme="gold">
+          <FeatureItem title="The Wrapping Process" theme="red">
             <p>
               Making zongzi is a cherished family activity. Bamboo leaves are
               soaked until pliable, sticky rice and fillings are prepared, and
@@ -157,7 +157,7 @@
               pyramid shape — a skill passed down through generations.
             </p>
           </FeatureItem>
-          <FeatureItem title="Legend of Zongzi" theme="gold">
+          <FeatureItem title="Legend of Zongzi" theme="red">
             <p>
               Zongzi is traditionally associated with the legend of Qu Yuan.
               Legend says that after the poet drowned, locals threw rice dumplings
@@ -178,7 +178,7 @@
           bring good health.
         </p>
         <FeatureGrid>
-          <FeatureItem title="Hanging Mugwort and Calamus" theme="gold">
+          <FeatureItem title="Hanging Mugwort and Calamus" theme="red">
             <p>
               It is customary to hang bundles of mugwort (艾草) and calamus
               (菖蒲) above doors and windows during Dragon Boat Festival. These
@@ -186,7 +186,7 @@
               spirits, and bring good fortune to the household.
             </p>
           </FeatureItem>
-          <FeatureItem title="Aromatic Sachets" theme="gold">
+          <FeatureItem title="Aromatic Sachets" theme="red">
             <p>
               Children and adults often wear fragrant sachets (香囊) filled with
               medicinal herbs and spices, hung around the neck or pinned to
@@ -194,7 +194,7 @@
               protective, disease-preventing properties.
             </p>
           </FeatureItem>
-          <FeatureItem title="Five-Color Thread" theme="gold">
+          <FeatureItem title="Five-Color Thread" theme="red">
             <p>
               Parents traditionally tie five-color silk thread (五彩丝) around
               their children's wrists, necks, or ankles during the festival.
@@ -202,7 +202,7 @@
               the five elements and are believed to protect against evil.
             </p>
           </FeatureItem>
-          <FeatureItem title="Realgar Wine" theme="gold">
+          <FeatureItem title="Realgar Wine" theme="red">
             <p>
               A small amount of realgar wine (雄黄酒), made with powdered realgar,
               is sometimes drunk or dabbed on children's foreheads during the
@@ -223,7 +223,7 @@
           Warring States Period (340–278 BCE).
         </p>
         <FeatureGrid>
-          <FeatureItem title="The Poet" theme="gold">
+          <FeatureItem title="The Poet" theme="red">
             <p>
               Qu Yuan served as a minister in the Kingdom of Chu. Known for his
               brilliant literary talent and deep love for his country, he authored
@@ -231,7 +231,7 @@
               poems in Chinese literature.
             </p>
           </FeatureItem>
-          <FeatureItem title="Exile" theme="gold">
+          <FeatureItem title="Exile" theme="red">
             <p>
               Due to political intrigue and slander by jealous rivals, Qu Yuan
               was exiled by King Huai of Chu. During his exile, he traveled
@@ -239,7 +239,7 @@
               his homeland and his grief over its decline.
             </p>
           </FeatureItem>
-          <FeatureItem title="Drowning" theme="gold">
+          <FeatureItem title="Drowning" theme="red">
             <p>
               In 278 BCE, upon hearing that Chu's capital had been invaded by
               Qin forces, Qu Yuan was so distraught that he drowned himself in
@@ -247,7 +247,7 @@
               choosing death over serving a fallen kingdom.
             </p>
           </FeatureItem>
-          <FeatureItem title="Dragon Boat Racing" theme="gold">
+          <FeatureItem title="Dragon Boat Racing" theme="red">
             <p>
               Upon hearing of Qu Yuan's death, local fishermen rushed to the
               river in their boats, racing to save him or retrieve his body.
@@ -263,7 +263,7 @@
       <section class="section">
         <h2 class="section-title">Cultural Significance</h2>
         <FeatureGrid>
-          <FeatureItem title="Patriotism" theme="gold">
+          <FeatureItem title="Patriotism" theme="red">
             <p>
               Through the story of Qu Yuan, Dragon Boat Festival embodies the
               Chinese value of patriotism and loyalty to one's country. It
@@ -271,7 +271,7 @@
               personal well-being.
             </p>
           </FeatureItem>
-          <FeatureItem title="Community Spirit" theme="gold">
+          <FeatureItem title="Community Spirit" theme="red">
             <p>
               Dragon boat races foster a strong sense of teamwork, community
               pride, and collective identity. Villages, companies, and
@@ -279,7 +279,7 @@
               social bonds.
             </p>
           </FeatureItem>
-          <FeatureItem title="Harmony with Nature" theme="gold">
+          <FeatureItem title="Harmony with Nature" theme="red">
             <p>
               The festival's herbal and aromatic traditions reflect the Chinese
               philosophy of living in harmony with nature and using natural
@@ -318,7 +318,7 @@
           traditions and modern innovations.
         </p>
         <FeatureGrid>
-          <FeatureItem title="International Growth" theme="gold">
+          <FeatureItem title="International Growth" theme="red">
             <p>
               Dragon boat racing has become a global sport with competitions
               held worldwide, from the United States to Australia. Annual
@@ -326,7 +326,7 @@
               participants and draw massive crowds.
             </p>
           </FeatureItem>
-          <FeatureItem title="Culinary Innovation" theme="gold">
+          <FeatureItem title="Culinary Innovation" theme="red">
             <p>
               While traditional zongzi remain popular, modern variations have
               emerged including ice cream zongzi, chocolate zongzi, and even
@@ -334,7 +334,7 @@
               tastes, especially popular among younger generations.
             </p>
           </FeatureItem>
-          <FeatureItem title="Cultural Tourism" theme="gold">
+          <FeatureItem title="Cultural Tourism" theme="red">
             <p>
               Many Chinese cities organize large-scale dragon boat events during
               the festival, attracting tourists with performances, food fairs,
