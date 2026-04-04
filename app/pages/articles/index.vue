@@ -242,6 +242,16 @@ const articles = [
   },
   {
     id: 14,
+    title: "Dragon Boat Festival",
+    slug: "dragon-boat-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 10,
+    image: "/assets/images/dragon-boat-festival.png",
+    excerpt:
+      "Discover Dragon Boat Festival (Duanwu Festival), an exciting Chinese celebration featuring dragon boat races, zongzi dumplings, and ancient traditions honoring the poet Qu Yuan.",
+  },
+  {
+    id: 15,
     title: "Five Elements",
     slug: "five-elements",
     tags: ["philosophy", "traditions", "culture"],
@@ -251,7 +261,7 @@ const articles = [
       "Discover the Five Elements (Wuxing), the fundamental principles of Chinese philosophy covering Wood, Fire, Earth, Metal, and Water, and their generating and controlling cycles.",
   },
   {
-    id: 15,
+    id: 16,
     title: "Chinese Zodiac",
     slug: "chinese-zodiac",
     tags: ["traditions", "culture", "philosophy"],
