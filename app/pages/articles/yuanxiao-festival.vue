@@ -18,7 +18,11 @@
       imageSrc="/assets/images/yuanxiao.png"
       altText="Colorful lanterns and sweet yuanxiao during the Lantern Festival"
     />
-
+    <FestivalDates
+      festivalName="Yuanxiao Festival"
+      lunarMonth="1"
+      lunarDay="15"
+    />
     <!-- 内容主体 -->
     <div class="content-body">
       <!-- 简介部分 -->
@@ -63,9 +67,7 @@
             </p>
           </FeatureItem>
           <FeatureItem title="Lantern Festival (灯笼节)" theme="gold">
-            <p>
-              Named after the central activity when darkness falls.
-            </p>
+            <p>Named after the central activity when darkness falls.</p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -491,7 +493,6 @@ definePageMeta({
 .comparison-table tr:last-child td {
   border-bottom: none;
 }
-
 
 /* 信息框 */
 .info-box {

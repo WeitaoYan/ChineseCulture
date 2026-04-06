@@ -262,6 +262,16 @@ const articles = [
   },
   {
     id: 16,
+    title: "Mid-Autumn Festival",
+    slug: "mid-autumn-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 10,
+    image: "/assets/images/mid-autumn.jpg",
+    excerpt:
+      "Discover the Mid-Autumn Festival, a traditional Chinese celebration of the full moon, mooncakes, and family reunion.",
+  },
+  {
+    id: 17,
     title: "Chinese Zodiac",
     slug: "chinese-zodiac",
     tags: ["traditions", "culture", "philosophy"],
@@ -269,6 +279,16 @@ const articles = [
     image: "/assets/images/chinese-zodiac.jpg",
     excerpt:
       "Discover the Chinese Zodiac, a 12-year cycle of animal signs that influence personality, relationships, and cultural traditions in Chinese culture.",
+  },
+  {
+    id: 18,
+    title: "Qixi Festival",
+    slug: "qixi-festival",
+    tags: ["traditions", "festival", "romance"],
+    readtime: 8,
+    image: "/assets/images/qixi.jpg",
+    excerpt:
+      "Discover Qixi Festival, Chinese Valentine's Day celebrating the legendary love of Cowherd and Weaver Girl.",
   },
 ];
 
