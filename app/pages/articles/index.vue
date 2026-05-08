@@ -290,6 +290,16 @@ const articles = [
     excerpt:
       "Discover Qixi Festival, Chinese Valentine's Day celebrating the legendary love of Cowherd and Weaver Girl.",
   },
+  {
+    id: 19,
+    title: "Double Ninth Festival",
+    slug: "chongyang-festival",
+    tags: ["traditions", "festival", "family"],
+    readtime: 9,
+    image: "/assets/images/chongyang-festival.jpg",
+    excerpt:
+      "Discover Double Ninth Festival (Chongyang Jie), a traditional Chinese celebration of honoring elders, climbing mountains, and viewing chrysanthemums on the 9th day of the 9th lunar month.",
+  },
 ];
 
 // 过滤文章
