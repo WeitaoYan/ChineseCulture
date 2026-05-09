@@ -300,6 +300,16 @@ const articles = [
     excerpt:
       "Discover Double Ninth Festival (Chongyang Jie), a traditional Chinese celebration of honoring elders, climbing mountains, and viewing chrysanthemums on the 9th day of the 9th lunar month.",
   },
+  {
+    id: 20,
+    title: "Shangsi Festival",
+    slug: "shangsi-festival",
+    tags: ["traditions", "festival", "spring"],
+    readtime: 8,
+    image: "/assets/images/shangsi-festival.jpg",
+    excerpt:
+      "Discover Shangsi Festival (上巳节), an ancient Chinese spring celebration of purification rituals, flower viewing, and floating wine cups on the 3rd day of the 3rd lunar month.",
+  },
 ];
 
 // 过滤文章
