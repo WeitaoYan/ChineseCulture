@@ -320,6 +320,16 @@ const articles = [
     excerpt:
       "Discover the art of Chinese calligraphy (书法), a 3,000-year tradition of brush and ink. Explore the Five Major Script Styles, the Four Treasures of the Study, and legendary masters like Wang Xizhi.",
   },
+  {
+    id: 22,
+    title: "Chinese Tea Culture",
+    slug: "chinese-tea-culture",
+    tags: ["traditions", "culture", "cuisine"],
+    readtime: 10,
+    image: "/assets/images/chinese-tea-culture.jpg",
+    excerpt:
+      "Discover Chinese tea culture (茶文化), a 5,000-year tradition of tea, ceremony, and philosophy. Explore the Six Types of Chinese Tea, the art of Gongfu Cha, and the legendary Tea Horse Road.",
+  },
 ];
 
 // 过滤文章
