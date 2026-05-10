@@ -310,6 +310,16 @@ const articles = [
     excerpt:
       "Discover Shangsi Festival (上巳节), an ancient Chinese spring celebration of purification rituals, flower viewing, and floating wine cups on the 3rd day of the 3rd lunar month.",
   },
+  {
+    id: 21,
+    title: "Chinese Calligraphy",
+    slug: "chinese-calligraphy",
+    tags: ["traditions", "culture", "art"],
+    readtime: 10,
+    image: "/assets/images/chinese-calligraphy.jpg",
+    excerpt:
+      "Discover the art of Chinese calligraphy (书法), a 3,000-year tradition of brush and ink. Explore the Five Major Script Styles, the Four Treasures of the Study, and legendary masters like Wang Xizhi.",
+  },
 ];
 
 // 过滤文章
