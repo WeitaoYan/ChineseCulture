@@ -1,4 +1,5 @@
-User-Agent: *
-Disallow:
-
-Sitemap: https://chineseculture.example.com/sitemap.xml
+     1|User-Agent: *
+     2|Disallow:
+     3|
+     4|Sitemap: https://chinese-culture.ikber.cc/sitemap.xml
+     5|
