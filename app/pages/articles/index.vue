@@ -59,9 +59,33 @@
 
     <!-- 分页 -->
     <div class="pagination">
-      <button class="page-btn prev-btn" disabled>Previous</button>
-      <span class="page-info">Page 1 of 1</span>
-      <button class="page-btn next-btn" disabled>Next</button>
+      <button
+        class="page-btn prev-btn"
+        :disabled="currentPage <= 1"
+        @click="goToPage(currentPage - 1)"
+      >
+        ← Previous
+      </button>
+
+      <div class="page-numbers">
+        <button
+          v-for="page in totalPages"
+          :key="page"
+          class="page-num"
+          :class="{ active: page === currentPage }"
+          @click="goToPage(page)"
+        >
+          {{ page }}
+        </button>
+      </div>
+
+      <button
+        class="page-btn next-btn"
+        :disabled="currentPage >= totalPages"
+        @click="goToPage(currentPage + 1)"
+      >
+        Next →
+      </button>
     </div>
   </div>
 </template>
@@ -104,9 +128,16 @@ useHead({
   ],
 });
 
-// 从路由参数获取当前选中的标签
+// 文章每页数量
+const PER_PAGE = 9;
+
+// 从路由参数获取当前选中的标签和页码
 const route = useRoute();
 const currentTag = computed(() => route.query.tag || "all");
+const currentPage = computed(() => {
+  const p = parseInt(route.query.page);
+  return p > 0 ? p : 1;
+});
 
 // 文章数据
 const articles = [
@@ -332,13 +363,39 @@ const articles = [
   },
 ];
 
-// 过滤文章
-const filteredArticles = computed(() => {
+// 过滤文章 + 分页逻辑
+const filteredByTag = computed(() => {
   if (currentTag.value === "all") {
     return articles;
   }
   return articles.filter((article) => article.tags.includes(currentTag.value));
 });
+
+const totalPages = computed(() =>
+  Math.max(1, Math.ceil(filteredByTag.value.length / PER_PAGE))
+);
+
+const filteredArticles = computed(() => {
+  // 如果当前页码超出了筛选后的总页数，自动回到第1页
+  if (currentPage.value > totalPages.value) {
+    navigateTo({
+      query: { ...route.query, page: undefined },
+      replace: true,
+    });
+    return filteredByTag.value.slice(0, PER_PAGE);
+  }
+  const start = (currentPage.value - 1) * PER_PAGE;
+  return filteredByTag.value.slice(start, start + PER_PAGE);
+});
+
+// 翻页时重置到顶部
+function goToPage(page) {
+  if (page < 1 || page > totalPages.value) return;
+  navigateTo({
+    query: { ...route.query, page: page > 1 ? page : undefined },
+  });
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 </script>
 
 <style scoped>
@@ -510,9 +567,39 @@ const filteredArticles = computed(() => {
   cursor: not-allowed;
 }
 
-.page-info {
-  color: #666;
-  font-weight: 500;
+/* 页码按钮 */
+.page-numbers {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.page-num {
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 2px solid rgba(166, 44, 33, 0.15);
+  background-color: white;
+  border-radius: 8px;
+  color: #555;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-num:hover {
+  border-color: #a62c21;
+  color: #a62c21;
+  transform: translateY(-2px);
+}
+
+.page-num.active {
+  background-color: #a62c21;
+  border-color: #a62c21;
+  color: white;
+  box-shadow: 0 2px 8px rgba(166, 44, 33, 0.3);
 }
 
 .tag-link {
@@ -544,6 +631,23 @@ const filteredArticles = computed(() => {
 
   .tag-badge {
     font-size: 0.6rem;
+  }
+
+  /* 分页移动端适配 */
+  .pagination {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .page-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .page-num {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.85rem;
   }
 }
 </style>
