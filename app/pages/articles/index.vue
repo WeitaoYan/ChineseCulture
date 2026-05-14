@@ -361,6 +361,16 @@ const articles = [
     excerpt:
       "Discover Chinese tea culture (茶文化), a 5,000-year tradition of tea, ceremony, and philosophy. Explore the Six Types of Chinese Tea, the art of Gongfu Cha, and the legendary Tea Horse Road.",
   },
+  {
+    id: 23,
+    title: "Yin & Yang · I Ching",
+    slug: "yin-yang-i-ching",
+    tags: ["philosophy", "culture", "traditions"],
+    readtime: 12,
+    image: "/assets/images/yin-yang-i-ching.jpg",
+    excerpt:
+      "Discover Yin-Yang philosophy and the I Ching (Book of Changes), the ancient Chinese systems of cosmology, divination, and wisdom that have shaped Eastern thought for over 3,000 years.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑
