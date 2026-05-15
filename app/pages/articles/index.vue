@@ -371,6 +371,16 @@ const articles = [
     excerpt:
       "Discover Yin-Yang philosophy and the I Ching (Book of Changes), the ancient Chinese systems of cosmology, divination, and wisdom that have shaped Eastern thought for over 3,000 years.",
   },
+  {
+    id: 24,
+    title: "Temple of Heaven",
+    slug: "temple-of-heaven",
+    tags: ["history", "architecture", "culture"],
+    readtime: 10,
+    image: "/assets/images/temple-of-heaven.png",
+    excerpt:
+      "Explore the Temple of Heaven (Tiantan), the magnificent Ming Dynasty ceremonial complex where emperors prayed for good harvests and communicated with Heaven.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑
