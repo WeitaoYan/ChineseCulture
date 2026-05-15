@@ -383,12 +383,13 @@ const articles = [
   },
 ];
 
-// 过滤文章 + 分页逻辑
+// 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
 const filteredByTag = computed(() => {
-  if (currentTag.value === "all") {
-    return articles;
-  }
-  return articles.filter((article) => article.tags.includes(currentTag.value));
+  const filtered =
+    currentTag.value === "all"
+      ? articles
+      : articles.filter((article) => article.tags.includes(currentTag.value));
+  return filtered.slice().reverse();
 });
 
 const totalPages = computed(() =>
