@@ -381,6 +381,16 @@ const articles = [
     excerpt:
       "Explore the Temple of Heaven (Tiantan), the magnificent Ming Dynasty ceremonial complex where emperors prayed for good harvests and communicated with Heaven.",
   },
+  {
+    id: 25,
+    title: "Winter Solstice",
+    slug: "winter-solstice",
+    tags: ["traditions", "festival", "cuisine"],
+    readtime: 10,
+    image: "/assets/images/winter-solstice.png",
+    excerpt:
+      "Discover the Winter Solstice (冬至), a major Chinese festival celebrating the shortest day of the year with dumplings, tangyuan, family gatherings, and ancient traditions.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
