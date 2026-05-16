@@ -113,7 +113,16 @@
 
 <script setup>
 definePageMeta({
-  layout: "home", // 使用 home 布局
+  layout: "home",
+  title: "Home",
+  description:
+    "Discover Chinese traditional culture — explore festivals, history, philosophy, cuisine, and ancient heritage.",
+  ogTitle: "Chinese Culture Explorer",
+  ogDescription:
+    "Explore the rich heritage and timeless traditions of China — festivals, history, philosophy, art, and more.",
+  ogType: "website",
+  twitterCard: "summary_large_image",
+  robots: "index,follow",
 });
 </script>
 
