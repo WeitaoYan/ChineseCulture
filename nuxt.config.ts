@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxtjs/sitemap"],
+  site: {
+    name: "Chinese Culture Explorer",
+    url: "https://chinese-culture.ikber.cc",
+  },
   sitemap: {
     siteUrl: "https://chinese-culture.ikber.cc",
     autoLastmod: true,
