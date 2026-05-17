@@ -391,6 +391,16 @@ const articles = [
     excerpt:
       "Discover the Winter Solstice (冬至), a major Chinese festival celebrating the shortest day of the year with dumplings, tangyuan, family gatherings, and ancient traditions.",
   },
+  {
+    id: 26,
+    title: "Chinese Zhuxuan Culture",
+    slug: "zhuxuan-culture",
+    tags: ["culture", "traditions", "philosophy"],
+    readtime: 10,
+    image: "/assets/images/zhuxuan-culture.png",
+    excerpt:
+      "Discover Chinese zhuxuan (珠算), the ancient art of abacus calculation. Explore 1,800 years of suanpan history, mental abacus techniques, and its UNESCO-recognized cultural heritage.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
