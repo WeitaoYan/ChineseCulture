@@ -2,7 +2,7 @@
   <div class="content-page">
     <!-- 页面头部 -->
     <div class="page-header">
-      <h1 class="page-title">Chinese Zhuxuan Culture</h1>
+      <h1 class="page-title">Chinese Zhusuan Culture</h1>
       <p class="page-subtitle">
         Zhū Suàn — The Art and Wisdom of the Abacus
       </p>
@@ -15,7 +15,7 @@
 
     <!-- 主图 -->
     <FeaturedImage
-      imageSrc="/assets/images/zhuxuan-culture.png"
+      imageSrc="/assets/images/zhusuan-culture.png"
       altText="Traditional Chinese abacus (suanpan) — a timeless tool of calculation and wisdom"
     />
 
@@ -25,14 +25,14 @@
       <section class="section">
         <h2 class="section-title">The Abacus Civilization</h2>
         <p class="section-text">
-          The <strong>Chinese Zhuxuan</strong> (珠算) — the art of abacus
+          The <strong>Chinese Zhusuan</strong> (珠算) — the art of abacus
           calculation — is one of the most enduring inventions of Chinese
           civilization. For over 1,800 years, the abacus (算盘, Suànpán) served
           as the primary calculating device in China, shaping commerce,
           education, and mathematical thinking across East Asia.
         </p>
         <p class="section-text">
-          In 2013, Chinese zhuxuan was officially inscribed on UNESCO's
+          In 2013, Chinese zhusuan was officially inscribed on UNESCO's
           Representative List of the Intangible Cultural Heritage of Humanity,
           recognizing it not merely as a calculating technique, but as a living
           cultural tradition that continues to be taught and practiced today.
@@ -65,7 +65,7 @@
           </FeatureItem>
           <FeatureItem title="Ming Dynasty Golden Age (1368–1644)" theme="gold">
             <p>
-              The Ming Dynasty was the golden age of zhuxuan. Master Cheng Dawei
+              The Ming Dynasty was the golden age of zhusuan. Master Cheng Dawei
               wrote the seminal text <em>General Source of Computational
               Methods</em> (算法统宗) in 1592, compiling abacus techniques into
               a comprehensive manual that remained the standard for centuries.
@@ -73,9 +73,9 @@
           </FeatureItem>
           <FeatureItem title="Modern Heritage (20th–21st Century)" theme="red">
             <p>
-              Despite the rise of electronic calculators, China kept zhuxuan in
+              Despite the rise of electronic calculators, China kept zhusuan in
               its primary school curriculum well into the 2000s. In 2013,
-              UNESCO recognized zhuxuan as an Intangible Cultural Heritage,
+              UNESCO recognized zhusuan as an Intangible Cultural Heritage,
               cementing its global cultural significance.
             </p>
           </FeatureItem>
@@ -129,7 +129,7 @@
       <section class="section">
         <h2 class="section-title">Mental Abacus — Beyond the Tool</h2>
         <p class="section-text">
-          Perhaps the most astonishing aspect of zhuxuan culture is the practice
+          Perhaps the most astonishing aspect of zhusuan culture is the practice
           of <strong>mental abacus</strong> (心算, Xīnsuàn). Skilled practitioners
           visualize the abacus beads in their mind and perform calculations on
           this mental image — achieving speeds that rival or exceed electronic
@@ -147,7 +147,7 @@
           <FeatureItem title="Training the Brain" theme="gold">
             <p>
               Studies show that abacus training enhances working memory,
-              concentration, and numerical cognition. Children who learn zhuxuan
+              concentration, and numerical cognition. Children who learn zhusuan
               develop stronger spatial reasoning and mental arithmetic abilities
               — benefits that last into adulthood.
             </p>
@@ -162,7 +162,7 @@
           </FeatureItem>
           <FeatureItem title="Competition Culture" theme="red">
             <p>
-              Zhuxuan competitions are held across China, Japan, and Southeast
+              Zhusuan competitions are held across China, Japan, and Southeast
               Asia. Participants race through complex arithmetic problems at
               breathtaking speeds. The World Mental Calculation Championships
               feature abacus masters who can outperform calculators on complex
@@ -191,7 +191,7 @@
           </FeatureItem>
           <FeatureItem title="Confucian Values" theme="red">
             <p>
-              Learning zhuxuan embodies the Confucian ideals of diligence,
+              Learning zhusuan embodies the Confucian ideals of diligence,
               discipline, and continuous self-cultivation. The slow, deliberate
               practice of bead manipulation teaches patience and precision —
               virtues that extend beyond mathematics into character development.
@@ -219,16 +219,16 @@
 
       <!-- 当代复兴 -->
       <section class="section">
-        <h2 class="section-title">Zhuxuan in the Modern World</h2>
+        <h2 class="section-title">Zhusuan in the Modern World</h2>
         <p class="section-text">
-          Far from being obsolete, zhuxuan is experiencing a remarkable revival
+          Far from being obsolete, zhusuan is experiencing a remarkable revival
           in the 21st century. In China, abacus training programs serve millions
-          of children, and many parents choose zhuxuan classes over calculator
+          of children, and many parents choose zhusuan classes over calculator
           skills for early math education.
         </p>
         <p class="section-text">
           The UNESCO Intangible Cultural Heritage designation in 2013 sparked new
-          interest worldwide. International zhuxuan organizations promote the
+          interest worldwide. International zhusuan organizations promote the
           practice across Asia, Europe, and the Americas. Researchers in
           cognitive science study abacus training for insights into numerical
           cognition, while educators explore it as a tool for inclusive math
@@ -237,7 +237,7 @@
         <FeatureGrid>
           <FeatureItem title="School Curriculum" theme="red">
             <p>
-              Many Chinese primary schools still teach zhuxuan as part of the
+              Many Chinese primary schools still teach zhusuan as part of the
               mathematics curriculum. Abacus education is also strong in
               Malaysia, Singapore, Taiwan, and increasingly in Western countries
               where it is adopted as an enrichment program for gifted students
@@ -246,7 +246,7 @@
           </FeatureItem>
           <FeatureItem title="Digital Era" theme="gold">
             <p>
-              Zhuxuan has embraced the digital age. Mobile apps simulate the
+              Zhusuan has embraced the digital age. Mobile apps simulate the
               suanpan for practice, online competitions connect practitioners
               worldwide, and animated tutorials teach traditional techniques.
               The abacus has even inspired new approaches to teaching binary and
@@ -256,7 +256,7 @@
           <FeatureItem title="International Community" theme="blue">
             <p>
               The World Abacus Association, based in China's Zhu Hai City,
-              organizes international zhuxuan competitions that draw thousands
+              organizes international zhusuan competitions that draw thousands
               of participants. These events demonstrate the continued vitality
               of the tradition, with young champions performing feats of mental
               arithmetic that astonish audiences worldwide.
@@ -271,7 +271,7 @@
           "The abacus does not calculate for you — it teaches you to calculate.
           It is not a shortcut, but a path. Each bead you move is a step toward
           mastery of numbers, and of yourself."
-          <template #author>— Traditional Zhuxuan Proverb</template>
+          <template #author>— Traditional Zhusuan Proverb</template>
         </QuoteBox>
       </section>
     </div>
@@ -282,16 +282,16 @@
 definePageMeta({
   layout: "content",
   title:
-    "Chinese Zhuxuan Culture | The Art of the Abacus — Chinese Culture Guide",
+    "Chinese Zhusuan Culture | The Art of the Abacus — Chinese Culture Guide",
   description:
-    "Discover Chinese zhuxuan (珠算), the ancient art of abacus calculation. Explore 1,800 years of history, the anatomy of the suanpan, mental abacus techniques, and its UNESCO-recognized cultural heritage.",
-  ogTitle: "Chinese Zhuxuan Culture — The Art and Wisdom of the Abacus",
+    "Discover Chinese zhusuan (珠算), the ancient art of abacus calculation. Explore 1,800 years of history, the anatomy of the suanpan, mental abacus techniques, and its UNESCO-recognized cultural heritage.",
+  ogTitle: "Chinese Zhusuan Culture — The Art and Wisdom of the Abacus",
   ogDescription:
     "Explore the history, techniques, and cultural significance of the Chinese abacus (suanpan), from Han Dynasty origins to UNESCO Intangible Heritage",
   ogType: "article",
-  ogImage: "/assets/images/zhuxuan-culture.png",
+  ogImage: "/assets/images/zhusuan-culture.png",
   twitterCard: "summary_large_image",
-  twitterTitle: "Chinese Zhuxuan Culture — The Art and Wisdom of the Abacus",
+  twitterTitle: "Chinese Zhusuan Culture — The Art and Wisdom of the Abacus",
   twitterDescription:
     "Explore the history, techniques, and cultural significance of the Chinese abacus",
   robots: "index,follow",
@@ -301,16 +301,16 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Chinese Zhuxuan Culture — The Art of the Abacus",
+  title: "Chinese Zhusuan Culture — The Art of the Abacus",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Chinese Zhuxuan Culture — The Art of the Abacus",
+        name: "Chinese Zhusuan Culture — The Art of the Abacus",
         description:
-          "Comprehensive guide to Chinese zhuxuan (abacus calculation), its 1,800-year history, suanpan structure, mental abacus techniques, and UNESCO cultural heritage status",
+          "Comprehensive guide to Chinese zhusuan (abacus calculation), its 1,800-year history, suanpan structure, mental abacus techniques, and UNESCO cultural heritage status",
       }),
     },
   ],

@@ -393,13 +393,23 @@ const articles = [
   },
   {
     id: 26,
-    title: "Chinese Zhuxuan Culture",
-    slug: "zhuxuan-culture",
+    title: "Chinese Zhusuan Culture",
+    slug: "zhusuan-culture",
     tags: ["culture", "traditions", "philosophy"],
     readtime: 10,
-    image: "/assets/images/zhuxuan-culture.png",
+    image: "/assets/images/zhusuan-culture.png",
     excerpt:
-      "Discover Chinese zhuxuan (珠算), the ancient art of abacus calculation. Explore 1,800 years of suanpan history, mental abacus techniques, and its UNESCO-recognized cultural heritage.",
+      "Discover Chinese zhusuan (珠算), the ancient art of abacus calculation. Explore 1,800 years of suanpan history, mental abacus techniques, and its UNESCO-recognized cultural heritage.",
+  },
+  {
+    id: 27,
+    title: "Zhongyuan Festival",
+    slug: "zhongyuan-festival",
+    tags: ["traditions", "festival", "culture"],
+    readtime: 12,
+    image: "/assets/images/zhongyuan-festival.png",
+    excerpt:
+      "Discover Zhongyuan Festival (Ghost Festival), the traditional Chinese observance of the 7th lunar month when the gates of the underworld open and spirits roam the earth.",
   },
 ];
 
