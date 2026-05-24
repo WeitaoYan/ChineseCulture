@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-function scanPageImages() {
+function scanPages() {
   const pagesDir = resolve(dirname(fileURLToPath(import.meta.url)), "app/pages");
 
   function walk(dir, basePath = "") {
@@ -18,8 +18,9 @@ function scanPageImages() {
         results.push(...walk(fullPath, relPath));
       } else if (entry.name.endsWith(".vue")) {
         const content = readFileSync(fullPath, "utf-8");
+        const stats = statSync(fullPath);
 
-        // Extract imageSrc prop (article page pattern: <FeaturedImage :image-src= or imageSrc=)
+        // Extract imageSrc prop (article page pattern)
         const imageSrcMatch = content.match(/imageSrc\s*=\s*["']([^"']+)["']/);
         // Extract direct <img src="...">
         const imgSrcMatches = [
@@ -46,17 +47,21 @@ function scanPageImages() {
 
         if (!urlPath.startsWith("/")) urlPath = "/" + urlPath;
 
-        results.push({ url: urlPath, images });
+        results.push({
+          url: urlPath,
+          lastmod: stats.mtime.toISOString(),
+          images,
+        });
       }
     }
 
     return results;
   }
 
-  return walk(pagesDir).filter((p) => p.images.length > 0);
+  return walk(pagesDir);
 }
 
-const sitemapImages = scanPageImages();
+const scannedPages = scanPages();
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -67,8 +72,11 @@ export default defineNuxtConfig({
     url: "https://chinese-culture.ikber.cc",
   },
   sitemap: {
-    autoLastmod: true,
-    urls: sitemapImages.map(({ url, images }) => ({ loc: url, images })),
+    urls: scannedPages.map(({ url, lastmod, images }) => ({
+      loc: url,
+      lastmod,
+      images: images.length > 0 ? images : undefined,
+    })),
   },
   runtimeConfig: {
     public: {
