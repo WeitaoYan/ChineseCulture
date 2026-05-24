@@ -19,6 +19,12 @@
       altText="Zhongyuan Festival - floating lanterns on a river at night, honoring spirits and ancestors"
     />
 
+    <FestivalDates
+      festival-name="Zhongyuan Festival"
+      :lunar-month="7"
+      :lunar-day="15"
+    />
+
     <!-- 内容主体 -->
     <div class="content-body">
       <!-- 简介部分 -->
