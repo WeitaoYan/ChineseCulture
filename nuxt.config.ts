@@ -41,6 +41,7 @@ export default defineNuxtConfig({
       { loc: "/articles/qixi-festival", images: [{ loc: "/assets/images/qixi.jpg" }] },
       { loc: "/articles/dragon-boat-festival", images: [{ loc: "/assets/images/dragon-boat-festival.png" }] },
       { loc: "/articles/mid-autumn-festival", images: [{ loc: "/assets/images/mid-autumn.jpg" }] },
+      { loc: "/articles/zhongyuan-festival", images: [{ loc: "/assets/images/zhongyuan-festival.png" }] },
       { loc: "/articles/chongyang-festival", images: [{ loc: "/assets/images/chongyang-festival.jpg" }] },
       { loc: "/articles/laba-festival", images: [{ loc: "/assets/images/laba-congee.png" }] },
       { loc: "/articles/laba-congee", images: [{ loc: "/assets/images/congee.png" }] },
@@ -53,6 +54,8 @@ export default defineNuxtConfig({
       { loc: "/articles/great-wall", images: [{ loc: "/assets/images/greatwall.png" }] },
       { loc: "/articles/terracotta-army", images: [{ loc: "/assets/images/terracotta-army.png" }] },
       { loc: "/articles/temple-of-heaven", images: [{ loc: "/assets/images/temple-of-heaven.png" }] },
+      // Arts & Skills
+      { loc: "/articles/zhusuan-culture", images: [{ loc: "/assets/images/zhusuan-culture.png" }] },
     ],
   },
   runtimeConfig: {
