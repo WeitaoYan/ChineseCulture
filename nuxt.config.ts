@@ -1,10 +1,27 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join, resolve, dirname } from "node:path";
+import { readFileSync, readdirSync } from "node:fs";
+import { execSync } from "node:child_process";
+import { join, resolve, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = resolve(__dirname);
+
+function getGitLastModified(filePath) {
+  try {
+    const relPath = relative(rootDir, filePath);
+    const output = execSync(
+      `git log -1 --format=%cI "${relPath}"`,
+      { cwd: rootDir, encoding: "utf-8", timeout: 5000 }
+    ).trim();
+    return output || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 function scanPages() {
-  const pagesDir = resolve(dirname(fileURLToPath(import.meta.url)), "app/pages");
+  const pagesDir = resolve(rootDir, "app/pages");
 
   function walk(dir, basePath = "") {
     const entries = readdirSync(dir, { withFileTypes: true });
@@ -18,7 +35,6 @@ function scanPages() {
         results.push(...walk(fullPath, relPath));
       } else if (entry.name.endsWith(".vue")) {
         const content = readFileSync(fullPath, "utf-8");
-        const stats = statSync(fullPath);
 
         // Extract imageSrc prop (article page pattern)
         const imageSrcMatch = content.match(/imageSrc\s*=\s*["']([^"']+)["']/);
@@ -49,7 +65,7 @@ function scanPages() {
 
         results.push({
           url: urlPath,
-          lastmod: stats.mtime.toISOString(),
+          lastmod: getGitLastModified(fullPath),
           images,
         });
       }
