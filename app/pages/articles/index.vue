@@ -411,6 +411,16 @@ const articles = [
     excerpt:
       "Discover Zhongyuan Festival (Ghost Festival), the traditional Chinese observance of the 7th lunar month when the gates of the underworld open and spirits roam the earth.",
   },
+  {
+    id: 28,
+    title: "The Chinese Lunar Calendar",
+    slug: "chinese-lunar-calendar",
+    tags: ["traditions", "philosophy", "culture"],
+    readtime: 10,
+    image: "/assets/images/chinese-lunar-calendar.png",
+    excerpt:
+      "Explore the science and beauty of the traditional Chinese Lunar Calendar (nongli), its lunisolar mechanics, leap months, the 24 solar terms, and the sexagenary cycle.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
