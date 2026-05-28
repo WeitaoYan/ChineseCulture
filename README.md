@@ -85,6 +85,14 @@
 
 ## 🚀 开发指南
 
+### 📷 图片处理与优化规范 (AI 助手记忆)
+
+- **核心原则**：**禁止在每次部署或构建时自动 resize 所有图片**。
+- **操作规范**：每次**新增页面图片**或**引入新图片**时，必须在提交到 Git 仓库前，手动使用项目自带的 `resize` 工具处理图片，避免在 Git 上提交过大的原始图片。
+- **图片工具**：
+  - 工具脚本：[scripts/resize-image.sh](file:///home/ubuntu/Projects/ChineseCulture/scripts/resize-image.sh)
+  - 使用方法：`./scripts/resize-image.sh <源图片路径> [输出文件名]` (输出宽度默认为 `800px`，高度自适应缩放)。
+
 ### 环境要求
 
 - Node.js 16+

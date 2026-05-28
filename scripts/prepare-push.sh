@@ -9,52 +9,40 @@ cd "$REPO_ROOT"
 
 echo "🔍 开始进行 push 前准备检查..."
 
-# 1. 查找并处理不合规尺寸的图片或被修改的图片
-echo "🎨 正在检查图片宽度 (要求 800px)..."
+# 1. 查找并处理被新增或修改的图片
+echo "🎨 正在检查本次新增或修改的图片宽度 (要求 800px)..."
 IMAGES_DIR="public/assets/images"
 MODIFIED_IMAGES=()
 
-# 检查 ffprobe 是否可用
-if ! command -v ffprobe &> /dev/null; then
-  echo "⚠️ 警告: 系统中未找到 ffprobe，无法自动检查图片尺寸。将对所有图片执行处理。"
-  for img in "$IMAGES_DIR"/*; do
-    if [ -f "$img" ]; then
-      filename=$(basename "$img")
-      ext="${filename##*.}"
-      ext_lc=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
-      if [[ "$ext_lc" == "png" || "$ext_lc" == "jpg" || "$ext_lc" == "jpeg" ]]; then
-        MODIFIED_IMAGES+=("$img")
-      fi
-    fi
-  done
-else
-  # 获取 Git 缓存或未提交的图片
-  git_changed_images=$(git diff --name-only --diff-filter=ACM | grep -E "^$IMAGES_DIR/" || true)
-  git_staged_images=$(git diff --cached --name-only --diff-filter=ACM | grep -E "^$IMAGES_DIR/" || true)
-  git_untracked_images=$(git ls-files --others --exclude-standard | grep -E "^$IMAGES_DIR/" || true)
-  
-  # 合并并去重所有有变动的图片
-  all_changed_images=$(echo -e "${git_changed_images}\n${git_staged_images}\n${git_untracked_images}" | grep -v '^$' | sort -u || true)
+# 获取 Git 缓存或未提交的图片 (新增、修改、未跟踪)
+git_changed_images=$(git diff --name-only --diff-filter=ACM | grep -E "^$IMAGES_DIR/" || true)
+git_staged_images=$(git diff --cached --name-only --diff-filter=ACM | grep -E "^$IMAGES_DIR/" || true)
+git_untracked_images=$(git ls-files --others --exclude-standard | grep -E "^$IMAGES_DIR/" || true)
 
-  for img in "$IMAGES_DIR"/*; do
-    if [ -f "$img" ]; then
-      filename=$(basename "$img")
-      ext="${filename##*.}"
-      ext_lc=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
-      if [[ "$ext_lc" == "png" || "$ext_lc" == "jpg" || "$ext_lc" == "jpeg" ]]; then
-        # 检查是否在 Git 变动列表中
-        in_git_changes=false
-        while read -r changed_img; do
-          if [ "$changed_img" = "$img" ]; then
-            in_git_changes=true
-            break
-          fi
-        done <<< "$all_changed_images"
+# 合并并去重所有有变动的图片
+all_changed_images=$(echo -e "${git_changed_images}\n${git_staged_images}\n${git_untracked_images}" | grep -v '^$' | sort -u || true)
 
-        if [ "$in_git_changes" = true ]; then
+if [ -n "$all_changed_images" ]; then
+  # 检查 ffprobe 是否可用
+  if ! command -v ffprobe &> /dev/null; then
+    echo "⚠️ 警告: 系统中未找到 ffprobe，无法自动检查图片尺寸。将对所有有变动的新增/修改图片执行处理。"
+    while read -r img; do
+      if [ -f "$img" ]; then
+        filename=$(basename "$img")
+        ext="${filename##*.}"
+        ext_lc=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
+        if [[ "$ext_lc" == "png" || "$ext_lc" == "jpg" || "$ext_lc" == "jpeg" ]]; then
           MODIFIED_IMAGES+=("$img")
-        else
-          # 如果不在变动列表，检查宽度是否为 800
+        fi
+      fi
+    done <<< "$all_changed_images"
+  else
+    while read -r img; do
+      if [ -f "$img" ]; then
+        filename=$(basename "$img")
+        ext="${filename##*.}"
+        ext_lc=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
+        if [[ "$ext_lc" == "png" || "$ext_lc" == "jpg" || "$ext_lc" == "jpeg" ]]; then
           width=$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$img" 2>/dev/null || echo "unknown")
           if [ "$width" != "800" ]; then
             echo "📐 图片宽度不符合要求 (${width}px，应为 800px): $img"
@@ -62,8 +50,8 @@ else
           fi
         fi
       fi
-    fi
-  done
+    done <<< "$all_changed_images"
+  fi
 fi
 
 # 处理需要压缩和裁剪的图片（同名覆盖处理）

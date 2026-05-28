@@ -1,0 +1,19 @@
+# 中华文化传播平台 - AI 助手开发记忆与规则 (Project Memory & Rules)
+
+## 🖼️ 图片处理与 Git 提交规范 (Image Processing & Commit Guidelines)
+
+### 1. 核心原则
+- **禁止在每次构建或部署前全量自动 resize 所有图片**。
+- **每次新增/修改页面图片时**，必须在**提交到 Git 仓库之前**，手动使用项目自带`resize`工具对新图片进行缩放和压缩处理。
+- 这样可以确保 Git 仓库中只保存优化后的轻量图片，防止大体积原始图片污染 Git 历史。
+
+### 2. 图片缩放规范与工具使用
+- **工具路径**: [scripts/resize-image.sh](file:///home/ubuntu/Projects/ChineseCulture/scripts/resize-image.sh)
+- **使用方法**:
+  ```bash
+  # 将外部大图压缩处理并输出到 public/assets/images 目录
+  ./scripts/resize-image.sh /path/to/raw-image.jpg output-name.png
+  ```
+- **尺寸规范**:
+  - 宽度固定为 `800px`，高度等比自适应。
+  - 统一转换为 `.png` 或其他优化后的格式。
