@@ -10,7 +10,7 @@ cd "$REPO_ROOT"
 echo "🔍 开始进行 push 前准备检查..."
 
 # 1. 查找并处理不合规尺寸的图片或被修改的图片
-echo "🎨 正在检查图片尺寸 (要求 800×450)..."
+echo "🎨 正在检查图片宽度 (要求 800px)..."
 IMAGES_DIR="public/assets/images"
 MODIFIED_IMAGES=()
 
@@ -54,10 +54,10 @@ else
         if [ "$in_git_changes" = true ]; then
           MODIFIED_IMAGES+=("$img")
         else
-          # 如果不在变动列表，检查分辨率是否为 800x450
-          dims=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 "$img" 2>/dev/null || echo "unknown")
-          if [ "$dims" != "800x450" ]; then
-            echo "📐 图片尺寸不符合要求 ($dims): $img"
+          # 如果不在变动列表，检查宽度是否为 800
+          width=$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$img" 2>/dev/null || echo "unknown")
+          if [ "$width" != "800" ]; then
+            echo "📐 图片宽度不符合要求 (${width}px，应为 800px): $img"
             MODIFIED_IMAGES+=("$img")
           fi
         fi
@@ -68,7 +68,7 @@ fi
 
 # 处理需要压缩和裁剪的图片（同名覆盖处理）
 if [ ${#MODIFIED_IMAGES[@]} -gt 0 ]; then
-  echo "🚀 开始裁剪并缩放以下图片到 800×450..."
+  echo "🚀 开始等比缩放以下图片到 800px 宽度..."
   for img in "${MODIFIED_IMAGES[@]}"; do
     echo "Processing: $img"
     # 为了避免 ffmpeg 在处理同名输出时发生读写冲突导致损坏，我们使用临时文件中转
@@ -77,7 +77,7 @@ if [ ${#MODIFIED_IMAGES[@]} -gt 0 ]; then
     rm -f "$img.tmp"
   done
 else
-  echo "✅ 所有图片均已符合 800×450 规范，无需处理。"
+  echo "✅ 所有图片均已符合 800px 宽度规范，无需处理。"
 fi
 
 # 2. 生成 sitemap
