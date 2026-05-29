@@ -421,6 +421,16 @@ const articles = [
     excerpt:
       "Explore the science and beauty of the traditional Chinese Lunar Calendar (nongli), its lunisolar mechanics, leap months, the 24 solar terms, and the sexagenary cycle.",
   },
+  {
+    id: 29,
+    title: "Spring Festival Customs",
+    slug: "spring-festival-customs",
+    tags: ["traditions", "festival", "family", "culture"],
+    readtime: 15,
+    image: "/assets/images/spring-festival-customs.png",
+    excerpt:
+      "A complete guide to Chinese New Year traditions — from the Legend of Nian and the story behind upside-down Fu, to the symbolism of every dish at the reunion dinner, and a day-by-day guide through all 15 days of celebration.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
