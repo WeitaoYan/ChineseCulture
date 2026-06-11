@@ -23,6 +23,15 @@
     ]
   },
   {
+    "loc": "/articles/chinese-mythology",
+    "lastmod": null,
+    "images": [
+      {
+        "loc": "/assets/images/chinese-mythology.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/chinese-tea-culture",
     "lastmod": "2026-05-10T23:45:55+00:00",
     "images": [
@@ -46,6 +55,15 @@
     "images": [
       {
         "loc": "/assets/images/chongyang-festival.jpg"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/confucius",
+    "lastmod": null,
+    "images": [
+      {
+        "loc": "/assets/images/confucius.png"
       }
     ]
   },
@@ -145,6 +163,15 @@
     ]
   },
   {
+    "loc": "/articles/peking-opera",
+    "lastmod": null,
+    "images": [
+      {
+        "loc": "/assets/images/peking-opera.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/po-wu",
     "lastmod": "2026-03-31T21:33:27+08:00",
     "images": [
@@ -181,6 +208,15 @@
     ]
   },
   {
+    "loc": "/articles/silk-road",
+    "lastmod": null,
+    "images": [
+      {
+        "loc": "/assets/images/silk-road.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/spring-festival-customs",
     "lastmod": "2026-05-29T16:50:28+00:00",
     "images": [
@@ -213,6 +249,15 @@
     "images": [
       {
         "loc": "/assets/images/terracotta-army.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/traditional-chinese-medicine",
+    "lastmod": null,
+    "images": [
+      {
+        "loc": "/assets/images/traditional-chinese-medicine.png"
       }
     ]
   },

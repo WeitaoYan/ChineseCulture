@@ -421,17 +421,67 @@ const articles = [
     excerpt:
       "Explore the science and beauty of the traditional Chinese Lunar Calendar (nongli), its lunisolar mechanics, leap months, the 24 solar terms, and the sexagenary cycle.",
   },
-  {
-    id: 29,
-    title: "Spring Festival Customs",
-    slug: "spring-festival-customs",
-    tags: ["traditions", "festival", "family", "culture"],
-    readtime: 15,
-    image: "/assets/images/spring-festival-customs.png",
-    excerpt:
-      "A complete guide to Chinese New Year traditions — from the Legend of Nian and the story behind upside-down Fu, to the symbolism of every dish at the reunion dinner, and a day-by-day guide through all 15 days of celebration.",
-  },
-];
+    {
+      id: 29,
+      title: "Spring Festival Customs",
+      slug: "spring-festival-customs",
+      tags: ["traditions", "festival", "family", "culture"],
+      readtime: 15,
+      image: "/assets/images/spring-festival-customs.png",
+      excerpt:
+        "A complete guide to Chinese New Year traditions — from the Legend of Nian and the story behind upside-down Fu, to the symbolism of every dish at the reunion dinner, and a day-by-day guide through all 15 days of celebration.",
+    },
+    {
+      id: 30,
+      title: "Confucius & Confucianism",
+      slug: "confucius",
+      tags: ["philosophy", "culture", "history"],
+      readtime: 12,
+      image: "/assets/images/confucius.png",
+      excerpt:
+        "Discover Confucius (孔子) and Confucianism (儒家), the philosophy that shaped Chinese civilization for 2,500 years. Explore his life, the Five Constant Virtues, the Four Books & Five Classics, and his enduring global legacy.",
+    },
+    {
+      id: 31,
+      title: "The Silk Road",
+      slug: "silk-road",
+      tags: ["history", "culture", "architecture"],
+      readtime: 12,
+      image: "/assets/images/silk-road.png",
+      excerpt:
+        "Discover the Silk Road (丝绸之路), the 1,500-year-old network of trade routes connecting China with the world. Explore Zhang Qian's journey, Dunhuang's Mogao Caves, and the exchange of goods and ideas that shaped civilizations.",
+    },
+    {
+      id: 32,
+      title: "Peking Opera",
+      slug: "peking-opera",
+      tags: ["culture", "art", "traditions"],
+      readtime: 12,
+      image: "/assets/images/peking-opera.png",
+      excerpt:
+        "Discover Peking Opera (京剧), China's most celebrated performing art. Explore the Four Roles, face painting symbolism, the Four Skills of performance, legendary repertoire, and the legacy of Mei Lanfang.",
+    },
+    {
+      id: 33,
+      title: "Traditional Chinese Medicine",
+      slug: "traditional-chinese-medicine",
+      tags: ["philosophy", "culture", "traditions"],
+      readtime: 12,
+      image: "/assets/images/traditional-chinese-medicine.png",
+      excerpt:
+        "Discover Traditional Chinese Medicine (中医), the ancient healing art based on Qi, Yin-Yang, and the Five Elements. Explore herbal medicine, acupuncture, cupping, dietary therapy, and the wisdom of the Huangdi Neijing.",
+    },
+    {
+      id: 34,
+      title: "Chinese Mythology",
+      slug: "chinese-mythology",
+      tags: ["culture", "traditions", "history"],
+      readtime: 12,
+      image: "/assets/images/chinese-mythology.png",
+      excerpt:
+        "Discover Chinese Mythology (中国神话) — from Pangu's creation and Nüwa mending the sky to the Monkey King, the Eight Immortals, dragons, and the Four Symbols. Explore the stories that shaped Chinese civilization.",
+    },
+  ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
 const filteredByTag = computed(() => {
