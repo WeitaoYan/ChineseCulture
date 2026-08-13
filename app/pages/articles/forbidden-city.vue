@@ -112,6 +112,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Forbidden City Quiz" />
     </div>
 
     <!-- 引用 -->

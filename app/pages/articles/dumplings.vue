@@ -232,6 +232,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Dumplings Quiz" />
     </div>
 
     <!-- 引用 -->

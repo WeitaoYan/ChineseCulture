@@ -242,6 +242,8 @@
           in the simple joy of being present."
         </QuoteBox>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Tea Culture Quiz" />
     </div>
   </div>
 </template>

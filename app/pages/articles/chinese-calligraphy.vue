@@ -271,6 +271,8 @@
           spirit of the artist."
         </QuoteBox>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Calligraphy Quiz" />
     </div>
   </div>
 </template>

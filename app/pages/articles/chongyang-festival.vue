@@ -278,6 +278,8 @@
           appreciate the richness of Chinese cultural heritage.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Double Ninth Festival Quiz" />
     </div>
   </div>
 </template>

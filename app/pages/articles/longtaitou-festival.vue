@@ -237,6 +237,8 @@
           So on the second day of the second month, whether you're in a bustling city or a quiet village, take a moment to look up at the sky. Somewhere up there, an ancient dragon is stirring. And down here, millions of people are eating dumplings, getting fresh haircuts, and welcoming the season of growth.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Longtaitou Festival Quiz" />
     </div>
 
     <!-- 引用 -->

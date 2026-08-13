@@ -471,6 +471,8 @@
           and uncertainties of modern life.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Yin-Yang & I Ching Quiz" />
     </div>
 
     <!-- 引用 -->

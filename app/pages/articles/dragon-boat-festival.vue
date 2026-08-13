@@ -385,6 +385,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Dragon Boat Festival Quiz" />
     </div>
   </div>
 </template>

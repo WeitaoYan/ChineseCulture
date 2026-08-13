@@ -295,6 +295,8 @@
           progress."
         </QuoteBox>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Silk Road Quiz" />
     </div>
   </div>
 </template>

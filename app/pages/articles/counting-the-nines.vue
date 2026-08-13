@@ -164,6 +164,8 @@
           certainty of renewal through the deepest cold.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Counting the Nines Quiz" />
     </div>
 
     <!-- 引用 -->

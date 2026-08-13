@@ -316,6 +316,8 @@
           at the year ahead, and gets back to work—with prosperity on its mind.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Po Wu Quiz" />
     </div>
 
     <!-- 引用 -->

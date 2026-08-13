@@ -12,6 +12,8 @@
         <MetaItem>🏛️ Four Books</MetaItem>
         <MetaItem>🎓 Hundred Schools</MetaItem>
       </PageMeta>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Confucius Quiz" />
     </div>
 
     <!-- 主图 -->

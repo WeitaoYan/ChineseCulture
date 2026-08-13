@@ -363,6 +363,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Qingming Festival Quiz" />
     </div>
   </div>
 </template>

@@ -288,6 +288,8 @@
           </NuxtLink>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Lunar Calendar Quiz" />
     </div>
 
     <!-- 引用 -->

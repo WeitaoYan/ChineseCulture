@@ -372,6 +372,8 @@
           and may you always find your way home by the light of the lanterns.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Lantern Festival Quiz" />
     </div>
 
     <!-- 引用 -->

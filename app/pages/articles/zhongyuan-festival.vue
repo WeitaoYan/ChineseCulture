@@ -430,6 +430,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Zhongyuan Festival Quiz" />
     </div>
   </div>
 </template>

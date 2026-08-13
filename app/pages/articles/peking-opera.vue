@@ -12,6 +12,8 @@
         <MetaItem>🎨 Face Painting</MetaItem>
         <MetaItem>⚔️ Acrobatics</MetaItem>
       </PageMeta>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Peking Opera Quiz" />
     </div>
 
     <!-- 主图 -->

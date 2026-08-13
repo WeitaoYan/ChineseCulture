@@ -432,6 +432,8 @@
           that has guided Chinese civilization for thousands of years.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Chinese Zodiac Quiz" />
     </div>
 
     <!-- 引用 -->

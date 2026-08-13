@@ -177,6 +177,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Laba Festival Quiz" />
     </div>
 
     <!-- 引用 -->

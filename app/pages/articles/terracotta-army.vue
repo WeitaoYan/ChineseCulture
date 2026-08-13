@@ -237,6 +237,8 @@
           evocative relics any traveler can experience.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Terracotta Army Quiz" />
     </div>
 
     <!-- 引用 -->

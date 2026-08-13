@@ -216,6 +216,8 @@
           share warmth, and look forward to brighter days ahead.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Winter Solstice Quiz" />
     </div>
 
     <!-- 引用 -->

@@ -326,6 +326,8 @@
           civilization for millennia.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Five Elements Quiz" />
     </div>
 
     <!-- 引用 -->

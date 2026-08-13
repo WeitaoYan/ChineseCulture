@@ -223,6 +223,8 @@
           come walk on the dragon's backbone.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Great Wall Quiz" />
     </div>
 
     <!-- 引用 -->

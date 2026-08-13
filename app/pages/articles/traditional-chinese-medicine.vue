@@ -12,6 +12,8 @@
         <MetaItem>☯️ Qi & Balance</MetaItem>
         <MetaItem>📜 Huangdi Neijing</MetaItem>
       </PageMeta>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Traditional Chinese Medicine Quiz" />
     </div>
 
     <!-- 主图 -->

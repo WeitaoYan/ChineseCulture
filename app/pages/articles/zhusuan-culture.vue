@@ -11,6 +11,8 @@
         <MetaItem>🧮 Ancient Tool</MetaItem>
         <MetaItem>📜 Intangible Heritage</MetaItem>
       </PageMeta>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Abacus (Zhusuan) Quiz" />
     </div>
 
     <!-- 主图 -->

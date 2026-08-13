@@ -306,6 +306,8 @@
           love—the most universal and enduring of human emotions.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Qixi Festival Quiz" />
     </div>
 
     <!-- 引用 -->

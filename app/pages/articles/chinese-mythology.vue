@@ -12,6 +12,8 @@
         <MetaItem>⚔️ Mythical Heroes</MetaItem>
         <MetaItem>🏔️ Legendary Creatures</MetaItem>
       </PageMeta>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Mythology Quiz" />
     </div>
 
     <!-- 主图 -->

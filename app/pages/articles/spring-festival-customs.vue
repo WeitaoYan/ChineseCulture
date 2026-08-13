@@ -217,6 +217,8 @@
           The Nian monster was never the real enemy. The real enemy was chaos, disconnection, and bad habits carried from one year into the next. Spring Festival customs were humanity's way of building a cultural firewall — a set of rituals powerful enough to reset the family's emotional and spiritual balance for another year.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Spring Festival Customs Quiz" />
     </div>
 
     <!-- 引用 -->

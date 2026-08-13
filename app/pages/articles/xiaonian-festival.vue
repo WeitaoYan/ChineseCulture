@@ -241,6 +241,8 @@
           </div>
         </div>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Xiaonian Festival Quiz" />
     </div>
 
     <!-- 引用 -->

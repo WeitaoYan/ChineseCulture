@@ -269,6 +269,8 @@
           governance of the world.
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Temple of Heaven Quiz" />
     </div>
 
     <!-- 引用 -->

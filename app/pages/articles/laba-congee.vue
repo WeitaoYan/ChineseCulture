@@ -259,6 +259,8 @@
           <strong>Happy Laba!</strong>
         </p>
       </section>
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Laba Congee Quiz" />
     </div>
 
     <!-- 引用 -->
