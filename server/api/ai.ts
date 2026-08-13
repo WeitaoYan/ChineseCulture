@@ -49,7 +49,7 @@ ${content}`
 
   let raw = ""
   try {
-    const resp = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", { messages })
+    const resp = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fp8", { messages })
     raw = resp?.response ?? ""
   } catch (err) {
     console.error("AI run failed:", err)
