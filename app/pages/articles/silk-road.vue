@@ -11,8 +11,7 @@
         <MetaItem>🐪 Caravans</MetaItem>
         <MetaItem>🏛️ Dunhuang</MetaItem>
         <MetaItem>🌏 East Meets West</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -294,10 +293,10 @@
           only goods, but dreams, beliefs, and the building blocks of human
           progress."
         </QuoteBox>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Silk Road Quiz" />
-    </div>
   </div>
 </template>
 

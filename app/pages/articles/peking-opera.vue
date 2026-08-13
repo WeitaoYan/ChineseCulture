@@ -11,10 +11,7 @@
         <MetaItem>🎵 Music & Song</MetaItem>
         <MetaItem>🎨 Face Painting</MetaItem>
         <MetaItem>⚔️ Acrobatics</MetaItem>
-      </PageMeta>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Peking Opera Quiz" />
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -316,8 +313,10 @@
           of art that speaks directly to the heart."
           <template #author>— Mei Lanfang (梅兰芳)</template>
         </QuoteBox>
-      </section>
-    </div>
+      </section></div>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Peking Opera Quiz" />
   </div>
 </template>
 

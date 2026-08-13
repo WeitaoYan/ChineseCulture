@@ -8,8 +8,7 @@
         <MetaItem>🥟 Traditional Delicacy</MetaItem>
         <MetaItem>🏠 Family Reunion Symbol</MetaItem>
         <MetaItem>💰 Wealth and Good Fortune</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -231,16 +230,16 @@
             >
           </div>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Dumplings Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
       "A single dumpling contains not just ingredients, but the warmth of
       family, the essence of tradition, and the spirit of Chinese hospitality."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Dumplings Quiz" />
   </div>
 </template>
 

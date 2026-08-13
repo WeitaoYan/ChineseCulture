@@ -8,8 +8,7 @@
         <MetaItem>🏛️ UNESCO World Heritage Site</MetaItem>
         <MetaItem>📅 Built: 1406-1420</MetaItem>
         <MetaItem>👑 Imperial Palace of Ming and Qing Dynasties</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -111,10 +110,7 @@
             <span class="info-value">3-4 hours</span>
           </div>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Forbidden City Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -122,6 +118,9 @@
       civilization."
       <template #author>— UNESCO</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Forbidden City Quiz" />
   </div>
 </template>
 

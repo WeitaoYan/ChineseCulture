@@ -10,8 +10,7 @@
         <MetaItem>🔥 Kitchen God's Departure</MetaItem>
         <MetaItem>📅 23rd/24th Day of 12th Lunar Month</MetaItem>
         <MetaItem>🧹 The Great Annual Cleaning</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -240,10 +239,7 @@
             >
           </div>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Xiaonian Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -251,6 +247,9 @@
       extraordinary—a moment when daily routines become sacred preparations
       for renewal, family, and hope."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Xiaonian Festival Quiz" />
   </div>
 </template>
 

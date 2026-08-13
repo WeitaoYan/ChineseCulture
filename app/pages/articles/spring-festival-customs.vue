@@ -8,8 +8,7 @@
         <MetaItem>🧧 Legends &amp; Folklore</MetaItem>
         <MetaItem>🏮 Day-by-Day Guide</MetaItem>
         <MetaItem>🐉 Must-Know Taboos</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -216,16 +215,16 @@
         <p class="section-text">
           The Nian monster was never the real enemy. The real enemy was chaos, disconnection, and bad habits carried from one year into the next. Spring Festival customs were humanity's way of building a cultural firewall — a set of rituals powerful enough to reset the family's emotional and spiritual balance for another year.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Spring Festival Customs Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox gradientType="custom">
       "The Spring Festival is not merely a date on the calendar. It is a ritual of renewal — a time when families gather, debts are settled, old grudges forgiven, and the future welcomed with open arms and red lanterns."
       <template #author>— Traditional Chinese Saying</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Spring Festival Customs Quiz" />
   </div>
 </template>
 

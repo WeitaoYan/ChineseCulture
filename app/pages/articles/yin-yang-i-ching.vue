@@ -9,8 +9,7 @@
         <MetaItem>☰ Eight Trigrams</MetaItem>
         <MetaItem>䷀ 64 Hexagrams</MetaItem>
         <MetaItem>📜 I Ching</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -470,10 +469,7 @@
           recorded over three millennia ago, speaks directly to the challenges
           and uncertainties of modern life.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Yin-Yang & I Ching Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox gradientType="culture">
@@ -482,6 +478,9 @@
       meaning and harmony with the Tao."
       <template #author>— Inspired by Carl Jung's Preface to the I Ching</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Yin-Yang & I Ching Quiz" />
   </div>
 </template>
 

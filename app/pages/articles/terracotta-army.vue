@@ -8,8 +8,7 @@
         <MetaItem>🗿 Archaeological Wonder</MetaItem>
         <MetaItem>📅 Discovered: 1974</MetaItem>
         <MetaItem>👑 Emperor Qin Shi Huang's Eternal Guard</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -236,10 +235,7 @@
           defy time itself. It is, without doubt, one of the most powerful and
           evocative relics any traveler can experience.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Terracotta Army Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -248,6 +244,9 @@
       first emperor."
       <template #author>— UNESCO World Heritage</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Terracotta Army Quiz" />
   </div>
 </template>
 

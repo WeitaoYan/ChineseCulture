@@ -10,8 +10,7 @@
         <MetaItem>🪦 Ancestor Worship</MetaItem>
         <MetaItem>🌸 Spring Outings</MetaItem>
         <MetaItem>🪁 Flying Kites</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -362,10 +361,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Qingming Festival Quiz" />
-    </div>
   </div>
 </template>
 

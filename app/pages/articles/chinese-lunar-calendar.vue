@@ -8,8 +8,7 @@
         <MetaItem>🌙 Lunisolar System</MetaItem>
         <MetaItem>🐉 12 Zodiac Animals</MetaItem>
         <MetaItem>🌾 24 Solar Terms</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -287,16 +286,16 @@
             <span class="fest-lunar">9th Day of 9th Month</span>
           </NuxtLink>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Lunar Calendar Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
       "观乎天文，以察时变；观乎人文，以化成天下 — Observe the patterns of heaven to understand the changes of season; observe the patterns of humanity to transform the world."
       <template #author>— Book of Changes (I Ching / 易经)</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Lunar Calendar Quiz" />
   </div>
 </template>
 

@@ -17,8 +17,7 @@
         <MetaItem>🐔 Rooster</MetaItem>
         <MetaItem>🐕 Dog</MetaItem>
         <MetaItem>🐖 Pig</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -431,10 +430,7 @@
           destiny, reminding us that we are all part of a larger cosmic cycle
           that has guided Chinese civilization for thousands of years.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Chinese Zodiac Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -442,6 +438,9 @@
       understanding ourselves, our relationships, and our place in the ancient
       wisdom of the East."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Chinese Zodiac Quiz" />
   </div>
 </template>
 

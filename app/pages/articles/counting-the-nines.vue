@@ -10,8 +10,7 @@
         <MetaItem>❄️ Seasonal Calendar Practice</MetaItem>
         <MetaItem>📅 81 Days After Winter Solstice</MetaItem>
         <MetaItem>🌸 Ancient Farmer's Almanac</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -163,10 +162,7 @@
           cycles, finding depth and meaning in each season, and holding the
           certainty of renewal through the deepest cold.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Counting the Nines Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -174,6 +170,9 @@
       rhythm. It is a testament to human patience, a poetic measure of time, and
       a gentle reminder that winter, however long, always gives way to spring."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Counting the Nines Quiz" />
   </div>
 </template>
 

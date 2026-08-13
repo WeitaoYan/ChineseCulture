@@ -10,8 +10,7 @@
         <MetaItem>🏮 Lantern Displays</MetaItem>
         <MetaItem>🍡 Sweet Yuanxiao Treats</MetaItem>
         <MetaItem>❤️ Romantic Traditions</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -371,10 +370,7 @@
           they mean: may your year be round and whole, may your life be sweet,
           and may you always find your way home by the light of the lanterns.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Lantern Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -382,6 +378,9 @@
       perfect conclusion to the New Year celebration—where romance, reunion, and
       hope merge under the first full moon of spring."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Lantern Festival Quiz" />
   </div>
 </template>
 

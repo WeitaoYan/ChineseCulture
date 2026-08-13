@@ -11,10 +11,7 @@
         <MetaItem>⚡ Acupuncture</MetaItem>
         <MetaItem>☯️ Qi & Balance</MetaItem>
         <MetaItem>📜 Huangdi Neijing</MetaItem>
-      </PageMeta>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Traditional Chinese Medicine Quiz" />
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -301,8 +298,10 @@
           impending sickness. The inferior doctor treats full-blown sickness."
           <template #author>— Huangdi Neijing (黄帝内经), Inner Canon of the Yellow Emperor</template>
         </QuoteBox>
-      </section>
-    </div>
+      </section></div>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Traditional Chinese Medicine Quiz" />
   </div>
 </template>
 

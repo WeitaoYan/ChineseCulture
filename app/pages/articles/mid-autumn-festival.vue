@@ -8,8 +8,7 @@
         <MetaItem>🌙 Full Moon</MetaItem>
         <MetaItem>🥮 Mooncakes</MetaItem>
         <MetaItem>🏮 Lanterns</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -319,11 +318,7 @@
           together with family, of honoring our roots, and of finding beauty in
           simple moments like watching the moon rise on a autumn evening.
         </p>
-      </section>
-
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Mid-Autumn Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -331,6 +326,9 @@
       Though separated by thousands of miles, we see the same moon together." —
       Traditional Mid-Autumn blessing
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Mid-Autumn Quiz" />
   </div>
 </template>
 

@@ -8,8 +8,7 @@
         <MetaItem>🍲 Traditional Recipe Guide</MetaItem>
         <MetaItem>⏰ 1.5-2 Hours Cooking</MetaItem>
         <MetaItem>👥 Serves 6-8 People</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -258,10 +257,7 @@
           meaningful taste of Chinese culture.
           <strong>Happy Laba!</strong>
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Laba Congee Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -269,6 +265,9 @@
       past, present, and future—a bowl full of tradition, nutrition, and love."
       <template #author>— Chinese Culinary Wisdom</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Laba Congee Quiz" />
   </div>
 </template>
 

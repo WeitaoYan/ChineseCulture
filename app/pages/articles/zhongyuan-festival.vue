@@ -10,8 +10,7 @@
         <MetaItem>👻 Ancestor Worship</MetaItem>
         <MetaItem>🏮 Lanterns on Water</MetaItem>
         <MetaItem>🙏 Compassion & Charity</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -429,10 +428,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Zhongyuan Festival Quiz" />
-    </div>
   </div>
 </template>
 

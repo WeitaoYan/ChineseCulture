@@ -8,8 +8,7 @@
         <MetaItem>🏰 UNESCO World Heritage Site</MetaItem>
         <MetaItem>📏 Over 13,000 miles long</MetaItem>
         <MetaItem>🏗️ Built across 2,000 years</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -222,10 +221,7 @@
           connect feels alive. Choose your section, pack your curiosity, and
           come walk on the dragon's backbone.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Great Wall Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -233,6 +229,9 @@
       endurance, and the collective effort of countless generations."
       <template #author>— Chinese Historical Society</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Great Wall Quiz" />
   </div>
 </template>
 

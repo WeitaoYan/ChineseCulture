@@ -11,10 +11,7 @@
         <MetaItem>🧑‍🏫 Five Constants</MetaItem>
         <MetaItem>🏛️ Four Books</MetaItem>
         <MetaItem>🎓 Hundred Schools</MetaItem>
-      </PageMeta>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Confucius Quiz" />
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -324,8 +321,10 @@
           "The man who moves a mountain begins by carrying away small stones."
           <template #author>— Confucius (孔子), The Analects</template>
         </QuoteBox>
-      </section>
-    </div>
+      </section></div>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Confucius Quiz" />
   </div>
 </template>
 

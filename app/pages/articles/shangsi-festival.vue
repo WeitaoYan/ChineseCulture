@@ -10,8 +10,7 @@
         <MetaItem>🌸 Spring Outings</MetaItem>
         <MetaItem>🌊 River Bathing</MetaItem>
         <MetaItem>💮 Willow Decorations</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -353,10 +352,10 @@
           to honor tradition, connect with nature, and appreciate the
           enduring richness of Chinese cultural heritage.
         </p>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Shangsi Festival Quiz" />
-    </div>
   </div>
 </template>
 

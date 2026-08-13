@@ -8,8 +8,7 @@
         <MetaItem>🍲 Traditional Porridge Celebration</MetaItem>
         <MetaItem>📅 8th Day of 12th Lunar Month</MetaItem>
         <MetaItem>🌱 Commemorating Buddha's Enlightenment</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -176,10 +175,7 @@
             >
           </div>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Laba Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -187,6 +183,9 @@
       history and the simple, universal human desires for health, happiness, and
       community."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Laba Festival Quiz" />
   </div>
 </template>
 

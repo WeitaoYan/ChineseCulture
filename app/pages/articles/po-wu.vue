@@ -10,8 +10,7 @@
         <MetaItem>🧹 Sweeping Away Bad Luck</MetaItem>
         <MetaItem>💰 Welcoming the God of Wealth</MetaItem>
         <MetaItem>🥟 Dumplings and Prosperity</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -315,10 +314,7 @@
           You're witnessing the moment when a nation takes a deep breath, smiles
           at the year ahead, and gets back to work—with prosperity on its mind.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Po Wu Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -327,6 +323,9 @@
       prosperity, bridging the sacred and the mundane with purposeful
       intention."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Po Wu Quiz" />
   </div>
 </template>
 

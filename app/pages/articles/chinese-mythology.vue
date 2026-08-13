@@ -11,10 +11,7 @@
         <MetaItem>🐉 Dragons & Deities</MetaItem>
         <MetaItem>⚔️ Mythical Heroes</MetaItem>
         <MetaItem>🏔️ Legendary Creatures</MetaItem>
-      </PageMeta>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Mythology Quiz" />
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -294,8 +291,10 @@
           sprang from his body."
           <template #author>— Xu Zheng, Three Five Historical Records (三五历纪), 3rd Century CE</template>
         </QuoteBox>
-      </section>
-    </div>
+      </section></div>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Mythology Quiz" />
   </div>
 </template>
 

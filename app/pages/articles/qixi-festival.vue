@@ -8,8 +8,7 @@
         <MetaItem>⭐ Cowherd and Weaver Girl</MetaItem>
         <MetaItem>🌉 Magpie Bridge</MetaItem>
         <MetaItem>💕 Love and Romance</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -305,16 +304,16 @@
           Whether you're coupled or single, Qixi offers a moment to celebrate
           love—the most universal and enduring of human emotions.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Qixi Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
       "On Qixi, the stars align for lovers. Cowherd and Weaver Girl teach us
       that love, no matter how distant, always finds a way to reunite."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Qixi Festival Quiz" />
   </div>
 </template>
 

@@ -10,8 +10,7 @@
         <MetaItem>🖌️ Brush Writing</MetaItem>
         <MetaItem>📜 Script Styles</MetaItem>
         <MetaItem>🏛️ Four Treasures</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -270,10 +269,10 @@
           paper. Each stroke carries the rhythm of the heart and the
           spirit of the artist."
         </QuoteBox>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Calligraphy Quiz" />
-    </div>
   </div>
 </template>
 

@@ -8,8 +8,7 @@
         <MetaItem>❄️ Solar Term & Festival</MetaItem>
         <MetaItem>🥟 Family Gathering & Dumplings</MetaItem>
         <MetaItem>☀️ Shortest Day of the Year</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -215,16 +214,16 @@
           family, and the eternal cycles of nature — a moment to slow down,
           share warmth, and look forward to brighter days ahead.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Winter Solstice Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
       "冬至阳生春又来 — At the Winter Solstice, yang energy is born and spring will come again."
       <template #author>— Ancient Chinese proverb</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Winter Solstice Quiz" />
   </div>
 </template>
 

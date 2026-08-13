@@ -10,8 +10,7 @@
         <MetaItem>🏔️ Mountain Climbing</MetaItem>
         <MetaItem>🌼 Chrysanthemum</MetaItem>
         <MetaItem>👴 Respect for Elders</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -277,10 +276,10 @@
           Festival offers a beautiful opportunity to pause, reflect, and
           appreciate the richness of Chinese cultural heritage.
         </p>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Double Ninth Festival Quiz" />
-    </div>
   </div>
 </template>
 

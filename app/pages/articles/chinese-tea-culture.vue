@@ -10,8 +10,7 @@
         <MetaItem>🍵 Six Tea Types</MetaItem>
         <MetaItem>🏺 Tea Ceremony</MetaItem>
         <MetaItem>🗺️ Tea Horse Road</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -241,10 +240,10 @@
           its warmth comforts the heart, and its taste brings people together
           in the simple joy of being present."
         </QuoteBox>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Tea Culture Quiz" />
-    </div>
   </div>
 </template>
 

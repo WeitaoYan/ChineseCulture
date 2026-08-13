@@ -8,8 +8,7 @@
         <MetaItem>🏠 Family Reunion Celebration</MetaItem>
         <MetaItem>💰 Hongbao and Good Fortune</MetaItem>
         <MetaItem>🎉 Most Important Chinese Holiday</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -321,10 +320,7 @@
             >
           </div>
         </div>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Spring Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -332,6 +328,9 @@
       unity, ancestral respect, hope for prosperity, and the eternal cycle of
       renewal that connects past, present, and future."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Spring Festival Quiz" />
   </div>
 </template>
 

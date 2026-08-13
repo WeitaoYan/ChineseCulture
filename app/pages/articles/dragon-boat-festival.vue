@@ -10,8 +10,7 @@
         <MetaItem>🚁 Dragon Boat Racing</MetaItem>
         <MetaItem>💎 Zongzi Dumplings</MetaItem>
         <MetaItem>🌿 Mugwort and Aromatic Herbs</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FestivalDates
@@ -384,10 +383,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section></div>
+  
       <!-- AI 趣味测验 -->
       <CultureQuiz title="Dragon Boat Festival Quiz" />
-    </div>
   </div>
 </template>
 

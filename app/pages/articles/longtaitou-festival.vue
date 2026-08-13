@@ -10,8 +10,7 @@
         <MetaItem>🐉 Dragon's Awakening</MetaItem>
         <MetaItem>📅 2nd Day of 2nd Lunar Month</MetaItem>
         <MetaItem>✂️ Traditional Haircuts</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -236,15 +235,15 @@
         <p class="section-text">
           So on the second day of the second month, whether you're in a bustling city or a quiet village, take a moment to look up at the sky. Somewhere up there, an ancient dragon is stirring. And down here, millions of people are eating dumplings, getting fresh haircuts, and welcoming the season of growth.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Longtaitou Festival Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
       "The dragon raises his head, and spring begins—a quiet promise kept for thousands of years, connecting sky to earth, myth to reality, and humanity to the eternal rhythm of nature."
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Longtaitou Festival Quiz" />
   </div>
 </template>
 

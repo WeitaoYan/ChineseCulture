@@ -8,8 +8,7 @@
         <MetaItem>🏛️ UNESCO World Heritage Site</MetaItem>
         <MetaItem>📅 Built: 1420 (Ming Dynasty)</MetaItem>
         <MetaItem>🙏 Imperial Ceremonial Altar for Praying to Heaven</MetaItem>
-      </PageMeta>
-    </div>
+      </PageMeta></div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -268,10 +267,7 @@
           of a civilization that saw Heaven not as a distant realm, but as a partner in the
           governance of the world.
         </p>
-      </section>
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Temple of Heaven Quiz" />
-    </div>
+      </section></div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -280,6 +276,9 @@
       of one of the world's great civilizations."
       <template #author>— UNESCO World Heritage Committee</template>
     </QuoteBox>
+  
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Temple of Heaven Quiz" />
   </div>
 </template>
 
