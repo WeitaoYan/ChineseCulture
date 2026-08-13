@@ -17,8 +17,8 @@ export default defineEventHandler(async (event) => {
   if (!content) {
     throw createError({ statusCode: 400, statusMessage: "缺少 content 参数" })
   }
-  if (content.length > 1200) {
-    throw createError({ statusCode: 400, statusMessage: "content 内容过长，请控制在 1200 字以内" })
+  if (content.length > 8000) {
+    throw createError({ statusCode: 400, statusMessage: "content 内容过长，请控制在 8000 字以内" })
   }
 
   const env = (event.context.cloudflare as { env?: AiEnv } | undefined)?.env

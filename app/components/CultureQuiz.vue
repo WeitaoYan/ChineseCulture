@@ -78,7 +78,11 @@ const props = defineProps({
   },
   content: {
     type: String,
-    required: true,
+    default: "",
+  },
+  maxChars: {
+    type: Number,
+    default: 8000,
   },
 });
 
@@ -95,10 +99,15 @@ const currentQuestion = computed(() => questions.value[current.value] || {});
 
 async function loadQuestions() {
   status.value = "loading";
+  const content = resolveContent();
+  if (!content) {
+    status.value = "error";
+    return;
+  }
   try {
     const { data } = await useFetch("/api/ai", {
       method: "POST",
-      body: { content: props.content },
+      body: { content },
     });
     if (data.value?.questions?.length) {
       questions.value = data.value.questions;
@@ -117,6 +126,24 @@ function reset() {
   selected.value = null;
   answered.value = false;
   score.value = 0;
+}
+
+function resolveContent() {
+  if (props.content && props.content.trim()) {
+    return props.content.trim().slice(0, props.maxChars);
+  }
+
+  if (!import.meta.client) return "";
+
+  const host = document.querySelector(".content-page") || document.body;
+  const container = host.querySelector(".content-body") || host;
+  let text = container.innerText || container.textContent || "";
+  const self = container.contains(document.querySelector(".culture-quiz"))
+    ? (document.querySelector(".culture-quiz").innerText || "")
+    : "";
+  if (self) text = text.replace(self, "");
+
+  return text.replace(/\s+/g, " ").trim().slice(0, props.maxChars);
 }
 
 function select(i) {
