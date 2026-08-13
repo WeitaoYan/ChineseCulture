@@ -320,6 +320,9 @@
           simple moments like watching the moon rise on a autumn evening.
         </p>
       </section>
+
+      <!-- AI 趣味测验 -->
+      <CultureQuiz title="Mid-Autumn Quiz" :content="quizContent" />
     </div>
 
     <!-- 引用 -->
@@ -332,7 +335,9 @@
 </template>
 
 <script setup>
-// Nuxt 3 会自动导入 components 目录下的组件
+// 传递给 AI 生成测验题目的页面核心知识点
+const quizContent = `中秋节是农历八月十五的中华传统节日，此时月亮最圆最亮。中秋即秋季中间，象征团圆、圆满与和谐。2026年的中秋节落在9月25日，是中国法定假日。代表食品是月饼，传统的莲蓉蛋黄馅圆形象征圆满，还有冰皮、水果等新式月饼。与月亮相关的传说：嫦娥奔月后居住广寒宫，玉兔在月中捣药，吴刚被罚砍伐月宫桂树。主要习俗有赏月、吃月饼、点灯笼、舞火龙。家人会团聚赏月吃团圆饭，应季食物包括螃蟹、芋头、西瓜。苏东坡名句"但愿人长久，千里共婵娟"。该节日在越南称Tết Trung Thu，韩国称秋夕（Chuseok）。`;
+
 definePageMeta({
   layout: "content",
   title: "Mid-Autumn Festival (Zhongqiu) - Chinese Culture Explorer",

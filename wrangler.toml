@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "chinese-culture"
+compatibility_date = "2026-08-13"
+pages_build_output_dir = "dist"
+
+# Workers AI binding，用于在 server 路由中通过 env.AI 调用 AI 模型
+[ai]
+binding = "AI"
