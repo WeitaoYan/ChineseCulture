@@ -26,23 +26,24 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 500, statusMessage: "AI binding 未配置" })
   }
 
-  const prompt = `你是一位中国传统文化课的老师。根据下面提供的页面介绍内容，生成 3 道中文选择题。
+  const prompt = `You are a teacher of traditional Chinese culture. Based on the page content provided below, generate 3 English multiple-choice questions.
 
-要求：
-- 题目必须与内容相关，考察其中的核心事实，不要重复提问同一知识点。
-- 每道题给出 4 个选项，只有 1 个正确。
-- 正确答案在 4 个选项中的位置要随机分布。
-- 只输出合法 JSON，不要输出任何多余文字、注释或代码块标记。
+Requirements:
+- All questions and options must be written in English.
+- Questions must relate to the content and test its core facts; do not ask about the same fact twice.
+- Each question has exactly 4 options, with only 1 correct answer.
+- The position of the correct answer must be randomized among the 4 options.
+- Output only valid JSON, with no extra text, comments, or code fences.
 
-输出格式：
-{"questions":[{"question":"题干","options":["选项A","选项B","选项C","选项D"],"answer":0}]}
-其中 answer 为正确答案在 options 中的下标（0-3）。
+Output format:
+{"questions":[{"question":"question text","options":["option A","option B","option C","option D"],"answer":0}]}
+The answer field is the 0-based index of the correct option.
 
-页面介绍内容：
+Page content:
 ${content}`
 
   const messages = [
-    { role: "system", content: "你只输出合法 JSON，不输出任何多余字符。" },
+    { role: "system", content: "Output valid JSON only. Do not output any extra characters." },
     { role: "user", content: prompt },
   ]
 

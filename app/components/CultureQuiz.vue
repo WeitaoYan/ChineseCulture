@@ -4,21 +4,21 @@
 
     <div v-if="status === 'loading'" class="quiz-state">
       <div class="quiz-loader" aria-hidden="true"></div>
-      <p class="quiz-state-text">题目生成中，请稍候…</p>
+      <p class="quiz-state-text">Generating questions…</p>
     </div>
 
     <div v-else-if="status === 'error'" class="quiz-state">
-      <p class="quiz-state-text quiz-error">题目生成失败，请稍后重试</p>
-      <button class="quiz-btn" @click="loadQuestions">重新生成</button>
+      <p class="quiz-state-text quiz-error">Failed to generate questions. Please try again.</p>
+      <button class="quiz-btn" @click="loadQuestions">Regenerate</button>
     </div>
 
     <div v-else-if="status === 'done'" class="quiz-state">
-      <p class="quiz-score">答对 {{ score }} / {{ questions.length }} 题</p>
-      <button class="quiz-btn" @click="restart">再玩一次</button>
+      <p class="quiz-score">You got {{ score }} / {{ questions.length }} correct</p>
+      <button class="quiz-btn" @click="restart">Play again</button>
     </div>
 
     <div v-else class="quiz-body">
-      <p class="quiz-progress">第 {{ current + 1 }} / {{ questions.length }} 题</p>
+      <p class="quiz-progress">Question {{ current + 1 }} of {{ questions.length }}</p>
       <p class="quiz-question">{{ currentQuestion.question }}</p>
 
       <ul class="quiz-options">
@@ -42,25 +42,25 @@
             :disabled="selected === null"
             @click="submit"
           >
-            提交答案
+            Submit answer
           </button>
         </template>
         <template v-else>
           <p v-if="selected === currentQuestion.answer" class="quiz-feedback quiz-feedback--right">
-            ✓ 回答正确！
+            ✓ Correct!
           </p>
           <p v-else class="quiz-feedback quiz-feedback--wrong">
-            ✕ 正确答案是 {{ letters[currentQuestion.answer] }}
+            ✕ Correct answer: {{ letters[currentQuestion.answer] }}
           </p>
           <button
             v-if="current < questions.length - 1"
             class="quiz-btn quiz-btn-primary"
             @click="next"
           >
-            下一题
+            Next question
           </button>
           <button v-else class="quiz-btn quiz-btn-primary" @click="finish">
-            查看成绩
+            See results
           </button>
         </template>
       </div>
@@ -74,7 +74,7 @@ import { computed, onMounted, ref } from "vue";
 const props = defineProps({
   title: {
     type: String,
-    default: "趣味小测验",
+    default: "Quick Quiz",
   },
   content: {
     type: String,
