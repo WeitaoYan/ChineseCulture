@@ -445,12 +445,76 @@
 </template>
 
 <script setup>
+const siteUrl = "https://chinese-culture.ikber.cc";
+
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
-  title: "Chinese Zodiac (Sheng Xiao) - Chinese Culture Explorer",
+  title: "Chinese Zodiac (生肖) - The Twelve Animal Signs",
   description:
-    "Discover the Chinese Zodiac, a 12-year cycle of animal signs that influence personality, relationships, and cultural traditions in Chinese culture.",
+    "Discover the Chinese Zodiac (生肖 Sheng Xiao), a 12-year cycle of animal signs including Rat, Ox, Tiger, Rabbit, Dragon, and more. Learn about personality traits and cultural significance.",
+  ogTitle: "Chinese Zodiac (生肖) - The Twelve Animal Signs | Chinese Culture Explorer",
+  ogDescription:
+    "Explore the fascinating Chinese Zodiac system with 12 animal signs. Find your zodiac animal and discover its influence on personality and destiny.",
+  twitterTitle: "Chinese Zodiac (生肖) - The Twelve Animal Signs",
+  twitterDescription:
+    "Discover your Chinese Zodiac animal sign and learn about the ancient 12-year cycle that shapes Chinese culture.",
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Chinese Zodiac (生肖) - The Twelve Animal Signs",
+        description:
+          "Discover the Chinese Zodiac (生肖 Sheng Xiao), a 12-year cycle of animal signs that influence personality, relationships, and cultural traditions.",
+        image: `${siteUrl}/assets/images/chinese-zodiac.jpg`,
+        url: `${siteUrl}/articles/chinese-zodiac`,
+        datePublished: "2026-01-01T00:00:00Z",
+        dateModified: "2026-08-13T00:00:00Z",
+        author: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `${siteUrl}/articles/chinese-zodiac`,
+        },
+        about: {
+          "@type": "Thing",
+          name: "Chinese Zodiac",
+          alternateName: ["生肖", "Sheng Xiao", "Chinese Horoscope"],
+        },
+        keywords: [
+          "Chinese Zodiac",
+          "生肖",
+          "Sheng Xiao",
+          "12 animals",
+          "Rat",
+          "Ox",
+          "Tiger",
+          "Rabbit",
+          "Dragon",
+          "Snake",
+          "Horse",
+          "Goat",
+          "Monkey",
+          "Rooster",
+          "Dog",
+          "Pig",
+        ],
+      }),
+    },
+  ],
 });
 </script>
 

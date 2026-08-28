@@ -15,46 +15,67 @@
 
     <!-- 特色文化部分 -->
     <section class="features-section">
+      <h2 class="section-title">Explore Chinese Culture</h2>
       <div class="features-grid">
         <!-- 哲学思想 -->
-        <div class="feature-card">
+        <NuxtLink to="/articles?tag=philosophy" class="feature-card">
           <div class="feature-icon">🎋</div>
           <h3 class="feature-title">Philosophy</h3>
           <p class="feature-text">
             Explore the teachings of Confucianism, Taoism, and Buddhism that
             have influenced Chinese thought for centuries.
           </p>
-        </div>
+        </NuxtLink>
 
         <!-- 传统艺术 -->
-        <div class="feature-card">
+        <NuxtLink to="/articles?tag=art" class="feature-card">
           <div class="feature-icon">🎨</div>
           <h3 class="feature-title">Traditional Arts</h3>
           <p class="feature-text">
             From calligraphy and painting to porcelain and silk, discover the
             exquisite beauty of Chinese artistic traditions.
           </p>
-        </div>
+        </NuxtLink>
 
         <!-- 节日庆典 -->
-        <div class="feature-card">
+        <NuxtLink to="/articles?tag=festival" class="feature-card">
           <div class="feature-icon">🏮</div>
           <h3 class="feature-title">Festivals</h3>
           <p class="feature-text">
             Experience the vibrant celebrations of Chinese New Year, Mid-Autumn
             Festival, and other important cultural events.
           </p>
-        </div>
+        </NuxtLink>
 
-        <!-- 中医养生 -->
-        <!-- <div class="feature-card">
+        <!-- 饮食文化 -->
+        <NuxtLink to="/articles?tag=cuisine" class="feature-card">
+          <div class="feature-icon">🍜</div>
+          <h3 class="feature-title">Cuisine</h3>
+          <p class="feature-text">
+            Discover the rich flavors of Chinese cuisine, from regional
+            specialties to traditional festival foods.
+          </p>
+        </NuxtLink>
+
+        <!-- 历史遗产 -->
+        <NuxtLink to="/articles?tag=history" class="feature-card">
+          <div class="feature-icon">📜</div>
+          <h3 class="feature-title">History & Heritage</h3>
+          <p class="feature-text">
+            Journey through China's magnificent historical sites, from the Great
+            Wall to the Forbidden City.
+          </p>
+        </NuxtLink>
+
+        <!-- 传统医学 -->
+        <NuxtLink to="/articles/traditional-chinese-medicine" class="feature-card">
           <div class="feature-icon">🌿</div>
           <h3 class="feature-title">Traditional Medicine</h3>
           <p class="feature-text">
             Learn about the holistic approach of Traditional Chinese Medicine,
-            including acupuncture, herbal remedies, and Qigong.
+            including acupuncture and herbal remedies.
           </p>
-        </div> -->
+        </NuxtLink>
       </div>
     </section>
 
@@ -67,7 +88,8 @@
             <div class="heritage-image">
               <img
                 src="/assets/images/greatwall.png"
-                alt="Great Wall of China"
+                alt="Great Wall of China - The most iconic symbol of Chinese civilization"
+                loading="lazy"
               />
             </div>
             <h3>Great Wall of China</h3>
@@ -78,7 +100,8 @@
             <div class="heritage-image">
               <img
                 src="/assets/images/forbidden-city.png"
-                alt="Forbidden City"
+                alt="Forbidden City - Imperial palace of the Ming and Qing dynasties"
+                loading="lazy"
               />
             </div>
             <h3>Forbidden City</h3>
@@ -89,12 +112,48 @@
             <div class="heritage-image">
               <img
                 src="/assets/images/terracotta-army.png"
-                alt="Terracotta Army"
+                alt="Terracotta Army - Guardian sculptures of Emperor Qin Shi Huang"
+                loading="lazy"
               />
             </div>
             <h3>Terracotta Army</h3>
           </NuxtLink>
         </div>
+      </div>
+    </section>
+
+    <!-- 热门文章部分 -->
+    <section class="popular-section">
+      <h2 class="section-title">Popular Articles</h2>
+      <div class="popular-grid">
+        <NuxtLink to="/articles/spring-festival" class="popular-card">
+          <span class="popular-icon">🧧</span>
+          <div class="popular-content">
+            <h3>Spring Festival</h3>
+            <p>China's most important traditional holiday</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/articles/chinese-zodiac" class="popular-card">
+          <span class="popular-icon">🐉</span>
+          <div class="popular-content">
+            <h3>Chinese Zodiac</h3>
+            <p>The twelve animals of the Chinese calendar</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/articles/chinese-tea-culture" class="popular-card">
+          <span class="popular-icon">🍵</span>
+          <div class="popular-content">
+            <h3>Tea Culture</h3>
+            <p>The ancient art of Chinese tea</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/articles/chinese-calligraphy" class="popular-card">
+          <span class="popular-icon">🖌️</span>
+          <div class="popular-content">
+            <h3>Calligraphy</h3>
+            <p>The art of beautiful writing</p>
+          </div>
+        </NuxtLink>
       </div>
     </section>
 
@@ -105,13 +164,15 @@
           "The wise find pleasure in water; the virtuous find pleasure in
           hills."
         </p>
-        <p class="quote-author">— Confucius</p>
+        <p class="quote-author">— Confucius (孔子)</p>
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
+const siteUrl = "https://chinese-culture.ikber.cc";
+
 definePageMeta({
   layout: "home",
   title: "Home",
@@ -123,6 +184,55 @@ definePageMeta({
   ogType: "website",
   twitterCard: "summary_large_image",
   robots: "index,follow",
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "Chinese Culture Explorer",
+        description:
+          "Discover Chinese traditional culture — explore festivals, history, philosophy, cuisine, and ancient heritage.",
+        url: siteUrl,
+        mainEntity: {
+          "@type": "ItemList",
+          numberOfItems: 35,
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@type": "Article",
+                name: "Spring Festival",
+                url: `${siteUrl}/articles/spring-festival`,
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@type": "Article",
+                name: "Chinese Zodiac",
+                url: `${siteUrl}/articles/chinese-zodiac`,
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              item: {
+                "@type": "Article",
+                name: "Forbidden City",
+                url: `${siteUrl}/articles/forbidden-city`,
+              },
+            },
+          ],
+        },
+      }),
+    },
+  ],
 });
 </script>
 
@@ -273,6 +383,55 @@ definePageMeta({
   font-weight: 600;
 }
 
+/* 热门文章部分 */
+.popular-section {
+  margin-bottom: 4rem;
+}
+
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.popular-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.popular-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-left-color: #a62c21;
+}
+
+.popular-icon {
+  font-size: 2rem;
+  min-width: 50px;
+  text-align: center;
+}
+
+.popular-content h3 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.popular-content p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .section-title {
@@ -281,6 +440,18 @@ definePageMeta({
 
   .quote-text {
     font-size: 1.4rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heritage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .popular-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>

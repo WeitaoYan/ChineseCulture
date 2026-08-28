@@ -333,11 +333,66 @@
 </template>
 
 <script setup>
+const siteUrl = "https://chinese-culture.ikber.cc";
+
 definePageMeta({
   layout: "content",
-  title: "Mid-Autumn Festival (Zhongqiu) - Chinese Culture Explorer",
+  title: "Mid-Autumn Festival (中秋节) - Moon Festival Guide",
   description:
-    "Discover the Mid-Autumn Festival, a traditional Chinese celebration of the full moon, mooncakes, and family reunion.",
+    "Discover the Mid-Autumn Festival (中秋节), a traditional Chinese celebration of the full moon, mooncakes, and family reunion. Learn about customs, legends, and traditions.",
+  ogTitle: "Mid-Autumn Festival (中秋节) - Moon Festival Guide | Chinese Culture Explorer",
+  ogDescription:
+    "Explore the magic of Mid-Autumn Festival - mooncakes, lanterns, and the legend of Chang'e. Your complete guide to China's harvest moon celebration.",
+  twitterTitle: "Mid-Autumn Festival (中秋节) - Moon Festival Guide",
+  twitterDescription:
+    "Celebrate the harvest moon with traditional Mid-Autumn Festival customs, mooncakes, and family reunion.",
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Mid-Autumn Festival (中秋节) - Moon Festival Guide",
+        description:
+          "Discover the Mid-Autumn Festival (中秋节), a traditional Chinese celebration of the full moon, mooncakes, and family reunion.",
+        image: `${siteUrl}/assets/images/mid-autumn.jpg`,
+        url: `${siteUrl}/articles/mid-autumn-festival`,
+        datePublished: "2026-01-01T00:00:00Z",
+        dateModified: "2026-08-13T00:00:00Z",
+        author: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `${siteUrl}/articles/mid-autumn-festival`,
+        },
+        about: {
+          "@type": "Thing",
+          name: "Mid-Autumn Festival",
+          alternateName: ["中秋节", "Moon Festival", "Zhongqiu"],
+        },
+        keywords: [
+          "Mid-Autumn Festival",
+          "中秋节",
+          "Moon Festival",
+          "mooncakes",
+          "Chang'e",
+          "full moon",
+          "family reunion",
+        ],
+      }),
+    },
+  ],
 });
 </script>
 

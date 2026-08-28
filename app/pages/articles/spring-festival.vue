@@ -335,12 +335,67 @@
 </template>
 
 <script setup>
+const route = useRoute();
+const siteUrl = "https://chinese-culture.ikber.cc";
+
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content", // 使用 content 布局
-  title: "Spring Festival - Chinese Culture Explorer",
+  title: "Spring Festival (春节) - Chinese New Year Guide",
   description:
-    "Discover the Spring Festival, China's most important celebration of family, tradition, and renewal.",
+    "Discover the Spring Festival (春节), China's most important traditional holiday celebrating family reunion, renewal, and prosperity. Learn about customs, food, and traditions.",
+  ogTitle: "Spring Festival (春节) - Chinese New Year Guide | Chinese Culture Explorer",
+  ogDescription:
+    "Experience the magic of Chinese New Year - from reunion dinners and red lanterns to lion dances and firecrackers. Your complete guide to Spring Festival traditions.",
+  twitterTitle: "Spring Festival (春节) - Chinese New Year Guide",
+  twitterDescription:
+    "Discover China's most important holiday - Spring Festival. Learn about family traditions, lucky foods, and festive celebrations.",
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Spring Festival (春节) - Chinese New Year Guide",
+        description:
+          "Discover the Spring Festival (春节), China's most important traditional holiday celebrating family reunion, renewal, and prosperity.",
+        image: `${siteUrl}/assets/images/spring-festival-reunion-dinner.png`,
+        url: `${siteUrl}/articles/spring-festival`,
+        datePublished: "2026-01-01T00:00:00Z",
+        dateModified: "2026-08-13T00:00:00Z",
+        author: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `${siteUrl}/articles/spring-festival`,
+        },
+        about: {
+          "@type": "Thing",
+          name: "Spring Festival",
+          alternateName: ["Chinese New Year", "春节", "Lunar New Year"],
+        },
+        keywords: [
+          "Spring Festival",
+          "Chinese New Year",
+          "春节",
+          "Lunar New Year",
+          "Chinese traditions",
+          "family reunion",
+        ],
+      }),
+    },
+  ],
 });
 </script>
 

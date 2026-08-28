@@ -36,6 +36,7 @@
 
       <!-- 主要内容区域 -->
       <main class="layout-main">
+        <BreadcrumbNav :items="breadcrumbItems" />
         <slot />
       </main>
     </div>
@@ -46,7 +47,35 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, watch, computed } from "vue";
+
+const route = useRoute();
+
+// 面包屑导航数据
+const breadcrumbItems = computed(() => {
+  const items = [];
+  const path = route.path;
+  const title = route.meta?.title || "";
+
+  if (path.startsWith("/articles/")) {
+    items.push({ label: "Articles", to: "/articles" });
+    // 将slug转换为可读标题
+    const slug = path.split("/").pop();
+    const articleTitle = title
+      ? title.replace(" - Chinese Culture Explorer", "")
+      : slug
+          .split("-")
+          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ");
+    items.push({ label: articleTitle });
+  } else if (path === "/articles") {
+    items.push({ label: "Articles" });
+  } else if (path === "/about") {
+    items.push({ label: "About Us" });
+  }
+
+  return items;
+});
 
 // 文章标签
 const tags = [

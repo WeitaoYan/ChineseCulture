@@ -125,11 +125,67 @@
 </template>
 
 <script setup>
+const siteUrl = "https://chinese-culture.ikber.cc";
+
 definePageMeta({
   layout: "content",
-  title: "The Forbidden City - Chinese Culture Explorer",
+  title: "Forbidden City (故宫) - Imperial Palace of China",
   description:
-    "Explore the Forbidden City, the imperial palace complex of Ming and Qing dynasties in Beijing.",
+    "Explore the Forbidden City (故宫), the world's largest imperial palace complex of Ming and Qing dynasties in Beijing. Discover 500 years of Chinese imperial history.",
+  ogTitle: "Forbidden City (故宫) - Imperial Palace of China | Chinese Culture Explorer",
+  ogDescription:
+    "Walk through the halls of the Forbidden City - the magnificent imperial palace where 24 emperors ruled China for nearly 500 years.",
+  twitterTitle: "Forbidden City (故宫) - Imperial Palace of China",
+  twitterDescription:
+    "Discover the Forbidden City, the world's largest palace complex and UNESCO World Heritage Site in Beijing.",
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Forbidden City (故宫) - Imperial Palace of China",
+        description:
+          "Explore the Forbidden City (故宫), the world's largest imperial palace complex of Ming and Qing dynasties in Beijing.",
+        image: `${siteUrl}/assets/images/forbidden-city.png`,
+        url: `${siteUrl}/articles/forbidden-city`,
+        datePublished: "2026-01-01T00:00:00Z",
+        dateModified: "2026-08-13T00:00:00Z",
+        author: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Chinese Culture Explorer",
+          url: siteUrl,
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `${siteUrl}/articles/forbidden-city`,
+        },
+        about: {
+          "@type": "Place",
+          name: "Forbidden City",
+          alternateName: ["故宫", "Palace Museum", "紫禁城"],
+        },
+        keywords: [
+          "Forbidden City",
+          "故宫",
+          "Beijing",
+          "imperial palace",
+          "Ming dynasty",
+          "Qing dynasty",
+          "UNESCO",
+          "World Heritage",
+        ],
+      }),
+    },
+  ],
 });
 </script>
 
