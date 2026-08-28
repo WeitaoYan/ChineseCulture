@@ -12,11 +12,6 @@ useSeoMeta({
   defaultTitle: "Chinese Culture Explorer",
   description:
     "Explore the rich heritage and timeless traditions of China — festivals, history, philosophy, art, and more.",
-  ogTitle: "Chinese Culture Explorer",
-  ogDescription:
-    "Explore the rich heritage and timeless traditions of China — festivals, history, philosophy, art, and more.",
-  ogType: "website",
-  twitterCard: "summary_large_image",
   ogSiteName: "Chinese Culture Explorer",
   ogLocale: "en_US",
 });
@@ -25,10 +20,7 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  link: [
-    { rel: "preload", as: "image", href: "/assets/images/building.png" },
-    { rel: "canonical", href: `${siteUrl}${route.path}` },
-  ],
+  link: [{ rel: "canonical", href: `${siteUrl}${route.path}` }],
   script: [
     {
       type: "application/ld+json",

@@ -172,18 +172,43 @@
 
 <script setup>
 const siteUrl = "https://chinese-culture.ikber.cc";
+const ogImage = `${siteUrl}/assets/images/building.png`;
+const featuredArticles = [
+  "spring-festival",
+  "chinese-zodiac",
+  "forbidden-city",
+  "great-wall",
+  "terracotta-army",
+  "mid-autumn-festival",
+  "chinese-tea-culture",
+  "chinese-calligraphy",
+  "confucius",
+  "traditional-chinese-medicine",
+];
 
 definePageMeta({
   layout: "home",
-  title: "Home",
+});
+
+useSeoMeta({
+  title: "Chinese Traditional Culture: Festivals, History, Philosophy & Arts",
   description:
-    "Discover Chinese traditional culture — explore festivals, history, philosophy, cuisine, and ancient heritage.",
-  ogTitle: "Chinese Culture Explorer",
-  ogDescription:
-    "Explore the rich heritage and timeless traditions of China — festivals, history, philosophy, art, and more.",
-  ogType: "website",
-  twitterCard: "summary_large_image",
+    "Discover 5,000 years of Chinese traditional culture — Spring Festival, Mid-Autumn Festival, Chinese zodiac, calligraphy, tea culture, Confucianism, the Great Wall and world heritage sites.",
   robots: "index,follow",
+  ogTitle: "Chinese Culture Explorer — Discover Chinese Traditional Culture",
+  ogDescription:
+    "Explore 5,000 years of Chinese traditions: festivals, philosophy, cuisine, arts and world heritage sites, explained in depth.",
+  ogType: "website",
+  ogUrl: `${siteUrl}/`,
+  ogImage,
+  ogImageWidth: 800,
+  ogImageHeight: 450,
+  ogImageAlt: "Traditional Chinese architecture",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Chinese Culture Explorer — Discover Chinese Traditional Culture",
+  twitterDescription:
+    "Explore 5,000 years of Chinese traditions: festivals, philosophy, cuisine, arts and world heritage sites.",
+  twitterImage: ogImage,
 });
 
 useHead({
@@ -196,39 +221,23 @@ useHead({
         name: "Chinese Culture Explorer",
         description:
           "Discover Chinese traditional culture — explore festivals, history, philosophy, cuisine, and ancient heritage.",
-        url: siteUrl,
+        url: `${siteUrl}/`,
+        isPartOf: { "@id": siteUrl },
         mainEntity: {
           "@type": "ItemList",
-          numberOfItems: 35,
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              item: {
-                "@type": "Article",
-                name: "Spring Festival",
-                url: `${siteUrl}/articles/spring-festival`,
-              },
+          numberOfItems: featuredArticles.length,
+          itemListElement: featuredArticles.map((slug, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            item: {
+              "@type": "Article",
+              name: slug
+                .split("-")
+                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(" "),
+              url: `${siteUrl}/articles/${slug}`,
             },
-            {
-              "@type": "ListItem",
-              position: 2,
-              item: {
-                "@type": "Article",
-                name: "Chinese Zodiac",
-                url: `${siteUrl}/articles/chinese-zodiac`,
-              },
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              item: {
-                "@type": "Article",
-                name: "Forbidden City",
-                url: `${siteUrl}/articles/forbidden-city`,
-              },
-            },
-          ],
+          })),
         },
       }),
     },
