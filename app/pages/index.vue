@@ -294,6 +294,7 @@ useHead({
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
