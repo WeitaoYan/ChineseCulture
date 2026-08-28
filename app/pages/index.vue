@@ -172,7 +172,7 @@
 
 <script setup>
 const siteUrl = "https://chinese-culture.ikber.cc";
-const ogImage = `${siteUrl}/assets/images/building.png`;
+const ogImage = `${siteUrl}/assets/og/og-home.png`;
 const featuredArticles = [
   "spring-festival",
   "chinese-zodiac",
@@ -201,9 +201,10 @@ useSeoMeta({
   ogType: "website",
   ogUrl: `${siteUrl}/`,
   ogImage,
-  ogImageWidth: 800,
-  ogImageHeight: 450,
-  ogImageAlt: "Traditional Chinese architecture",
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageAlt:
+    "Chinese Culture Explorer — Discover 5,000 years of Chinese traditional culture: festivals, philosophy, arts and heritage",
   twitterCard: "summary_large_image",
   twitterTitle: "Chinese Culture Explorer — Discover Chinese Traditional Culture",
   twitterDescription:
