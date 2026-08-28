@@ -481,6 +481,16 @@ const articles = [
       excerpt:
         "Discover Chinese Mythology (中国神话) — from Pangu's creation and Nüwa mending the sky to the Monkey King, the Eight Immortals, dragons, and the Four Symbols. Explore the stories that shaped Chinese civilization.",
     },
+    {
+      id: 35,
+      title: "The Mogao Caves of Dunhuang",
+      slug: "mogao-caves",
+      tags: ["history", "art", "culture"],
+      readtime: 10,
+      image: "/assets/images/mogao-caves.png",
+      excerpt:
+        "Discover the Mogao Caves (莫高窟), the world's greatest treasure of Buddhist art on the Silk Road. Explore 1,000 years of cave temples, the hidden Library Cave, flying apsaras murals, and Digital Dunhuang preservation.",
+    },
   ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
