@@ -18,6 +18,8 @@
 
     <!-- 内容主体 -->
     <div class="content-body">
+      <!-- Google 广告位 -->
+      <GoogleAd />
 
       <!-- 年兽传说 -->
       <section class="section">

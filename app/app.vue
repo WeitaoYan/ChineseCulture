@@ -23,6 +23,11 @@ useHead({
   link: [{ rel: "canonical", href: `${siteUrl}${route.path}` }],
   script: [
     {
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7935584531479999",
+      async: true,
+      crossorigin: "anonymous",
+    },
+    {
       type: "application/ld+json",
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",

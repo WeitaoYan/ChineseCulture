@@ -19,6 +19,8 @@
 
     <!-- 内容主体 -->
     <div class="content-body">
+      <!-- Google 广告位 -->
+      <GoogleAd />
       <!-- 简介部分 -->
       <section class="section">
         <h2 class="section-title">Overview</h2>
