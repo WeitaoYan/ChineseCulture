@@ -12,13 +12,25 @@
 </template>
 
 <script setup>
-onMounted(() => {
-  try {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  } catch (error) {
-    // 广告脚本未加载或已禁用时静默失败，不影响页面内容
-    console.error("Google AdSense load error:", error);
-  }
+onMounted(async () => {
+  // 等待 AdSense 脚本加载完成
+  await nextTick();
+
+  const pushAd = () => {
+    if (window.adsbygoogle) {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (error) {
+        // 广告脚本未加载或已禁用时静默失败，不影响页面内容
+        console.error("Google AdSense load error:", error);
+      }
+    } else {
+      // 脚本尚未加载，延迟重试
+      setTimeout(pushAd, 500);
+    }
+  };
+
+  pushAd();
 });
 </script>
 

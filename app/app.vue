@@ -25,7 +25,6 @@ useHead({
     {
       src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7935584531479999",
       async: true,
-      crossorigin: "anonymous",
     },
     {
       type: "application/ld+json",
