@@ -8,7 +8,8 @@
         <MetaItem>🌙 Full Moon</MetaItem>
         <MetaItem>🥮 Mooncakes</MetaItem>
         <MetaItem>🏮 Lanterns</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -320,7 +321,8 @@
           together with family, of honoring our roots, and of finding beauty in
           simple moments like watching the moon rise on a autumn evening.
         </p>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -328,9 +330,9 @@
       Though separated by thousands of miles, we see the same moon together." —
       Traditional Mid-Autumn blessing
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Mid-Autumn Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Mid-Autumn Quiz" />
   </div>
 </template>
 
@@ -339,10 +341,12 @@ const siteUrl = "https://chinese-culture.ikber.cc";
 
 definePageMeta({
   layout: "content",
+  breadcrumb: "Mid-Autumn Festival",
   title: "Mid-Autumn Festival (中秋节) - Moon Festival Guide",
   description:
     "Discover the Mid-Autumn Festival (中秋节), a traditional Chinese celebration of the full moon, mooncakes, and family reunion. Learn about customs, legends, and traditions.",
-  ogTitle: "Mid-Autumn Festival (中秋节) - Moon Festival Guide | Chinese Culture Explorer",
+  ogTitle:
+    "Mid-Autumn Festival (中秋节) - Moon Festival Guide | Chinese Culture Explorer",
   ogDescription:
     "Explore the magic of Mid-Autumn Festival - mooncakes, lanterns, and the legend of Chang'e. Your complete guide to China's harvest moon celebration.",
   twitterTitle: "Mid-Autumn Festival (中秋节) - Moon Festival Guide",

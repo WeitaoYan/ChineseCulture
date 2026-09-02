@@ -441,6 +441,7 @@
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
+  breadcrumb: "Zhongyuan Festival",
   title: "Zhongyuan Festival - Chinese Culture Explorer",
   description:
     "Discover Zhongyuan Festival (Ghost Festival), a traditional Chinese observance honoring ancestors and spirits with floating lanterns, offerings, and rituals.",

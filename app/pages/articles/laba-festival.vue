@@ -8,7 +8,8 @@
         <MetaItem>🍲 Traditional Porridge Celebration</MetaItem>
         <MetaItem>📅 8th Day of 12th Lunar Month</MetaItem>
         <MetaItem>🌱 Commemorating Buddha's Enlightenment</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -177,7 +178,8 @@
             >
           </div>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -185,9 +187,9 @@
       history and the simple, universal human desires for health, happiness, and
       community."
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Laba Festival Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Laba Festival Quiz" />
   </div>
 </template>
 
@@ -196,6 +198,7 @@
 
 definePageMeta({
   layout: "content", // 使用 content 布局
+  breadcrumb: "Laba Festival",
   title: "Laba Festival - Chinese Culture Explorer",
   description:
     "Discover the Laba Festival, a traditional Chinese celebration of porridge, gratitude, and community spirit.",

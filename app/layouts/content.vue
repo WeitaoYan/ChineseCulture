@@ -55,19 +55,17 @@ const route = useRoute();
 const breadcrumbItems = computed(() => {
   const items = [];
   const path = route.path;
-  const title = route.meta?.title || "";
 
   if (path.startsWith("/articles/")) {
     items.push({ label: "Articles", to: "/articles" });
-    // 只取主标题，去除副标题和括号内容
+    // 优先取页面 definePageMeta 中声明的 breadcrumb（与页面 H1 一致）
     const slug = path.split("/").pop();
-    const fullTitle = title
-      ? title.replace(" - Chinese Culture Explorer", "")
-      : slug
-          .split("-")
-          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(" ");
-    const articleTitle = fullTitle.replace(/\s*\(.*?\)\s*/g, "").trim();
+    const articleTitle =
+      route.meta.breadcrumb ||
+      slug
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
     items.push({ label: articleTitle });
   } else if (path === "/articles") {
     items.push({ label: "Articles" });

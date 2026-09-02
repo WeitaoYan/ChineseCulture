@@ -10,7 +10,8 @@
         <MetaItem>🪦 Ancestor Worship</MetaItem>
         <MetaItem>🌸 Spring Outings</MetaItem>
         <MetaItem>🪁 Flying Kites</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -363,10 +364,11 @@
             </div>
           </div>
         </div>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Qingming Festival Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Qingming Festival Quiz" />
   </div>
 </template>
 
@@ -374,6 +376,7 @@
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
+  breadcrumb: "Qingming Festival",
   title: "Qingming Festival - Chinese Culture Explorer",
   description:
     "Discover Qingming Festival, the traditional Tomb-Sweeping Day honoring ancestors and celebrating spring.",

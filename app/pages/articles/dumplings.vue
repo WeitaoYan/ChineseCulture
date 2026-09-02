@@ -8,11 +8,12 @@
         <MetaItem>🥟 Traditional Delicacy</MetaItem>
         <MetaItem>🏠 Family Reunion Symbol</MetaItem>
         <MetaItem>💰 Wealth and Good Fortune</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
-      imageSrc="/assets/images/jiaozi.jpeg"
+      imageSrc="/assets/images/jiaozi.png"
       altText="Dumplings - Traditional Chinese dumplings arranged in a bamboo steamer with family gathering around"
     />
 
@@ -232,16 +233,17 @@
             >
           </div>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
       "A single dumpling contains not just ingredients, but the warmth of
       family, the essence of tradition, and the spirit of Chinese hospitality."
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Dumplings Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Dumplings Quiz" />
   </div>
 </template>
 
@@ -249,6 +251,7 @@
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
+  breadcrumb: "Dumplings",
   title: "Dumplings (Jiaozi) - Chinese Culture Explorer",
   description:
     "Discover the cultural significance of Chinese dumplings, a symbol of family reunion and prosperity.",

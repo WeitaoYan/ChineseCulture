@@ -11,7 +11,8 @@
         <MetaItem>🐪 Caravans</MetaItem>
         <MetaItem>🏛️ Dunhuang</MetaItem>
         <MetaItem>🌏 East Meets West</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -29,17 +30,17 @@
         <p class="section-text">
           The <strong>Silk Road</strong> (丝绸之路, Sī Chóu Zhī Lù) was not a
           single road but a vast network of trade routes spanning over
-          <strong>6,400 kilometers</strong> (4,000 miles), connecting China
-          with Central Asia, the Middle East, and Europe. For more than
+          <strong>6,400 kilometers</strong> (4,000 miles), connecting China with
+          Central Asia, the Middle East, and Europe. For more than
           <strong>1,500 years</strong>, it served as the world's most important
           artery of commerce, culture, and ideas.
         </p>
         <p class="section-text">
           Named for the lucrative Chinese silk trade that first opened this
           route, the Silk Road carried far more than goods. Along its dusty
-          paths traveled religions, philosophies, technologies, art styles,
-          and diseases — transforming every civilization it touched and laying
-          the foundation for the interconnected world we know today.
+          paths traveled religions, philosophies, technologies, art styles, and
+          diseases — transforming every civilization it touched and laying the
+          foundation for the interconnected world we know today.
         </p>
       </section>
 
@@ -47,32 +48,42 @@
       <section class="section">
         <h2 class="section-title">The Origins: Zhang Qian's Journey</h2>
         <p class="section-text">
-          The Silk Road's story begins with a remarkable explorer: <strong>Zhang Qian</strong>
+          The Silk Road's story begins with a remarkable explorer:
+          <strong>Zhang Qian</strong>
           (张骞), a Han Dynasty diplomat. In 138 BCE, Emperor Wu of Han sent
-          Zhang Qian on a mission to forge an alliance with Central Asian
-          tribes against the Xiongnu nomads. Captured and held prisoner for
-          over a decade, Zhang Qian eventually escaped and spent years
-          exploring the kingdoms of Central Asia.
+          Zhang Qian on a mission to forge an alliance with Central Asian tribes
+          against the Xiongnu nomads. Captured and held prisoner for over a
+          decade, Zhang Qian eventually escaped and spent years exploring the
+          kingdoms of Central Asia.
         </p>
         <p class="section-text">
-          When he returned to China in 126 BCE, Zhang Qian brought back
-          detailed reports of the civilizations he had encountered — their
-          products, customs, and geography. His journey opened China's eyes to
-          the wider world and established the diplomatic and commercial
-          contacts that would evolve into the Silk Road.
+          When he returned to China in 126 BCE, Zhang Qian brought back detailed
+          reports of the civilizations he had encountered — their products,
+          customs, and geography. His journey opened China's eyes to the wider
+          world and established the diplomatic and commercial contacts that
+          would evolve into the Silk Road.
         </p>
         <FeatureGrid>
           <FeatureItem title="Years Traveled" theme="red">
-            <p>12 years (138–126 BCE), including 10 years as a prisoner of the Xiongnu.</p>
+            <p>
+              12 years (138–126 BCE), including 10 years as a prisoner of the
+              Xiongnu.
+            </p>
           </FeatureItem>
           <FeatureItem title="Distance Covered" theme="gold">
             <p>Over 10,000 kilometers through uncharted territory.</p>
           </FeatureItem>
           <FeatureItem title="Discoveries Brought Back" theme="green">
-            <p>Grapes, alfalfa, walnuts, pomegranates, and intelligence about Ferghana horses.</p>
+            <p>
+              Grapes, alfalfa, walnuts, pomegranates, and intelligence about
+              Ferghana horses.
+            </p>
           </FeatureItem>
           <FeatureItem title="Legacy" theme="blue">
-            <p>Known as the "Pioneer of the Silk Road" — his travels made the route possible.</p>
+            <p>
+              Known as the "Pioneer of the Silk Road" — his travels made the
+              route possible.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -95,23 +106,23 @@
           </FeatureItem>
           <FeatureItem title="Southern Route" theme="gold">
             <p>
-              From Chang'an → Dunhuang → Khotan (Hotan) → Kashgar →
-              Bactria. Followed the southern edge of the Taklamakan Desert,
-              famous for its jade and Buddhist cave temples.
+              From Chang'an → Dunhuang → Khotan (Hotan) → Kashgar → Bactria.
+              Followed the southern edge of the Taklamakan Desert, famous for
+              its jade and Buddhist cave temples.
             </p>
           </FeatureItem>
           <FeatureItem title="Maritime Silk Road" theme="blue">
             <p>
-              From Guangzhou → Quanzhou → Southeast Asia → India → East
-              Africa. During the Song and Ming dynasties, this sea route
-              rivaled the overland routes in importance.
+              From Guangzhou → Quanzhou → Southeast Asia → India → East Africa.
+              During the Song and Ming dynasties, this sea route rivaled the
+              overland routes in importance.
             </p>
           </FeatureItem>
           <FeatureItem title="Tea Horse Road" theme="green">
             <p>
-              From Yunnan → Tibet → India. A southern branch that traded
-              pu'er tea for Tibetan war horses, operating for over 1,000
-              years alongside the main Silk Road.
+              From Yunnan → Tibet → India. A southern branch that traded pu'er
+              tea for Tibetan war horses, operating for over 1,000 years
+              alongside the main Silk Road.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -122,28 +133,64 @@
         <h2 class="section-title">What Traveled the Silk Road</h2>
         <p class="section-text">
           The Silk Road was a two-way street. China gave the world some of its
-          most transformative inventions, while receiving goods that
-          transformed Chinese culture:
+          most transformative inventions, while receiving goods that transformed
+          Chinese culture:
         </p>
         <FeatureGrid>
           <FeatureItem title="From China → West" theme="red">
             <ul class="trade-list">
-              <li><strong>Silk (丝绸)</strong> — The most prized luxury, so valuable it was used as currency</li>
-              <li><strong>Tea (茶叶)</strong> — Revolutionized drinking habits worldwide</li>
-              <li><strong>Paper (造纸术)</strong> — Transformed communication and record-keeping</li>
-              <li><strong>Gunpowder (火药)</strong> — Changed warfare and global power dynamics</li>
-              <li><strong>Porcelain (瓷器)</strong> — "China" became synonymous with fine ceramics</li>
-              <li><strong>Compass (指南针)</strong> — Enabled global navigation and exploration</li>
+              <li>
+                <strong>Silk (丝绸)</strong> — The most prized luxury, so
+                valuable it was used as currency
+              </li>
+              <li>
+                <strong>Tea (茶叶)</strong> — Revolutionized drinking habits
+                worldwide
+              </li>
+              <li>
+                <strong>Paper (造纸术)</strong> — Transformed communication and
+                record-keeping
+              </li>
+              <li>
+                <strong>Gunpowder (火药)</strong> — Changed warfare and global
+                power dynamics
+              </li>
+              <li>
+                <strong>Porcelain (瓷器)</strong> — "China" became synonymous
+                with fine ceramics
+              </li>
+              <li>
+                <strong>Compass (指南针)</strong> — Enabled global navigation
+                and exploration
+              </li>
             </ul>
           </FeatureItem>
           <FeatureItem title="From West → China" theme="gold">
             <ul class="trade-list">
-              <li><strong>Grapes & Wine (葡萄)</strong> — Introduced from Persia via Central Asia</li>
-              <li><strong>Buddhism (佛教)</strong> — The most transformative cultural import</li>
-              <li><strong>Horses (马匹)</strong> — Ferghana "heavenly horses" prized for military use</li>
-              <li><strong>Spices (香料)</strong> — Saffron, pepper, and other exotic flavors</li>
-              <li><strong>Glassware (玻璃)</strong> — Roman and Persian glass prized by Chinese elites</li>
-              <li><strong>Music & Dance (音乐舞蹈)</strong> — New instruments and performance styles</li>
+              <li>
+                <strong>Grapes & Wine (葡萄)</strong> — Introduced from Persia
+                via Central Asia
+              </li>
+              <li>
+                <strong>Buddhism (佛教)</strong> — The most transformative
+                cultural import
+              </li>
+              <li>
+                <strong>Horses (马匹)</strong> — Ferghana "heavenly horses"
+                prized for military use
+              </li>
+              <li>
+                <strong>Spices (香料)</strong> — Saffron, pepper, and other
+                exotic flavors
+              </li>
+              <li>
+                <strong>Glassware (玻璃)</strong> — Roman and Persian glass
+                prized by Chinese elites
+              </li>
+              <li>
+                <strong>Music & Dance (音乐舞蹈)</strong> — New instruments and
+                performance styles
+              </li>
             </ul>
           </FeatureItem>
         </FeatureGrid>
@@ -154,33 +201,41 @@
         <h2 class="section-title">Dunhuang: The Crossroads of Civilizations</h2>
         <p class="section-text">
           No place better represents the spirit of the Silk Road than
-          <strong>Dunhuang</strong> (敦煌), an oasis city at the junction of
-          the northern and southern desert routes. From the 4th to the 14th
+          <strong>Dunhuang</strong> (敦煌), an oasis city at the junction of the
+          northern and southern desert routes. From the 4th to the 14th
           centuries, Dunhuang served as a sacred gateway where travelers from
           China, India, Persia, and beyond would stop to pray for safe passage
           through the treacherous desert ahead.
         </p>
         <p class="section-text">
-          The <strong>Mogao Caves</strong> (莫高窟), also known as the
-          "Caves of the Thousand Buddhas," house the world's richest treasure
-          of Buddhist art — over 45,000 square meters of murals and 2,000
-          painted sculptures spanning a millennium. In 1900, a hidden library
-          cave was discovered containing over 50,000 manuscripts in multiple
-          languages, revealing the intellectual life of the Silk Road in
-          astonishing detail.
+          The <strong>Mogao Caves</strong> (莫高窟), also known as the "Caves of
+          the Thousand Buddhas," house the world's richest treasure of Buddhist
+          art — over 45,000 square meters of murals and 2,000 painted sculptures
+          spanning a millennium. In 1900, a hidden library cave was discovered
+          containing over 50,000 manuscripts in multiple languages, revealing
+          the intellectual life of the Silk Road in astonishing detail.
         </p>
         <FeatureGrid>
           <FeatureItem title="Construction Period" theme="red">
             <p>492 cave temples built over 1,000 years (366–1368 CE).</p>
           </FeatureItem>
           <FeatureItem title="Cave Art" theme="gold">
-            <p>Over 45,000 square meters of murals — the largest Buddhist art treasury in the world.</p>
+            <p>
+              Over 45,000 square meters of murals — the largest Buddhist art
+              treasury in the world.
+            </p>
           </FeatureItem>
           <FeatureItem title="Library Cave" theme="blue">
-            <p>50,000+ manuscripts discovered in 1900, spanning Buddhism, Daoism, Nestorian Christianity, and Manichaeism.</p>
+            <p>
+              50,000+ manuscripts discovered in 1900, spanning Buddhism, Daoism,
+              Nestorian Christianity, and Manichaeism.
+            </p>
           </FeatureItem>
           <FeatureItem title="UNESCO Site" theme="green">
-            <p>Designated a World Heritage Site in 1987. One of China's most important cultural treasures.</p>
+            <p>
+              Designated a World Heritage Site in 1987. One of China's most
+              important cultural treasures.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -189,11 +244,11 @@
       <section class="section">
         <h2 class="section-title">The Exchange of Ideas</h2>
         <p class="section-text">
-          Perhaps more important than the goods traded on the Silk Road were
-          the ideas that traveled alongside them. The route was the primary
-          channel for the spread of Buddhism from India to China, Korea, and
-          Japan — a religious and philosophical transformation that reshaped
-          East Asian civilization.
+          Perhaps more important than the goods traded on the Silk Road were the
+          ideas that traveled alongside them. The route was the primary channel
+          for the spread of Buddhism from India to China, Korea, and Japan — a
+          religious and philosophical transformation that reshaped East Asian
+          civilization.
         </p>
         <FeatureGrid>
           <FeatureItem title="Buddhism's Journey East" theme="gold">
@@ -206,10 +261,9 @@
           </FeatureItem>
           <FeatureItem title="Nestorian Christianity" theme="blue">
             <p>
-              The Church of the East (Nestorian Christianity) reached China
-              via the Silk Road in the 7th century. The Nestorian Stele,
-              erected in 781 CE in Chang'an, records its presence in three
-              languages.
+              The Church of the East (Nestorian Christianity) reached China via
+              the Silk Road in the 7th century. The Nestorian Stele, erected in
+              781 CE in Chang'an, records its presence in three languages.
             </p>
           </FeatureItem>
           <FeatureItem title="Islam" theme="green">
@@ -244,10 +298,9 @@
           </FeatureItem>
           <FeatureItem title="Marco Polo (1254–1324)" theme="gold">
             <p>
-              The Venetian merchant who traveled the Silk Road to Kublai
-              Khan's court. His <em>Travels of Marco Polo</em> introduced
-              Europe to the wealth, technology, and culture of Yuan Dynasty
-              China.
+              The Venetian merchant who traveled the Silk Road to Kublai Khan's
+              court. His <em>Travels of Marco Polo</em> introduced Europe to the
+              wealth, technology, and culture of Yuan Dynasty China.
             </p>
           </FeatureItem>
           <FeatureItem title="Ibn Battuta (1304–1369)" theme="blue">
@@ -272,9 +325,9 @@
         <h2 class="section-title">Decline and Revival</h2>
         <p class="section-text">
           The overland Silk Road declined from the 15th century onward as
-          maritime routes became safer, faster, and more economical. The rise
-          of the Ottoman Empire, the Mongol Empire's fragmentation, and
-          Europe's Age of Discovery shifted global trade to the oceans.
+          maritime routes became safer, faster, and more economical. The rise of
+          the Ottoman Empire, the Mongol Empire's fragmentation, and Europe's
+          Age of Discovery shifted global trade to the oceans.
         </p>
         <p class="section-text">
           However, in the 21st century, the Silk Road has experienced a
@@ -295,16 +348,18 @@
           only goods, but dreams, beliefs, and the building blocks of human
           progress."
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Silk Road Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Silk Road Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "The Silk Road",
   title:
     "The Silk Road | Ancient Highway of Civilizations — Chinese Culture Guide",
   description:

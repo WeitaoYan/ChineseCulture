@@ -10,7 +10,8 @@
         <MetaItem>🏔️ Earth</MetaItem>
         <MetaItem>⚔️ Metal</MetaItem>
         <MetaItem>💧 Water</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -326,7 +327,8 @@
           Five Elements provides a window into a worldview that has shaped
           civilization for millennia.
         </p>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -334,9 +336,9 @@
       interplay of generation and control that shapes the universe and
       everything within it."
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Five Elements Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Five Elements Quiz" />
   </div>
 </template>
 
@@ -344,6 +346,7 @@
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
+  breadcrumb: "Five Elements",
   title: "Five Elements (Wu Xing) - Chinese Culture Explorer",
   description:
     "Discover the Five Elements theory, the foundation of traditional Chinese philosophy and cosmology.",

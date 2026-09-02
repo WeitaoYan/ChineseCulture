@@ -11,7 +11,8 @@
         <MetaItem>🧑‍🏫 Five Constants</MetaItem>
         <MetaItem>🏛️ Four Books</MetaItem>
         <MetaItem>🎓 Hundred Schools</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -56,10 +57,10 @@
         <FeatureGrid>
           <FeatureItem title="Early Years (551–532 BCE)" theme="gold">
             <p>
-              As a young man, Confucius worked various jobs — managing
-              granaries and tending livestock — while devoting himself to
-              self-study of the ancient classics: poetry, history, music, and
-              ritual. His reputation as a scholar grew steadily.
+              As a young man, Confucius worked various jobs — managing granaries
+              and tending livestock — while devoting himself to self-study of
+              the ancient classics: poetry, history, music, and ritual. His
+              reputation as a scholar grew steadily.
             </p>
           </FeatureItem>
           <FeatureItem title="Teaching Career (532–501 BCE)" theme="red">
@@ -81,11 +82,11 @@
           </FeatureItem>
           <FeatureItem title="Return & Legacy (484–479 BCE)" theme="gold">
             <p>
-              At 67, Confucius returned to Lu and spent his final years
-              teaching and editing the classical texts: the Book of Odes, Book
-              of Documents, Book of Rites, and the Spring and Autumn Annals.
-              He died at 73, surrounded by disciples who would carry his
-              teachings across China.
+              At 67, Confucius returned to Lu and spent his final years teaching
+              and editing the classical texts: the Book of Odes, Book of
+              Documents, Book of Rites, and the Spring and Autumn Annals. He
+              died at 73, surrounded by disciples who would carry his teachings
+              across China.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -95,61 +96,65 @@
       <section class="section">
         <h2 class="section-title">Core Teachings</h2>
         <p class="section-text">
-          Confucius did not write books himself. His teachings were recorded
-          by his disciples in the <strong>Analects</strong> (论语, Lún Yǔ) — a
-          collection of dialogues and sayings that remains the foundational
-          text of Confucianism.
+          Confucius did not write books himself. His teachings were recorded by
+          his disciples in the <strong>Analects</strong> (论语, Lún Yǔ) — a
+          collection of dialogues and sayings that remains the foundational text
+          of Confucianism.
         </p>
         <FeatureGrid>
           <FeatureItem title="Rén (仁) — Benevolence" theme="gold">
             <p>
-              The supreme virtue in Confucian thought. Rén means
-              "benevolence," "humaneness," or "love for others." Confucius
-              defined it simply: "Do not do to others what you do not want
-              done to yourself" — the Golden Rule stated 500 years before
-              Christianity.
+              The supreme virtue in Confucian thought. Rén means "benevolence,"
+              "humaneness," or "love for others." Confucius defined it simply:
+              "Do not do to others what you do not want done to yourself" — the
+              Golden Rule stated 500 years before Christianity.
             </p>
           </FeatureItem>
           <FeatureItem title="Lǐ (礼) — Ritual Propriety" theme="red">
             <p>
               Lǐ encompasses ritual, etiquette, social norms, and tradition.
-              Confucius believed that proper conduct — from court ceremonies
-              to everyday manners — cultivates inner virtue and maintains
-              social harmony. Ritual is not empty formality; it shapes
-              character.
+              Confucius believed that proper conduct — from court ceremonies to
+              everyday manners — cultivates inner virtue and maintains social
+              harmony. Ritual is not empty formality; it shapes character.
             </p>
           </FeatureItem>
           <FeatureItem title="Xiào (孝) — Filial Piety" theme="blue">
             <p>
-              Respect for parents and ancestors is the foundation of all
-              virtue. Filial piety extends beyond obedience to include caring
-              for parents in old age, honoring their memory, and bringing
-              honor to the family name through one's own conduct.
+              Respect for parents and ancestors is the foundation of all virtue.
+              Filial piety extends beyond obedience to include caring for
+              parents in old age, honoring their memory, and bringing honor to
+              the family name through one's own conduct.
             </p>
           </FeatureItem>
           <FeatureItem title="Jūn Zǐ (君子) — The Noble Person" theme="green">
             <p>
               The Junzi is the Confucian ideal — a person of moral excellence
-              who cultivates virtue, acts with integrity, and leads by
-              example. Unlike nobility by birth, anyone can become a Junzi
-              through education and self-cultivation.
+              who cultivates virtue, acts with integrity, and leads by example.
+              Unlike nobility by birth, anyone can become a Junzi through
+              education and self-cultivation.
             </p>
           </FeatureItem>
-          <FeatureItem title="Zhèng Míng (正名) — Rectification of Names" theme="yellow">
+          <FeatureItem
+            title="Zhèng Míng (正名) — Rectification of Names"
+            theme="yellow"
+          >
             <p>
               "Let the ruler be a ruler, the subject a subject, the father a
               father, the son a son." Confucius taught that social harmony
               requires everyone to fulfill their proper roles and
-              responsibilities. When names are not correct, society falls
-              into chaos.
+              responsibilities. When names are not correct, society falls into
+              chaos.
             </p>
           </FeatureItem>
-          <FeatureItem title="Zhōng Yōng (中庸) — The Doctrine of the Mean" theme="blue">
+          <FeatureItem
+            title="Zhōng Yōng (中庸) — The Doctrine of the Mean"
+            theme="blue"
+          >
             <p>
               The Middle Way — avoiding extremes and finding balance in all
-              things. Confucius praised the virtue of moderation: "Going
-              beyond is as wrong as falling short." This principle became
-              central to Chinese thought and daily life.
+              things. Confucius praised the virtue of moderation: "Going beyond
+              is as wrong as falling short." This principle became central to
+              Chinese thought and daily life.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -157,26 +162,42 @@
 
       <!-- 五常 -->
       <section class="section">
-        <h2 class="section-title">The Five Constant Virtues (五常 / Wǔ Cháng)</h2>
+        <h2 class="section-title">
+          The Five Constant Virtues (五常 / Wǔ Cháng)
+        </h2>
         <p class="section-text">
-          Later Confucian scholars systematized the teachings into five
-          cardinal virtues that define a moral person and a harmonious society:
+          Later Confucian scholars systematized the teachings into five cardinal
+          virtues that define a moral person and a harmonious society:
         </p>
         <FeatureGrid>
           <FeatureItem title="Rén (仁) — Humanity" theme="gold">
-            <p>Love, compassion, and benevolence toward all people. The foundation of all virtue.</p>
+            <p>
+              Love, compassion, and benevolence toward all people. The
+              foundation of all virtue.
+            </p>
           </FeatureItem>
           <FeatureItem title="Yì (义) — Righteousness" theme="red">
-            <p>Moral integrity and a sense of justice. Doing what is right, not what is profitable.</p>
+            <p>
+              Moral integrity and a sense of justice. Doing what is right, not
+              what is profitable.
+            </p>
           </FeatureItem>
           <FeatureItem title="Lǐ (礼) — Propriety" theme="blue">
-            <p>Ritual, etiquette, and proper conduct in all social relationships.</p>
+            <p>
+              Ritual, etiquette, and proper conduct in all social relationships.
+            </p>
           </FeatureItem>
           <FeatureItem title="Zhì (智) — Wisdom" theme="green">
-            <p>The ability to discern right from wrong, understand human nature, and make good judgments.</p>
+            <p>
+              The ability to discern right from wrong, understand human nature,
+              and make good judgments.
+            </p>
           </FeatureItem>
           <FeatureItem title="Xìn (信) — Trustworthiness" theme="yellow">
-            <p>Faithfulness to one's word, honesty in dealings, and reliability in relationships.</p>
+            <p>
+              Faithfulness to one's word, honesty in dealings, and reliability
+              in relationships.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -190,19 +211,34 @@
         </p>
         <FeatureGrid>
           <FeatureItem title="Ruler → Subject" theme="red">
-            <p>The ruler must be benevolent, the subject loyal. Good governance comes from moral leadership, not force.</p>
+            <p>
+              The ruler must be benevolent, the subject loyal. Good governance
+              comes from moral leadership, not force.
+            </p>
           </FeatureItem>
           <FeatureItem title="Parent → Child" theme="gold">
-            <p>Parents love and nurture; children respect and care for parents in old age (filial piety).</p>
+            <p>
+              Parents love and nurture; children respect and care for parents in
+              old age (filial piety).
+            </p>
           </FeatureItem>
           <FeatureItem title="Husband → Wife" theme="blue">
-            <p>Husband provides and leads with righteousness; wife supports and manages the household with harmony.</p>
+            <p>
+              Husband provides and leads with righteousness; wife supports and
+              manages the household with harmony.
+            </p>
           </FeatureItem>
           <FeatureItem title="Elder → Younger Sibling" theme="green">
-            <p>Elder siblings guide and protect; younger siblings respect and follow.</p>
+            <p>
+              Elder siblings guide and protect; younger siblings respect and
+              follow.
+            </p>
           </FeatureItem>
           <FeatureItem title="Friend → Friend" theme="yellow">
-            <p>The only equal relationship. Friends must be trustworthy, honest, and mutually supportive.</p>
+            <p>
+              The only equal relationship. Friends must be trustworthy, honest,
+              and mutually supportive.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -221,36 +257,68 @@
             <h3 class="classics-group-title">The Four Books (四书 / Sì Shū)</h3>
             <FeatureGrid>
               <FeatureItem title="The Analects (论语)" theme="gold">
-                <p>A collection of sayings and dialogues of Confucius, compiled by his disciples. The most widely read Confucian text.</p>
+                <p>
+                  A collection of sayings and dialogues of Confucius, compiled
+                  by his disciples. The most widely read Confucian text.
+                </p>
               </FeatureItem>
               <FeatureItem title="Mencius (孟子)" theme="blue">
-                <p>Teachings of Mencius (372–289 BCE), the second greatest Confucian sage, who argued that human nature is inherently good.</p>
+                <p>
+                  Teachings of Mencius (372–289 BCE), the second greatest
+                  Confucian sage, who argued that human nature is inherently
+                  good.
+                </p>
               </FeatureItem>
               <FeatureItem title="Great Learning (大学)" theme="red">
-                <p>A short but profound text on the connection between personal cultivation and world peace — from self to family to state to world.</p>
+                <p>
+                  A short but profound text on the connection between personal
+                  cultivation and world peace — from self to family to state to
+                  world.
+                </p>
               </FeatureItem>
               <FeatureItem title="Doctrine of the Mean (中庸)" theme="green">
-                <p>Attributed to Confucius's grandson Zisi, exploring the philosophy of balance, harmony, and the Mean in all things.</p>
+                <p>
+                  Attributed to Confucius's grandson Zisi, exploring the
+                  philosophy of balance, harmony, and the Mean in all things.
+                </p>
               </FeatureItem>
             </FeatureGrid>
           </div>
           <div class="classics-group">
-            <h3 class="classics-group-title">The Five Classics (五经 / Wǔ Jīng)</h3>
+            <h3 class="classics-group-title">
+              The Five Classics (五经 / Wǔ Jīng)
+            </h3>
             <FeatureGrid>
               <FeatureItem title="Book of Odes (诗经)" theme="green">
-                <p>The oldest Chinese poetry collection (305 poems from 1000–600 BCE). Confucius said studying it inspires the spirit.</p>
+                <p>
+                  The oldest Chinese poetry collection (305 poems from 1000–600
+                  BCE). Confucius said studying it inspires the spirit.
+                </p>
               </FeatureItem>
               <FeatureItem title="Book of Documents (尚书)" theme="red">
-                <p>Historical speeches and decrees of ancient sage-kings. A model of ethical governance.</p>
+                <p>
+                  Historical speeches and decrees of ancient sage-kings. A model
+                  of ethical governance.
+                </p>
               </FeatureItem>
               <FeatureItem title="Book of Rites (礼记)" theme="gold">
-                <p>Detailed descriptions of Zhou Dynasty rituals, ceremonies, and social customs.</p>
+                <p>
+                  Detailed descriptions of Zhou Dynasty rituals, ceremonies, and
+                  social customs.
+                </p>
               </FeatureItem>
               <FeatureItem title="Book of Changes (易经)" theme="blue">
-                <p>The I Ching — a divination and philosophical system exploring the patterns of change in the universe.</p>
+                <p>
+                  The I Ching — a divination and philosophical system exploring
+                  the patterns of change in the universe.
+                </p>
               </FeatureItem>
               <FeatureItem title="Spring & Autumn Annals (春秋)" theme="yellow">
-                <p>A historical chronicle of Confucius's home state of Lu (722–481 BCE), conveying moral judgments through subtle wording.</p>
+                <p>
+                  A historical chronicle of Confucius's home state of Lu
+                  (722–481 BCE), conveying moral judgments through subtle
+                  wording.
+                </p>
               </FeatureItem>
             </FeatureGrid>
           </div>
@@ -264,34 +332,37 @@
           <FeatureItem title="Han Dynasty: State Orthodoxy" theme="red">
             <p>
               Emperor Wu of Han (141–87 BCE) made Confucianism the official
-              state ideology. The Five Classics became required reading for
-              all government officials, and Confucian principles shaped the
-              legal and political system for two millennia.
+              state ideology. The Five Classics became required reading for all
+              government officials, and Confucian principles shaped the legal
+              and political system for two millennia.
             </p>
           </FeatureItem>
           <FeatureItem title="Song Dynasty: Neo-Confucianism" theme="gold">
             <p>
-              Scholars like Zhu Xi (朱熹, 1130–1200) revitalized Confucianism
-              by incorporating Buddhist and Daoist metaphysics. This
-              Neo-Confucian synthesis became the dominant philosophy of East
-              Asia for 800 years.
+              Scholars like Zhu Xi (朱熹, 1130–1200) revitalized Confucianism by
+              incorporating Buddhist and Daoist metaphysics. This Neo-Confucian
+              synthesis became the dominant philosophy of East Asia for 800
+              years.
             </p>
           </FeatureItem>
           <FeatureItem title="Ming & Qing: Imperial Examinations" theme="blue">
             <p>
-              The Eight-Legged Essay format required candidates to write in
-              the voice of Confucius himself. For centuries, the path to power
-              ran through Confucian scholarship, creating the most
-              meritocratic bureaucracy in pre-modern history.
+              The Eight-Legged Essay format required candidates to write in the
+              voice of Confucius himself. For centuries, the path to power ran
+              through Confucian scholarship, creating the most meritocratic
+              bureaucracy in pre-modern history.
             </p>
           </FeatureItem>
-          <FeatureItem title="Modern Era: Revival & Reinterpretation" theme="green">
+          <FeatureItem
+            title="Modern Era: Revival & Reinterpretation"
+            theme="green"
+          >
             <p>
               After decades of suppression during the Cultural Revolution,
-              Confucianism has experienced a remarkable revival since the
-              1990s. Today, Confucius Institutes promote Chinese language and
-              culture worldwide, and his teachings are studied as a guide to
-              ethics, leadership, and social harmony.
+              Confucianism has experienced a remarkable revival since the 1990s.
+              Today, Confucius Institutes promote Chinese language and culture
+              worldwide, and his teachings are studied as a guide to ethics,
+              leadership, and social harmony.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -301,19 +372,19 @@
       <section class="section">
         <h2 class="section-title">Global Influence</h2>
         <p class="section-text">
-          Confucius's influence extends far beyond China. His ideas have
-          shaped the cultures of Korea, Japan, Vietnam, and Singapore, where
-          Confucian values of education, family loyalty, and social harmony
-          remain powerful forces. In the West, Enlightenment thinkers like
-          Voltaire admired Confucius as a model of secular morality — a sage
-          who taught virtue without superstition.
+          Confucius's influence extends far beyond China. His ideas have shaped
+          the cultures of Korea, Japan, Vietnam, and Singapore, where Confucian
+          values of education, family loyalty, and social harmony remain
+          powerful forces. In the West, Enlightenment thinkers like Voltaire
+          admired Confucius as a model of secular morality — a sage who taught
+          virtue without superstition.
         </p>
         <p class="section-text">
           Today, Confucian concepts like "harmony without uniformity" (和而不同)
           are invoked in international diplomacy, business ethics, and
-          cross-cultural communication. The Confucian emphasis on education
-          and meritocracy continues to influence global discourse on
-          governance and social mobility.
+          cross-cultural communication. The Confucian emphasis on education and
+          meritocracy continues to influence global discourse on governance and
+          social mobility.
         </p>
       </section>
 
@@ -323,16 +394,18 @@
           "The man who moves a mountain begins by carrying away small stones."
           <template #author>— Confucius (孔子), The Analects</template>
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Confucius Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Confucius Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Confucius & Confucianism",
   title:
     "Confucius & Confucianism | The Sage Who Shaped China — Chinese Culture Guide",
   description:

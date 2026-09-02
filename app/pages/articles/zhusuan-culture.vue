@@ -3,14 +3,13 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">Chinese Zhusuan Culture</h1>
-      <p class="page-subtitle">
-        Zhū Suàn — The Art and Wisdom of the Abacus
-      </p>
+      <p class="page-subtitle">Zhū Suàn — The Art and Wisdom of the Abacus</p>
       <PageMeta>
         <MetaItem>🔢 Calculation</MetaItem>
         <MetaItem>🧮 Ancient Tool</MetaItem>
         <MetaItem>📜 Intangible Heritage</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -56,7 +55,10 @@
               foundation for the suanpan we know today.
             </p>
           </FeatureItem>
-          <FeatureItem title="Song Dynasty Standardization (960–1279)" theme="red">
+          <FeatureItem
+            title="Song Dynasty Standardization (960–1279)"
+            theme="red"
+          >
             <p>
               The abacus became widely used during the Song Dynasty. The famous
               painting <em>Along the River During the Qingming Festival</em> by
@@ -67,17 +69,18 @@
           <FeatureItem title="Ming Dynasty Golden Age (1368–1644)" theme="gold">
             <p>
               The Ming Dynasty was the golden age of zhusuan. Master Cheng Dawei
-              wrote the seminal text <em>General Source of Computational
-              Methods</em> (算法统宗) in 1592, compiling abacus techniques into
-              a comprehensive manual that remained the standard for centuries.
+              wrote the seminal text
+              <em>General Source of Computational Methods</em> (算法统宗) in
+              1592, compiling abacus techniques into a comprehensive manual that
+              remained the standard for centuries.
             </p>
           </FeatureItem>
           <FeatureItem title="Modern Heritage (20th–21st Century)" theme="red">
             <p>
               Despite the rise of electronic calculators, China kept zhusuan in
-              its primary school curriculum well into the 2000s. In 2013,
-              UNESCO recognized zhusuan as an Intangible Cultural Heritage,
-              cementing its global cultural significance.
+              its primary school curriculum well into the 2000s. In 2013, UNESCO
+              recognized zhusuan as an Intangible Cultural Heritage, cementing
+              its global cultural significance.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -119,8 +122,9 @@
             <p>
               The outer frame holds the entire structure together. Traditional
               suanpan are made from hardwood (mahogany, rosewood) or bamboo,
-              with beads carved from wood, jade, or even ivory in antique pieces.
-              The quality of the frame affects the smoothness of operation.
+              with beads carved from wood, jade, or even ivory in antique
+              pieces. The quality of the frame affects the smoothness of
+              operation.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -131,10 +135,10 @@
         <h2 class="section-title">Mental Abacus — Beyond the Tool</h2>
         <p class="section-text">
           Perhaps the most astonishing aspect of zhusuan culture is the practice
-          of <strong>mental abacus</strong> (心算, Xīnsuàn). Skilled practitioners
-          visualize the abacus beads in their mind and perform calculations on
-          this mental image — achieving speeds that rival or exceed electronic
-          calculators.
+          of <strong>mental abacus</strong> (心算, Xīnsuàn). Skilled
+          practitioners visualize the abacus beads in their mind and perform
+          calculations on this mental image — achieving speeds that rival or
+          exceed electronic calculators.
         </p>
         <FeatureGrid>
           <FeatureItem title="The Speed of Thought" theme="red">
@@ -158,7 +162,8 @@
               Proper abacus technique involves specific finger movements for
               pinching heaven beads and pushing earth beads. These precise motor
               patterns create muscle memory that transfers directly to mental
-              abacus, as the brain "feels" the bead movements during calculation.
+              abacus, as the brain "feels" the bead movements during
+              calculation.
             </p>
           </FeatureItem>
           <FeatureItem title="Competition Culture" theme="red">
@@ -202,8 +207,8 @@
             <p>
               Unlike electronic calculators, the abacus requires physical
               engagement. The coordination between hand movements and mental
-              calculation creates a mind-body connection that traditional Chinese
-              philosophy values as essential to holistic learning.
+              calculation creates a mind-body connection that traditional
+              Chinese philosophy values as essential to holistic learning.
             </p>
           </FeatureItem>
           <FeatureItem title="Language and Idioms" theme="gold">
@@ -228,9 +233,9 @@
           skills for early math education.
         </p>
         <p class="section-text">
-          The UNESCO Intangible Cultural Heritage designation in 2013 sparked new
-          interest worldwide. International zhusuan organizations promote the
-          practice across Asia, Europe, and the Americas. Researchers in
+          The UNESCO Intangible Cultural Heritage designation in 2013 sparked
+          new interest worldwide. International zhusuan organizations promote
+          the practice across Asia, Europe, and the Americas. Researchers in
           cognitive science study abacus training for insights into numerical
           cognition, while educators explore it as a tool for inclusive math
           education that works across visual and kinesthetic learning styles.
@@ -274,16 +279,18 @@
           mastery of numbers, and of yourself."
           <template #author>— Traditional Zhusuan Proverb</template>
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Abacus (Zhusuan) Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Abacus (Zhusuan) Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Chinese Zhusuan Culture",
   title:
     "Chinese Zhusuan Culture | The Art of the Abacus — Chinese Culture Guide",
   description:

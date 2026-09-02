@@ -8,7 +8,8 @@
         <MetaItem>🗿 Archaeological Wonder</MetaItem>
         <MetaItem>📅 Discovered: 1974</MetaItem>
         <MetaItem>👑 Emperor Qin Shi Huang's Eternal Guard</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -56,7 +57,10 @@
               derived.
             </p>
           </FeatureItem>
-          <FeatureItem title="A Man Obsessed with Legacy and Immortality" theme="red">
+          <FeatureItem
+            title="A Man Obsessed with Legacy and Immortality"
+            theme="red"
+          >
             <p>
               Driven by a fear of death and a desire for eternal rule, he
               devoted immense resources to preparing for the afterlife. The
@@ -237,7 +241,8 @@
           defy time itself. It is, without doubt, one of the most powerful and
           evocative relics any traveler can experience.
         </p>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -246,15 +251,16 @@
       first emperor."
       <template #author>— UNESCO World Heritage</template>
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Terracotta Army Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Terracotta Army Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content", // 使用 content 布局
+  breadcrumb: "The Terracotta Army",
   title: "The Terracotta Army - Chinese Culture Explorer",
   description:
     "Discover the Terracotta Army, an awe-inspiring collection of thousands of life-sized sculptures built to protect China's First Emperor in the afterlife.",
@@ -337,7 +343,6 @@ definePageMeta({
 .visit-tips li {
   margin-bottom: 0.5rem;
 }
-
 
 /* 信息框 */
 .info-box {

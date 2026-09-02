@@ -3,14 +3,13 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">Chinese Calligraphy</h1>
-      <p class="page-subtitle">
-        Shū Fǎ - The Art of Beautiful Writing
-      </p>
+      <p class="page-subtitle">Shū Fǎ - The Art of Beautiful Writing</p>
       <PageMeta>
         <MetaItem>🖌️ Brush Writing</MetaItem>
         <MetaItem>📜 Script Styles</MetaItem>
         <MetaItem>🏛️ Four Treasures</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -27,8 +26,8 @@
         <h2 class="section-title">Overview</h2>
         <p class="section-text">
           <strong>Chinese Calligraphy</strong> (书法, Shū Fǎ) is the art of
-          writing Chinese characters with a brush and ink. More than just a
-          form of writing, it is regarded as the highest form of visual art in
+          writing Chinese characters with a brush and ink. More than just a form
+          of writing, it is regarded as the highest form of visual art in
           Chinese culture — a discipline that combines aesthetics, philosophy,
           and expression in every brushstroke.
         </p>
@@ -45,40 +44,40 @@
       <section class="section">
         <h2 class="section-title">A 3,000-Year History</h2>
         <p class="section-text">
-          Chinese calligraphy has evolved alongside Chinese civilization
-          itself, with each dynasty contributing new styles and innovations:
+          Chinese calligraphy has evolved alongside Chinese civilization itself,
+          with each dynasty contributing new styles and innovations:
         </p>
         <FeatureGrid>
           <FeatureItem title="Oracle Bone Script (甲骨文)" theme="red">
             <p>
               The earliest known Chinese writing, carved on turtle shells and
               animal bones during the Shang Dynasty (1600–1046 BCE). Used for
-              divination and record-keeping, these characters are the
-              ancestors of modern Chinese writing.
+              divination and record-keeping, these characters are the ancestors
+              of modern Chinese writing.
             </p>
           </FeatureItem>
           <FeatureItem title="Bronze Inscriptions (金文)" theme="gold">
             <p>
-              Cast onto bronze ritual vessels during the Zhou Dynasty
-              (1046–256 BCE), these characters evolved to be more structured
-              and decorative, marking the transition from pictographs to a
-              more standardized writing system.
+              Cast onto bronze ritual vessels during the Zhou Dynasty (1046–256
+              BCE), these characters evolved to be more structured and
+              decorative, marking the transition from pictographs to a more
+              standardized writing system.
             </p>
           </FeatureItem>
           <FeatureItem title="Seal Script (篆书)" theme="red">
             <p>
-              Standardized under Qin Emperor Qin Shi Huang (221 BCE). The
-              Prime Minister Li Si unified the writing system, creating Small
-              Seal Script with elegant, symmetrical strokes. Still used today
-              for seals and stamps.
+              Standardized under Qin Emperor Qin Shi Huang (221 BCE). The Prime
+              Minister Li Si unified the writing system, creating Small Seal
+              Script with elegant, symmetrical strokes. Still used today for
+              seals and stamps.
             </p>
           </FeatureItem>
           <FeatureItem title="Clerical Script (隶书)" theme="gold">
             <p>
               Emerged during the Han Dynasty (206 BCE–220 CE). This was a
-              revolutionary simplification — faster to write with flatter,
-              more angular strokes. Clerical script made writing accessible
-              beyond the scholar class.
+              revolutionary simplification — faster to write with flatter, more
+              angular strokes. Clerical script made writing accessible beyond
+              the scholar class.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -94,18 +93,18 @@
         <FeatureGrid>
           <FeatureItem title="Seal Script (篆书/Zhuàn Shū)" theme="red">
             <p>
-              The oldest surviving style, characterized by rounded,
-              symmetrical strokes of even thickness. Each character fits
-              neatly into a square or rectangle. Used primarily for
-              inscriptions on seals, monuments, and decorative art today.
+              The oldest surviving style, characterized by rounded, symmetrical
+              strokes of even thickness. Each character fits neatly into a
+              square or rectangle. Used primarily for inscriptions on seals,
+              monuments, and decorative art today.
             </p>
           </FeatureItem>
           <FeatureItem title="Clerical Script (隶书/Lì Shū)" theme="gray">
             <p>
-              Known for its distinctive "silkworm head, wild goose tail"
-              strokes — each horizontal stroke begins thick and ends with a
-              dramatic flick. Flatter and wider than seal script, it marked a
-              major step in the evolution of Chinese writing.
+              Known for its distinctive "silkworm head, wild goose tail" strokes
+              — each horizontal stroke begins thick and ends with a dramatic
+              flick. Flatter and wider than seal script, it marked a major step
+              in the evolution of Chinese writing.
             </p>
           </FeatureItem>
           <FeatureItem title="Regular Script (楷书/Kǎi Shū)" theme="red">
@@ -120,15 +119,15 @@
             <p>
               A semi-cursive style where strokes flow into each other, but
               characters remain recognizable. Faster to write and more
-              expressive than regular script. The most practical style for
-              daily writing and personal correspondence.
+              expressive than regular script. The most practical style for daily
+              writing and personal correspondence.
             </p>
           </FeatureItem>
           <FeatureItem title="Cursive Script (草书/Cǎo Shū)" theme="red">
             <p>
               The most abstract and artistic style. Strokes are highly
-              abbreviated and connected, often with characters merging into
-              one another. Like a dancer's movement captured on paper, it
+              abbreviated and connected, often with characters merging into one
+              another. Like a dancer's movement captured on paper, it
               prioritizes expression and energy over legibility.
             </p>
           </FeatureItem>
@@ -147,9 +146,9 @@
           <FeatureItem title="Brush (笔/Bǐ)" theme="red">
             <p>
               Made from animal hair — goat, wolf, rabbit, or weasel — each
-              offering different firmness and flexibility. A well-made brush
-              can hold a precise point yet release ink in subtle gradients.
-              The brush is considered the soul of calligraphy.
+              offering different firmness and flexibility. A well-made brush can
+              hold a precise point yet release ink in subtle gradients. The
+              brush is considered the soul of calligraphy.
             </p>
           </FeatureItem>
           <FeatureItem title="Ink (墨/Mò)" theme="gray">
@@ -157,16 +156,15 @@
               Traditionally made from pine soot or lampblack mixed with animal
               glue, formed into solid ink sticks. To prepare ink, the
               calligrapher grinds the stick against an inkstone with water — a
-              meditative process that prepares the mind as much as the
-              material.
+              meditative process that prepares the mind as much as the material.
             </p>
           </FeatureItem>
           <FeatureItem title="Paper (纸/Zhǐ)" theme="gold">
             <p>
-              Xuan paper (宣纸), made from the bark of the blue sandalwood
-              tree, is the gold standard. Its soft, absorbent fibers allow ink
-              to spread naturally, creating the subtle gradations of tone that
-              give calligraphy its depth and life.
+              Xuan paper (宣纸), made from the bark of the blue sandalwood tree,
+              is the gold standard. Its soft, absorbent fibers allow ink to
+              spread naturally, creating the subtle gradations of tone that give
+              calligraphy its depth and life.
             </p>
           </FeatureItem>
           <FeatureItem title="Inkstone (砚/Yàn)" theme="blue">
@@ -189,32 +187,32 @@
               Revered as the "Sage of Calligraphy" (书圣), Wang Xizhi set the
               standard for artistic calligraphy. His masterpiece, the
               <strong>Preface to the Orchid Pavilion</strong> (兰亭序), written
-              in running script, is considered the most famous piece of
-              Chinese calligraphy ever created.
+              in running script, is considered the most famous piece of Chinese
+              calligraphy ever created.
             </p>
           </FeatureItem>
           <FeatureItem title="Yan Zhenqing (颜真卿 709–785)" theme="gray">
             <p>
               A Tang Dynasty master known for his bold, dignified regular
               script. Yan's style — strong, upright, and powerful — reflected
-              his character as a loyal statesman. His "Yan Style" remains one
-              of the most widely studied calligraphy traditions.
+              his character as a loyal statesman. His "Yan Style" remains one of
+              the most widely studied calligraphy traditions.
             </p>
           </FeatureItem>
           <FeatureItem title="Liu Gongquan (柳公权 778–865)" theme="red">
             <p>
               Famous for his refined, elegant regular script. Liu's style is
               known as "bones" — lean, precise, and structurally perfect.
-              Together with Yan Zhenqing, he forms the duo "Yan the Flesh,
-              Liu the Bones" in calligraphy history.
+              Together with Yan Zhenqing, he forms the duo "Yan the Flesh, Liu
+              the Bones" in calligraphy history.
             </p>
           </FeatureItem>
           <FeatureItem title="Su Shi (苏轼 1037–1101)" theme="gray">
             <p>
               One of China's greatest literary figures, Su Shi was also a
               brilliant calligrapher. His spontaneous, free-flowing running
-              script embodied the Song Dynasty ideal of artistic
-              self-expression over rigid technical perfection.
+              script embodied the Song Dynasty ideal of artistic self-expression
+              over rigid technical perfection.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -226,13 +224,13 @@
         <p class="section-text">
           Despite the digital age, Chinese calligraphy remains a vibrant and
           cherished art form. Millions of people practice it as a hobby, a
-          meditation, and a connection to cultural roots. Calligraphy is
-          taught in schools across China, Japan, Korea, and increasingly in
-          Western countries.
+          meditation, and a connection to cultural roots. Calligraphy is taught
+          in schools across China, Japan, Korea, and increasingly in Western
+          countries.
         </p>
         <p class="section-text">
-          Modern calligraphers experiment with abstract forms, mixed media,
-          and digital tools, while traditionalists preserve the classical
+          Modern calligraphers experiment with abstract forms, mixed media, and
+          digital tools, while traditionalists preserve the classical
           techniques. Calligraphy has also influenced modern design — from
           typography and graphic design to fashion and architecture.
         </p>
@@ -248,8 +246,8 @@
           <FeatureItem title="Cultural Identity" theme="gold">
             <p>
               For Chinese people worldwide, calligraphy is a tangible link to
-              thousands of years of cultural heritage. Practicing calligraphy
-              is an act of preserving and celebrating Chinese identity in an
+              thousands of years of cultural heritage. Practicing calligraphy is
+              an act of preserving and celebrating Chinese identity in an
               increasingly globalized world.
             </p>
           </FeatureItem>
@@ -267,20 +265,22 @@
       <!-- 名言引用 -->
       <section class="section">
         <QuoteBox>
-          "Calligraphy is the music of the eye, the dance of the brush on
-          paper. Each stroke carries the rhythm of the heart and the
-          spirit of the artist."
+          "Calligraphy is the music of the eye, the dance of the brush on paper.
+          Each stroke carries the rhythm of the heart and the spirit of the
+          artist."
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Calligraphy Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Calligraphy Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Chinese Calligraphy",
   title:
     "Chinese Calligraphy | The Art of Brush and Ink — Chinese Culture Guide",
   description:

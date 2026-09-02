@@ -10,7 +10,8 @@
         <MetaItem>🏔️ Mountain Climbing</MetaItem>
         <MetaItem>🌼 Chrysanthemum</MetaItem>
         <MetaItem>👴 Respect for Elders</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -18,7 +19,11 @@
       altText="Double Ninth Festival - chrysanthemum blossoms and mountain scenery"
     />
 
-    <FestivalDates festivalName="Double Ninth Festival" :lunarMonth="9" :lunarDay="9" />
+    <FestivalDates
+      festivalName="Double Ninth Festival"
+      :lunarMonth="9"
+      :lunarDay="9"
+    />
 
     <!-- 内容主体 -->
     <div class="content-body">
@@ -28,21 +33,20 @@
       <section class="section">
         <h2 class="section-title">Overview</h2>
         <p class="section-text">
-          <strong>Double Ninth Festival</strong> (重阳节, Chongyang Jie) is one of
-          China's traditional festivals, celebrated on the
+          <strong>Double Ninth Festival</strong> (重阳节, Chongyang Jie) is one
+          of China's traditional festivals, celebrated on the
           <strong>9th day of the 9th month</strong> of the lunar calendar. The
-          word "chongyang" means "double yang"—the number nine is considered
-          the yang (masculine, sun, heaven) number in Chinese numerology, and
-          when the ninth day of the ninth month arrives, it creates a
-          particularly powerful yang energy.
+          word "chongyang" means "double yang"—the number nine is considered the
+          yang (masculine, sun, heaven) number in Chinese numerology, and when
+          the ninth day of the ninth month arrives, it creates a particularly
+          powerful yang energy.
         </p>
         <p class="section-text">
           This festival is a beautiful blend of honoring ancestors, respecting
           elders, and celebrating autumn. It combines the joy of chrysanthemum
           viewing, mountain climbing for good health, and the tradition of
-          caring for elderly family members. In 2024, UNESCO recognized
-          Double Ninth Festival as part of China's intangible cultural
-          heritage.
+          caring for elderly family members. In 2024, UNESCO recognized Double
+          Ninth Festival as part of China's intangible cultural heritage.
         </p>
       </section>
 
@@ -50,11 +54,12 @@
       <section class="section">
         <h2 class="section-title">When Is Double Ninth Festival?</h2>
         <p class="section-text">
-          Double Ninth Festival falls on the <strong>9th day of the 9th lunar month</strong>,
-          typically occurring in <strong>October</strong> of the Gregorian
-          calendar. The timing places it perfectly in the midst of autumn's
-          golden hues, when chrysanthemums bloom and the weather is crisp and
-          comfortable for outdoor activities.
+          Double Ninth Festival falls on the
+          <strong>9th day of the 9th lunar month</strong>, typically occurring
+          in <strong>October</strong> of the Gregorian calendar. The timing
+          places it perfectly in the midst of autumn's golden hues, when
+          chrysanthemums bloom and the weather is crisp and comfortable for
+          outdoor activities.
         </p>
         <FeatureGrid>
           <FeatureItem title="Date Significance" theme="red">
@@ -81,10 +86,10 @@
         <p class="section-text">
           The most distinctive custom of Double Ninth Festival is
           <strong>climbing to a high place</strong> (登高, Denggao). Ancient
-          Chinese believed that climbing high during the double-ninth would
-          ward off disasters and bring good luck. This tradition stems from
-          the folk belief that ascending to elevated ground drives away
-          evil spirits and plague.
+          Chinese believed that climbing high during the double-ninth would ward
+          off disasters and bring good luck. This tradition stems from the folk
+          belief that ascending to elevated ground drives away evil spirits and
+          plague.
         </p>
         <FeatureGrid>
           <FeatureItem title="Mountain Climbing" theme="red">
@@ -127,8 +132,8 @@
             <p>
               A traditional custom is drinking chrysanthemum wine (菊花酒),
               infused with the flowers and believed to have purifying and
-              health-giving properties. It represents the cleansing of the
-              body and spirit.
+              health-giving properties. It represents the cleansing of the body
+              and spirit.
             </p>
           </FeatureItem>
           <FeatureItem title="Flower Displays" theme="red">
@@ -142,8 +147,8 @@
           <FeatureItem title="Symbolism" theme="red">
             <p>
               In Chinese culture, chrysanthemums symbolize noble character,
-              perseverance, and the beauty of autumn. They are one of the
-              "Four Gentlemen" of flowers in Chinese art.
+              perseverance, and the beauty of autumn. They are one of the "Four
+              Gentlemen" of flowers in Chinese art.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -154,10 +159,9 @@
         <h2 class="section-title">Honoring Elders</h2>
         <p class="section-text">
           Double Ninth Festival has evolved into <strong>Seniors' Day</strong>
-          (敬老节) in modern China, a time to honor and show respect for
-          elderly family members and all senior citizens. It's a reminder to
-          appreciate the wisdom, sacrifices, and love of those who came
-          before us.
+          (敬老节) in modern China, a time to honor and show respect for elderly
+          family members and all senior citizens. It's a reminder to appreciate
+          the wisdom, sacrifices, and love of those who came before us.
         </p>
         <FeatureGrid>
           <FeatureItem title="Family Gatherings" theme="red">
@@ -201,9 +205,9 @@
           </FeatureItem>
           <FeatureItem title="Eating Chongyang Cakes" theme="red">
             <p>
-              Special "climbing high cakes" (重阳糕) are prepared, often
-              layered to represent the ascending heights of mountains. These
-              sweet rice cakes symbolize progress and elevation in life.
+              Special "climbing high cakes" (重阳糕) are prepared, often layered
+              to represent the ascending heights of mountains. These sweet rice
+              cakes symbolize progress and elevation in life.
             </p>
           </FeatureItem>
           <FeatureItem title="Flying Kites" theme="red">
@@ -215,9 +219,9 @@
           </FeatureItem>
           <FeatureItem title="Poetry and Art" theme="red">
             <p>
-              Many famous poems about autumn, mountains, and chrysanthemums
-              were composed during this season. It's a time for artistic
-              expression and appreciation of nature's beauty.
+              Many famous poems about autumn, mountains, and chrysanthemums were
+              composed during this season. It's a time for artistic expression
+              and appreciation of nature's beauty.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -227,22 +231,22 @@
       <section class="section">
         <h2 class="section-title">Modern Celebrations</h2>
         <p class="section-text">
-          While honoring ancient traditions, Double Ninth Festival continues
-          to evolve in contemporary society:
+          While honoring ancient traditions, Double Ninth Festival continues to
+          evolve in contemporary society:
         </p>
         <FeatureGrid>
           <FeatureItem title="Senior Citizen's Day" theme="red">
             <p>
               In China, Double Ninth Festival is officially recognized as
-              "Seniors' Day," with various activities organized to show
-              respect and care for elderly citizens across the country.
+              "Seniors' Day," with various activities organized to show respect
+              and care for elderly citizens across the country.
             </p>
           </FeatureItem>
           <FeatureItem title="Outdoor Activities" theme="red">
             <p>
-              People embrace the autumn weather with hiking, picnics, and
-              family outings. It's one of the most pleasant times of year for
-              outdoor celebration in China.
+              People embrace the autumn weather with hiking, picnics, and family
+              outings. It's one of the most pleasant times of year for outdoor
+              celebration in China.
             </p>
           </FeatureItem>
           <FeatureItem title="Cultural Preservation" theme="red">
@@ -255,8 +259,8 @@
           <FeatureItem title="Family Values" theme="red">
             <p>
               The festival reinforces the important Chinese value of respecting
-              and caring for elders, reminding younger generations of their
-              duty to honor family and tradition.
+              and caring for elders, reminding younger generations of their duty
+              to honor family and tradition.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -269,8 +273,8 @@
           Double Ninth Festival embodies the best of Chinese tradition—a
           celebration that connects us to nature, honors our ancestors, and
           reminds us to cherish our elders. As we climb high and gaze at the
-          autumn scenery, we are reminded of the heights of wisdom and love
-          that our forebears have helped us reach.
+          autumn scenery, we are reminded of the heights of wisdom and love that
+          our forebears have helped us reach.
         </p>
         <p class="section-text">
           Whether you join in the mountain climbing, raise a cup of
@@ -278,16 +282,18 @@
           Festival offers a beautiful opportunity to pause, reflect, and
           appreciate the richness of Chinese cultural heritage.
         </p>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Double Ninth Festival Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Double Ninth Festival Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Double Ninth Festival",
   title: "Double Ninth Festival | Chongyang Festival",
   description:
     "Discover Double Ninth Festival (Chongyang Jie), a traditional Chinese celebration of honoring elders, climbing mountains, and viewing chrysanthemums on the 9th day of the 9th lunar month.",

@@ -10,7 +10,8 @@
         <MetaItem>🔥 Kitchen God's Departure</MetaItem>
         <MetaItem>📅 23rd/24th Day of 12th Lunar Month</MetaItem>
         <MetaItem>🧹 The Great Annual Cleaning</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -241,23 +242,25 @@
             >
           </div>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
       "In Xiaonian, we find the bridge between the ordinary and the
-      extraordinary—a moment when daily routines become sacred preparations
-      for renewal, family, and hope."
+      extraordinary—a moment when daily routines become sacred preparations for
+      renewal, family, and hope."
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Xiaonian Festival Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Xiaonian Festival Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Xiaonian Festival",
   title: "Xiaonian Festival - Chinese Culture Explorer",
   description:
     "Discover Xiaonian, the Little New Year festival that kicks off Chinese New Year preparations.",
@@ -329,7 +332,6 @@ definePageMeta({
   line-height: 1.6;
 }
 
-
 /* 信息框 */
 .info-box {
   background-color: rgba(212, 175, 55, 0.1);
@@ -365,7 +367,6 @@ definePageMeta({
   text-align: left;
   flex: 1;
 }
-
 
 /* 响应式设计 */
 @media (max-width: 768px) {

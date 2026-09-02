@@ -10,7 +10,8 @@
         <MetaItem>🚁 Dragon Boat Racing</MetaItem>
         <MetaItem>💎 Zongzi Dumplings</MetaItem>
         <MetaItem>🌿 Mugwort and Aromatic Herbs</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FestivalDates
@@ -36,15 +37,15 @@
           of China's most exciting traditional festivals. Celebrated on the 5th
           day of the 5th month of the lunar calendar (usually in June), it
           combines thrilling dragon boat races with the aroma of freshly steamed
-          zongzi. The festival is rich in cultural significance, honoring national
-          heroes while embracing the vitality of summer.
+          zongzi. The festival is rich in cultural significance, honoring
+          national heroes while embracing the vitality of summer.
         </p>
         <p class="section-text">
           With origins dating back over 2,000 years, Dragon Boat Festival
-          showcases the perfect blend of athletic competition, culinary tradition,
-          and spiritual ritual. It is observed not only across China but also in
-          many East and Southeast Asian communities, making it a truly global
-          celebration of Chinese culture.
+          showcases the perfect blend of athletic competition, culinary
+          tradition, and spiritual ritual. It is observed not only across China
+          but also in many East and Southeast Asian communities, making it a
+          truly global celebration of Chinese culture.
         </p>
       </section>
 
@@ -54,18 +55,19 @@
         <FeatureGrid>
           <FeatureItem title="Date" theme="red">
             <p>
-              Dragon Boat Festival falls on the <strong>5th day of the 5th lunar month</strong>,
-              which typically corresponds to <strong>June</strong> in the Gregorian
-              calendar. The exact date varies each year as it follows the
-              traditional Chinese lunar calendar.
+              Dragon Boat Festival falls on the
+              <strong>5th day of the 5th lunar month</strong>, which typically
+              corresponds to <strong>June</strong> in the Gregorian calendar.
+              The exact date varies each year as it follows the traditional
+              Chinese lunar calendar.
             </p>
           </FeatureItem>
           <FeatureItem title="Origin of Name" theme="red">
             <p>
               "Duanwu" (端午) means "beginning of midday" or "end of the fifth",
-              referring to the lunar date. The more popular English name
-              "Dragon Boat Festival" comes from the spectacular races of
-              long, dragon-prowed boats that are the holiday's centerpiece.
+              referring to the lunar date. The more popular English name "Dragon
+              Boat Festival" comes from the spectacular races of long,
+              dragon-prowed boats that are the holiday's centerpiece.
             </p>
           </FeatureItem>
           <FeatureItem title="Holiday Duration" theme="red">
@@ -83,10 +85,10 @@
       <section class="section">
         <h2 class="section-title">Dragon Boat Racing</h2>
         <p class="section-text">
-          The most iconic feature of Dragon Boat Festival is the thrilling dragon
-          boat race. Teams of paddlers race their ornately decorated boats to
-          the rhythmic beating of drums, creating one of the most visually
-          spectacular events in Chinese culture.
+          The most iconic feature of Dragon Boat Festival is the thrilling
+          dragon boat race. Teams of paddlers race their ornately decorated
+          boats to the rhythmic beating of drums, creating one of the most
+          visually spectacular events in Chinese culture.
         </p>
         <FeatureGrid>
           <FeatureItem title="Dragon Boats" theme="red">
@@ -101,8 +103,8 @@
             <p>
               The drummer sits at the front of the boat, beating a large drum to
               set the pace and inspire the team. The rhythm of the drum is
-              believed to awaken the dragon spirit and unite all paddlers into
-              a single, powerful force.
+              believed to awaken the dragon spirit and unite all paddlers into a
+              single, powerful force.
             </p>
           </FeatureItem>
           <FeatureItem title="Race Traditions" theme="red">
@@ -146,8 +148,8 @@
             <p>
               Southern zongzi are usually savory, filled with marinated pork,
               salted egg yolk, chestnuts, or mushrooms. They are often wrapped
-              in multiple layers of bamboo leaves for extra protection and flavor,
-              and are more compact and triangular in shape.
+              in multiple layers of bamboo leaves for extra protection and
+              flavor, and are more compact and triangular in shape.
             </p>
           </FeatureItem>
           <FeatureItem title="The Wrapping Process" theme="red">
@@ -161,9 +163,10 @@
           <FeatureItem title="Legend of Zongzi" theme="red">
             <p>
               Zongzi is traditionally associated with the legend of Qu Yuan.
-              Legend says that after the poet drowned, locals threw rice dumplings
-              into the river to prevent fish from eating his body, giving rise
-              to the enduring tradition of zongzi during the festival.
+              Legend says that after the poet drowned, locals threw rice
+              dumplings into the river to prevent fish from eating his body,
+              giving rise to the enduring tradition of zongzi during the
+              festival.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -198,18 +201,18 @@
           <FeatureItem title="Five-Color Thread" theme="red">
             <p>
               Parents traditionally tie five-color silk thread (五彩丝) around
-              their children's wrists, necks, or ankles during the festival.
-              The five colors — red, yellow, white, black, and green — represent
-              the five elements and are believed to protect against evil.
+              their children's wrists, necks, or ankles during the festival. The
+              five colors — red, yellow, white, black, and green — represent the
+              five elements and are believed to protect against evil.
             </p>
           </FeatureItem>
           <FeatureItem title="Realgar Wine" theme="red">
             <p>
-              A small amount of realgar wine (雄黄酒), made with powdered realgar,
-              is sometimes drunk or dabbed on children's foreheads during the
-              festival. It is believed to repel evil spirits and toxic creatures.
-              In modern times, this practice is less common due to the toxicity
-              of realgar.
+              A small amount of realgar wine (雄黄酒), made with powdered
+              realgar, is sometimes drunk or dabbed on children's foreheads
+              during the festival. It is believed to repel evil spirits and
+              toxic creatures. In modern times, this practice is less common due
+              to the toxicity of realgar.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -227,17 +230,17 @@
           <FeatureItem title="The Poet" theme="red">
             <p>
               Qu Yuan served as a minister in the Kingdom of Chu. Known for his
-              brilliant literary talent and deep love for his country, he authored
-              the famous work "Encountering Sorrow" (离骚), one of the greatest
-              poems in Chinese literature.
+              brilliant literary talent and deep love for his country, he
+              authored the famous work "Encountering Sorrow" (离骚), one of the
+              greatest poems in Chinese literature.
             </p>
           </FeatureItem>
           <FeatureItem title="Exile" theme="red">
             <p>
               Due to political intrigue and slander by jealous rivals, Qu Yuan
               was exiled by King Huai of Chu. During his exile, he traveled
-              across the land, writing poetry that expressed his longing for
-              his homeland and his grief over its decline.
+              across the land, writing poetry that expressed his longing for his
+              homeland and his grief over its decline.
             </p>
           </FeatureItem>
           <FeatureItem title="Drowning" theme="red">
@@ -253,8 +256,8 @@
               Upon hearing of Qu Yuan's death, local fishermen rushed to the
               river in their boats, racing to save him or retrieve his body.
               This frantic search gave rise to the tradition of dragon boat
-              races. To keep fish away, they also beat the water and threw
-              rice dumplings into the river.
+              races. To keep fish away, they also beat the water and threw rice
+              dumplings into the river.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -284,7 +287,8 @@
             <p>
               The festival's herbal and aromatic traditions reflect the Chinese
               philosophy of living in harmony with nature and using natural
-              remedies to maintain health and balance through seasonal transitions.
+              remedies to maintain health and balance through seasonal
+              transitions.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -314,9 +318,9 @@
       <section class="section">
         <h2 class="section-title">Modern Celebrations</h2>
         <p class="section-text">
-          Today, Dragon Boat Festival is celebrated with great enthusiasm
-          across China and around the world, with a mix of time-honored
-          traditions and modern innovations.
+          Today, Dragon Boat Festival is celebrated with great enthusiasm across
+          China and around the world, with a mix of time-honored traditions and
+          modern innovations.
         </p>
         <FeatureGrid>
           <FeatureItem title="International Growth" theme="red">
@@ -354,18 +358,18 @@
             <span class="tip-icon">📌</span>
             <div class="tip-text">
               <strong>Best Time to Experience:</strong> Late May to mid-June
-              (lunar 5th month) is the ideal time to visit China for the
-              Dragon Boat Festival. Many cities along rivers and lakes host
-              spectacular races.
+              (lunar 5th month) is the ideal time to visit China for the Dragon
+              Boat Festival. Many cities along rivers and lakes host spectacular
+              races.
             </div>
           </div>
           <div class="tip-item">
             <span class="tip-icon">⚠️</span>
             <div class="tip-text">
-              <strong>Food Alert:</strong> Do not miss the chance to try
-              freshly made zongzi — both sweet and savory varieties. They are
-              best enjoyed warm, and food markets during the festival are
-              especially lively.
+              <strong>Food Alert:</strong> Do not miss the chance to try freshly
+              made zongzi — both sweet and savory varieties. They are best
+              enjoyed warm, and food markets during the festival are especially
+              lively.
             </div>
           </div>
           <div class="tip-item">
@@ -385,10 +389,11 @@
             </div>
           </div>
         </div>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Dragon Boat Festival Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Dragon Boat Festival Quiz" />
   </div>
 </template>
 
@@ -396,6 +401,7 @@
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content",
+  breadcrumb: "Dragon Boat Festival",
   title: "Dragon Boat Festival - Chinese Culture Explorer",
   description:
     "Discover Dragon Boat Festival, the exciting Duanwu Festival with dragon boat races, zongzi dumplings, and ancient traditions.",

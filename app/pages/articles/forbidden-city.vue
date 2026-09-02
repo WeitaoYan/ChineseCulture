@@ -8,7 +8,8 @@
         <MetaItem>🏛️ UNESCO World Heritage Site</MetaItem>
         <MetaItem>📅 Built: 1406-1420</MetaItem>
         <MetaItem>👑 Imperial Palace of Ming and Qing Dynasties</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -112,7 +113,8 @@
             <span class="info-value">3-4 hours</span>
           </div>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -120,9 +122,9 @@
       civilization."
       <template #author>— UNESCO</template>
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Forbidden City Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Forbidden City Quiz" />
   </div>
 </template>
 
@@ -131,10 +133,12 @@ const siteUrl = "https://chinese-culture.ikber.cc";
 
 definePageMeta({
   layout: "content",
+  breadcrumb: "The Forbidden City",
   title: "Forbidden City (故宫) - Imperial Palace of China",
   description:
     "Explore the Forbidden City (故宫), the world's largest imperial palace complex of Ming and Qing dynasties in Beijing. Discover 500 years of Chinese imperial history.",
-  ogTitle: "Forbidden City (故宫) - Imperial Palace of China | Chinese Culture Explorer",
+  ogTitle:
+    "Forbidden City (故宫) - Imperial Palace of China | Chinese Culture Explorer",
   ogDescription:
     "Walk through the halls of the Forbidden City - the magnificent imperial palace where 24 emperors ruled China for nearly 500 years.",
   twitterTitle: "Forbidden City (故宫) - Imperial Palace of China",

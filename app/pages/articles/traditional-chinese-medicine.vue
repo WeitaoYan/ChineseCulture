@@ -11,7 +11,8 @@
         <MetaItem>⚡ Acupuncture</MetaItem>
         <MetaItem>☯️ Qi & Balance</MetaItem>
         <MetaItem>📜 Huangdi Neijing</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -30,17 +31,17 @@
           <strong>Traditional Chinese Medicine</strong> (中医, Zhōng Yī) is one
           of the world's oldest continuous medical systems, with a recorded
           history spanning over <strong>2,500 years</strong>. Unlike the
-          reductionist approach of Western medicine, TCM views the human body
-          as a microcosm of the universe — an integrated system where health
-          arises from balance, and disease from disharmony.
+          reductionist approach of Western medicine, TCM views the human body as
+          a microcosm of the universe — an integrated system where health arises
+          from balance, and disease from disharmony.
         </p>
         <p class="section-text">
           Rooted in the same philosophical foundations as Daoism and
           Confucianism, TCM encompasses a rich array of practices: herbal
           medicine, acupuncture, moxibustion, cupping, tui na massage, dietary
-          therapy, and mind-body practices like qigong and tai chi. Today, it
-          is practiced alongside modern medicine in hospitals across China and
-          has gained growing recognition worldwide.
+          therapy, and mind-body practices like qigong and tai chi. Today, it is
+          practiced alongside modern medicine in hospitals across China and has
+          gained growing recognition worldwide.
         </p>
       </section>
 
@@ -48,8 +49,8 @@
       <section class="section">
         <h2 class="section-title">The Theoretical Foundations</h2>
         <p class="section-text">
-          TCM is built upon several interconnected theories that explain how
-          the body works, how disease develops, and how to restore health:
+          TCM is built upon several interconnected theories that explain how the
+          body works, how disease develops, and how to restore health:
         </p>
         <FeatureGrid>
           <FeatureItem title="Qì (气) — Vital Energy" theme="green">
@@ -63,20 +64,20 @@
           </FeatureItem>
           <FeatureItem title="Yīn & Yáng (阴阳)" theme="gold">
             <p>
-              The body is a dynamic balance of opposing forces. Yin
-              represents cooling, nourishing, and structural aspects; Yang
-              represents warming, activating, and functional aspects. Disease
-              arises when Yin and Yang fall out of balance — too much heat
-              (excess Yang) or too much cold (excess Yin).
+              The body is a dynamic balance of opposing forces. Yin represents
+              cooling, nourishing, and structural aspects; Yang represents
+              warming, activating, and functional aspects. Disease arises when
+              Yin and Yang fall out of balance — too much heat (excess Yang) or
+              too much cold (excess Yin).
             </p>
           </FeatureItem>
           <FeatureItem title="Five Elements (五行) Theory" theme="red">
             <p>
               The Five Elements — Wood (木), Fire (火), Earth (土), Metal (金),
-              and Water (水) — correspond to specific organs, emotions,
-              seasons, tastes, and colors. The generating and controlling
-              cycles of the elements explain how different body systems
-              interact and influence each other.
+              and Water (水) — correspond to specific organs, emotions, seasons,
+              tastes, and colors. The generating and controlling cycles of the
+              elements explain how different body systems interact and influence
+              each other.
             </p>
           </FeatureItem>
           <FeatureItem title="Zàng-Fǔ (脏腑) Organ Theory" theme="blue">
@@ -84,8 +85,8 @@
               The body's organs are divided into two categories: <em>Zang</em>
               (solid, yin organs: heart, liver, lungs, spleen, kidneys) and
               <em>Fu</em> (hollow, yang organs: stomach, intestines, bladder,
-              gallbladder). Each organ has not only physical functions but
-              also emotional and spiritual dimensions.
+              gallbladder). Each organ has not only physical functions but also
+              emotional and spiritual dimensions.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -125,8 +126,8 @@
               <strong>Compendium of Materia Medica</strong> — Compiled by Li
               Shizhen (李时珍, 1518–1593), this monumental work catalogs 1,892
               medicinal substances with 11,096 prescriptions. It took 27 years
-              to complete and remains the definitive reference of Chinese
-              herbal medicine.
+              to complete and remains the definitive reference of Chinese herbal
+              medicine.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -142,11 +143,11 @@
         <FeatureGrid>
           <FeatureItem title="Wàng (望) — Observation" theme="gold">
             <p>
-              The doctor observes the patient's complexion, body type, and
-              most importantly the <strong>tongue</strong>. Tongue diagnosis
-              is a sophisticated art — the tongue's color, shape, coating,
-              and moisture reveal the state of internal organs and the
-              presence of heat, cold, or dampness.
+              The doctor observes the patient's complexion, body type, and most
+              importantly the <strong>tongue</strong>. Tongue diagnosis is a
+              sophisticated art — the tongue's color, shape, coating, and
+              moisture reveal the state of internal organs and the presence of
+              heat, cold, or dampness.
             </p>
           </FeatureItem>
           <FeatureItem title="Wén (闻) — Listening & Smelling" theme="blue">
@@ -161,17 +162,17 @@
             <p>
               A detailed interview covering the chief complaint, medical
               history, appetite, sleep, digestion, body temperature, sweat,
-              bowel movements, urination, and for women, menstruation. TCM
-              views all aspects of daily life as relevant to health.
+              bowel movements, urination, and for women, menstruation. TCM views
+              all aspects of daily life as relevant to health.
             </p>
           </FeatureItem>
           <FeatureItem title="Qiè (切) — Palpation" theme="green">
             <p>
-              <strong>Pulse diagnosis</strong> is the most iconic TCM skill.
-              The doctor feels the pulse at three positions on each wrist
-              with three levels of pressure (superficial, moderate, deep),
-              assessing 28 distinct pulse qualities — wiry, slippery,
-              thready, floating, sinking, and more.
+              <strong>Pulse diagnosis</strong> is the most iconic TCM skill. The
+              doctor feels the pulse at three positions on each wrist with three
+              levels of pressure (superficial, moderate, deep), assessing 28
+              distinct pulse qualities — wiry, slippery, thready, floating,
+              sinking, and more.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -185,10 +186,10 @@
             <p>
               The cornerstone of TCM treatment. Herbal formulas typically
               combine 4–12 ingredients in precise proportions, each serving a
-              specific role: <em>emperor</em> (primary action), <em>minister</em>
-              (supporting), <em>assistant</em> (harmonizing), and
-              <em>envoy</em> (directing). Common herbs include ginseng (人参),
-              astragalus (黄芪), licorice (甘草), and ginger (生姜).
+              specific role: <em>emperor</em> (primary action),
+              <em>minister</em> (supporting), <em>assistant</em> (harmonizing),
+              and <em>envoy</em> (directing). Common herbs include ginseng
+              (人参), astragalus (黄芪), licorice (甘草), and ginger (生姜).
             </p>
           </FeatureItem>
           <FeatureItem title="Acupuncture (针灸)" theme="red">
@@ -196,8 +197,8 @@
               Thin needles are inserted at specific points along meridians to
               regulate the flow of qi. There are 361 main acupuncture points.
               Modern research shows acupuncture stimulates nerve endings,
-              releases endorphins, and affects brain activity. It is
-              recognized by the WHO for treating dozens of conditions.
+              releases endorphins, and affects brain activity. It is recognized
+              by the WHO for treating dozens of conditions.
             </p>
           </FeatureItem>
           <FeatureItem title="Moxibustion (艾灸)" theme="gold">
@@ -205,24 +206,23 @@
               Burning dried mugwort (moxa) near the skin to warm specific
               acupuncture points or meridian areas. Used primarily for
               conditions of cold and deficiency — poor circulation, chronic
-              pain, digestive weakness, and to turn breech babies in
-              pregnancy.
+              pain, digestive weakness, and to turn breech babies in pregnancy.
             </p>
           </FeatureItem>
           <FeatureItem title="Cupping (拔罐)" theme="blue">
             <p>
               Heated glass cups are placed on the skin to create suction,
-              increasing blood flow and loosening tight muscles. Made famous
-              by Olympic athletes like Michael Phelps who sported circular
-              cupping marks during competitions.
+              increasing blood flow and loosening tight muscles. Made famous by
+              Olympic athletes like Michael Phelps who sported circular cupping
+              marks during competitions.
             </p>
           </FeatureItem>
           <FeatureItem title="Tuina (推拿)" theme="green">
             <p>
               Therapeutic Chinese massage combining acupressure, joint
-              manipulation, and deep tissue work. Unlike Western massage
-              which focuses on muscles, Tuina works on the body's meridian
-              system to rebalance qi.
+              manipulation, and deep tissue work. Unlike Western massage which
+              focuses on muscles, Tuina works on the body's meridian system to
+              rebalance qi.
             </p>
           </FeatureItem>
           <FeatureItem title="Qigong (气功)" theme="gold">
@@ -250,18 +250,27 @@
           The principle of "medicine and food share a common origin" (药食同源)
           means many kitchen ingredients — ginger, garlic, cinnamon, goji
           berries, dates, chrysanthemum — are also powerful medicines. A TCM
-          dietary recommendation is tailored not just to the disease but to
-          the individual's unique constitution.
+          dietary recommendation is tailored not just to the disease but to the
+          individual's unique constitution.
         </p>
         <FeatureGrid>
           <FeatureItem title="Cooling Foods (寒凉)" theme="blue">
-            <p>Watermelon, cucumber, mint, green tea, tofu. For conditions of excess heat — fever, inflammation, thirst.</p>
+            <p>
+              Watermelon, cucumber, mint, green tea, tofu. For conditions of
+              excess heat — fever, inflammation, thirst.
+            </p>
           </FeatureItem>
           <FeatureItem title="Warming Foods (温热)" theme="red">
-            <p>Ginger, cinnamon, lamb, garlic, black pepper. For conditions of cold — chills, poor circulation, weak digestion.</p>
+            <p>
+              Ginger, cinnamon, lamb, garlic, black pepper. For conditions of
+              cold — chills, poor circulation, weak digestion.
+            </p>
           </FeatureItem>
           <FeatureItem title="Neutral Foods (平性)" theme="green">
-            <p>Rice, carrots, potatoes, mushrooms, chicken. Safe for daily consumption by most constitutions.</p>
+            <p>
+              Rice, carrots, potatoes, mushrooms, chicken. Safe for daily
+              consumption by most constitutions.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -274,8 +283,8 @@
           Acupuncture is now offered in hospitals across Europe and North
           America. Chinese herbal medicine is studied by pharmaceutical
           companies searching for new drugs — the anti-malarial drug
-          artemisinin, derived from the herb qinghao (Artemisia annua), won
-          Tu Youyou the Nobel Prize in 2015.
+          artemisinin, derived from the herb qinghao (Artemisia annua), won Tu
+          Youyou the Nobel Prize in 2015.
         </p>
         <p class="section-text">
           The World Health Organization has recognized TCM as a formal medical
@@ -298,20 +307,24 @@
         <QuoteBox>
           "The superior doctor prevents sickness. The mediocre doctor treats
           impending sickness. The inferior doctor treats full-blown sickness."
-          <template #author>— Huangdi Neijing (黄帝内经), Inner Canon of the Yellow Emperor</template>
+          <template #author
+            >— Huangdi Neijing (黄帝内经), Inner Canon of the Yellow
+            Emperor</template
+          >
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Traditional Chinese Medicine Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Traditional Chinese Medicine Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
-  title:
-    "Traditional Chinese Medicine | Zhōng Yī — Chinese Culture Guide",
+  breadcrumb: "Traditional Chinese Medicine",
+  title: "Traditional Chinese Medicine | Zhōng Yī — Chinese Culture Guide",
   description:
     "Discover Traditional Chinese Medicine (中医), the ancient healing art based on Qi, Yin-Yang, and the Five Elements. Explore herbal medicine, acupuncture, cupping, dietary therapy, and the wisdom of the Huangdi Neijing.",
   ogTitle: "Traditional Chinese Medicine — The Ancient Art of Healing",

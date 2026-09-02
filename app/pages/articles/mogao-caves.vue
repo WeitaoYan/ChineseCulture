@@ -3,15 +3,14 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">The Mogao Caves of Dunhuang</h1>
-      <p class="page-subtitle">
-        Mò Gāo Kū — The Caves of the Thousand Buddhas
-      </p>
+      <p class="page-subtitle">Mò Gāo Kū — The Caves of the Thousand Buddhas</p>
       <PageMeta>
         <MetaItem>🏜️ Gansu Oasis</MetaItem>
         <MetaItem>🎨 Buddhist Art</MetaItem>
         <MetaItem>📜 Library Cave</MetaItem>
         <MetaItem>🌏 Silk Road</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -54,8 +53,7 @@
           <strong>Yuezun</strong> (乐僔). While traveling through the desert at
           dusk, he saw a vision of a thousand golden Buddhas radiating light
           from the cliff before him. Taking it as a sacred sign, he settled at
-          the site and began cutting the first meditation chamber into the
-          rock.
+          the site and began cutting the first meditation chamber into the rock.
         </p>
         <p class="section-text">
           Over the following centuries, the project grew under the patronage of
@@ -66,16 +64,26 @@
         </p>
         <FeatureGrid>
           <FeatureItem title="First Cave" theme="red">
-            <p>Carved by monk Yuezun in 366 CE after a vision of golden Buddhas.</p>
+            <p>
+              Carved by monk Yuezun in 366 CE after a vision of golden Buddhas.
+            </p>
           </FeatureItem>
           <FeatureItem title="Building Period" theme="gold">
-            <p>Over 1,000 years of continuous construction, from 366 to 1368 CE.</p>
+            <p>
+              Over 1,000 years of continuous construction, from 366 to 1368 CE.
+            </p>
           </FeatureItem>
           <FeatureItem title="UNESCO Site" theme="green">
-            <p>Inscribed as a World Heritage Site in 1987 for its outstanding universal value.</p>
+            <p>
+              Inscribed as a World Heritage Site in 1987 for its outstanding
+              universal value.
+            </p>
           </FeatureItem>
           <FeatureItem title="Location" theme="blue">
-            <p>25 km southeast of Dunhuang, on the eastern edge of the Mingsha (Singing Sand) dunes.</p>
+            <p>
+              25 km southeast of Dunhuang, on the eastern edge of the Mingsha
+              (Singing Sand) dunes.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -84,8 +92,9 @@
       <section class="section">
         <h2 class="section-title">A Treasury in Stone</h2>
         <p class="section-text">
-          At its height, the cliff held nearly <strong>1,000 cave temples</strong>.
-          Today <strong>492 caves</strong> survive, filled with roughly
+          At its height, the cliff held nearly
+          <strong>1,000 cave temples</strong>. Today
+          <strong>492 caves</strong> survive, filled with roughly
           <strong>45,000 square meters</strong> of murals (equivalent to more
           than 50 standard basketball courts of painting) and over
           <strong>2,000 painted sculptures</strong>. The tallest statues rise
@@ -93,16 +102,28 @@
         </p>
         <FeatureGrid>
           <FeatureItem title="Cave Temples" theme="red">
-            <p>492 surviving caves, out of nearly 1,000 originally carved into the cliff.</p>
+            <p>
+              492 surviving caves, out of nearly 1,000 originally carved into
+              the cliff.
+            </p>
           </FeatureItem>
           <FeatureItem title="Murals" theme="gold">
-            <p>Over 45,000 m² of wall paintings spanning portraits, sutras, and daily life.</p>
+            <p>
+              Over 45,000 m² of wall paintings spanning portraits, sutras, and
+              daily life.
+            </p>
           </FeatureItem>
           <FeatureItem title="Sculptures" theme="blue">
-            <p>More than 2,000 painted clay sculptures, from tiny miniatures to 34 m giants.</p>
+            <p>
+              More than 2,000 painted clay sculptures, from tiny miniatures to
+              34 m giants.
+            </p>
           </FeatureItem>
           <FeatureItem title="Dynasties" theme="green">
-            <p>Art from 10+ dynasties, a continuous visual history of Chinese Buddhism.</p>
+            <p>
+              Art from 10+ dynasties, a continuous visual history of Chinese
+              Buddhism.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -122,24 +143,36 @@
           The cache contained Buddhist, Daoist, Manichaean, and Nestorian
           Christian texts; silk paintings, scrolls, and printed documents; and
           papers in Chinese, Tibetan, Sanskrit, Uyghur, Tangut, and Hebrew. It
-          was one of the greatest archaeological discoveries of the 20th
-          century — and a painful one, as much of it was carried away by early
-          explorers such as Aurel Stein and Paul Pelliot. Today the manuscripts
-          are scattered across libraries in London, Paris, Beijing, and St.
+          was one of the greatest archaeological discoveries of the 20th century
+          — and a painful one, as much of it was carried away by early explorers
+          such as Aurel Stein and Paul Pelliot. Today the manuscripts are
+          scattered across libraries in London, Paris, Beijing, and St.
           Petersburg, while the cave itself stands empty.
         </p>
         <FeatureGrid>
           <FeatureItem title="Discovery Year" theme="red">
-            <p>Unsealed in 1900 by caretaker Wang Yuanlu after a wall was found cracked.</p>
+            <p>
+              Unsealed in 1900 by caretaker Wang Yuanlu after a wall was found
+              cracked.
+            </p>
           </FeatureItem>
           <FeatureItem title="The Hoard" theme="gold">
-            <p>50,000+ manuscripts, paintings, and scrolls sealed around the 11th century.</p>
+            <p>
+              50,000+ manuscripts, paintings, and scrolls sealed around the 11th
+              century.
+            </p>
           </FeatureItem>
           <FeatureItem title="Languages" theme="blue">
-            <p>Texts in Chinese, Tibetan, Sanskrit, Uyghur, Tangut, Hebrew, and more.</p>
+            <p>
+              Texts in Chinese, Tibetan, Sanskrit, Uyghur, Tangut, Hebrew, and
+              more.
+            </p>
           </FeatureItem>
           <FeatureItem title="Dispersal" theme="green">
-            <p>Surviving collections now held in London, Paris, Beijing, and St. Petersburg.</p>
+            <p>
+              Surviving collections now held in London, Paris, Beijing, and St.
+              Petersburg.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -167,16 +200,27 @@
         </p>
         <FeatureGrid>
           <FeatureItem title="Flying Apsaras" theme="gold">
-            <p>The iconic 飞天 — ribbon-trailing celestial dancers unique to Chinese Buddhist art.</p>
+            <p>
+              The iconic 飞天 — ribbon-trailing celestial dancers unique to
+              Chinese Buddhist art.
+            </p>
           </FeatureItem>
           <FeatureItem title="Jataka Tales" theme="red">
-            <p>Murals illustrating the former lives and sacrifices of the Buddha.</p>
+            <p>
+              Murals illustrating the former lives and sacrifices of the Buddha.
+            </p>
           </FeatureItem>
           <FeatureItem title="Painted Sculpture" theme="blue">
-            <p>Clay figures colored in mineral pigments — from ethereal to lifelike over dynasties.</p>
+            <p>
+              Clay figures colored in mineral pigments — from ethereal to
+              lifelike over dynasties.
+            </p>
           </FeatureItem>
           <FeatureItem title="Nine-Story Façade" theme="green">
-            <p>A wooden tower added in the 1900s to protect the 34 m reclining Buddha.</p>
+            <p>
+              A wooden tower added in the 1900s to protect the 34 m reclining
+              Buddha.
+            </p>
           </FeatureItem>
         </FeatureGrid>
       </section>
@@ -185,19 +229,19 @@
       <section class="section">
         <h2 class="section-title">Preservation & Digital Dunhuang</h2>
         <p class="section-text">
-          By the 20th century, centuries of sand, humidity, and careless
-          removal had left the caves fragile. In <strong>1944</strong> the
-          <strong>Dunhuang Academy</strong> (敦煌研究院) was founded to study and
-          protect the site, a mission that continues today under strict
+          By the 20th century, centuries of sand, humidity, and careless removal
+          had left the caves fragile. In <strong>1944</strong> the
+          <strong>Dunhuang Academy</strong> (敦煌研究院) was founded to study
+          and protect the site, a mission that continues today under strict
           visitor limits, climate control, and constant monitoring.
         </p>
         <p class="section-text">
-          The academy's most ambitious project is <strong>"Digital
-          Dunhuang"</strong> — a complete high-resolution, 3D digitization of
-          every cave, allowing scholars and the public to explore the art
-          online without endangering the originals. Through gigapixel
-          photography and virtual-reality caves, the thousand-year-old murals
-          can now travel the world while the cliff face rests.
+          The academy's most ambitious project is
+          <strong>"Digital Dunhuang"</strong> — a complete high-resolution, 3D
+          digitization of every cave, allowing scholars and the public to
+          explore the art online without endangering the originals. Through
+          gigapixel photography and virtual-reality caves, the thousand-year-old
+          murals can now travel the world while the cliff face rests.
         </p>
       </section>
 
@@ -208,7 +252,8 @@
           human hands pressed into stone — a wall where China met the world and
           painted the meeting in gold."
         </QuoteBox>
-      </section></div>
+      </section>
+    </div>
 
     <!-- AI 趣味测验 -->
     <CultureQuiz title="Mogao Caves Quiz" />
@@ -218,6 +263,7 @@
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "The Mogao Caves of Dunhuang",
   title:
     "The Mogao Caves of Dunhuang | Caves of the Thousand Buddhas — Chinese Culture Guide",
   description:

@@ -3,12 +3,15 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">The Chinese Lunar Calendar</h1>
-      <p class="page-subtitle">Nónglì (农历) - The Lunisolar Cycle of Nature and Culture</p>
+      <p class="page-subtitle">
+        Nónglì (农历) - The Lunisolar Cycle of Nature and Culture
+      </p>
       <PageMeta>
         <MetaItem>🌙 Lunisolar System</MetaItem>
         <MetaItem>🐉 12 Zodiac Animals</MetaItem>
         <MetaItem>🌾 24 Solar Terms</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -24,10 +27,23 @@
       <section class="section">
         <h2 class="section-title">Overview</h2>
         <p class="section-text">
-          For millennia, time in China was measured not by a simple count of days, but by a delicate choreography of the Sun, the Moon, and the seasons. This system is known as the <strong>Chinese Lunar Calendar</strong> (农历, <em>nónglì</em>, literally "agricultural calendar"). Unlike the Western Gregorian calendar, which tracks only the Sun (solar), or the Islamic calendar, which tracks only the Moon (lunar), the traditional Chinese calendar is a <strong>lunisolar calendar</strong> (阴阳合历, <em>yīnyáng hélì</em>).
+          For millennia, time in China was measured not by a simple count of
+          days, but by a delicate choreography of the Sun, the Moon, and the
+          seasons. This system is known as the
+          <strong>Chinese Lunar Calendar</strong> (农历, <em>nónglì</em>,
+          literally "agricultural calendar"). Unlike the Western Gregorian
+          calendar, which tracks only the Sun (solar), or the Islamic calendar,
+          which tracks only the Moon (lunar), the traditional Chinese calendar
+          is a <strong>lunisolar calendar</strong> (阴阳合历,
+          <em>yīnyáng hélì</em>).
         </p>
         <p class="section-text">
-          The Lunar Calendar remains the heartbeat of Chinese cultural life today. It determines the dates of traditional festivals such as the Spring Festival (Chinese New Year), the Mid-Autumn Festival, and the Dragon Boat Festival. It also embeds deep philosophical concepts, linking the passage of time to the cycles of Yin and Yang, the Five Elements, and the Chinese Zodiac.
+          The Lunar Calendar remains the heartbeat of Chinese cultural life
+          today. It determines the dates of traditional festivals such as the
+          Spring Festival (Chinese New Year), the Mid-Autumn Festival, and the
+          Dragon Boat Festival. It also embeds deep philosophical concepts,
+          linking the passage of time to the cycles of Yin and Yang, the Five
+          Elements, and the Chinese Zodiac.
         </p>
       </section>
 
@@ -35,7 +51,9 @@
       <section class="section converter-section">
         <h2 class="section-title">Interactive Lunar Date Converter</h2>
         <p class="section-text">
-          Choose any date from the solar (Gregorian) calendar to convert it into its traditional Chinese lunar calendar equivalent and reveal its rich astronomical and cultural data.
+          Choose any date from the solar (Gregorian) calendar to convert it into
+          its traditional Chinese lunar calendar equivalent and reveal its rich
+          astronomical and cultural data.
         </p>
 
         <div class="converter-widget">
@@ -64,11 +82,19 @@
             <div class="result-details">
               <div class="detail-row">
                 <span class="detail-label">Gregorian Date:</span>
-                <span class="detail-value">{{ lunarDetails.gregorianStr }}</span>
+                <span class="detail-value">{{
+                  lunarDetails.gregorianStr
+                }}</span>
               </div>
               <div class="detail-row">
                 <span class="detail-label">Lunar Month & Day:</span>
-                <span class="detail-value">{{ lunarDetails.lunarMonthName }} ({{ lunarDetails.lunarMonth }}), Day {{ lunarDetails.lunarDayName }} ({{ lunarDetails.lunarDay }})</span>
+                <span class="detail-value"
+                  >{{ lunarDetails.lunarMonthName }} ({{
+                    lunarDetails.lunarMonth
+                  }}), Day {{ lunarDetails.lunarDayName }} ({{
+                    lunarDetails.lunarDay
+                  }})</span
+                >
               </div>
               <div class="detail-row">
                 <span class="detail-label">Sexagenary (Ganzhi):</span>
@@ -80,15 +106,21 @@
               </div>
               <div class="detail-row">
                 <span class="detail-label">Moon Phase:</span>
-                <span class="detail-value">{{ lunarDetails.phase }} ({{ lunarDetails.phaseEn }})</span>
+                <span class="detail-value"
+                  >{{ lunarDetails.phase }} ({{ lunarDetails.phaseEn }})</span
+                >
               </div>
               <div class="detail-row" v-if="lunarDetails.term">
                 <span class="detail-label">Solar Term (节气):</span>
-                <span class="detail-value term-highlight">{{ lunarDetails.term }} ({{ lunarDetails.termEn }})</span>
+                <span class="detail-value term-highlight"
+                  >{{ lunarDetails.term }} ({{ lunarDetails.termEn }})</span
+                >
               </div>
               <div class="detail-row" v-if="lunarDetails.festival">
                 <span class="detail-label">Festival (节日):</span>
-                <span class="detail-value festival-highlight">{{ lunarDetails.festival }}</span>
+                <span class="detail-value festival-highlight">{{
+                  lunarDetails.festival
+                }}</span>
               </div>
             </div>
           </div>
@@ -99,22 +131,38 @@
       <section class="section">
         <h2 class="section-title">The Lunisolar Mechanics</h2>
         <p class="section-text">
-          How does the Chinese calendar reconcile the cycles of the Sun and the Moon? The mathematical beauty of the lunisolar calendar lies in its two primary components:
+          How does the Chinese calendar reconcile the cycles of the Sun and the
+          Moon? The mathematical beauty of the lunisolar calendar lies in its
+          two primary components:
         </p>
         <FeatureGrid>
           <FeatureItem title="The Lunar Cycle (Yin)" theme="blue">
             <p>
-              Each calendar month starts on the day of the <strong>new moon</strong> (朔, <em>shuò</em>), when the Moon is invisible. A lunar month is either 29 days (minor month, 小月) or 30 days (major month, 大月), matching the average lunar synodic cycle of 29.53 days. Because of this, the 15th day of each month always features a near-perfect full moon.
+              Each calendar month starts on the day of the
+              <strong>new moon</strong> (朔, <em>shuò</em>), when the Moon is
+              invisible. A lunar month is either 29 days (minor month, 小月) or
+              30 days (major month, 大月), matching the average lunar synodic
+              cycle of 29.53 days. Because of this, the 15th day of each month
+              always features a near-perfect full moon.
             </p>
           </FeatureItem>
           <FeatureItem title="The Solar Cycle (Yang)" theme="gold">
             <p>
-              A pure lunar year of 12 months is only 354 days long—about 11 days shorter than the Earth's orbit around the Sun (365.24 days). Without adjustment, the months would drift across the seasons. To prevent this, the calendar inserts a <strong>leap month</strong> (闰月, <em>rùnyuè</em>) approximately every three years (specifically, 7 leap months in 19 years).
+              A pure lunar year of 12 months is only 354 days long—about 11 days
+              shorter than the Earth's orbit around the Sun (365.24 days).
+              Without adjustment, the months would drift across the seasons. To
+              prevent this, the calendar inserts a
+              <strong>leap month</strong> (闰月, <em>rùnyuè</em>) approximately
+              every three years (specifically, 7 leap months in 19 years).
             </p>
           </FeatureItem>
         </FeatureGrid>
         <p class="section-text" style="margin-top: 1rem">
-          When a leap month is added, the year has 13 months and is called a leap year (闰年). For example, if a leap month follows the 4th month, it is called the "Leap 4th Month" (闰四月). This mechanism ensures that the Lunar New Year always falls between January 21 and February 20, keeping it tied to the onset of spring.
+          When a leap month is added, the year has 13 months and is called a
+          leap year (闰年). For example, if a leap month follows the 4th month,
+          it is called the "Leap 4th Month" (闰四月). This mechanism ensures
+          that the Lunar New Year always falls between January 21 and February
+          20, keeping it tied to the onset of spring.
         </p>
       </section>
 
@@ -122,21 +170,35 @@
       <section class="section">
         <h2 class="section-title">The 24 Solar Terms (二十四节气)</h2>
         <p class="section-text">
-          To guide farmers through the agricultural year, ancient Chinese astronomers divided the Sun's annual path (the ecliptic) into 24 equal segments of 15 degrees. Each segment corresponds to a <strong>Solar Term</strong> (节气, <em>jiéqì</em>), lasting about 15 days.
+          To guide farmers through the agricultural year, ancient Chinese
+          astronomers divided the Sun's annual path (the ecliptic) into 24 equal
+          segments of 15 degrees. Each segment corresponds to a
+          <strong>Solar Term</strong> (节气, <em>jiéqì</em>), lasting about 15
+          days.
         </p>
         <p class="section-text">
-          These terms represent seasonal shifts, temperature changes, and natural phenomena. Because they track the Earth's orbit relative to the Sun, they align almost perfectly with the Western solar calendar (falling on the same Gregorian dates each year, plus or minus one day).
+          These terms represent seasonal shifts, temperature changes, and
+          natural phenomena. Because they track the Earth's orbit relative to
+          the Sun, they align almost perfectly with the Western solar calendar
+          (falling on the same Gregorian dates each year, plus or minus one
+          day).
         </p>
-        
+
         <div class="terms-grid">
           <div class="term-season-group spring-group">
             <h3 class="season-title">Spring (春)</h3>
             <ul class="terms-list">
               <li><strong>立春 (Lìchūn):</strong> Start of Spring (Feb 4–5)</li>
               <li><strong>雨水 (Yǔshuǐ):</strong> Rain Water (Feb 18–20)</li>
-              <li><strong>惊蛰 (Jīngzhé):</strong> Awakening of Insects (Mar 5–6)</li>
-              <li><strong>春分 (Chūnfēn):</strong> Spring Equinox (Mar 20–21)</li>
-              <li><strong>清明 (Qīngmíng):</strong> Pure Brightness (Apr 4–5)</li>
+              <li>
+                <strong>惊蛰 (Jīngzhé):</strong> Awakening of Insects (Mar 5–6)
+              </li>
+              <li>
+                <strong>春分 (Chūnfēn):</strong> Spring Equinox (Mar 20–21)
+              </li>
+              <li>
+                <strong>清明 (Qīngmíng):</strong> Pure Brightness (Apr 4–5)
+              </li>
               <li><strong>谷雨 (Gǔyǔ):</strong> Grain Rain (Apr 19–21)</li>
             </ul>
           </div>
@@ -144,9 +206,13 @@
             <h3 class="season-title">Summer (夏)</h3>
             <ul class="terms-list">
               <li><strong>立夏 (Lìxià):</strong> Start of Summer (May 5–6)</li>
-              <li><strong>小满 (Xiǎomǎn):</strong> Lesser Fullness (May 20–22)</li>
+              <li>
+                <strong>小满 (Xiǎomǎn):</strong> Lesser Fullness (May 20–22)
+              </li>
               <li><strong>芒种 (Mángzhòng):</strong> Grain in Ear (Jun 5–7)</li>
-              <li><strong>夏至 (Xiàzhì):</strong> Summer Solstice (Jun 21–22)</li>
+              <li>
+                <strong>夏至 (Xiàzhì):</strong> Summer Solstice (Jun 21–22)
+              </li>
               <li><strong>小暑 (Xiǎoshǔ):</strong> Lesser Heat (Jul 6–8)</li>
               <li><strong>大暑 (Dàshǔ):</strong> Greater Heat (Jul 22–24)</li>
             </ul>
@@ -157,9 +223,13 @@
               <li><strong>立秋 (Lìqiū):</strong> Start of Autumn (Aug 7–9)</li>
               <li><strong>处暑 (Chùshǔ):</strong> End of Heat (Aug 22–24)</li>
               <li><strong>白露 (Báilù):</strong> White Dew (Sep 7–9)</li>
-              <li><strong>秋分 (Qiūfēn):</strong> Autumn Equinox (Sep 22–24)</li>
+              <li>
+                <strong>秋分 (Qiūfēn):</strong> Autumn Equinox (Sep 22–24)
+              </li>
               <li><strong>寒露 (Hánlù):</strong> Cold Dew (Oct 8–9)</li>
-              <li><strong>霜降 (Shuāngjiàng):</strong> Frost Descent (Oct 23–24)</li>
+              <li>
+                <strong>霜降 (Shuāngjiàng):</strong> Frost Descent (Oct 23–24)
+              </li>
             </ul>
           </div>
           <div class="term-season-group winter-group">
@@ -168,7 +238,9 @@
               <li><strong>立冬 (Lìdōng):</strong> Start of Winter (Nov 7–8)</li>
               <li><strong>小雪 (Xiǎoxuě):</strong> Lesser Snow (Nov 22–23)</li>
               <li><strong>大雪 (Dàxuě):</strong> Greater Snow (Dec 6–8)</li>
-              <li><strong>冬至 (Dōngzhì):</strong> Winter Solstice (Dec 21–23)</li>
+              <li>
+                <strong>冬至 (Dōngzhì):</strong> Winter Solstice (Dec 21–23)
+              </li>
               <li><strong>小寒 (Xiǎohán):</strong> Lesser Cold (Jan 5–6)</li>
               <li><strong>大寒 (Dàhán):</strong> Greater Cold (Jan 20–21)</li>
             </ul>
@@ -180,30 +252,41 @@
       <section class="section">
         <h2 class="section-title">The Sexagenary Cycle and Zodiac</h2>
         <p class="section-text">
-          In the traditional calendar, years are not simply numbered. Instead, they run in a repeating 60-year cycle called the <strong>Sexagenary Cycle</strong> (干支纪年, <em>gānzhī jǐnián</em>). This is formed by combining two sequences:
+          In the traditional calendar, years are not simply numbered. Instead,
+          they run in a repeating 60-year cycle called the
+          <strong>Sexagenary Cycle</strong> (干支纪年, <em>gānzhī jǐnián</em>).
+          This is formed by combining two sequences:
         </p>
         <div class="info-box stem-branch-box">
           <div class="column">
             <h4>10 Heavenly Stems (天干)</h4>
             <p>Representing the elements and yin-yang polarities:</p>
             <div class="list-tags">
-              <span>甲 (Jiǎ)</span> <span>乙 (Yǐ)</span> <span>丙 (Bǐng)</span> <span>丁 (Dīng)</span> <span>戊 (Wù)</span>
-              <span>己 (Jǐ)</span> <span>庚 (Gēng)</span> <span>辛 (Xīn)</span> <span>壬 (Rén)</span> <span>癸 (Guǐ)</span>
+              <span>甲 (Jiǎ)</span> <span>乙 (Yǐ)</span> <span>丙 (Bǐng)</span>
+              <span>丁 (Dīng)</span> <span>戊 (Wù)</span> <span>己 (Jǐ)</span>
+              <span>庚 (Gēng)</span> <span>辛 (Xīn)</span> <span>壬 (Rén)</span>
+              <span>癸 (Guǐ)</span>
             </div>
           </div>
           <div class="column">
             <h4>12 Earthly Branches (地支)</h4>
             <p>Corresponding to the 12 Zodiac animals and hours of the day:</p>
             <div class="list-tags">
-              <span>子 (Zǐ - Rat)</span> <span>丑 (Chǒu - Ox)</span> <span>寅 (Yín - Tiger)</span>
-              <span>卯 (Mǎo - Rabbit)</span> <span>辰 (Chén - Dragon)</span> <span>巳 (Sì - Snake)</span>
-              <span>午 (Wǔ - Horse)</span> <span>未 (Wèi - Goat)</span> <span>申 (Shēn - Monkey)</span>
-              <span>酉 (Yǒu - Rooster)</span> <span>戌 (Xū - Dog)</span> <span>亥 (Hài - Pig)</span>
+              <span>子 (Zǐ - Rat)</span> <span>丑 (Chǒu - Ox)</span>
+              <span>寅 (Yín - Tiger)</span> <span>卯 (Mǎo - Rabbit)</span>
+              <span>辰 (Chén - Dragon)</span> <span>巳 (Sì - Snake)</span>
+              <span>午 (Wǔ - Horse)</span> <span>未 (Wèi - Goat)</span>
+              <span>申 (Shēn - Monkey)</span> <span>酉 (Yǒu - Rooster)</span>
+              <span>戌 (Xū - Dog)</span> <span>亥 (Hài - Pig)</span>
             </div>
           </div>
         </div>
         <p class="section-text" style="margin-top: 1rem">
-          Combining the Stems and Branches creates pairs (e.g., <em>Jiǎzǐ</em> 甲子, <em>Yǐchǒu</em> 乙丑) up to 60 combinations. The year 2026 is the Year of <em>Bǐngwǔ</em> (丙午), representing the Yin Fire and Earthly Branch of the Horse. Thus, 2026 is the Year of the Fire Horse.
+          Combining the Stems and Branches creates pairs (e.g.,
+          <em>Jiǎzǐ</em> 甲子, <em>Yǐchǒu</em> 乙丑) up to 60 combinations. The
+          year 2026 is the Year of <em>Bǐngwǔ</em> (丙午), representing the Yin
+          Fire and Earthly Branch of the Horse. Thus, 2026 is the Year of the
+          Fire Horse.
         </p>
       </section>
 
@@ -252,9 +335,13 @@
 
       <!-- 主要节日 -->
       <section class="section">
-        <h2 class="section-title">Major Festivals Determined by the Lunar Calendar</h2>
+        <h2 class="section-title">
+          Major Festivals Determined by the Lunar Calendar
+        </h2>
         <p class="section-text">
-          Because traditional Chinese festivals are calculated using the Lunar Calendar, their Gregorian dates shift slightly every year. Here are the major celebrations:
+          Because traditional Chinese festivals are calculated using the Lunar
+          Calendar, their Gregorian dates shift slightly every year. Here are
+          the major celebrations:
         </p>
         <div class="festivals-links">
           <NuxtLink to="/articles/spring-festival" class="festival-card-link">
@@ -267,138 +354,154 @@
             <span class="fest-name">Lantern Festival</span>
             <span class="fest-lunar">15th Day of 1st Month</span>
           </NuxtLink>
-          <NuxtLink to="/articles/longtaitou-festival" class="festival-card-link">
+          <NuxtLink
+            to="/articles/longtaitou-festival"
+            class="festival-card-link"
+          >
             <span class="fest-emoji">🐉</span>
             <span class="fest-name">Longtaitou Festival</span>
             <span class="fest-lunar">2nd Day of 2nd Month</span>
           </NuxtLink>
-          <NuxtLink to="/articles/dragon-boat-festival" class="festival-card-link">
+          <NuxtLink
+            to="/articles/dragon-boat-festival"
+            class="festival-card-link"
+          >
             <span class="fest-emoji">🛶</span>
             <span class="fest-name">Dragon Boat Festival</span>
             <span class="fest-lunar">5th Day of 5th Month</span>
           </NuxtLink>
-          <NuxtLink to="/articles/mid-autumn-festival" class="festival-card-link">
+          <NuxtLink
+            to="/articles/mid-autumn-festival"
+            class="festival-card-link"
+          >
             <span class="fest-emoji">🥮</span>
             <span class="fest-name">Mid-Autumn Festival</span>
             <span class="fest-lunar">15th Day of 8th Month</span>
           </NuxtLink>
-          <NuxtLink to="/articles/chongyang-festival" class="festival-card-link">
+          <NuxtLink
+            to="/articles/chongyang-festival"
+            class="festival-card-link"
+          >
             <span class="fest-emoji">⛰️</span>
             <span class="fest-name">Double Ninth Festival</span>
             <span class="fest-lunar">9th Day of 9th Month</span>
           </NuxtLink>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
-      "观乎天文，以察时变；观乎人文，以化成天下 — Observe the patterns of heaven to understand the changes of season; observe the patterns of humanity to transform the world."
+      "观乎天文，以察时变；观乎人文，以化成天下 — Observe the patterns of heaven
+      to understand the changes of season; observe the patterns of humanity to
+      transform the world."
       <template #author>— Book of Changes (I Ching / 易经)</template>
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Lunar Calendar Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Lunar Calendar Quiz" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue';
-import { SolarDay } from 'tyme4ts';
+import { ref, computed } from "vue";
+import { SolarDay } from "tyme4ts";
 
 definePageMeta({
   layout: "content",
+  breadcrumb: "The Chinese Lunar Calendar",
   title: "The Chinese Lunar Calendar (Nongli) - Chinese Culture Explorer",
   description:
     "Explore the science and culture of the traditional Chinese Lunar Calendar (农历). Convert solar dates, learn about leap months, the 24 solar terms, and the sexagenary cycles.",
 });
 
 // 绑定当前公历日期
-const selectedDate = ref(new Date().toISOString().split('T')[0]);
+const selectedDate = ref(new Date().toISOString().split("T")[0]);
 
 // 翻译映射表
 const zodiacMap: Record<string, string> = {
-  '鼠': 'Rat 🐭',
-  '牛': 'Ox 🐂',
-  '虎': 'Tiger 🐅',
-  '兔': 'Rabbit 🐇',
-  '龙': 'Dragon 🐉',
-  '蛇': 'Snake 🐍',
-  '马': 'Horse 🐎',
-  '羊': 'Goat 🐐',
-  '猴': 'Monkey 🐒',
-  '鸡': 'Rooster 🐓',
-  '狗': 'Dog 🐕',
-  '猪': 'Pig 🐖'
+  鼠: "Rat 🐭",
+  牛: "Ox 🐂",
+  虎: "Tiger 🐅",
+  兔: "Rabbit 🐇",
+  龙: "Dragon 🐉",
+  蛇: "Snake 🐍",
+  马: "Horse 🐎",
+  羊: "Goat 🐐",
+  猴: "Monkey 🐒",
+  鸡: "Rooster 🐓",
+  狗: "Dog 🐕",
+  猪: "Pig 🐖",
 };
 
 const phaseMap: Record<string, string> = {
-  '朔月': 'New Moon 🌑',
-  '新月': 'New Moon 🌑',
-  '蛾眉新月': 'Waxing Crescent 🌒',
-  '蛾眉月': 'Waxing Crescent 🌒',
-  '上弦月': 'First Quarter 🌓',
-  '盈凸月': 'Waxing Gibbous 🌔',
-  '望月': 'Full Moon 🌕',
-  '满月': 'Full Moon 🌕',
-  '亏凸月': 'Waning Gibbous 🌖',
-  '下弦月': 'Third Quarter 🌗',
-  '残月': 'Waning Crescent 🌘',
-  '晦月': 'Dark Moon 🌑'
+  朔月: "New Moon 🌑",
+  新月: "New Moon 🌑",
+  蛾眉新月: "Waxing Crescent 🌒",
+  蛾眉月: "Waxing Crescent 🌒",
+  上弦月: "First Quarter 🌓",
+  盈凸月: "Waxing Gibbous 🌔",
+  望月: "Full Moon 🌕",
+  满月: "Full Moon 🌕",
+  亏凸月: "Waning Gibbous 🌖",
+  下弦月: "Third Quarter 🌗",
+  残月: "Waning Crescent 🌘",
+  晦月: "Dark Moon 🌑",
 };
 
 const termMap: Record<string, string> = {
-  '立春': 'Start of Spring (Lìchūn) 🌱',
-  '雨水': 'Rain Water (Yǔshuǐ) 🌧️',
-  '惊蛰': 'Awakening of Insects (Jīngzhé) ⚡',
-  '春分': 'Spring Equinox (Chūnfēn) 昼夜平分',
-  '清明': 'Pure Brightness (Qīngmíng) 🌿',
-  '谷雨': 'Grain Rain (Gǔyǔ) 🌾',
-  '立夏': 'Start of Summer (Lìxià) ☀️',
-  '小满': 'Lesser Fullness (Xiǎomǎn) 🌾',
-  '芒种': 'Grain in Ear (Mángzhòng) 🌾',
-  '夏至': 'Summer Solstice (Xiàzhì) ☀️',
-  '小暑': 'Lesser Heat (Xiǎoshǔ) 🌡️',
-  '大暑': 'Greater Heat (Dàshǔ) 🔥',
-  '立秋': 'Start of Autumn (Lìqiū) 🍂',
-  '处暑': 'End of Heat (Chùshǔ) 🍂',
-  '白露': 'White Dew (Báilù) 💧',
-  '秋分': 'Autumn Equinox (Qiūfēn) 昼夜平分',
-  '寒露': 'Cold Dew (Hánlù) 🥶',
-  '霜降': 'Frost Descent (Shuāngjiàng) ❄️',
-  '立冬': 'Start of Winter (Lìdōng) ❄️',
-  '小雪': 'Lesser Snow (Xiǎoxuě) ❄️',
-  '大雪': 'Greater Snow (Dàxuě) ❄️',
-  '冬至': 'Winter Solstice (Dōngzhì) 饺子/汤圆 🥟',
-  '小寒': 'Lesser Cold (Xiǎohán) 🥶',
-  '大寒': 'Greater Cold (Dàhán) 🥶'
+  立春: "Start of Spring (Lìchūn) 🌱",
+  雨水: "Rain Water (Yǔshuǐ) 🌧️",
+  惊蛰: "Awakening of Insects (Jīngzhé) ⚡",
+  春分: "Spring Equinox (Chūnfēn) 昼夜平分",
+  清明: "Pure Brightness (Qīngmíng) 🌿",
+  谷雨: "Grain Rain (Gǔyǔ) 🌾",
+  立夏: "Start of Summer (Lìxià) ☀️",
+  小满: "Lesser Fullness (Xiǎomǎn) 🌾",
+  芒种: "Grain in Ear (Mángzhòng) 🌾",
+  夏至: "Summer Solstice (Xiàzhì) ☀️",
+  小暑: "Lesser Heat (Xiǎoshǔ) 🌡️",
+  大暑: "Greater Heat (Dàshǔ) 🔥",
+  立秋: "Start of Autumn (Lìqiū) 🍂",
+  处暑: "End of Heat (Chùshǔ) 🍂",
+  白露: "White Dew (Báilù) 💧",
+  秋分: "Autumn Equinox (Qiūfēn) 昼夜平分",
+  寒露: "Cold Dew (Hánlù) 🥶",
+  霜降: "Frost Descent (Shuāngjiàng) ❄️",
+  立冬: "Start of Winter (Lìdōng) ❄️",
+  小雪: "Lesser Snow (Xiǎoxuě) ❄️",
+  大雪: "Greater Snow (Dàxuě) ❄️",
+  冬至: "Winter Solstice (Dōngzhì) 饺子/汤圆 🥟",
+  小寒: "Lesser Cold (Xiǎohán) 🥶",
+  大寒: "Greater Cold (Dàhán) 🥶",
 };
 
 const getFestivalInfo = (lunar: any) => {
   const m = lunar.month;
   const d = lunar.day;
-  
+
   // 检查除夕 (前一天是否是春节)
   try {
     const nextDay = lunar.next(1);
     if (nextDay.month === 1 && nextDay.day === 1) {
-      return 'Lunar New Year\'s Eve (Chúxī) 🏮';
+      return "Lunar New Year's Eve (Chúxī) 🏮";
     }
   } catch (e) {}
 
   const festivals: Record<string, string> = {
-    '1-1': 'Spring Festival / Chinese New Year (Chūnjié) 🧧',
-    '1-15': 'Lantern Festival (Yuánxiāojié) 🏮',
-    '2-2': 'Longtaitou Festival / Dragon Raising Head (Lóngtáitóu) 🐉',
-    '3-3': 'Shangsi Festival / Women\'s Day (Shàngsìjié) 🌸',
-    '5-5': 'Dragon Boat Festival (Duānwǔjié) 🛶',
-    '7-7': 'Qixi Festival / Chinese Valentine\'s Day (Qīxījié) 💑',
-    '7-15': 'Zhongyuan Festival / Ghost Festival (Zhōngyuánjié) 👻',
-    '8-15': 'Mid-Autumn Festival (Zhōngqiūjié) 🥮',
-    '9-9': 'Double Ninth Festival (Chóngyángjié) ⛰️',
-    '10-15': 'Xiayuan Festival (Xiàyuánjié) 🌊',
-    '12-8': 'Laba Festival (Làbājié) 🥣',
-    '12-23': 'Xiaonian Festival (Xiǎonián - North) 🧹',
-    '12-24': 'Xiaonian Festival (Xiǎonián - South) 🧹',
+    "1-1": "Spring Festival / Chinese New Year (Chūnjié) 🧧",
+    "1-15": "Lantern Festival (Yuánxiāojié) 🏮",
+    "2-2": "Longtaitou Festival / Dragon Raising Head (Lóngtáitóu) 🐉",
+    "3-3": "Shangsi Festival / Women's Day (Shàngsìjié) 🌸",
+    "5-5": "Dragon Boat Festival (Duānwǔjié) 🛶",
+    "7-7": "Qixi Festival / Chinese Valentine's Day (Qīxījié) 💑",
+    "7-15": "Zhongyuan Festival / Ghost Festival (Zhōngyuánjié) 👻",
+    "8-15": "Mid-Autumn Festival (Zhōngqiūjié) 🥮",
+    "9-9": "Double Ninth Festival (Chóngyángjié) ⛰️",
+    "10-15": "Xiayuan Festival (Xiàyuánjié) 🌊",
+    "12-8": "Laba Festival (Làbājié) 🥣",
+    "12-23": "Xiaonian Festival (Xiǎonián - North) 🧹",
+    "12-24": "Xiaonian Festival (Xiǎonián - South) 🧹",
   };
 
   return festivals[`${m}-${d}`] || null;
@@ -407,20 +510,23 @@ const getFestivalInfo = (lunar: any) => {
 // 转换计算逻辑
 const lunarDetails = computed(() => {
   if (!selectedDate.value) return null;
-  
+
   try {
-    const [y, m, d] = selectedDate.value.split('-').map(Number);
+    const [y, m, d] = selectedDate.value.split("-").map(Number);
     const solar = SolarDay.fromYmd(y, m, d);
     const lunar = solar.getLunarDay();
     const month = lunar.getLunarMonth();
     const year = month.getLunarYear();
-    
+
     // 干支支干
     const yearSixtyCycle = lunar.getYearSixtyCycle();
     const monthSixtyCycle = lunar.getMonthSixtyCycle();
-    const daySixtyCycle = (typeof lunar.getSixtyCycle === 'function') 
-      ? lunar.getSixtyCycle() 
-      : ((typeof lunar.getSixtyCycleDay === 'function') ? lunar.getSixtyCycleDay() : null);
+    const daySixtyCycle =
+      typeof lunar.getSixtyCycle === "function"
+        ? lunar.getSixtyCycle()
+        : typeof lunar.getSixtyCycleDay === "function"
+          ? lunar.getSixtyCycleDay()
+          : null;
 
     // 生肖
     const earthBranch = yearSixtyCycle.getEarthBranch();
@@ -431,8 +537,8 @@ const lunarDetails = computed(() => {
 
     // 节气
     const term = solar.getTerm();
-    const termName = term ? term.toString() : '';
-    const termEn = termMap[termName] || '';
+    const termName = term ? term.toString() : "";
+    const termEn = termMap[termName] || "";
 
     // 月相
     const phaseStr = lunar.getPhase().toString();
@@ -440,11 +546,11 @@ const lunarDetails = computed(() => {
 
     // 节日 (结合农历和公历/节气)
     let festival = getFestivalInfo(lunar);
-    if (!festival && termName === '清明') {
-      festival = 'Qingming Festival / Tomb-Sweeping Day (Qīngmíng) 🌿';
+    if (!festival && termName === "清明") {
+      festival = "Qingming Festival / Tomb-Sweeping Day (Qīngmíng) 🌿";
     }
-    if (!festival && termName === '冬至') {
-      festival = 'Winter Solstice / Dongzhi (Dōngzhì) 🥟';
+    if (!festival && termName === "冬至") {
+      festival = "Winter Solstice / Dongzhi (Dōngzhì) 🥟";
     }
 
     return {
@@ -456,16 +562,16 @@ const lunarDetails = computed(() => {
       lunarDayName: lunar.getName(),
       ganzhiYear: yearSixtyCycle.toString(),
       ganzhiMonth: monthSixtyCycle.toString(),
-      ganzhiDay: daySixtyCycle ? daySixtyCycle.toString() : 'Unknown',
+      ganzhiDay: daySixtyCycle ? daySixtyCycle.toString() : "Unknown",
       zodiacEn,
       phase: phaseStr,
       phaseEn,
       term: termName,
       termEn,
-      festival
+      festival,
     };
   } catch (e) {
-    console.error('Conversion Error:', e);
+    console.error("Conversion Error:", e);
     return null;
   }
 });
@@ -527,8 +633,8 @@ const lunarDetails = computed(() => {
 
 /* 互动日期转换器样式 */
 .converter-section {
-  background-color: #FAF6F0;
-  border: 1px solid #E6DCD2;
+  background-color: #faf6f0;
+  border: 1px solid #e6dcd2;
   border-radius: 12px;
   padding: 2.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
@@ -554,7 +660,7 @@ const lunarDetails = computed(() => {
 .date-input {
   padding: 0.8rem;
   font-size: 1rem;
-  border: 2px solid #E6DCD2;
+  border: 2px solid #e6dcd2;
   border-radius: 8px;
   outline: none;
   font-family: inherit;
@@ -571,7 +677,7 @@ const lunarDetails = computed(() => {
 .result-card {
   background-color: white;
   border-radius: 12px;
-  border: 1px solid #E6DCD2;
+  border: 1px solid #e6dcd2;
   box-shadow: 0 8px 30px rgba(166, 44, 33, 0.04);
   overflow: hidden;
   animation: fadeIn 0.4s ease-out;
@@ -610,7 +716,7 @@ const lunarDetails = computed(() => {
 .detail-row {
   display: flex;
   padding: 1rem 0;
-  border-bottom: 1px solid #F5EFEB;
+  border-bottom: 1px solid #f5efeb;
   font-size: 1.05rem;
 }
 
@@ -656,10 +762,18 @@ const lunarDetails = computed(() => {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
 }
 
-.spring-group { border-top: 4px solid #2ecc71; }
-.summer-group { border-top: 4px solid #f1c40f; }
-.autumn-group { border-top: 4px solid #e67e22; }
-.winter-group { border-top: 4px solid #3498db; }
+.spring-group {
+  border-top: 4px solid #2ecc71;
+}
+.summer-group {
+  border-top: 4px solid #f1c40f;
+}
+.autumn-group {
+  border-top: 4px solid #e67e22;
+}
+.winter-group {
+  border-top: 4px solid #3498db;
+}
 
 .season-title {
   font-size: 1.3rem;
@@ -693,8 +807,8 @@ const lunarDetails = computed(() => {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  background-color: #FAF8F5;
-  border: 1px solid #EAE0D5;
+  background-color: #faf8f5;
+  border: 1px solid #eae0d5;
   padding: 2rem;
   border-radius: 8px;
 }
@@ -715,7 +829,7 @@ const lunarDetails = computed(() => {
 
 .list-tags span {
   background-color: white;
-  border: 1px solid #E5D5C5;
+  border: 1px solid #e5d5c5;
   color: #5d4037;
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
@@ -732,27 +846,27 @@ const lunarDetails = computed(() => {
 .compare-table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #E5D5C5;
+  border: 1px solid #e5d5c5;
   font-size: 1rem;
 }
 
 .compare-table th {
-  background-color: #F4EDE4;
+  background-color: #f4ede4;
   color: #2c3e50;
   font-weight: 700;
   padding: 1rem;
-  border: 1px solid #E5D5C5;
+  border: 1px solid #e5d5c5;
   text-align: left;
 }
 
 .compare-table td {
   padding: 1rem;
-  border: 1px solid #E5D5C5;
+  border: 1px solid #e5d5c5;
   color: #555;
 }
 
 .compare-table tr:nth-child(even) {
-  background-color: #FAF8F5;
+  background-color: #faf8f5;
 }
 
 /* 节日链接卡片 */
@@ -796,15 +910,21 @@ const lunarDetails = computed(() => {
 .fest-lunar {
   font-size: 0.85rem;
   color: #888;
-  background-color: #FAF4F3;
+  background-color: #faf4f3;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   font-weight: 500;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* 响应式设计 */

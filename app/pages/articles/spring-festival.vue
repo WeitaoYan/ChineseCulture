@@ -8,7 +8,8 @@
         <MetaItem>🏠 Family Reunion Celebration</MetaItem>
         <MetaItem>💰 Hongbao and Good Fortune</MetaItem>
         <MetaItem>🎉 Most Important Chinese Holiday</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -322,7 +323,8 @@
             >
           </div>
         </div>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
@@ -330,9 +332,9 @@
       unity, ancestral respect, hope for prosperity, and the eternal cycle of
       renewal that connects past, present, and future."
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Spring Festival Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Spring Festival Quiz" />
   </div>
 </template>
 
@@ -343,10 +345,12 @@ const siteUrl = "https://chinese-culture.ikber.cc";
 // Nuxt 3 会自动导入 components 目录下的组件
 definePageMeta({
   layout: "content", // 使用 content 布局
+  breadcrumb: "Spring Festival",
   title: "Spring Festival (春节) - Chinese New Year Guide",
   description:
     "Discover the Spring Festival (春节), China's most important traditional holiday celebrating family reunion, renewal, and prosperity. Learn about customs, food, and traditions.",
-  ogTitle: "Spring Festival (春节) - Chinese New Year Guide | Chinese Culture Explorer",
+  ogTitle:
+    "Spring Festival (春节) - Chinese New Year Guide | Chinese Culture Explorer",
   ogDescription:
     "Experience the magic of Chinese New Year - from reunion dinners and red lanterns to lion dances and firecrackers. Your complete guide to Spring Festival traditions.",
   twitterTitle: "Spring Festival (春节) - Chinese New Year Guide",

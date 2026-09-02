@@ -389,6 +389,7 @@
 <script setup>
 definePageMeta({
   layout: "content", // 使用 content 布局
+  breadcrumb: "Yuanxiao Festival",
   title: "Yuanxiao Festival - Chinese Culture Explorer",
   description:
     "Discover the Yuanxiao Festival, China's sweet lantern celebration marking the end of Chinese New Year.",

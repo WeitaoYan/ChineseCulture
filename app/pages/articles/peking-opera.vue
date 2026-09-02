@@ -11,7 +11,8 @@
         <MetaItem>🎵 Music & Song</MetaItem>
         <MetaItem>🎨 Face Painting</MetaItem>
         <MetaItem>⚔️ Acrobatics</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -30,8 +31,8 @@
           <strong>Peking Opera</strong> (京剧, Jīng Jù) is the most celebrated
           form of traditional Chinese opera and one of the most sophisticated
           performing arts in the world. Combining music, vocal performance,
-          mime, dance, and acrobatics, it is a comprehensive theatrical art
-          that has captivated audiences for over 200 years.
+          mime, dance, and acrobatics, it is a comprehensive theatrical art that
+          has captivated audiences for over 200 years.
         </p>
         <p class="section-text">
           Widely regarded as the "quintessence of Chinese culture" (国粹),
@@ -51,9 +52,9 @@
             <p>
               Peking Opera was born in 1790 when four Anhui opera troupes
               traveled to Beijing to perform for Emperor Qianlong's 80th
-              birthday. Their performances blended Anhui opera, Kunqu,
-              Qinqiang, and Han folk melodies, gradually evolving into a
-              distinct new form.
+              birthday. Their performances blended Anhui opera, Kunqu, Qinqiang,
+              and Han folk melodies, gradually evolving into a distinct new
+              form.
             </p>
           </FeatureItem>
           <FeatureItem title="Golden Age (19th C.)" theme="gold">
@@ -75,11 +76,10 @@
           </FeatureItem>
           <FeatureItem title="Modern Revival" theme="green">
             <p>
-              After suppression during the Cultural Revolution, Peking Opera
-              has been revitalized. In 2010, UNESCO recognized it as an
-              Intangible Cultural Heritage of Humanity. Today, young
-              audiences rediscover it through digital platforms and fusion
-              productions.
+              After suppression during the Cultural Revolution, Peking Opera has
+              been revitalized. In 2010, UNESCO recognized it as an Intangible
+              Cultural Heritage of Humanity. Today, young audiences rediscover
+              it through digital platforms and fusion productions.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -90,8 +90,7 @@
         <h2 class="section-title">The Four Main Roles (四大行当)</h2>
         <p class="section-text">
           Every character in Peking Opera belongs to one of four major role
-          types, distinguished by costume, makeup, voice, and performance
-          style:
+          types, distinguished by costume, makeup, voice, and performance style:
         </p>
         <FeatureGrid>
           <FeatureItem title="Shēng (生) — Male Lead" theme="blue">
@@ -105,11 +104,11 @@
           </FeatureItem>
           <FeatureItem title="Dàn (旦) — Female Lead" theme="red">
             <p>
-              The female role, traditionally performed by men. <em>Qing Yi</em>
-              (青衣) is the virtuous, refined woman; <em>Hua Dan</em> (花旦) is
-              the vivacious, flirtatious maiden; <em>Lao Dan</em> (老旦) is the
-              elderly woman; <em>Wu Dan</em> (武旦) is the martial female
-              warrior.
+              The female role, traditionally performed by men.
+              <em>Qing Yi</em> (青衣) is the virtuous, refined woman;
+              <em>Hua Dan</em> (花旦) is the vivacious, flirtatious maiden;
+              <em>Lao Dan</em> (老旦) is the elderly woman;
+              <em>Wu Dan</em> (武旦) is the martial female warrior.
             </p>
           </FeatureItem>
           <FeatureItem title="Jìng (净) — Painted Face" theme="gold">
@@ -136,41 +135,41 @@
       <section class="section">
         <h2 class="section-title">The Art of Face Painting (脸谱 / Liǎn Pǔ)</h2>
         <p class="section-text">
-          One of the most distinctive features of Peking Opera is its
-          elaborate face painting. The colors and patterns on a Jing role's
-          face are a visual code that tells the audience everything about the
-          character before a single word is spoken:
+          One of the most distinctive features of Peking Opera is its elaborate
+          face painting. The colors and patterns on a Jing role's face are a
+          visual code that tells the audience everything about the character
+          before a single word is spoken:
         </p>
         <FeatureGrid>
           <FeatureItem title="🔴 Red = Loyalty & Courage" theme="red">
             <p>
-              Red faces represent brave, loyal, and upright characters.
-              Guan Yu (关羽), the legendary general from the Three Kingdoms,
-              is the classic red-faced figure — symbolizing his unwavering
-              loyalty and martial prowess.
+              Red faces represent brave, loyal, and upright characters. Guan Yu
+              (关羽), the legendary general from the Three Kingdoms, is the
+              classic red-faced figure — symbolizing his unwavering loyalty and
+              martial prowess.
             </p>
           </FeatureItem>
           <FeatureItem title="⚪ White = Cunning & Treachery" theme="gray">
             <p>
-              White faces signal deceit, cunning, and evil. Cao Cao (曹操),
-              the cunning warlord of the Three Kingdoms, is the archetypal
-              white-faced villain — his powdered face a mask for his
-              ruthless ambition.
+              White faces signal deceit, cunning, and evil. Cao Cao (曹操), the
+              cunning warlord of the Three Kingdoms, is the archetypal
+              white-faced villain — his powdered face a mask for his ruthless
+              ambition.
             </p>
           </FeatureItem>
           <FeatureItem title="⚫ Black = Integrity & Strength" theme="gray">
             <p>
               Black faces denote honesty, integrity, and rough strength. Bao
               Zheng (包拯), the legendary Song Dynasty judge known for his
-              impartial justice, always appears with a black face and a
-              crescent moon on his forehead.
+              impartial justice, always appears with a black face and a crescent
+              moon on his forehead.
             </p>
           </FeatureItem>
           <FeatureItem title="🟡 Yellow = Ambition & Ferocity" theme="yellow">
             <p>
-              Yellow faces belong to ambitious, fierce, and sometimes
-              ruthless characters. Blue and green faces are used for
-              supernatural figures or particularly savage warriors.
+              Yellow faces belong to ambitious, fierce, and sometimes ruthless
+              characters. Blue and green faces are used for supernatural figures
+              or particularly savage warriors.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -188,8 +187,8 @@
           <FeatureItem title="Chàng (唱) — Singing" theme="gold">
             <p>
               A highly stylized vocal technique blending speech, song, and
-              emotive expression. Performers train for years to control
-              pitch, resonance, and breath. The two main musical modes are
+              emotive expression. Performers train for years to control pitch,
+              resonance, and breath. The two main musical modes are
               <em>Xipi</em> (西皮) for lively scenes and <em>Erhuang</em>
               (二黄) for solemn moments.
             </p>
@@ -197,26 +196,26 @@
           <FeatureItem title="Niàn (念) — Speech" theme="blue">
             <p>
               Rhythmic, musicalized dialogue that follows precise tonal
-              patterns. There are two styles: <em>Yun Bai</em> (韵白) —
-              elegant, stylized speech in a refined dialect, used by
-              serious characters; and <em>Jing Bai</em> (京白) — livelier,
-              colloquial speech used by clowns and maidens.
+              patterns. There are two styles: <em>Yun Bai</em> (韵白) — elegant,
+              stylized speech in a refined dialect, used by serious characters;
+              and <em>Jing Bai</em> (京白) — livelier, colloquial speech used by
+              clowns and maidens.
             </p>
           </FeatureItem>
           <FeatureItem title="Zuò (做) — Dance & Gesture" theme="red">
             <p>
-              Every movement is choreographed and symbolic. A four-step walk
-              can represent a long journey; rotating a sleeve can express
-              anger or sorrow. Mimed actions — opening a door, riding a horse,
-              rowing a boat — are performed with such precision that the
-              audience "sees" the invisible props.
+              Every movement is choreographed and symbolic. A four-step walk can
+              represent a long journey; rotating a sleeve can express anger or
+              sorrow. Mimed actions — opening a door, riding a horse, rowing a
+              boat — are performed with such precision that the audience "sees"
+              the invisible props.
             </p>
           </FeatureItem>
           <FeatureItem title="Dǎ (打) — Acrobatics & Combat" theme="green">
             <p>
               Martial arts and acrobatics performed with dazzling speed and
-              precision. Fight scenes combine real martial arts techniques
-              with theatrical flourishes — somersaults, weapon twirling, and
+              precision. Fight scenes combine real martial arts techniques with
+              theatrical flourishes — somersaults, weapon twirling, and
               synchronized ensemble combat that can leave audiences breathless.
             </p>
           </FeatureItem>
@@ -227,40 +226,40 @@
       <section class="section">
         <h2 class="section-title">Music & Instruments</h2>
         <p class="section-text">
-          The Peking Opera orchestra is small but powerful, consisting of
-          both melodic and percussion instruments. The music follows
-          standard patterns (板腔体) that guide the rhythm, mood, and pace
-          of every performance:
+          The Peking Opera orchestra is small but powerful, consisting of both
+          melodic and percussion instruments. The music follows standard
+          patterns (板腔体) that guide the rhythm, mood, and pace of every
+          performance:
         </p>
         <FeatureGrid>
           <FeatureItem title="Jīng Hú (京胡)" theme="gold">
             <p>
-              The lead melodic instrument — a two-stringed bowed fiddle with
-              a piercing, bright tone. The Jing Hu player is the musical
-              director of the performance, setting the tempo and signaling
-              changes in mood.
+              The lead melodic instrument — a two-stringed bowed fiddle with a
+              piercing, bright tone. The Jing Hu player is the musical director
+              of the performance, setting the tempo and signaling changes in
+              mood.
             </p>
           </FeatureItem>
           <FeatureItem title="Percussion Section" theme="red">
             <p>
               The <em>Danpigu</em> (单皮鼓, single-skin drum) and <em>Ban</em>
-              (板, wooden clappers) are conducted by the drummer, who
-              controls the entire performance's rhythm. Cymbals, gongs, and
-              bells punctuate dramatic moments and combat scenes.
+              (板, wooden clappers) are conducted by the drummer, who controls
+              the entire performance's rhythm. Cymbals, gongs, and bells
+              punctuate dramatic moments and combat scenes.
             </p>
           </FeatureItem>
           <FeatureItem title="Yuè Qín (月琴)" theme="blue">
             <p>
               A four-stringed plucked lute with a round moon-shaped body. It
-              provides harmonic support and adds a bright, crisp texture to
-              the ensemble.
+              provides harmonic support and adds a bright, crisp texture to the
+              ensemble.
             </p>
           </FeatureItem>
           <FeatureItem title="Suǒ Nà (唢呐)" theme="green">
             <p>
               A double-reed Chinese horn, used for military processions,
-              weddings, and grand entrances. Its loud, penetrating sound
-              carries over the orchestra and the audience's excitement.
+              weddings, and grand entrances. Its loud, penetrating sound carries
+              over the orchestra and the audience's excitement.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -285,11 +284,14 @@
           <FeatureItem title="The Drunken Beauty (贵妃醉酒)" theme="gold">
             <p>
               Mei Lanfang's signature piece. Yang Guifei, the Tang Dynasty
-              imperial consort, drowns her romantic sorrow in wine — a
-              virtuoso display of acting, singing, and dance.
+              imperial consort, drowns her romantic sorrow in wine — a virtuoso
+              display of acting, singing, and dance.
             </p>
           </FeatureItem>
-          <FeatureItem title="The Legend of the White Snake (白蛇传)" theme="blue">
+          <FeatureItem
+            title="The Legend of the White Snake (白蛇传)"
+            theme="blue"
+          >
             <p>
               A beloved love story between a human scholar and a white snake
               spirit who has taken human form. Combines romance, comedy, and
@@ -299,9 +301,9 @@
           <FeatureItem title="The Crossroads (三岔口)" theme="black">
             <p>
               A masterpiece of mime and martial arts. Two characters fight in
-              what is supposed to be total darkness, but the stage is fully
-              lit — the performers must convince the audience they cannot see
-              each other through their movements alone.
+              what is supposed to be total darkness, but the stage is fully lit
+              — the performers must convince the audience they cannot see each
+              other through their movements alone.
             </p>
           </FeatureItem>
         </FeatureGrid>
@@ -310,21 +312,23 @@
       <!-- 引用 -->
       <section class="section">
         <QuoteBox>
-          "The highest achievement of Peking Opera is not mere entertainment.
-          It is the perfect union of song, dance, and drama — a complete work
-          of art that speaks directly to the heart."
+          "The highest achievement of Peking Opera is not mere entertainment. It
+          is the perfect union of song, dance, and drama — a complete work of
+          art that speaks directly to the heart."
           <template #author>— Mei Lanfang (梅兰芳)</template>
         </QuoteBox>
-      </section></div>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Peking Opera Quiz" />
+      </section>
+    </div>
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Peking Opera Quiz" />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Peking Opera",
   title:
     "Peking Opera | The Quintessence of Chinese Culture — Chinese Culture Guide",
   description:

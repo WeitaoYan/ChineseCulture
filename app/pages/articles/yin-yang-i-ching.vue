@@ -489,6 +489,7 @@
 <script setup>
 definePageMeta({
   layout: "content",
+  breadcrumb: "Yin & Yang · I Ching",
   title: "Yin & Yang and I Ching - Chinese Culture Explorer",
   description:
     "Discover Yin-Yang philosophy and the I Ching (Book of Changes), the ancient Chinese systems of cosmology, divination, and wisdom that have shaped Eastern thought for over 3,000 years.",

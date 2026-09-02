@@ -8,7 +8,8 @@
         <MetaItem>❄️ Solar Term & Festival</MetaItem>
         <MetaItem>🥟 Family Gathering & Dumplings</MetaItem>
         <MetaItem>☀️ Shortest Day of the Year</MetaItem>
-      </PageMeta></div>
+      </PageMeta>
+    </div>
 
     <!-- 主图 -->
     <FeaturedImage
@@ -24,12 +25,12 @@
       <section class="section">
         <h2 class="section-title">Overview</h2>
         <p class="section-text">
-          In China, the Winter Solstice (冬至, Dōngzhì) is far more than a
-          mere astronomical event. Falling between December 21 and 23 each year,
-          it marks the shortest day and longest night of the year — the moment
-          when the sun reaches its southernmost point. But in Chinese culture,
-          this is also a moment of joyful reversal: from this day forward, the
-          days grow longer, and the light begins its triumphant return.
+          In China, the Winter Solstice (冬至, Dōngzhì) is far more than a mere
+          astronomical event. Falling between December 21 and 23 each year, it
+          marks the shortest day and longest night of the year — the moment when
+          the sun reaches its southernmost point. But in Chinese culture, this
+          is also a moment of joyful reversal: from this day forward, the days
+          grow longer, and the light begins its triumphant return.
         </p>
         <p class="section-text">
           Dōngzhì is both a solar term (the 22nd of the 24 solar terms) and a
@@ -47,8 +48,8 @@
           On the Winter Solstice, the Northern Hemisphere experiences the
           shortest period of daylight and the longest night. In Beijing, for
           instance, the sun is up for only about 9 hours and 20 minutes. The
-          Chinese word "冬至" literally means "winter's extreme" — capturing
-          the idea that winter has reached its peak and is about to turn back.
+          Chinese word "冬至" literally means "winter's extreme" — capturing the
+          idea that winter has reached its peak and is about to turn back.
         </p>
         <p class="section-text">
           This turning point has deep philosophical resonance in Chinese
@@ -164,19 +165,27 @@
         <div class="info-box">
           <div class="info-row">
             <span class="info-label">一九二九</span>
-            <span class="info-value">Hands in pockets — the cold begins to bite</span>
+            <span class="info-value"
+              >Hands in pockets — the cold begins to bite</span
+            >
           </div>
           <div class="info-row">
             <span class="info-label">三九四九</span>
-            <span class="info-value">Walking on ice — the coldest days arrive</span>
+            <span class="info-value"
+              >Walking on ice — the coldest days arrive</span
+            >
           </div>
           <div class="info-row">
             <span class="info-label">五九六九</span>
-            <span class="info-value">Willows sprout by the river — the chill softens</span>
+            <span class="info-value"
+              >Willows sprout by the river — the chill softens</span
+            >
           </div>
           <div class="info-row">
             <span class="info-label">七九河开</span>
-            <span class="info-value">The river ice breaks — spring is stirring</span>
+            <span class="info-value"
+              >The river ice breaks — spring is stirring</span
+            >
           </div>
           <div class="info-row">
             <span class="info-label">八九雁来</span>
@@ -184,7 +193,9 @@
           </div>
           <div class="info-row">
             <span class="info-label">九九加一九</span>
-            <span class="info-value">Plowing everywhere — spring farming begins</span>
+            <span class="info-value"
+              >Plowing everywhere — spring farming begins</span
+            >
           </div>
         </div>
         <p class="section-text" style="margin-top: 1rem">
@@ -204,11 +215,23 @@
           endures:
         </p>
         <ul class="modern-practices">
-          <li>Families reunite for a hearty dinner — dumplings or hotpot warm the coldest evening</li>
-          <li>Restaurants serve special solstice menus, often packed with customers</li>
-          <li>Social media fills with #冬至 photos of homemade dumplings and tangyuan</li>
+          <li>
+            Families reunite for a hearty dinner — dumplings or hotpot warm the
+            coldest evening
+          </li>
+          <li>
+            Restaurants serve special solstice menus, often packed with
+            customers
+          </li>
+          <li>
+            Social media fills with #冬至 photos of homemade dumplings and
+            tangyuan
+          </li>
           <li>Workplaces organize team gatherings around a pot of dumplings</li>
-          <li>Health-conscious practices — eating warming foods like lamb and ginger</li>
+          <li>
+            Health-conscious practices — eating warming foods like lamb and
+            ginger
+          </li>
         </ul>
         <p class="section-text">
           In a season of long nights and cold winds, the Winter Solstice reminds
@@ -216,22 +239,25 @@
           family, and the eternal cycles of nature — a moment to slow down,
           share warmth, and look forward to brighter days ahead.
         </p>
-      </section></div>
+      </section>
+    </div>
 
     <!-- 引用 -->
     <QuoteBox>
-      "冬至阳生春又来 — At the Winter Solstice, yang energy is born and spring will come again."
+      "冬至阳生春又来 — At the Winter Solstice, yang energy is born and spring
+      will come again."
       <template #author>— Ancient Chinese proverb</template>
     </QuoteBox>
-  
-      <!-- AI 趣味测验 -->
-      <CultureQuiz title="Winter Solstice Quiz" />
+
+    <!-- AI 趣味测验 -->
+    <CultureQuiz title="Winter Solstice Quiz" />
   </div>
 </template>
 
 <script setup lang="ts">
 definePageMeta({
   layout: "content",
+  breadcrumb: "Winter Solstice",
   title: "Winter Solstice (Dongzhi) - Chinese Culture Explorer",
   description:
     "Discover the Winter Solstice (冬至), a major Chinese festival celebrating the shortest day of the year with dumplings, tangyuan, family gatherings, and ancient traditions.",
