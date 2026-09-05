@@ -491,6 +491,16 @@ const articles = [
     excerpt:
       "Discover the Mogao Caves (莫高窟), the world's greatest treasure of Buddhist art on the Silk Road. Explore 1,000 years of cave temples, the hidden Library Cave, flying apsaras murals, and Digital Dunhuang preservation.",
   },
+  {
+    id: 36,
+    title: "Mooncake",
+    slug: "mooncake",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 12,
+    image: "/assets/images/mooncake.png",
+    excerpt:
+      "Discover the mooncake (月饼), the iconic pastry of China's Mid-Autumn Festival. Explore its history, regional styles, gifting traditions, and a step-by-step recipe to make it at home.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
