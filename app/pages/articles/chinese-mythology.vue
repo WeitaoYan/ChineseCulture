@@ -177,7 +177,11 @@
               tool and personality. They represent different social classes and
               life circumstances, showing that anyone can achieve immortality.
               Their stories are told in the phrase: "The Eight Immortals cross
-              the sea, each revealing their divine power" (八仙过海,各显神通).
+              the sea, each revealing their divine power" (八仙过海,各显神通) —
+              see the full tale in
+              <NuxtLink to="/articles/eight-immortals-crossing-the-sea"
+                >The Eight Immortals Cross the Sea</NuxtLink
+              >.
             </p>
           </FeatureItem>
           <FeatureItem title="Dragon Kings (龙王)" theme="blue">
@@ -415,5 +419,17 @@ useHead({
   line-height: 1.8;
   color: #444;
   margin-bottom: 1rem;
+}
+
+.section a {
+  color: #a62c21;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(212, 175, 55, 0.6);
+  text-underline-offset: 3px;
+}
+
+.section a:hover {
+  color: #b8860b;
 }
 </style>

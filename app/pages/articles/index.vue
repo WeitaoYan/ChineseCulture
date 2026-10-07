@@ -501,6 +501,16 @@ const articles = [
     excerpt:
       "Discover the mooncake (月饼), the iconic pastry of China's Mid-Autumn Festival. Explore its history, regional styles, gifting traditions, and a step-by-step recipe to make it at home.",
   },
+  {
+    id: 37,
+    title: "The Eight Immortals Cross the Sea",
+    slug: "eight-immortals-crossing-the-sea",
+    tags: ["culture", "traditions", "philosophy"],
+    readtime: 10,
+    image: "/assets/images/eight-immortals-crossing.png",
+    excerpt:
+      "Discover the legend of the Eight Immortals crossing the sea (八仙过海) — eight Daoist immortals, eight magic treasures, and the living Chinese idiom that celebrates everyone showing their own special power.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
