@@ -17,3 +17,28 @@
 - **尺寸规范**:
   - 宽度固定为 `800px`，高度等比自适应。
   - 统一转换为 `.png` 或其他优化后的格式。
+
+## 🚚 公网上传文件途径 (Public File Upload Pathway)
+
+服务器防火墙只放行现有公网入口(443 SNI 按域名路由到内部各站)，**新端口会被拦截**。用户/外部设备要传文件给这台服务器，走以下现成途径（临时，用后即删）：
+
+1. **写上传脚本**到 `/home/ubuntu/.upload-service/upload.py`（勿放 `/tmp/opencode/`，那里有 `bisect.py` 会遮蔽标准库）：
+   - `ThreadingHTTPServer` 监听 `127.0.0.1:8765`；`GET /` 返回表单，`POST /upload` 收 multipart 字段 `token`+`file`；
+   - 保存目录 `public/assets/images/`，仅放行 png/jpg/webp/gif，校验 `token` 口令，限 30MB。
+2. **nginx 反代**（`/etc/nginx/sites-enabled/default` 默认站点内，SNI lumaaurora.com）：
+   ```nginx
+   location /mooncake-upload/ {
+       proxy_pass http://127.0.0.1:8765/;   # 末尾 / 会把路径重写为上游的 /
+       include proxy_params;
+       proxy_set_header Host $host;
+   }
+   location /mooncake-upload { proxy_pass http://127.0.0.1:8765/; include proxy_params; proxy_set_header Host $host; }
+   ```
+   - 表单 `action` 必须用**相对路径** `upload`，否则会打到站点根 `/`。
+   - `sudo nginx -t && sudo systemctl reload nginx`。
+3. **公网地址**: `https://lumaaurora.com/mooncake-upload/`（自签证书，浏览器需点「继续访问」）
+   - 链路: 公网 `443`(SNI lumaaurora.com) → 127.0.0.1:8444 默认站点 → `/mooncake-upload/` → 127.0.0.1:8765。
+4. **用完即删**：`pkill -f upload-service/upload.py`，删掉上面两个 nginx location 后 `nginx -t && reload`，确认公网路径返回 404。
+5. 收到的图按规范缩放到 800px 宽（`./scripts/resize-image.sh <源图> <目标名>`）替换进 `public/assets/images/`。
+
+> ⚠️ 上传服务无鉴权（靠口令 + 用后即删），此途径仅供临时收图用。
