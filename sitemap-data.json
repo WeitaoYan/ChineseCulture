@@ -24,7 +24,7 @@
   },
   {
     "loc": "/articles/chinese-mythology",
-    "lastmod": "2026-09-02T22:46:50+08:00",
+    "lastmod": "2026-10-07T10:09:17+00:00",
     "images": [
       {
         "loc": "/assets/images/chinese-mythology.png"
@@ -95,6 +95,15 @@
     ]
   },
   {
+    "loc": "/articles/eight-immortals-crossing-the-sea",
+    "lastmod": "2026-10-07T10:09:17+00:00",
+    "images": [
+      {
+        "loc": "/assets/images/eight-immortals-crossing.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/five-elements",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -123,7 +132,7 @@
   },
   {
     "loc": "/articles",
-    "lastmod": "2026-09-05T06:47:49+00:00",
+    "lastmod": "2026-10-07T10:09:17+00:00",
     "images": []
   },
   {
