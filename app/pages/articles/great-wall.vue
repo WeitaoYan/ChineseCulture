@@ -364,4 +364,10 @@ definePageMeta({
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
+}
 </style>

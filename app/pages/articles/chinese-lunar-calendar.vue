@@ -972,4 +972,10 @@ const lunarDetails = computed(() => {
     padding: 1.2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
+}
 </style>

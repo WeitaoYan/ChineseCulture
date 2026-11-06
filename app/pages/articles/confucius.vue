@@ -514,4 +514,10 @@ useHead({
   padding-left: 0.5rem;
   border-left: 3px solid #b8860b;
 }
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
+}
 </style>

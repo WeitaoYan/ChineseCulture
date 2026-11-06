@@ -743,7 +743,7 @@ const articles = [
   },
   {
     id: 61,
-    title: "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition",
+    title: "Dim Sum and Yum Cha",
     slug: "dim-sum-yum-cha",
     tags: ["cuisine", "culture", "traditions"],
     readtime: 10,
@@ -1128,6 +1128,12 @@ function goToPage(page) {
     width: 2.2rem;
     height: 2.2rem;
     font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
   }
 }
 </style>

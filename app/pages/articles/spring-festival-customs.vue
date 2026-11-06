@@ -588,4 +588,10 @@ useHead({
     font-size: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
+}
 </style>

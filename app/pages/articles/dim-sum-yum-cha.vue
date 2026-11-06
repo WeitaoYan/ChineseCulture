@@ -3,7 +3,7 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">
-        Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition
+        Dim Sum and Yum Cha
       </h1>
       <p class="page-subtitle">
         Yǐnchá — "Drink Tea": Small Plates, Slow Mornings, and the Cantonese
@@ -430,12 +430,12 @@
 <script setup>
 definePageMeta({
   layout: "content",
-  breadcrumb: "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition",
+  breadcrumb: "Dim Sum and Yum Cha",
   title:
-    "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition | Chinese Culture Guide",
+    "Dim Sum and Yum Cha | Chinese Culture Guide",
   description:
     "Dim sum and yum cha (饮茶) — the Cantonese morning tea ritual: its history in Guangzhou and Hong Kong, the teas that come first, the classic dim sum menu, trolley service, table etiquette, and yum cha as social life.",
-  ogTitle: "Dim Sum and Yum Cha (饮茶) — China's Bite-Sized Breakfast Tradition",
+  ogTitle: "Dim Sum and Yum Cha (饮茶)",
   ogDescription:
     "Yum cha, the Cantonese morning ritual of tea and small plates: the teas, the classic dim sum dishes, the trolleys, and the etiquette of the tea house",
   ogType: "article",
@@ -451,14 +451,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition (饮茶)",
+  title: "Dim Sum and Yum Cha (饮茶)",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition",
+        name: "Dim Sum and Yum Cha",
         description:
           "A guide to dim sum and yum cha (饮茶), the Cantonese morning tea ritual: its history in Guangzhou and Hong Kong, the teas that come first, the classic dim sum menu from har gow to egg tarts, trolley service and order sheets, table etiquette, and yum cha as social life",
       }),
@@ -524,5 +524,11 @@ useHead({
   line-height: 1.8;
   color: #444;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
 }
 </style>
