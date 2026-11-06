@@ -591,6 +591,86 @@ const articles = [
     excerpt:
       "Hanfu (汉服) is the traditional dress of the Han Chinese — crossed collar, wide sleeves, sash, and layered robes — evolving through the Han, Tang, Song, and Ming dynasties, fading under Qing rule, and now worn again by young people in a modern revival.",
   },
+  {
+    id: 46,
+    title: "The Four Great Classical Novels",
+    slug: "four-great-classical-novels",
+    tags: ["culture", "history", "traditions"],
+    readtime: 12,
+    image: "/assets/images/four-great-classical-novels.png",
+    excerpt:
+      "Four masterpieces that shaped Chinese storytelling — Romance of the Three Kingdoms, Water Margin, Journey to the West, and Dream of the Red Chamber — from the Peach Garden oath and the 108 outlaws of Liangshan Marsh to the Monkey King's pilgrimage and the Jia family's Grand View Garden.",
+  },
+  {
+    id: 47,
+    title: "Song Ci Poetry",
+    slug: "song-ci-poetry",
+    tags: ["culture", "history", "traditions"],
+    readtime: 10,
+    image: "/assets/images/song-ci-poetry.png",
+    excerpt:
+      "Song ci (宋词) — lyrics written to be sung in the Song dynasty (960–1279): how ci broke away from Tang shi with uneven lines fitted to tune patterns, and how Su Shi, Li Qingzhao, Xin Qiji, and Liu Yong made it the poetry of moonlight, longing, and patriotism.",
+  },
+  {
+    id: 48,
+    title: "Tai Chi",
+    slug: "tai-chi",
+    tags: ["philosophy", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/tai-chi.png",
+    excerpt:
+      "Tai chi (太极) is China's slow, flowing martial art and moving meditation — born in 17th-century Chenjiagou, shaped into five family styles, and practiced by millions today as a UNESCO-recognized tradition of balance, relaxation, and yin-yang in motion.",
+  },
+  {
+    id: 49,
+    title: "Chinese Kung Fu",
+    slug: "kung-fu",
+    tags: ["culture", "traditions", "history"],
+    readtime: 10,
+    image: "/assets/images/kung-fu.png",
+    excerpt:
+      "Chinese kung fu (功夫) is skill earned through long, patient effort — from the warrior monks of Shaolin Temple and the northern and southern styles to modern wushu and Bruce Lee, who carried it from Hong Kong cinema to the whole world in the 1970s.",
+  },
+  {
+    id: 50,
+    title: "Chinese Silk",
+    slug: "chinese-silk",
+    tags: ["culture", "art", "history"],
+    readtime: 10,
+    image: "/assets/images/chinese-silk.png",
+    excerpt:
+      "Discover Chinese silk (丝绸), five thousand years of sericulture from the legend of Leizu to the Four Great Embroideries — the thread that dressed emperors, carried paintings, and gave the Silk Road its name.",
+  },
+  {
+    id: 51,
+    title: "Qipao: The Elegant Cheongsam",
+    slug: "qipao",
+    tags: ["culture", "traditions", "art"],
+    readtime: 10,
+    image: "/assets/images/qipao.png",
+    excerpt:
+      "The qipao (旗袍), the elegant cheongsam — from Manchu banner robes to the fitted dress of 1920s–1930s Shanghai, with its mandarin collar, frog buttons, and side slits, and how it differs from hanfu.",
+  },
+  {
+    id: 52,
+    title: "The Eight Great Cuisines of China",
+    slug: "eight-great-cuisines",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/eight-great-cuisines.png",
+    excerpt:
+      "The Eight Great Cuisines of China (八大菜系) — Shandong, Sichuan, Cantonese, Jiangsu, Fujian, Hunan, Anhui and Zhejiang — eight regional schools, each shaped by its own landscape and climate, from Sichuan's numbing mala to Cantonese freshness.",
+  },
+  {
+    id: 53,
+    title: "The Summer Palace",
+    slug: "summer-palace",
+    tags: ["history", "architecture", "culture"],
+    readtime: 10,
+    image: "/assets/images/summer-palace.png",
+    excerpt:
+      "The Summer Palace (颐和园) in Beijing — Qianlong's Qingyi Garden, destroyed in 1860 and rebuilt by Empress Dowager Cixi, home to Kunming Lake, Longevity Hill, the 728-metre Long Corridor and the Marble Boat, a UNESCO World Heritage Site since 1998.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)

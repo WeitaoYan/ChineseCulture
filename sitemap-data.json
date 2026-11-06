@@ -6,7 +6,7 @@
   },
   {
     "loc": "/articles/buddhism-in-china",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/buddhism-in-china.png"
@@ -42,7 +42,7 @@
   },
   {
     "loc": "/articles/chinese-painting",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/chinese-painting.png"
@@ -51,10 +51,19 @@
   },
   {
     "loc": "/articles/chinese-porcelain",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/chinese-porcelain.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/chinese-silk",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/chinese-silk.png"
       }
     ]
   },
@@ -122,6 +131,15 @@
     ]
   },
   {
+    "loc": "/articles/eight-great-cuisines",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/eight-great-cuisines.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/eight-immortals-crossing-the-sea",
     "lastmod": "2026-10-07T10:09:17+00:00",
     "images": [
@@ -149,8 +167,17 @@
     ]
   },
   {
+    "loc": "/articles/four-great-classical-novels",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/four-great-classical-novels.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/four-great-inventions",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/four-great-inventions.png"
@@ -168,7 +195,7 @@
   },
   {
     "loc": "/articles/hanfu",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/hanfu.png"
@@ -177,8 +204,17 @@
   },
   {
     "loc": "/articles",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:20:00+08:00",
     "images": []
+  },
+  {
+    "loc": "/articles/kung-fu",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/kung-fu.png"
+      }
+    ]
   },
   {
     "loc": "/articles/laba-congee",
@@ -262,6 +298,15 @@
     ]
   },
   {
+    "loc": "/articles/qipao",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/qipao.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/qixi-festival",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -289,6 +334,15 @@
     ]
   },
   {
+    "loc": "/articles/song-ci-poetry",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/song-ci-poetry.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/spring-festival-customs",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -307,8 +361,26 @@
     ]
   },
   {
+    "loc": "/articles/summer-palace",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/summer-palace.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/tai-chi",
+    "lastmod": "2026-11-06T17:20:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/tai-chi.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/tang-poetry",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/tang-poetry.png"
@@ -317,7 +389,7 @@
   },
   {
     "loc": "/articles/taoism-laozi",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/taoism-laozi.png"
@@ -353,7 +425,7 @@
   },
   {
     "loc": "/articles/twenty-four-solar-terms",
-    "lastmod": "2026-11-06T17:10:00+08:00",
+    "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
       {
         "loc": "/assets/images/twenty-four-solar-terms.png"
