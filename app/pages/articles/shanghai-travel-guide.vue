@@ -2,10 +2,7 @@
   <div class="content-page">
     <!-- 页面头部 -->
     <div class="page-header">
-      <h1 class="page-title">
-        Shanghai Travel Guide: The Bund, the Old City and Modern China in 3
-        Days
-      </h1>
+      <h1 class="page-title">Shanghai Travel Guide: The Bund and Beyond</h1>
       <p class="page-subtitle">
         Shànghǎi — Where a Century-Old Waterfront Faces the Tallest Skyline in
         China
@@ -131,7 +128,9 @@
           Ten minutes south of the Bund, the city changes character
           completely. The Old City (老城厢) is what Shanghai was before the
           concessions: a tight maze of lanes around the City God Temple
-          (城隍庙), where gold shops, tea houses, and snack stalls crowd
+          (城隍庙), where gold shops,
+          <NuxtLink to="/articles/chinese-tea-culture">tea houses</NuxtLink>,
+          and snack stalls crowd
           shoulder to shoulder. It is loud, crowded, and gloriously
           unpolished — the Shanghai that most postcards leave out.
         </p>
@@ -143,7 +142,10 @@
           names like the Hall of Spring — a pocket of stillness that has
           survived four centuries of everything Shanghai threw at it. Go
           early in the morning to have the garden almost to yourself, then
-          step outside into the bazaar for the full contrast.
+          step outside into the bazaar for the full contrast. The garden
+          is also a favourite spot for visitors to pose for photographs in
+          <NuxtLink to="/articles/hanfu">hanfu</NuxtLink>, traditional
+          Chinese clothing, among the pavilions and ponds.
         </p>
         <p class="section-text">
           Eat here, too. The Old City is the home of Shanghai's most famous
@@ -323,16 +325,16 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Shanghai Travel Guide",
   title:
-    "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days | Chinese Culture Guide",
+    "Shanghai Travel Guide: The Bund and Beyond | Chinese Culture Guide",
   description:
     "A 3-day Shanghai travel guide: the Bund's historic waterfront, the Old City and Yu Garden, the former French Concession, and the Lujiazui skyline — plus day trips to Suzhou and Hangzhou and practical tips for first-time visitors.",
-  ogTitle: "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+  ogTitle: "Shanghai Travel Guide: The Bund and Beyond",
   ogDescription:
     "Three days in China's biggest gateway city — from the Bund's century-old banks to the Shanghai Tower, with a day-by-day plan and first-timer tips",
   ogType: "article",
   ogImage: "/assets/images/shanghai-travel-guide.png",
   twitterCard: "summary_large_image",
-  twitterTitle: "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+  twitterTitle: "Shanghai Travel Guide: The Bund and Beyond",
   twitterDescription:
     "Three days in China's biggest gateway city — from the Bund's century-old banks to the Shanghai Tower, with a day-by-day plan and first-timer tips",
   robots: "index,follow",
@@ -342,14 +344,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+  title: "Shanghai Travel Guide: The Bund and Beyond",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+        name: "Shanghai Travel Guide: The Bund and Beyond",
         description:
           "A 3-day Shanghai travel guide covering the Bund, the Old City and Yu Garden, the former French Concession, and the Lujiazui skyline, with a day-by-day itinerary, day trips to Suzhou and Hangzhou, and practical tips for first-time visitors",
       }),

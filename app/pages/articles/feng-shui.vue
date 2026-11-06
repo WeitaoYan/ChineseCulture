@@ -3,7 +3,7 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">
-        Feng Shui: The Ancient Art of Arranging Space for Luck and Balance
+        Feng Shui: The Art of Arranging Space
       </h1>
       <p class="page-subtitle">
         Fēng Shuǐ — Wind and Water, and the Search for Harmony in Where We
@@ -423,12 +423,12 @@
 <script setup>
 definePageMeta({
   layout: "content",
-  breadcrumb: "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance",
+  breadcrumb: "Feng Shui: The Art of Arranging Space",
   title:
-    "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance | Chinese Culture Guide",
+    "Feng Shui: The Art of Arranging Space | Chinese Culture Guide",
   description:
     "Feng shui (风水) — China's ancient art of wind and water: the meaning of qi, the five elements and the bagua map, the luopan compass, feng shui at home, the Forbidden City, and how the tradition lives on in the modern world.",
-  ogTitle: "Feng Shui (风水) — The Ancient Art of Arranging Space",
+  ogTitle: "Feng Shui: The Art of Arranging Space (风水)",
   ogDescription:
     "Wind and water, qi, the five elements, the bagua map, and the luopan compass — how feng shui has shaped Chinese homes and cities for over a thousand years",
   ogType: "article",
@@ -444,14 +444,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance (风水)",
+  title: "Feng Shui: The Art of Arranging Space (风水)",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance",
+        name: "Feng Shui: The Art of Arranging Space",
         description:
           "A guide to feng shui (风水), China's ancient art of arranging space: the meaning of wind and water, qi, the five elements and the bagua map, the luopan compass, feng shui principles for the home, and its influence on Chinese cities from the Forbidden City to modern Hong Kong",
       }),

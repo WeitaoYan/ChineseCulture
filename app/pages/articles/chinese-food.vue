@@ -2,10 +2,7 @@
   <div class="content-page">
     <!-- 页面头部 -->
     <div class="page-header">
-      <h1 class="page-title">
-        Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining
-        Etiquette
-      </h1>
+      <h1 class="page-title">Chinese Food: A Beginner's Guide</h1>
       <p class="page-subtitle">
         Zhōngguó Cài — How to Eat Well, Order Well, and Enjoy the Table
       </p>
@@ -448,7 +445,7 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Chinese Food",
   title:
-    "Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining Etiquette | Chinese Culture Guide",
+    "Chinese Food: A Beginner's Guide | Chinese Culture Guide",
   description:
     "Chinese food for beginners — how a Chinese meal is built around fan and cai, famous dishes to try first, the five flavours, dining etiquette, and how to order family-style with confidence.",
   ogTitle: "Chinese Food: A Beginner's Guide (中国菜)",
@@ -467,14 +464,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining Etiquette",
+  title: "Chinese Food: A Beginner's Guide",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining Etiquette",
+        name: "Chinese Food: A Beginner's Guide",
         description:
           "A beginner's guide to Chinese food: how a Chinese meal is built around fan and cai, famous dishes to try first, the five flavours, dining etiquette, and how to order family-style",
       }),

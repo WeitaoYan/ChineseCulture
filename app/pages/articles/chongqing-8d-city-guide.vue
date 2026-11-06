@@ -2,10 +2,7 @@
   <div class="content-page">
     <!-- 页面头部 -->
     <div class="page-header">
-      <h1 class="page-title">
-        Chongqing: China's 8D City — Hongyadong, the Monorail Through a
-        Building and Hotpot at Its Source
-      </h1>
+      <h1 class="page-title">Chongqing: China's 8D City</h1>
       <p class="page-subtitle">
         Chóngqìng — The Mountain City Where the Ground Floor Is Somebody
         Else's Twentieth
@@ -346,12 +343,12 @@
 <script setup>
 definePageMeta({
   layout: "content",
-  breadcrumb: "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+  breadcrumb: "Chongqing: China's 8D City",
   title:
-    "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source | Chinese Culture Guide",
+    "Chongqing: China's 8D City | Chinese Culture Guide",
   description:
     "A Chongqing travel guide: Hongyadong at night, the Liziba monorail through a building, the 8D mountain city, Ciqikou old town, day trips to Dazu and Wulong, and hotpot at its source.",
-  ogTitle: "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+  ogTitle: "Chongqing: China's 8D City",
   ogDescription:
     "Hongyadong's cliffside lights, a monorail through a residential building, and streets stacked twenty floors high — a guide to Chongqing, China's 8D city",
   ogType: "article",
@@ -367,14 +364,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+  title: "Chongqing: China's 8D City",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+        name: "Chongqing: China's 8D City",
         description:
           "A Chongqing travel guide covering Hongyadong, the Liziba monorail through a building, the 8D mountain city, Ciqikou old town, day trips to Dazu and Wulong, and hotpot at its source",
       }),

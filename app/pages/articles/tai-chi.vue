@@ -305,7 +305,7 @@ definePageMeta({
   title: "Tai Chi | Tàijí — The Moving Meditation of Flowing Balance",
   description:
     "Tai Chi (太极) — the slow, flowing Chinese martial art from Chenjiagou: its 17th-century origins, the five main styles (Chen, Yang, Wu, Wu/Hao, Sun), core principles of yin-yang and relaxation, health benefits, and UNESCO heritage.",
-  ogTitle: "Tai Chi (太极) — The Moving Meditation",
+  ogTitle: "Tai Chi (太极) — The Moving Meditation of Flowing Balance",
   ogDescription:
     "Tai chi, the slow flowing art of balance from Chenjiagou: five styles, yin-yang principles, and a UNESCO-recognized tradition practiced by millions",
   ogType: "article",

@@ -412,7 +412,7 @@ definePageMeta({
   layout: "content",
   breadcrumb: "China in 10 Days: The First-Timer's Itinerary",
   title:
-    "China in 10 Days: The First-Timer's Itinerary (Beijing, Xi'an, Chengdu and Shanghai) | Chinese Culture Guide",
+    "China in 10 Days: The First-Timer's Itinerary | Chinese Culture Guide",
   description:
     "China in 10 days: the classic first-timer's itinerary from Beijing to Xi'an, Chengdu and Shanghai — day by day, with high-speed train tips and a mid-range budget guide (about $100–200 per day, reference estimate only). 14 days is the gold standard.",
   ogTitle: "China in 10 Days: The First-Timer's Itinerary",
@@ -432,14 +432,14 @@ useHead({
     lang: "en",
   },
   title:
-    "China in 10 Days: The First-Timer's Itinerary (Beijing, Xi'an, Chengdu and Shanghai)",
+    "China in 10 Days: The First-Timer's Itinerary",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "China in 10 Days: The First-Timer's Itinerary (Beijing, Xi'an, Chengdu and Shanghai)",
+        name: "China in 10 Days: The First-Timer's Itinerary",
         description:
           "A 10-day first-timer's itinerary for China: Beijing, Xi'an, Chengdu and Shanghai day by day, with high-speed train guidance, a mid-range budget guide of about $100–200 per day (reference estimate only), and how to extend the trip to 14 days",
       }),

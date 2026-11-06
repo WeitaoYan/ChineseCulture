@@ -339,7 +339,7 @@ definePageMeta({
   title: "Hanfu: Traditional Chinese Clothing | Hànfú — Chinese Culture Guide",
   description:
     "Hanfu (汉服) — traditional Chinese clothing: its history from the Han dynasty through Tang, Song and Ming, its crossed collar and wide sleeves, the symbolism of its colours and motifs, how it differs from the qipao, and its modern revival.",
-  ogTitle: "Hanfu (汉服) — Two Thousand Years of Flowing Sleeves",
+  ogTitle: "Hanfu (汉服) — Traditional Chinese Clothing",
   ogDescription:
     "The story of hanfu, traditional Chinese clothing — Han dynasty origins, Tang, Song and Ming styles, dragon and phoenix embroidery, the difference from the qipao, and the modern revival",
   ogType: "article",

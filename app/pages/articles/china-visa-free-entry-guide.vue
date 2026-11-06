@@ -208,7 +208,16 @@
           travellers whose nationality is not on the 30-day list — including
           citizens of the United States, who are not covered by the 30-day
           visa-free scheme but can use the 240-hour transit if they are
-          travelling onward to a third country.
+          travelling onward to a third country. If you are wondering where
+          those ten days could take you, start with our guide to
+          <NuxtLink to="/articles/best-places-to-visit-in-china"
+            >the best places to visit in China</NuxtLink
+          >
+          — and check
+          <NuxtLink to="/articles/best-time-to-visit-china"
+            >the best time to visit China</NuxtLink
+          >
+          before you pick your dates.
         </p>
       </section>
 
@@ -352,11 +361,11 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Do You Need a Visa for China in 2027?",
   title:
-    "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained | Chinese Culture Guide",
+    "Do You Need a Visa for China in 2027? | Chinese Culture Guide",
   description:
     "Do you need a visa for China in 2027? The 30-day visa-free scheme for 50 countries runs to 31 December 2026 with no extension announced as of 6 November 2026; the 240-hour transit rule for 57 countries is unaffected. Who needs a visa, and how to check the official lists.",
   ogTitle:
-    "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained",
+    "Do You Need a Visa for China in 2027?",
   ogDescription:
     "The 30-day visa-free scheme ends 31 December 2026 unless extended — the 240-hour transit rule does not. What is confirmed, what is not, and how to check before you travel",
   ogType: "article",
@@ -373,16 +382,16 @@ useHead({
     lang: "en",
   },
   title:
-    "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained",
+    "Do You Need a Visa for China in 2027?",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained",
+        name: "Do You Need a Visa for China in 2027?",
         description:
-          "An explainer on China's visa-free entry rules: the 30-day visa-free scheme for 50 countries, currently scheduled to end 31 December 2026 with no extension announced as of 6 November 2026 (Russia extended to 31 December 2027, Brunei with no expiry), the 240-hour visa-free transit rule for 57 countries through 65 ports across 24 regions, who still needs a visa, and how to check the official lists before travelling",
+          "An explainer on China's visa-free entry rules: The 30-day visa-free scheme covers 50 countries in total — 48 under the unilateral policy, scheduled to end 31 December 2026 with no extension announced as of 6 November 2026 (Russia extended to 31 December 2027, Brunei with no expiry), the 240-hour visa-free transit rule for 57 countries through 65 ports across 24 regions, who still needs a visa, and how to check the official lists before travelling",
         datePublished: "2026-11-06",
       }),
     },

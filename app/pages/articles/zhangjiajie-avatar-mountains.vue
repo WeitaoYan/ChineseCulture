@@ -2,10 +2,7 @@
   <div class="content-page">
     <!-- 页面头部 -->
     <div class="page-header">
-      <h1 class="page-title">
-        Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the
-        Glass Bridge
-      </h1>
+      <h1 class="page-title">Zhangjiajie: The Real Avatar Mountains</h1>
       <p class="page-subtitle">
         Zhāngjiājiè — The Floating Mountains of Pandora, Standing on Earth
       </p>
@@ -40,7 +37,9 @@
           below the peaks and only the tops show, the pillars really do look
           as if they are floating — and you will understand, in about five
           seconds, why this is one of the most photographed landscapes in
-          China.
+          China. It is also the living original of the misty mountain
+          scenes in classical
+          <NuxtLink to="/articles/chinese-painting">Chinese painting</NuxtLink>.
         </p>
         <p class="section-text">
           The world has noticed. Zhangjiajie welcomed
@@ -95,7 +94,11 @@
           So enjoy the Avatar angle — the park leans into it, and the
           comparison is fair — but plan your trip around the real place:
           three separate scenic areas, three separate tickets, and at least
-          two full days.
+          two full days. It sits comfortably among
+          <NuxtLink to="/articles/best-places-to-visit-in-china"
+            >the best places to visit in China</NuxtLink
+          >
+          — a very different kind of stop from the cities on that list.
         </p>
       </section>
 
@@ -356,16 +359,16 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Zhangjiajie: The Real Avatar Mountains",
   title:
-    "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge | Chinese Culture Guide",
+    "Zhangjiajie: The Real Avatar Mountains | Chinese Culture Guide",
   description:
     "Zhangjiajie travel guide: the real Avatar Mountains of Wulingyuan National Forest Park, Tianmen Mountain and its Gate to Heaven, and the Grand Canyon Glass Bridge — three separate places, explained, with a 2–3 day plan.",
-  ogTitle: "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+  ogTitle: "Zhangjiajie: The Real Avatar Mountains",
   ogDescription:
     "The floating mountains of Avatar, on earth — plus the three-parks confusion untangled: Wulingyuan, Tianmen Mountain, and the Grand Canyon Glass Bridge",
   ogType: "article",
   ogImage: "/assets/images/zhangjiajie-avatar-mountains.png",
   twitterCard: "summary_large_image",
-  twitterTitle: "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+  twitterTitle: "Zhangjiajie: The Real Avatar Mountains",
   twitterDescription:
     "The floating mountains of Avatar, on earth — plus the three-parks confusion untangled: Wulingyuan, Tianmen Mountain, and the Grand Canyon Glass Bridge",
   robots: "index,follow",
@@ -375,14 +378,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+  title: "Zhangjiajie: The Real Avatar Mountains",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+        name: "Zhangjiajie: The Real Avatar Mountains",
         description:
           "A Zhangjiajie travel guide covering the Avatar Mountains of Wulingyuan National Forest Park, Tianmen Mountain and the Gate to Heaven, and the Zhangjiajie Grand Canyon Glass Bridge, with a 2–3 day itinerary and practical tips",
       }),

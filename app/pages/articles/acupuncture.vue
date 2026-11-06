@@ -3,7 +3,7 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">
-        Acupuncture: History, How It Works and What the Evidence Says
+        Acupuncture: History and What the Evidence Says
       </h1>
       <p class="page-subtitle">
         Zhēnjiǔ — Needles, Meridians, and Two Thousand Years of Practice
@@ -35,7 +35,9 @@
           in use anywhere in the world. Fine needles are inserted at
           specific points on the body, along channels known as meridians,
           to restore the flow of <em>qi</em> (气), the vital energy of
-          traditional Chinese medicine. For more than two thousand years
+          <NuxtLink to="/articles/traditional-chinese-medicine"
+            >traditional Chinese medicine</NuxtLink
+          >. For more than two thousand years
           it has been part of everyday healthcare in China — and in the
           last fifty years it has spread to clinics, hospitals, and
           research laboratories around the globe.
@@ -186,7 +188,10 @@
         <p class="section-text">
           A course of treatment usually means several sessions, often once
           or twice a week. Acupuncture is almost always combined with
-          other parts of traditional Chinese medicine: herbal formulas,
+          other parts of
+          <NuxtLink to="/articles/traditional-chinese-medicine"
+            >traditional Chinese medicine</NuxtLink
+          >: herbal formulas,
           dietary advice, massage (<em>tuina</em>), and moxibustion —
           the burning of dried mugwort near the skin to warm a point,
           the <em>jiu</em> (灸) in the word <em>zhenjiu</em>. In a Chinese
@@ -378,10 +383,10 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Acupuncture",
   title:
-    "Acupuncture: History, How It Works and What the Evidence Says | Chinese Culture Guide",
+    "Acupuncture: History and What the Evidence Says | Chinese Culture Guide",
   description:
     "Acupuncture (针灸) — two thousand years of Chinese needle therapy: its Han-dynasty origins and the Song bronze figure, qi and the meridians, how a treatment works, what modern evidence does and does not show, cupping, and safety.",
-  ogTitle: "Acupuncture (针灸) — History, How It Works and the Evidence",
+  ogTitle: "Acupuncture: History and What the Evidence Says (针灸)",
   ogDescription:
     "From Han-dynasty texts to modern clinical trials: the history, theory, and evidence for acupuncture — plus cupping and safety",
   ogType: "article",
@@ -397,14 +402,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Acupuncture: History, How It Works and What the Evidence Says (针灸)",
+  title: "Acupuncture: History and What the Evidence Says (针灸)",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Acupuncture: History, How It Works and What the Evidence Says",
+        name: "Acupuncture: History and What the Evidence Says",
         description:
           "A guide to acupuncture (针灸): its history from the Huangdi Neijing to the Song-dynasty bronze figure, the theory of qi and meridians, how treatment works, what modern evidence shows, cupping, and safety",
       }),

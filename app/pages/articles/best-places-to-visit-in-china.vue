@@ -373,16 +373,16 @@ definePageMeta({
   layout: "content",
   breadcrumb: "The Best Places to Visit in China",
   title:
-    "The Best Places to Visit in China: A First-Timer's Guide for 2027 | Chinese Culture Guide",
+    "The Best Places to Visit in China | Chinese Culture Guide",
   description:
     "The best places to visit in China for first-timers: Shanghai, Zhangjiajie, Chengdu, Guilin and Chongqing in full, plus the Forbidden City, the Great Wall and the Terracotta Army — with a 10-day first-trip route.",
-  ogTitle: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+  ogTitle: "The Best Places to Visit in China",
   ogDescription:
     "Shanghai, Zhangjiajie, Chengdu, Guilin and Chongqing — plus the three icons everyone knows — in one first-timer's guide to China",
   ogType: "article",
   ogImage: "/assets/images/best-places-to-visit-in-china.png",
   twitterCard: "summary_large_image",
-  twitterTitle: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+  twitterTitle: "The Best Places to Visit in China",
   twitterDescription:
     "Shanghai, Zhangjiajie, Chengdu, Guilin and Chongqing — plus the three icons everyone knows — in one first-timer's guide to China",
   robots: "index,follow",
@@ -392,14 +392,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+  title: "The Best Places to Visit in China",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+        name: "The Best Places to Visit in China",
         description:
           "A first-timer's guide to the best places to visit in China: Shanghai, Zhangjiajie, Chengdu, Guilin and Chongqing in full, with the Forbidden City, the Great Wall and the Terracotta Army linked as the three classic icons, and a 10-day first-trip route",
         datePublished: "2026-11-06",

@@ -403,10 +403,10 @@ definePageMeta({
   layout: "content",
   breadcrumb: "When Is the Best Time to Visit China?",
   title:
-    "When Is the Best Time to Visit China? A Month-by-Month Guide | Chinese Culture Guide",
+    "When Is the Best Time to Visit China? | Chinese Culture Guide",
   description:
     "When is the best time to visit China? Spring (April–May) and autumn (September–October) are best for most travellers. A month-by-month guide to seasons, regional climates, festivals, and the holiday crowds to avoid — Golden Week, May Day, and Spring Festival.",
-  ogTitle: "When Is the Best Time to Visit China? A Month-by-Month Guide",
+  ogTitle: "When Is the Best Time to Visit China?",
   ogDescription:
     "Spring and autumn are China's best seasons — but Harbin is a winter trip and Yunnan is spring all year. Month-by-month seasons, climates, and crowds to avoid.",
   ogType: "article",
@@ -422,14 +422,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "When Is the Best Time to Visit China? A Month-by-Month Guide",
+  title: "When Is the Best Time to Visit China?",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "When Is the Best Time to Visit China? A Month-by-Month Guide",
+        name: "When Is the Best Time to Visit China?",
         description:
           "A month-by-month guide to the best time to visit China: spring (April–May) and autumn (September–October) are best for most travellers, with regional climates, festival timing, and the Golden Week, May Day, and Spring Festival crowds to avoid",
       }),

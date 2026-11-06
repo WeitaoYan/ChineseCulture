@@ -314,7 +314,11 @@
           regulars hold the same seats for years. It is a way for
           grandparents and grandchildren to spend time together, and a
           game where a sharp-eyed teenager can beat an elder — and hear
-          about it for the rest of the evening.
+          about it for the rest of the evening. Alongside
+          <NuxtLink to="/articles/tai-chi">tai chi</NuxtLink> in the
+          morning park and <NuxtLink to="/articles/kung-fu">kung fu</NuxtLink>
+          in the training hall, mahjong belongs to the everyday leisure
+          culture that fills China's parks, teahouses, and family rooms.
         </p>
         <p class="section-text">
           The game has also entered the language. The tiles themselves

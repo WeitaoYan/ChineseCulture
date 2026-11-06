@@ -673,7 +673,7 @@ const articles = [
   },
   {
     id: 54,
-    title: "Hotpot: China's Communal Feast — History, Broths and How to Eat It",
+    title: "Hotpot: China's Communal Feast",
     slug: "chinese-hotpot",
     tags: ["cuisine", "culture", "traditions"],
     readtime: 10,
@@ -683,7 +683,7 @@ const articles = [
   },
   {
     id: 55,
-    title: "Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining Etiquette",
+    title: "Chinese Food: A Beginner's Guide",
     slug: "chinese-food",
     tags: ["cuisine", "culture", "traditions"],
     readtime: 10,
@@ -703,7 +703,7 @@ const articles = [
   },
   {
     id: 57,
-    title: "Acupuncture: History, How It Works and What the Evidence Says",
+    title: "Acupuncture: History and What the Evidence Says",
     slug: "acupuncture",
     tags: ["culture", "traditions", "history"],
     readtime: 10,
@@ -733,7 +733,7 @@ const articles = [
   },
   {
     id: 60,
-    title: "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance",
+    title: "Feng Shui: The Art of Arranging Space",
     slug: "feng-shui",
     tags: ["culture", "traditions", "philosophy"],
     readtime: 10,
@@ -753,7 +753,7 @@ const articles = [
   },
   {
     id: 62,
-    title: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+    title: "The Best Places to Visit in China",
     slug: "best-places-to-visit-in-china",
     tags: ["travel", "culture", "history"],
     readtime: 10,
@@ -764,17 +764,17 @@ const articles = [
   {
     id: 63,
     title:
-      "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained",
+      "Do You Need a Visa for China in 2027?",
     slug: "china-visa-free-entry-guide",
     tags: ["travel", "culture", "traditions"],
     readtime: 10,
     image: "/assets/images/china-visa-free-entry-guide.png",
     excerpt:
-      "Do you need a visa for China in 2027? The 30-day visa-free entry for 48 countries runs to 31 December 2026 with no extension announced as of 6 November 2026 — plus the 240-hour transit rule, who needs a visa, and where to check the official list.",
+      "Do you need a visa for China in 2027? The 30-day visa-free scheme covers 50 countries in total — 48 under the unilateral policy, scheduled to end 31 December 2026 with no extension announced as of 6 November 2026 (Russia extended to 31 December 2027, Brunei with no expiry) — plus the 240-hour transit rule, who needs a visa, and where to check the official list.",
   },
   {
     id: 64,
-    title: "When Is the Best Time to Visit China? A Month-by-Month Guide",
+    title: "When Is the Best Time to Visit China?",
     slug: "best-time-to-visit-china",
     tags: ["travel", "culture", "traditions"],
     readtime: 10,
@@ -785,7 +785,7 @@ const articles = [
   {
     id: 65,
     title:
-      "China in 10 Days: The First-Timer's Itinerary (Beijing, Xi'an, Chengdu and Shanghai)",
+      "China in 10 Days: The First-Timer's Itinerary",
     slug: "china-itinerary-10-days",
     tags: ["travel", "culture", "history"],
     readtime: 10,
@@ -796,7 +796,7 @@ const articles = [
   {
     id: 66,
     title:
-      "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+      "Shanghai Travel Guide: The Bund and Beyond",
     slug: "shanghai-travel-guide",
     tags: ["travel", "culture", "architecture"],
     readtime: 10,
@@ -807,7 +807,7 @@ const articles = [
   {
     id: 67,
     title:
-      "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+      "Zhangjiajie: The Real Avatar Mountains",
     slug: "zhangjiajie-avatar-mountains",
     tags: ["travel", "culture", "history"],
     readtime: 10,
@@ -817,7 +817,7 @@ const articles = [
   },
   {
     id: 68,
-    title: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+    title: "Chengdu: Giant Pandas and Teahouses",
     slug: "chengdu-pandas-teahouses",
     tags: ["travel", "culture", "traditions"],
     readtime: 10,
@@ -828,7 +828,7 @@ const articles = [
   {
     id: 69,
     title:
-      "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+      "Chongqing: China's 8D City",
     slug: "chongqing-8d-city-guide",
     tags: ["travel", "culture", "architecture"],
     readtime: 10,
@@ -973,6 +973,10 @@ function goToPage(page) {
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .article-title a {

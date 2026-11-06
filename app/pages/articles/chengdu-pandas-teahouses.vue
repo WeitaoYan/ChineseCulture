@@ -3,7 +3,7 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">
-        Chengdu: Giant Pandas, Teahouses and China's Slowest Big City
+        Chengdu: Giant Pandas and Teahouses
       </h1>
       <p class="page-subtitle">
         Chéngdū — Home of the Giant Panda, the Gaiwan, and the Art of Taking
@@ -350,18 +350,18 @@
 <script setup>
 definePageMeta({
   layout: "content",
-  breadcrumb: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+  breadcrumb: "Chengdu: Giant Pandas and Teahouses",
   title:
-    "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City | Chinese Culture Guide",
+    "Chengdu: Giant Pandas and Teahouses | Chinese Culture Guide",
   description:
     "A Chengdu travel guide: the Giant Panda Breeding Research Base and how to visit it, teahouse culture and People's Park, old Chengdu, and day trips to Leshan, Dujiangyan and Sanxingdui.",
-  ogTitle: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+  ogTitle: "Chengdu: Giant Pandas and Teahouses",
   ogDescription:
     "Pandas in the morning, gaiwan tea in the afternoon — Chengdu is China's slowest big city, and this guide shows how to enjoy it, plus day trips to Leshan, Dujiangyan and Sanxingdui",
   ogType: "article",
   ogImage: "/assets/images/chengdu-pandas-teahouses.png",
   twitterCard: "summary_large_image",
-  twitterTitle: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+  twitterTitle: "Chengdu: Giant Pandas and Teahouses",
   twitterDescription:
     "Pandas in the morning, gaiwan tea in the afternoon — a Chengdu travel guide built around the Panda Base, the teahouses and three great day trips",
   robots: "index,follow",
@@ -371,14 +371,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+  title: "Chengdu: Giant Pandas and Teahouses",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+        name: "Chengdu: Giant Pandas and Teahouses",
         description:
           "A Chengdu travel guide covering the Giant Panda Breeding Research Base, teahouse culture in People's Park, old Chengdu, and day trips to Leshan, Dujiangyan and Sanxingdui",
       }),

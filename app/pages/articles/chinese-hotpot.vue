@@ -3,7 +3,7 @@
     <!-- 页面头部 -->
     <div class="page-header">
       <h1 class="page-title">
-        Hotpot: China's Communal Feast — History, Broths and How to Eat It
+        Hotpot: China's Communal Feast
       </h1>
       <p class="page-subtitle">
         Huǒguō — One Bubbling Pot, a Table Full of Friends
@@ -432,7 +432,7 @@ definePageMeta({
   layout: "content",
   breadcrumb: "Chinese Hotpot",
   title:
-    "Hotpot: China's Communal Feast — History, Broths and How to Eat It | Chinese Culture Guide",
+    "Hotpot: China's Communal Feast | Chinese Culture Guide",
   description:
     "Chinese hotpot (火锅) — the bubbling communal pot at the heart of Chinese dining: its history from northern copper pots to Chongqing mala, the main broths, what to cook in it, regional styles, and how to eat it like a local.",
   ogTitle: "Hotpot: China's Communal Feast (火锅)",
@@ -451,14 +451,14 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  title: "Hotpot: China's Communal Feast — History, Broths and How to Eat It",
+  title: "Hotpot: China's Communal Feast",
   script: [
     {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        name: "Hotpot: China's Communal Feast — History, Broths and How to Eat It",
+        name: "Hotpot: China's Communal Feast",
         description:
           "A guide to Chinese hotpot (火锅): its history from northern copper pots to Chongqing mala, the main broths, ingredients, regional styles, and how to eat hotpot like a local",
       }),
