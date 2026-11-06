@@ -5,6 +5,15 @@
     "images": []
   },
   {
+    "loc": "/articles/buddhism-in-china",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/buddhism-in-china.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/chinese-calligraphy",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -28,6 +37,24 @@
     "images": [
       {
         "loc": "/assets/images/chinese-mythology.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/chinese-painting",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/chinese-painting.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/chinese-porcelain",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/chinese-porcelain.png"
       }
     ]
   },
@@ -122,6 +149,15 @@
     ]
   },
   {
+    "loc": "/articles/four-great-inventions",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/four-great-inventions.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/great-wall",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -131,8 +167,17 @@
     ]
   },
   {
+    "loc": "/articles/hanfu",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/hanfu.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles",
-    "lastmod": "2026-10-07T10:09:17+00:00",
+    "lastmod": "2026-11-06T17:10:00+08:00",
     "images": []
   },
   {
@@ -262,6 +307,24 @@
     ]
   },
   {
+    "loc": "/articles/tang-poetry",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/tang-poetry.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/taoism-laozi",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/taoism-laozi.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/temple-of-heaven",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -285,6 +348,15 @@
     "images": [
       {
         "loc": "/assets/images/traditional-chinese-medicine.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/twenty-four-solar-terms",
+    "lastmod": "2026-11-06T17:10:00+08:00",
+    "images": [
+      {
+        "loc": "/assets/images/twenty-four-solar-terms.png"
       }
     ]
   },

@@ -511,6 +511,86 @@ const articles = [
     excerpt:
       "Discover the legend of the Eight Immortals crossing the sea (八仙过海) — eight Daoist immortals, eight magic treasures, and the living Chinese idiom that celebrates everyone showing their own special power.",
   },
+  {
+    id: 38,
+    title: "The Four Great Inventions",
+    slug: "four-great-inventions",
+    tags: ["history", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/four-great-inventions.png",
+    excerpt:
+      "Paper, printing, the compass, and gunpowder — four technologies first developed in China, from Cai Lun's paper in 105 CE to Bi Sheng's movable type in the 1040s, that reshaped writing, learning, navigation, and warfare around the world.",
+  },
+  {
+    id: 39,
+    title: "The Twenty-Four Solar Terms",
+    slug: "twenty-four-solar-terms",
+    tags: ["traditions", "philosophy", "culture"],
+    readtime: 10,
+    image: "/assets/images/twenty-four-solar-terms.png",
+    excerpt:
+      "The Twenty-Four Solar Terms divide the sun's yearly path into 24 fifteen-degree steps — from Beginning of Spring to Major Cold — guiding Chinese farming, festivals, and food for over two thousand years, and inscribed by UNESCO as Intangible Cultural Heritage in 2016.",
+  },
+  {
+    id: 40,
+    title: "Taoism & Laozi",
+    slug: "taoism-laozi",
+    tags: ["philosophy", "culture", "history"],
+    readtime: 12,
+    image: "/assets/images/taoism-laozi.png",
+    excerpt:
+      "Taoism's heart is the Dao — the Way — as taught by Laozi in the Tao Te Ching's 81 chapters: live by wu wei (effortless action), keep yin and yang in balance, and follow the grain of things rather than fighting it.",
+  },
+  {
+    id: 41,
+    title: "Buddhism in China",
+    slug: "buddhism-in-china",
+    tags: ["philosophy", "culture", "history"],
+    readtime: 12,
+    image: "/assets/images/buddhism-in-china.png",
+    excerpt:
+      "Buddhism arrived from India via the Silk Road in the Han dynasty (1st century CE) and, through translators like Kumarajiva and Xuanzang and the Tang-dynasty golden age, became unmistakably Chinese — producing Chan (Zen) and Pure Land, the cave temples of Mogao, Longmen, and Yungang.",
+  },
+  {
+    id: 42,
+    title: "Chinese Painting",
+    slug: "chinese-painting",
+    tags: ["culture", "art", "traditions"],
+    readtime: 10,
+    image: "/assets/images/chinese-painting.png",
+    excerpt:
+      "Discover Chinese painting (中国画), the art of ink and brush from Han tomb silk to Song masters — shan shui landscapes, literati painting, and the bond between painting, calligraphy, and poetry.",
+  },
+  {
+    id: 43,
+    title: "Chinese Porcelain",
+    slug: "chinese-porcelain",
+    tags: ["culture", "art", "history"],
+    readtime: 10,
+    image: "/assets/images/chinese-porcelain.png",
+    excerpt:
+      "Discover Chinese porcelain (瓷器), from Eastern Han celadon and the Song dynasty's Five Great Kilns to blue-and-white ware and Jingdezhen, the porcelain capital whose wares travelled the world.",
+  },
+  {
+    id: 44,
+    title: "Tang Poetry",
+    slug: "tang-poetry",
+    tags: ["culture", "history", "traditions"],
+    readtime: 10,
+    image: "/assets/images/tang-poetry.png",
+    excerpt:
+      "Tang poetry (唐诗) is the golden age of Chinese verse in the Tang dynasty (618–907), when the civil service exam, a cosmopolitan Chang'an, and poets like Li Bai, Du Fu, Wang Wei, and Bai Juyi produced nearly 49,000 surviving poems — still memorized by Chinese schoolchildren today.",
+  },
+  {
+    id: 45,
+    title: "Hanfu: Traditional Chinese Clothing",
+    slug: "hanfu",
+    tags: ["culture", "traditions", "art"],
+    readtime: 10,
+    image: "/assets/images/hanfu.png",
+    excerpt:
+      "Hanfu (汉服) is the traditional dress of the Han Chinese — crossed collar, wide sleeves, sash, and layered robes — evolving through the Han, Tang, Song, and Ming dynasties, fading under Qing rule, and now worn again by young people in a modern revival.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
