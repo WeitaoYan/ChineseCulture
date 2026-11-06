@@ -6,7 +6,7 @@
   },
   {
     "loc": "/articles/acupuncture",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/acupuncture.png"
@@ -15,7 +15,7 @@
   },
   {
     "loc": "/articles/bao-buns",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/bao-buns.png"
@@ -23,8 +23,26 @@
     ]
   },
   {
+    "loc": "/articles/best-places-to-visit-in-china",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/best-places-to-visit-in-china.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/best-time-to-visit-china",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/best-time-to-visit-china.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/bubble-tea-boba",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/bubble-tea-boba.png"
@@ -41,6 +59,33 @@
     ]
   },
   {
+    "loc": "/articles/chengdu-pandas-teahouses",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/chengdu-pandas-teahouses.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/china-itinerary-10-days",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/china-itinerary-10-days.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/china-visa-free-entry-guide",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/china-visa-free-entry-guide.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/chinese-calligraphy",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -51,7 +96,7 @@
   },
   {
     "loc": "/articles/chinese-food",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/chinese-food.png"
@@ -60,7 +105,7 @@
   },
   {
     "loc": "/articles/chinese-hotpot",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/chinese-hotpot.png"
@@ -131,6 +176,15 @@
     ]
   },
   {
+    "loc": "/articles/chongqing-8d-city-guide",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/chongqing-8d-city-guide.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/chongyang-festival",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -159,7 +213,7 @@
   },
   {
     "loc": "/articles/dim-sum-yum-cha",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/dim-sum-yum-cha.png"
@@ -204,7 +258,7 @@
   },
   {
     "loc": "/articles/feng-shui",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/feng-shui.png"
@@ -267,7 +321,7 @@
   },
   {
     "loc": "/articles",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T11:06:37Z",
     "images": []
   },
   {
@@ -308,7 +362,7 @@
   },
   {
     "loc": "/articles/mahjong",
-    "lastmod": "2026-11-06T10:43:22Z",
+    "lastmod": "2026-11-06T10:44:51+00:00",
     "images": [
       {
         "loc": "/assets/images/mahjong.png"
@@ -384,6 +438,15 @@
     "images": [
       {
         "loc": "/assets/images/qixi.jpg"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/shanghai-travel-guide",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/shanghai-travel-guide.png"
       }
     ]
   },
@@ -537,6 +600,15 @@
     "images": [
       {
         "loc": "/assets/images/yuanxiao.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/zhangjiajie-avatar-mountains",
+    "lastmod": "2026-11-06T11:06:37Z",
+    "images": [
+      {
+        "loc": "/assets/images/zhangjiajie-avatar-mountains.png"
       }
     ]
   },

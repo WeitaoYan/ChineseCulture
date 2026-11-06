@@ -751,6 +751,91 @@ const articles = [
     excerpt:
       "Dim sum and yum cha (饮茶) — China's bite-sized breakfast tradition: har gow, siu mai and cheung fun, the teahouse ritual, and the finger-tapping thank-you.",
   },
+  {
+    id: 62,
+    title: "The Best Places to Visit in China: A First-Timer's Guide for 2027",
+    slug: "best-places-to-visit-in-china",
+    tags: ["travel", "culture", "history"],
+    readtime: 10,
+    image: "/assets/images/best-places-to-visit-in-china.png",
+    excerpt:
+      "The best places to visit in China — a first-timer's guide for 2027: Shanghai, Zhangjiajie, Chengdu, Guilin and Chongqing, with the classic icons linked, not repeated, and how to string them into one trip.",
+  },
+  {
+    id: 63,
+    title:
+      "Do You Need a Visa for China in 2027? Visa-Free Entry and the 240-Hour Transit Rule Explained",
+    slug: "china-visa-free-entry-guide",
+    tags: ["travel", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/china-visa-free-entry-guide.png",
+    excerpt:
+      "Do you need a visa for China in 2027? The 30-day visa-free entry for 48 countries runs to 31 December 2026 with no extension announced as of 6 November 2026 — plus the 240-hour transit rule, who needs a visa, and where to check the official list.",
+  },
+  {
+    id: 64,
+    title: "When Is the Best Time to Visit China? A Month-by-Month Guide",
+    slug: "best-time-to-visit-china",
+    tags: ["travel", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/best-time-to-visit-china.png",
+    excerpt:
+      "When is the best time to visit China? A month-by-month guide: spring and autumn are best, the crowds to avoid, and what each season is good for, from Harbin's ice to Yunnan's spring.",
+  },
+  {
+    id: 65,
+    title:
+      "China in 10 Days: The First-Timer's Itinerary (Beijing, Xi'an, Chengdu and Shanghai)",
+    slug: "china-itinerary-10-days",
+    tags: ["travel", "culture", "history"],
+    readtime: 10,
+    image: "/assets/images/china-itinerary-10-days.png",
+    excerpt:
+      "China in 10 days — the first-timer's itinerary: Beijing, Xi'an, Chengdu and Shanghai, with day-by-day plans, what to budget, and the classic stops linked, not repeated.",
+  },
+  {
+    id: 66,
+    title:
+      "Shanghai Travel Guide: The Bund, the Old City and Modern China in 3 Days",
+    slug: "shanghai-travel-guide",
+    tags: ["travel", "culture", "architecture"],
+    readtime: 10,
+    image: "/assets/images/shanghai-travel-guide.png",
+    excerpt:
+      "Shanghai in 3 days — the Bund, the Old City and Yu Garden, the French Concession and Lujiazui's towers: China's biggest city, where old and new stand across the river from each other.",
+  },
+  {
+    id: 67,
+    title:
+      "Zhangjiajie: The Real Avatar Mountains — Wulingyuan, Tianmen and the Glass Bridge",
+    slug: "zhangjiajie-avatar-mountains",
+    tags: ["travel", "culture", "history"],
+    readtime: 10,
+    image: "/assets/images/zhangjiajie-avatar-mountains.png",
+    excerpt:
+      "Zhangjiajie — the real Avatar Mountains: Wulingyuan's quartzite pillars, Tianmen Mountain and the glass bridge, three separate places, three tickets, and how to tell them apart.",
+  },
+  {
+    id: 68,
+    title: "Chengdu: Giant Pandas, Teahouses and China's Slowest Big City",
+    slug: "chengdu-pandas-teahouses",
+    tags: ["travel", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/chengdu-pandas-teahouses.png",
+    excerpt:
+      "Chengdu — giant pandas, teahouses and China's slowest big city: the panda base at dawn, gaiwan tea in People's Park, and day trips to Leshan, Dujiangyan and Sanxingdui.",
+  },
+  {
+    id: 69,
+    title:
+      "Chongqing: China's 8D City — Hongyadong, the Monorail Through a Building and Hotpot at Its Source",
+    slug: "chongqing-8d-city-guide",
+    tags: ["travel", "culture", "architecture"],
+    readtime: 10,
+    image: "/assets/images/chongqing-8d-city-guide.png",
+    excerpt:
+      "Chongqing — China's 8D city: Hongyadong glowing over the river, the monorail through a building, mountain streets stacked in layers, and hotpot where it was born.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)
