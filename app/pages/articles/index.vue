@@ -671,6 +671,86 @@ const articles = [
     excerpt:
       "The Summer Palace (颐和园) in Beijing — Qianlong's Qingyi Garden, destroyed in 1860 and rebuilt by Empress Dowager Cixi, home to Kunming Lake, Longevity Hill, the 728-metre Long Corridor and the Marble Boat, a UNESCO World Heritage Site since 1998.",
   },
+  {
+    id: 54,
+    title: "Hotpot: China's Communal Feast — History, Broths and How to Eat It",
+    slug: "chinese-hotpot",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/chinese-hotpot.png",
+    excerpt:
+      "Hotpot (火锅) — China's communal feast: from nomad legends and Qing-dynasty copper pots to Chongqing's fiery mala and the modern yuanyang pot, with broths, dipping sauces and how to eat it.",
+  },
+  {
+    id: 55,
+    title: "Chinese Food: A Beginner's Guide to Dishes, Flavours and Dining Etiquette",
+    slug: "chinese-food",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/chinese-food.png",
+    excerpt:
+      "Chinese food — a beginner's guide to the country's most famous dishes, how a meal is structured, the five flavours, table etiquette and how to order, from Peking duck to mapo tofu.",
+  },
+  {
+    id: 56,
+    title: "Mahjong: How to Play China's 19th-Century Tile Game",
+    slug: "mahjong",
+    tags: ["culture", "traditions", "art"],
+    readtime: 10,
+    image: "/assets/images/mahjong.png",
+    excerpt:
+      "Mahjong (麻将) — how to play China's 19th-century tile game: the tiles, the rules, the winning hands, and how a parlour pastime became a worldwide social game.",
+  },
+  {
+    id: 57,
+    title: "Acupuncture: History, How It Works and What the Evidence Says",
+    slug: "acupuncture",
+    tags: ["culture", "traditions", "history"],
+    readtime: 10,
+    image: "/assets/images/acupuncture.png",
+    excerpt:
+      "Acupuncture (针灸) — from stone needles and the Huangdi Neijing to UNESCO heritage status: how it works, what the evidence actually says, and where cupping fits in.",
+  },
+  {
+    id: 58,
+    title: "Bubble Tea (Boba): From 1980s Taiwan to a Global Craze",
+    slug: "bubble-tea-boba",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/bubble-tea-boba.png",
+    excerpt:
+      "Bubble tea (珍珠奶茶, boba) — born in 1980s Taiwan, now the world's most-searched tea: the invention debate, the pearls, the flavours, and how a night-market drink went global.",
+  },
+  {
+    id: 59,
+    title: "Bao Buns: The Pillowy Steamed Buns Taking Over the World",
+    slug: "bao-buns",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/bao-buns.png",
+    excerpt:
+      "Bao buns (包子) — the pillowy steamed buns taking over the world: leavened dough, shengjianbao, char siu bao and gua bao, and how they differ from dumplings.",
+  },
+  {
+    id: 60,
+    title: "Feng Shui: The Ancient Art of Arranging Space for Luck and Balance",
+    slug: "feng-shui",
+    tags: ["culture", "traditions", "philosophy"],
+    readtime: 10,
+    image: "/assets/images/feng-shui.png",
+    excerpt:
+      "Feng shui (风水) — the ancient art of arranging space for luck and balance: qi, the luopan compass, the Bagua, and how the old rules meet modern homes and skylines.",
+  },
+  {
+    id: 61,
+    title: "Dim Sum and Yum Cha: China's Bite-Sized Breakfast Tradition",
+    slug: "dim-sum-yum-cha",
+    tags: ["cuisine", "culture", "traditions"],
+    readtime: 10,
+    image: "/assets/images/dim-sum-yum-cha.png",
+    excerpt:
+      "Dim sum and yum cha (饮茶) — China's bite-sized breakfast tradition: har gow, siu mai and cheung fun, the teahouse ritual, and the finger-tapping thank-you.",
+  },
 ];
 
 // 过滤文章 + 分页逻辑 (按 id 倒序，最新在前)

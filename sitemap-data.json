@@ -5,6 +5,33 @@
     "images": []
   },
   {
+    "loc": "/articles/acupuncture",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/acupuncture.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/bao-buns",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/bao-buns.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/bubble-tea-boba",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/bubble-tea-boba.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/buddhism-in-china",
     "lastmod": "2026-11-06T17:09:51+08:00",
     "images": [
@@ -19,6 +46,24 @@
     "images": [
       {
         "loc": "/assets/images/chinese-calligraphy.jpg"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/chinese-food",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/chinese-food.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/chinese-hotpot",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/chinese-hotpot.png"
       }
     ]
   },
@@ -60,7 +105,7 @@
   },
   {
     "loc": "/articles/chinese-silk",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/chinese-silk.png"
@@ -113,6 +158,15 @@
     ]
   },
   {
+    "loc": "/articles/dim-sum-yum-cha",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/dim-sum-yum-cha.png"
+      }
+    ]
+  },
+  {
     "loc": "/articles/dragon-boat-festival",
     "lastmod": "2026-09-02T22:46:50+08:00",
     "images": [
@@ -132,7 +186,7 @@
   },
   {
     "loc": "/articles/eight-great-cuisines",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/eight-great-cuisines.png"
@@ -145,6 +199,15 @@
     "images": [
       {
         "loc": "/assets/images/eight-immortals-crossing.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/feng-shui",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/feng-shui.png"
       }
     ]
   },
@@ -168,7 +231,7 @@
   },
   {
     "loc": "/articles/four-great-classical-novels",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/four-great-classical-novels.png"
@@ -204,12 +267,12 @@
   },
   {
     "loc": "/articles",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T10:43:22Z",
     "images": []
   },
   {
     "loc": "/articles/kung-fu",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/kung-fu.png"
@@ -240,6 +303,15 @@
     "images": [
       {
         "loc": "/assets/images/longtaitou.png"
+      }
+    ]
+  },
+  {
+    "loc": "/articles/mahjong",
+    "lastmod": "2026-11-06T10:43:22Z",
+    "images": [
+      {
+        "loc": "/assets/images/mahjong.png"
       }
     ]
   },
@@ -299,7 +371,7 @@
   },
   {
     "loc": "/articles/qipao",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/qipao.png"
@@ -335,7 +407,7 @@
   },
   {
     "loc": "/articles/song-ci-poetry",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/song-ci-poetry.png"
@@ -362,7 +434,7 @@
   },
   {
     "loc": "/articles/summer-palace",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/summer-palace.png"
@@ -371,7 +443,7 @@
   },
   {
     "loc": "/articles/tai-chi",
-    "lastmod": "2026-11-06T17:20:00+08:00",
+    "lastmod": "2026-11-06T17:21:07+08:00",
     "images": [
       {
         "loc": "/assets/images/tai-chi.png"
