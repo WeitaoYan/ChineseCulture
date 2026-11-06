@@ -4,8 +4,7 @@
     <div class="page-header">
       <h1 class="page-title">When Is the Best Time to Visit China?</h1>
       <p class="page-subtitle">
-        A Month-by-Month Guide — Spring Blossoms, Autumn Gold, and the Crowds
-        to Avoid
+        Spring Blossoms, Autumn Gold, and the Crowds to Avoid
       </p>
       <PageMeta>
         <MetaItem>🌸 Spring &amp; Autumn Best</MetaItem>

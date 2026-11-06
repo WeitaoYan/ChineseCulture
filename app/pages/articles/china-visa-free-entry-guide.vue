@@ -4,8 +4,9 @@
     <div class="page-header">
       <h1 class="page-title">Do You Need a Visa for China in 2027?</h1>
       <p class="page-subtitle">
-        Visa-Free Entry and the 240-Hour Transit Rule Explained — Information
-        current as of 6 November 2026
+        Who can enter without a visa, how the 240-hour transit works, and
+        what to check before you travel — information current as of 6 November
+        2026
       </p>
       <PageMeta>
         <MetaItem>🛂 Visa-Free Entry</MetaItem>

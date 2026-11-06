@@ -4,8 +4,7 @@
     <div class="page-header">
       <h1 class="page-title">The Best Places to Visit in China</h1>
       <p class="page-subtitle">
-        A First-Timer's Guide for 2027 — From the Great Wall to the Avatar
-        Mountains
+        From the Great Wall to the Avatar Mountains
       </p>
       <PageMeta>
         <MetaItem>🗺️ First-Timer's Guide</MetaItem>
